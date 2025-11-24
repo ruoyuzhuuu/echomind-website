@@ -1,0 +1,19 @@
+{
+  "episode_id": "ep-011",
+  "title_cn": "LLM 与创作效率",
+  "title_en": "LLMs & Creative Flow",
+  "tags": [
+    "AI",
+    "创作",
+    "效率"
+  ],
+  "style": "modern",
+  "original_prompt": "Create a podcast cover image for an episode titled \"LLM 与创作效率\" (English: LLMs & Creative Flow).\n\nTheme: AI, 创作, 效率\n\nStyle: modern minimalist style, clean lines, contemporary design, stylish and sophisticated\n\nRequirements:\n- Abstract and artistic, not photo-realistic\n- No text, no words, no letters on the image\n- Size: 1024x1024 square\n- Visual elements should represent the theme: AI, 创作, 效率\n- Use modern design principles\n- Suitable for a knowledge/technology podcast\n- Professional and polished\n",
+  "revised_prompt": "Create an abstract and artistic image in a modern minimalist style with clean lines and a contemporary design. The image should be stylish and sophisticated, not photo-realistic. It should have a square aspect ratio of 1024x1024. The visual elements in the image should symbolize artificial intelligence, creativity, and efficiency, in line with modern design principles. The overall aesthetic should be suitable for a professional and polished knowledge/technology podcast cover without any text, words, or letters on it.",
+  "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hp6plmkiUiooM8P5tmOhGy8k/user-2TDhAY2wGCL1HGN6mntYx2qc/img-14OTjmbwz0nu6cZPGbo0up4z.png?st=2025-11-15T10%3A38%3A16Z&se=2025-11-15T12%3A38%3A16Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=b1a0ae1f-618f-4548-84fd-8b16cacd5485&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-11-15T11%3A38%3A16Z&ske=2025-11-16T11%3A38%3A16Z&sks=b&skv=2024-08-04&sig=4mZ/pndHW/DWMf6mdsnTyeI/ulqRiLlyBDvTDCQuVEU%3D",
+  "generation_params": {
+    "model": "dall-e-3",
+    "size": "1024x1024",
+    "quality": "standard"
+  }
+}

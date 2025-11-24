@@ -1,0 +1,19 @@
+{
+  "episode_id": "ep-009",
+  "title_cn": "AI 语音伦理",
+  "title_en": "Ethics of AI Voice",
+  "tags": [
+    "AI伦理",
+    "语音合成",
+    "技术"
+  ],
+  "style": "professional",
+  "original_prompt": "Create a podcast cover image for an episode titled \"AI 语音伦理\" (English: Ethics of AI Voice).\n\nTheme: AI伦理, 语音合成, 技术\n\nStyle: professional corporate style, clean and polished, business-appropriate, subtle colors\n\nRequirements:\n- Abstract and artistic, not photo-realistic\n- No text, no words, no letters on the image\n- Size: 1024x1024 square\n- Visual elements should represent the theme: AI伦理, 语音合成, 技术\n- Use modern design principles\n- Suitable for a knowledge/technology podcast\n- Professional and polished\n",
+  "revised_prompt": "In a square format of 1024x1024 pixels, create a professional, polished, and corporate style podcast cover for a technology and knowledge-themed podcast. The design should be abstract and artistic rather than photorealistic using subtle colors. Incorporate visual elements that appropriately represent the theme of ethics in AI and voice synthesis technology. Ensure the adherence to modern design principles. Avoid including any text, words, or letters within the image.",
+  "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hp6plmkiUiooM8P5tmOhGy8k/user-2TDhAY2wGCL1HGN6mntYx2qc/img-O0vLEMckKj0HU5C96Eji4Vch.png?st=2025-11-15T10%3A39%3A07Z&se=2025-11-15T12%3A39%3A07Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=f1dafa11-a0c2-4092-91d4-10981fbda051&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-11-15T11%3A24%3A19Z&ske=2025-11-16T11%3A24%3A19Z&sks=b&skv=2024-08-04&sig=e8jhDxRw2vM3cgx5WpMCCfzTFMQgfw2jtqJQ//xvgss%3D",
+  "generation_params": {
+    "model": "dall-e-3",
+    "size": "1024x1024",
+    "quality": "standard"
+  }
+}

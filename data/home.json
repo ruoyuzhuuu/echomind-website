@@ -1,0 +1,126 @@
+{
+  "brand": {
+    "nameCn": "回声思维",
+    "nameEn": "EchoMind",
+    "tagline": "在 AI 与声音的边界，捕捉思想的回声",
+    "slogan": "精选英文播客，让声音跨越语言，用 AI 传递思想。"
+  },
+  "latest": {
+    "id": "andrew-ng-ai-bottlenecks",
+    "cover": "/images/andrew-ng-ai-bottlenecks.jpg",
+    "coverImage": "/images/andrew-ng-ai-bottlenecks.jpg",
+    "titleCn": "AI 的最大瓶颈、LLM 的地缘博弈价值，以及在 AI 里Margin是否还重要？",
+    "titleEn": "The Biggest Bottlenecks in AI, How LLMs Can Be Used as a Geopolitical Weapon & Do Margins Matter in a World of AI?",
+    "date": "2025-11-17",
+    "duration": 3306,
+    "audioUrl": "/audio/andrew-ng-ai-bottlenecks.mp3",
+    "summary": "访谈探讨了AI行业的电力和半导体瓶颈，AI编程助手的成熟度，以及中美在AI开放性和地缘政治影响上的差异。Andrew Ng指出AI对未来经济的潜在增益，并强调拥抱AI技术对教育的重要性。"
+  },
+  "highlights": [
+    {
+      "epId": "andrew-ng-ai-bottlenecks",
+      "title": "AI电力与半导体的瓶颈挑战",
+      "summary": "数据中心是数字经济的关键基础设施。 中国在电力和核电站的投入让人印象深刻。 电力和半导体的限制是AI发展的挑战。",
+      "startAtSec": 70
+    },
+    {
+      "epId": "andrew-ng-ai-bottlenecks",
+      "title": "AI编程助手超越图像技术",
+      "summary": "AI编程助手比2016年的图像生成技术更成熟。 OpenAI的Codecs让开发者更高效。 AI编程助手预示着其他行业的变化。",
+      "startAtSec": 391
+    },
+    {
+      "epId": "andrew-ng-ai-bottlenecks",
+      "title": "中美在AI开放性上的竞争",
+      "summary": "中国的AI开放度比美国更领先。 开放模型促进创新和知识流通。 地缘政治影响力来源于模型开放性。",
+      "startAtSec": 1080
+    }
+  ],
+  "episodes": [
+    {
+      "id": "andrew-ng-ai-bottlenecks",
+      "cover": "/images/andrew-ng-ai-bottlenecks.jpg",
+      "coverImage": "/images/andrew-ng-ai-bottlenecks.jpg",
+      "titleCn": "AI 的最大瓶颈、LLM 的地缘博弈价值，以及在 AI 里Margin是否还重要？",
+      "titleEn": "The Biggest Bottlenecks in AI, How LLMs Can Be Used as a Geopolitical Weapon & Do Margins Matter in a World of AI?",
+      "date": "2025-11-17",
+      "duration": 3306,
+      "audioUrl": "/audio/andrew-ng-ai-bottlenecks.mp3"
+    },
+    {
+      "id": "microsoft-preparing-agi",
+      "cover": "/images/microsoft-preparing-agi.jpg",
+      "coverImage": "/images/microsoft-preparing-agi.jpg",
+      "titleCn": "Satya Nadella — 微软如何为AGI做准备",
+      "titleEn": "Satya Nadella — How Microsoft is preparing for AGI",
+      "date": "2025-11-12",
+      "duration": 3896,
+      "audioUrl": "/audio/microsoft-preparing-agi.mp3"
+    },
+    {
+      "id": "ai-decision-intelligence",
+      "cover": "/images/ai-decision-intelligence.jpg",
+      "coverImage": "/images/ai-decision-intelligence.jpg",
+      "titleCn": "决策智能与AI Agents如何重塑企业运营",
+      "titleEn": "How Decision Intelligence & AI Agents Are Redefining Enterprise Operations",
+      "date": "2025-11-13",
+      "duration": 2264,
+      "audioUrl": "/audio/ai-decision-intelligence.mp3"
+    },
+    {
+      "id": "huberman-immune-system",
+      "cover": "/images/huberman-immune.jpg",
+      "coverImage": "/images/huberman-immune-system.jpg",
+      "titleCn": "Huberman 播客：大脑如何控制免疫系统",
+      "titleEn": "Using Your Nervous System to Enhance Your Immune System",
+      "date": "2025-11-10",
+      "duration": 4929,
+      "audioUrl": "/audio/huberman-immune.mp3"
+    },
+    {
+      "id": "ep-011",
+      "cover": "/images/ep-011.jpg",
+      "titleCn": "LLM 与创作效率",
+      "titleEn": "LLMs & Creative Flow",
+      "date": "2025-10-27",
+      "duration": 2120,
+      "audioUrl": "/audio/ep-011.mp3"
+    },
+    {
+      "id": "ep-010",
+      "cover": "/images/ep-010.jpg",
+      "titleCn": "神经可塑性与学习",
+      "titleEn": "Neuroplasticity & Learning",
+      "date": "2025-10-20",
+      "duration": 3240,
+      "audioUrl": "/audio/ep-010.mp3"
+    },
+    {
+      "id": "ep-009",
+      "cover": "/images/ep-009.jpg",
+      "titleCn": "AI 语音伦理",
+      "titleEn": "Ethics of AI Voice",
+      "date": "2025-10-13",
+      "duration": 2880,
+      "audioUrl": "/audio/ep-009.mp3"
+    },
+    {
+      "id": "ep-008",
+      "cover": "/images/ep-008.jpg",
+      "titleCn": "注意力机制解析",
+      "titleEn": "Understanding Attention",
+      "date": "2025-10-06",
+      "duration": 3120,
+      "audioUrl": "/audio/ep-008.mp3"
+    },
+    {
+      "id": "ep-007",
+      "cover": "/images/ep-007.jpg",
+      "titleCn": "睡眠与记忆巩固",
+      "titleEn": "Sleep & Memory Consolidation",
+      "date": "2025-09-29",
+      "duration": 2940,
+      "audioUrl": "/audio/ep-007.mp3"
+    }
+  ]
+}

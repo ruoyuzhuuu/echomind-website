@@ -1,0 +1,19 @@
+{
+  "episode_id": "ep-007",
+  "title_cn": "睡眠与记忆巩固",
+  "title_en": "Sleep & Memory Consolidation",
+  "tags": [
+    "神经科学",
+    "睡眠",
+    "记忆"
+  ],
+  "style": "minimalist",
+  "original_prompt": "Create a podcast cover image for an episode titled \"睡眠与记忆巩固\" (English: Sleep & Memory Consolidation).\n\nTheme: 神经科学, 睡眠, 记忆\n\nStyle: minimalist abstract style, simple geometric shapes, calm colors, zen-like\n\nRequirements:\n- Abstract and artistic, not photo-realistic\n- No text, no words, no letters on the image\n- Size: 1024x1024 square\n- Visual elements should represent the theme: 神经科学, 睡眠, 记忆\n- Use modern design principles\n- Suitable for a knowledge/technology podcast\n- Professional and polished\n",
+  "revised_prompt": "Produce a minimalist abstract image in a zen-like style that illustrates the concepts of neuroscience, sleep, and memory. The image should be 1024x1024 square and contain no text, words or letters. It should adhere to modern design principles and depict visual elements, such as simple geometry, that represent the theme. The colors should be calming and the overall design should evoke a sense of professionalism, making it suitable for a knowledge or technology podcast. It should be abstract and artistic, rather than photorealistic.",
+  "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hp6plmkiUiooM8P5tmOhGy8k/user-2TDhAY2wGCL1HGN6mntYx2qc/img-e7Cjxp1YOnGZZWvgw64yxOtY.png?st=2025-11-15T10%3A39%3A53Z&se=2025-11-15T12%3A39%3A53Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-11-15T11%3A39%3A53Z&ske=2025-11-16T11%3A39%3A53Z&sks=b&skv=2024-08-04&sig=uYct/NUAADbALWaNOCyBR89k2DGLqvXQFkM5jK5lHiI%3D",
+  "generation_params": {
+    "model": "dall-e-3",
+    "size": "1024x1024",
+    "quality": "standard"
+  }
+}

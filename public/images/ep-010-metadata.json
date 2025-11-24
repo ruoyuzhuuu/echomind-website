@@ -1,0 +1,19 @@
+{
+  "episode_id": "ep-010",
+  "title_cn": "神经可塑性与学习",
+  "title_en": "Neuroplasticity & Learning",
+  "tags": [
+    "神经科学",
+    "学习",
+    "大脑"
+  ],
+  "style": "academic",
+  "original_prompt": "Create a podcast cover image for an episode titled \"神经可塑性与学习\" (English: Neuroplasticity & Learning).\n\nTheme: 神经科学, 学习, 大脑\n\nStyle: academic scholarly style, scientific diagrams, educational theme, intellectual aesthetic\n\nRequirements:\n- Abstract and artistic, not photo-realistic\n- No text, no words, no letters on the image\n- Size: 1024x1024 square\n- Visual elements should represent the theme: 神经科学, 学习, 大脑\n- Use modern design principles\n- Suitable for a knowledge/technology podcast\n- Professional and polished\n",
+  "revised_prompt": "Create an abstract, artistically designed podcast cover image which is not photo-realistic. The size of the image should be a 1024x1024 square. The image should draw upon themes of neuroscience, learning, and the brain, represented via scientific diagrams and visual elements. The aesthetic should be academic and scholarly, with an educational theme, thus suitable for a knowledge/technology podcast. The image should apply modern design principles, and exude a professional, polished look. However, the image must not contain any text, words, or letters.",
+  "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hp6plmkiUiooM8P5tmOhGy8k/user-2TDhAY2wGCL1HGN6mntYx2qc/img-sJofPZG5sfKqOGf5QaJjkVXh.png?st=2025-11-15T10%3A38%3A45Z&se=2025-11-15T12%3A38%3A45Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=f1dafa11-a0c2-4092-91d4-10981fbda051&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-11-15T11%3A38%3A45Z&ske=2025-11-16T11%3A38%3A45Z&sks=b&skv=2024-08-04&sig=6Z9UQaLBFL1hT5jqrjESOWDCRFceW9Tts2/f/1dbnWg%3D",
+  "generation_params": {
+    "model": "dall-e-3",
+    "size": "1024x1024",
+    "quality": "standard"
+  }
+}

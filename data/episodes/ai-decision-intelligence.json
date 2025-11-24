@@ -1,0 +1,418 @@
+{
+  "id": "ai-decision-intelligence",
+  "titleCn": "决策智能与AI Agents如何重塑企业运营",
+  "titleEn": "How Decision Intelligence & AI Agents Are Redefining Enterprise Operations",
+  "originalUrl": "https://aneyeonai.libsyn.com/300-fred-laluyaux-how-decision-intelligence-ai-agents-are-redefining-enterprise-operations",
+  "date": "2025-11-13",
+  "duration": 2264,
+  "tags": [
+    "AI",
+    "Decision Intelligence",
+    "AI Agents",
+    "Enterprise",
+    "Technology"
+  ],
+  "cover": "/images/ai-decision-intelligence.jpg",
+  "audioUrl": "/audio/ai-decision-intelligence.mp3",
+  "chapters": [
+    {
+      "title": "引言与嘉宾介绍",
+      "start": 0
+    },
+    {
+      "title": "决策智能基础",
+      "start": 60
+    },
+    {
+      "title": "决策智能发展",
+      "start": 141
+    },
+    {
+      "title": "DI与AI区别",
+      "start": 276
+    },
+    {
+      "title": "决策智能技术",
+      "start": 594
+    },
+    {
+      "title": "学习与记忆机制",
+      "start": 916
+    },
+    {
+      "title": "采用与挑战",
+      "start": 1587
+    },
+    {
+      "title": "成功衡量与展望",
+      "start": 2136
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 60.463,
+      "zh": "欢迎来到EchoMind回声思维。\n\n您现在收听的这期播客，是对原英文博客基于 AI 技术生成的中文版本。我们不仅搬运优质内容，还保留原汁原味的嘉宾音色。\n\n我是Lorraine，在互联网大厂从事数据科学，同时也是一名 AI 爱好者。\n\n在这个数字化时代，企业必须重新思考决策及其在价值链上的影响，打破数据和组织的孤岛。我们将带你探讨决策智能的革命性变化，从人类主导的决策模式转向机器执行且由人类指导的智能决策。AERA Technologies的联合创始人Fred Laduio分享了其在企业管理复杂性和性能管理领域的丰富经验，并解释了如何通过软件和数据分析实现自驱动企业的愿景。此外，他深入剖析了决策智能的重要性，这种方法如何为企业提供竞争优势。\n\n\n\n好，让我们开始吧。",
+      "en": "[Intro]",
+      "speaker": -1
+    },
+    {
+      "start": 60.463,
+      "end": 86.22200000000001,
+      "zh": "要在这个快速发展的数字世界中保持竞争力，公司得考虑他们的决策及其对整个价值链的影响。要打破孤岛，不仅是数据，还有知识和组织上的隔阂。面对大量涌入的决策，以及由人类操作模式带来的限制，我们从一开始的愿景就是从人靠机器、数据、软件做决策，转变到机器能在人的指导下自主做决策。",
+      "en": "To remain competitive in this growing digital world, companies would have to think about their decisions and the impact of these decisions across the value chain. Breaking the silos. Not just data, but knowledge and organizational silos. When you look at the volume of decisions coming in and you look at the constraints that are basically driven by this human operated model, Our vision was from day one to move from people making and executing decisions supported by machines, by data, by software, to a world where machines would be able to make and execute decisions guided by people.",
+      "speaker": 0
+    },
+    {
+      "start": 86.322,
+      "end": 99.244,
+      "zh": "先跟大家介绍一下你自己和AERA Technologies吧。然后我想聊聊决策智能，以及它和AERA的关系。先从自我介绍开始吧。",
+      "en": "I usually start by having you introduce yourself to listeners and explain what AERA Technologies is. And then I wanted to talk about decision intelligence broadly and then how it relates to era. But why don't you start by introducing yourself?",
+      "speaker": 1
+    },
+    {
+      "start": 99.344,
+      "end": 134.751,
+      "zh": "好的，谢谢你邀请我来，Greg。我叫Fred Laduio，是ERA Technology的联合创始人和CEO。我已经在这个项目上干了八年了。在此之前，我的职业生涯一直是帮助企业用软件分析来管理复杂性。我从欧洲到美国，一路从数据建模、商业智能、ERP到AI。在创建ERA之前，我还创办过一家叫Anaplan的公司，再之前是在SAP工作。所以基本上，过去快30年我一直在用数据和分析做绩效管理。",
+      "en": "Okay, so first of all, thanks for having me today, Greg. My name is Fred laduio, I'm the co founder and CEO of ERA Technology. Been working on this adventure for eight years now. Prior to that, you know, I spent my entire career in the world of helping enterprise manage complexities with software analytics. So my career took me from Europe to the us starting with data modeling, business intelligence, erp, AI. Prior to building era, I built another company in a space called Anaplan. Prior to that it was with SAP. So basically spent the last close to 30 years really working on performance management with data and analytics.",
+      "speaker": 0
+    },
+    {
+      "start": 134.851,
+      "end": 140.389,
+      "zh": "\"好的，这一切都是围绕决策智能这个概念，对吧？\"",
+      "en": "Okay, and this is all built around this idea of decision intelligence, is that right?",
+      "speaker": 1
+    },
+    {
+      "start": 140.489,
+      "end": 141.80100000000002,
+      "zh": "\"对，是这样的。\"",
+      "en": "It is correct, yeah.",
+      "speaker": 0
+    },
+    {
+      "start": 141.901,
+      "end": 155.508,
+      "zh": "\"你们在很多人开始讨论之前就已经在推动决策智能了。能不能解释一下什么是决策智能，以及为什么现在它变得重要了？\"",
+      "en": "And you've been pioneering decision intelligence for years, long before most people were talking about it. Can you explain what decision intelligence is and why it's becoming important?",
+      "speaker": 1
+    },
+    {
+      "start": 155.608,
+      "end": 276.44300000000004,
+      "zh": "“其实在我们叫它决策智能之前，2017年6月19日我们推出ERA时，我还记得那天，我们说欢迎来到自动驾驶企业。为什么这么说呢？这要追溯到2010年，那时候我还在SAP，写了一篇关于我愿景的文章，简单来说就是我们相信经济数字化会推动三件事。第一是商业周期的加速，从过去按月、按季度的计划执行，现在变成实时了。这种加速证明了我们创办公司的假设是对的。第二是数字化推动经济的消费化，结果就是决策要做得更细致。从前我们按分类、按类别计划，现在要精确到门店、SKU、消费者。第三是为了在这个数字化世界中保持竞争力，公司必须考虑决策及其对价值链的影响，打破不止是数据，还有知识和组织的孤岛。十五年前，我就觉得商业周期加速、消费化和复杂化会让公司面临大量决策，以保持竞争力。再看看公司如何做决策，结构是个大金字塔，10到12层的层级，底层是交易系统。金字塔里的人用工具、定制软件、数据分析、工作流系统来做决策。当你看到决策量和这个人力运作模型的限制，我们的愿景就是从一开始就从人辅助机器决策过渡到机器在人的指导下自主决策。于是我们从零开始搭建技术栈来实现这个过程。那时人们觉得我们疯了，给我们起了很多奇怪的名字。快进八年，决策智能现在被定义为决策的数字化、自动化和增强化，是个AI类别。市场增长和兴趣的验证是，Gartner将在2025年12月或2026年1月发布第一个决策智能平台魔力象限，而这正是我们过去八年帮助定义的类别。”",
+      "en": "Well, with Pioneer decision intelligence, before it was called decision intelligence, when we launched ERA in 2017, June 19, 2017, I'll never forget that day, we said welcome to the self driving enterprise. Why did we do that? It goes back to 2010, when I was at SAP at the time and I wrote a paper around my vision which was quite simple, related to the fact that or driven by the fact that we believe that digitization of our economy was going to drive three fundamental things. The first one is an acceleration, a continuous acceleration of business cycles. And if you go back a decade, two decades ago, and you look at the planning and the execution cycles, you were counting in month, you were counting in quarters, you're now looking at real time. So that continuous acceleration has been proven, you know, a valid assumption to start the company. The second one was back to the digitization driving, now a consumerization of our economy. And the result of that was decisions that would have to be made at a much finer grain. We used to plan and think with segments, with aggregates, with categories, and now we're thinking and executing down to the store, the SKU level, the consumer level. Okay. And the third element was vision that to remain competitive in this growing digital world, companies would have to think about their decisions and the impact of their decisions across the value chain. Breaking the silos, not just data, but knowledge and organizational silos. So for me again, that goes back 15 years ago. The combination of acceleration of business cycle, consumerization and complexification was going to drive an explosion in the volume of decisions that companies would have to make to remain competitive. And then you look at the way companies make decisions and the way they're structured there. It's a large pyramid of 10, 11, 12 levels of hierarchy, right? Sitting on top of a bedrock of transactional system. And people within this big pyramid are scrambling with tools, bespoke software, data analytics, we workflow systems to actually make the decision. So when you look at the volume of decisions coming in and you look at the constraint that are basically led by or driven by this human operated model. Our vision was from day one to move from people making and executing decisions supported by machines, by data, by software, to a world where machines would be able to make and execute decisions guided by people. So that's really foundation, the foundation of era. This is why we started, we said, okay, we got to build the technology stack from the ground up to enable that process. People called us nuts and crazy and a bunch of funky names back then. And you fast forward 8 years and decision intelligence, which is now defined as the digitization, the automation and augmentation of decision making, is a category that's being, you know, it's an AI category. And the, the validation of the, the growth in the market and, and the interest in that category is the fact that, you know, in December, or maybe January 2026, December 25, January 26, Gartner is going to release the first magic quadrant for decision intelligence platforms, which is squarely what, what we've helped defined as a category for the last eight years.",
+      "speaker": 0
+    },
+    {
+      "start": 276.543,
+      "end": 282.847,
+      "zh": "\"那决策智能和现在快速传播的agentic AI有什么不同呢？\"",
+      "en": "But how does decision intelligence differ from the agentic AI that's spreading so quickly?",
+      "speaker": 1
+    },
+    {
+      "start": 282.947,
+      "end": 453.498,
+      "zh": "如果你想了解的话，决策智能其实是利用agentic AI和其他AI以及分析能力，目的是帮企业把特定决策数字化。agentic AI是个工具，但整个数字化决策过程的核心其实是决策智能。在决策智能里，我们用到LLMs和各种能力，但不只是依赖这些。如果你想在企业中实现决策智能，需要解决四个基本问题。第一个是数据问题。如果要数字化决策，你得有这些决策所需的全部信息，并且这些信息要在一个标准化的数据模型中。这是个大工程，不过这是第一步。LLM和agentic特别适合处理非结构化数据，这在决策智能早期是做不到的。agentic技术现在就能做到。第二个是智能。智能有很多方面，首先是数据，其次是智能。智能就是推理能力。LLMs在这方面很厉害，但不总是必要的。你可以用确定性过程来进行推理，也要能做各种决策所需的计算，比如预测、分配、选择、计算等，这不是LLMs的强项。所以智能是推理和计算的结合，是两种不同的技术。第三个是自动化。决策智能不仅仅是告诉你该怎么做，还要解决决策量大的问题。比如系统会预测库存不足，说明某些客户拿不到他们订的东西。然后你有很多选择，比如生产更多产品、调货、加急等。系统会计算不同方案，选出最适合当下的组合，比如提高客户服务水平、确保收入等。做出决策后，系统还要执行，比如在SAP里创建库存转移订单，更新计划参数。这涉及数据、推理、执行，完全不是LLM的过程。最后是参与。LLM在这方面也很重要，不仅是理解和生成自然语言，还有用户互动。去年，我们的技术让客户在不同行业中做了大约2500万次决策。很多都是自动化的，系统自己完成我刚描述的过程。但有时会有例外，需要人来处理。你会收到ERA的消息，比如我做了分析，发现了问题，给出建议，但信心分数低于80%，需要你的输入。然后你就查看消息，了解逻辑、数据来源，建立信任，然后决定接受、拒绝或修改。这需要业务操作人员参与，他们可能在仓库或装货。软件会捕捉你的决策并执行。所以数据、智能、自动化和参与都很重要，我们会用到各种AI，包括agentic AI，这正在改变我们的游戏规则。",
+      "en": "If you. Well, the staging intelligence leverages agentic AI and other AI and analytics capabilities with the goal of digitizing specific decisions for the enterprise. So the agentic is a tool, but the category that supports the full end to end process of digitizing decision is decision intelligence. So within decision intelligence we're leveraging LLMs, we're leveraging all different kinds of capability, but it's not Relying exclusively on that. If you want to make a decision intelligence reality in your enterprise, you need to resolve four fundamental problems. The first one is the data. If you are going to make decisions digitally, you need 100% of the information that is required for these decisions to be made to be available in a normalized data model. And that's a lot to unpile and unpack. But that's the first block this can leverage. LLM and agentic, especially when it comes to pulling in unstructured data, which is new is back in the early days of di, there was no real way to leverage unstructured data. Agentic technology is allowing us to do so. The second is the intelligence. And again, there's a lot to unpack in the intelligence. First is data. Second is intelligence. Intelligence is the ability to reason. LLMs can be fantastic for that, but not always needed. You can have deterministic processes that allow some reasoning, but it's also the ability to do all the math that is required when you make a decision. You need to project, you need to predict, you need to allocate, you need to select, you need to calculate a bunch of stuff which is not what LLMs do. So the intelligence is a combination of the reasoning and the calculation. And those are two different technologies, right? The third is the automation. When you think about decision intelligence, you don't have just a system that tells you what to do. It would not solve the problem. I've explained earlier, of the volume of decisions, you need a system that executes the decisions as well. So I'll give you an example. The system will predict an inventory stock out, meaning you will be running out of stock and some customers are not going to get what they ordered. Well, then you have several options, right? Conceptually you can make more products, you can transfer products, you can expedite, you can do a series of things. The system will calculate the different options, will select the one that's the most relevant for that specific combination of product of customers in time based on expected business outcome. I want my customer service level to go up, I want to make sure I get the revenue. So you select all of that. But then once you make that decision, the system needs to execute your decision. It will go and create a stock transfer order, for example, in SAP it will go and update your planning parameters. So it's the data, it's the reasoning, it's the, it's the execution, which is not an LLM process at all. And the last part, LLM play a big role of that as well. But not only national language, understanding and generation is the engagement. How do I engage with the users? How do I learn from the users? Last year, our technology enabled our customers across different industries to execute about 25 million decisions. Right. So a lot of that is automated. The system does the process I've just described on its own. But in many cases you have exceptions. You need to go in front of a human. Then you will have your inbox, your ERA inbox, and you'd say, okay, a message for Greg from ERA saying, I've done the work, I've done the analysis, I identify a problem. I should say, I've done the work, done the analysis, I make that recommendation. But my confidence score for that recommendation is maybe below 80%. I need your input. So then you open the message and the action you take is. You, of course, need to understand the logic, the data, the source, you build the trust. But then you say, accept, reject, modify. So that action needs to happen with business operators who are working anywhere and everywhere, could be in a warehouse, could be loading trucks. So that's where you have to have a level of engagement that's super smart. And the software will then capture your decision and execute it. So data intelligence, automation, which is very important, and an engagement. And across those different tiers, you will leverage multiple flavors of AI, including agentic, which is changing the game for us right now.",
+      "speaker": 0
+    },
+    {
+      "start": 453.598,
+      "end": 467.588,
+      "zh": "\"对，对。决策智能或者aera的技术栈，agentic部分其实是在底层，上面还有很多关于上下文分析的东西。还有其他系统在做类似的事吗？\"",
+      "en": "Yeah, yeah. So decision intelligence or aera's technology stack, the agentic part is kind of at the bottom of the stack. There's a lot more going on in context analysis and that sort of thing. Are there other systems that are doing this kind of thing?",
+      "speaker": 1
+    },
+    {
+      "start": 467.688,
+      "end": 471.868,
+      "zh": "“你是说我们技术里的系统，还是外面其他公司的系统？”",
+      "en": "You mean systems inside our technology or other vendors out there, other out there in the world?",
+      "speaker": 0
+    },
+    {
+      "start": 471.96799999999996,
+      "end": 475.28799999999995,
+      "zh": "\"因为我没听过这样描述的。\"",
+      "en": "Because I haven't heard it described this way.",
+      "speaker": 1
+    },
+    {
+      "start": 475.388,
+      "end": 593.9549999999999,
+      "zh": "\"现在市场上啊，总是有两种情况，就像市场正在形成的时候。首先，我要说，在过去一年里，我们看到'决策'这个词到处都是。大家都在谈论决策。我可以保证，三年前没人谈这个。他们谈AI，谈数据系统、数据湖和分析。但现在大家都在朝决策靠拢。我们聊流程智能，聊各种好东西，大家都在向决策智能、决策自动化靠拢，因为这就是未来。对大企业来说，现在很明显。所以如果我给你分析一下市场，我会说很多差异化的系统，简单来说，你有记录系统、ERP、CRM，还有差异化系统。这些是让人们手动处理数据、协作做决策的技术。可能是计划，可能是重新指派订单、分配库存。我谈了很多关于运营的事，但其实不止这些。然后你有分析系统，基本上就是让信息在整个组织内流动。所有在差异化系统里的，都在尝试把智能带入他们的系统。所以很多垂直供应商，比如计划供应商、采购供应商，都在试图把自动化服务引入他们的软件。然后还有一类是纯粹的决策智能平台。我可以讲讲为什么我觉得区分这两者很重要。在这一类里，你会找到Palantir、era，还有很少的几个能构建完整平台的公司。然后是DIY，这在现在的市场中占很大一部分，尤其是在早期阶段，大公司有技术栈的，正在尝试拼凑东西来让决策智能为他们服务。市场大致就是这么个结构。现在，谁在进入这个市场？我提到了差异化系统，分析供应商也在试图进入这个市场。RPA供应商、ERP供应商，大家都在朝这个新的金矿——决策智能靠拢。\"",
+      "en": "In the market right now. You have two, like always, when a market is forming. So first of all, I would say that in the last year, what we've seen is the word decision became ubiquitous. Everybody is talking about decision. I can guarantee you that even three years ago, nobody was talking about decision. They were talking about AI on one end. They were talking about data systems and data lakes and analytics. But now everybody's converging toward decision. We talk about process intelligence, talk all this good stuff. Everybody's converging toward decision intelligence, decision automation, because that's the future. That's what's obvious right now for large enterprises. So if I break down the market for you, I would say a lot of the systems of differentiation, which is, if you think about the enterprise stack, if I trivialize it, you get your system of records, your ERPs, your CRM, you got your systems of differentiation. This is the work. This is what, this is the technology that allows people to manually process data, collaborate to make those decisions. Could be a plan, could be a decision to repoint sales order, to allocate inventory to this. I'm talking a lot about operations, but it goes beyond that. And then you get your system of analytics, really basically fundamentally allowing the information to be distributed across the organization. Everybody who is in the category of system of differentiation is trying to now bring that intelligence to their system. So a lot of the vertical vendors, where a planning vendor, a procurement vendor, are trying to bring that level of service basically of automation to their software. Then there is another category which is the pure play decision intelligence platform. And I can talk about why I think this is so important to differentiate the two. And in that category, you'll find Palantir, you'll find era, you'll find very few others that have been able to build a platform end to end. And then you have the do it yourself, which is a big part of the market today, especially in the early stages, where large companies who have access to a stack are trying to cobble things together to make DI work for them. And that's pretty much how the market is structured. Now, who's coming into this market? I talked about the system of differentiation, the analytics vendor are trying to get into this market. The RPA vendors are trying to go this market, the ERP vendors, everybody is trying to converge toward that new El Dorado, which is decision intelligence.",
+      "speaker": 0
+    },
+    {
+      "start": 594.055,
+      "end": 601.218,
+      "zh": "太有意思了。那决策智能的核心组成部分是什么？它们怎么配合工作的？",
+      "en": "Yeah, that's fascinating. And what are the core components of decision intelligence and how do they work together?",
+      "speaker": 1
+    },
+    {
+      "start": 601.318,
+      "end": 916.085,
+      "zh": "“嗯，我刚才提到过一点。对我们来说，我们分成四个关键部分。数据，我提过，你得能抓取数据。数据是双向的，有结构化和非结构化的。数据量很大。这是我们最开始的出发点，对吧？我们说要先解决这个问题，才能实现后面的智能化、自动化和互动。所以如果你分解数据处理过程，我们的技术连接到事务系统，其实是智能化抓取的。可以是数据湖，如果你有的话。但我们建议直接去源头，这也引发了很多客户的讨论，因为有很多问题，比如怎么抓取这些系统而不影响它们的性能。然后是结构化数据，我们在SAP这种传统记录系统上做了很多工作。但你也得引入外部数据，非结构化数据。可以是抓取网站、查看PDF文件用于理赔管理，或者是邮件、图片。所以数据会被整合到我们称为决策数据模型的索引和结构化模型中，这是一种标准化的数据模型。为什么叫决策数据模型呢？因为这个模型包含了所有可以理解业务的指标，实时计算和刷新，同时也会包含所有决策智能做出的决策记忆。所以事务、增强指标和决策数据之间的连接是个很大的软件部分。然后我提到过，你还有所有的引擎和功能。我需要对数据建模，所以是一个多维结构，可以用公式来层叠、预测。所以你需要有这样的能力。我们有个cortex，基本上就是我们的machine learning。你需要有machine learning，你需要能做统计预测，各种AI功能。你需要有agentic功能，有agents、agent团队、agent功能，可以协调很多逻辑，也可以用于理解非结构化数据。这是另一个大组成部分。所以你有分析，有数据建模，有machine learning和其他AI功能，还有agentic功能，所有这些都被组织起来。然后你有能力把决策写回到决策记忆和事务系统中。我之前提到过，你还需要能和用户互动。我们看待这个问题的方式很重要，因为当市场成熟时，人们想到DI，会想到一个生成建议的系统，提供一些智能让人们单独做决策。这样很好，但会产生很多噪音，你知道的，你只是不断提醒用户，我是个智能系统，我会告诉你该做什么。人们没时间听这些。你需要自动化工作，并在合适的层次和时机与他们互动。ERA的一个基础是，经过25年开发软件，我想要一个用户体验不糟糕的系统。我看过我之前的公司，那些系统引入了一定的复杂性，迫使人们学习如何使用软件。我们说，我们要从...这听起来像营销，但不是。这是我们核心愿景的一部分，从让人们学习如何使用软件，到软件学习你怎么工作，学习你怎么决策。这就是我们构建的东西，我们需要创造那种体验，就像Siri或Alexa。这就是ERA，四个字母A。花了很长时间才想出一个可以用任何语言称呼的名字。你和ERA用自然语言交流。我们开始时，八年前就已经在展示这种技术，那时是直接和ERA对话，但非常脚本化。虽然能用，但必须按特定方式互动。Greg，我会说，ERA，我这个月的预测变化是什么？如果我没说对，系统就不懂。过去两三年加入LLMs太棒了，因为现在我可以和我的决策智能agent进行完全自然的对话。我可以说，过去一个月斯图加特和法兰克福之间的库存阻塞量是多少？然后我说，按产品类别分解，然后告诉我哪些影响了这个客户。我用这些语言。我们系统里构建的LLMs和agents现在让我能用自然语言对话，不只是用词汇和软件互动，还能保持上下文和复合问题。这些都非常重要。这是第一部分，尽量用自然语言互动。第二部分对我们来说很关键，你每天早上做什么？你查看收件箱，进入邮件，这是我们做的。所以你用ERA可以问问题，得到回答，可以运行模拟，但你基本上从查看收件箱开始一天，看看有多少英文或任何语言的消息，系统为你准备好了。我不需要训练人们如何使用收件箱，但我得训练人们如何使用复杂的软件，里面有一堆按钮和窗口和流程。处理好这些，动态管理工作流程，是我们必须构建的所有东西。所以总结一下数据智能的组成部分，我把它们分为引擎和agentic。能够以确定性方式组织，有时是简单过程，自动化和互动。这就是实现DI的技术栈，现在让世界上一些大公司受益。”",
+      "en": "Well, I mentioned that a bit earlier. I think for us, we break down four key components. The data, I mentioned it, you have to be able to crawl. So the data is bidirectional, the data is structured and unstructured. The data is a big. That's where we come from initially, right? We, we said we got to resolve that one problem first to enable the intelligence and the automation and the engagement later. So if you just break down the data process, our technology connects to the transactional system. It actually crawls them intelligently. It can be a data lake, if you have that. But we, we recommend you go straight to the source, which creates a lot of dialogue with our customers, because there's a lot of questions about it. How do I crawl those systems without impacting their performance? Then the data, then again, that's for the structured data. A big part of what we do is work on Top of SAP of the traditional systems of record. But you also bring in external data, unstructured data. It can be crawling websites, it can be looking at PDF for claims management or emails or images. So that's data, it's all combined into an indexed and structured into what we call the decision data model, which is a normalized data model. Why do we call this decision data model? Because it's a model that has all the metrics that allow you to understand your business, calculated, refreshed, in real time in the system, but it also going to contain the memory of all the decisions that are made with the decision intelligence. So the connectivity between the transaction, the augmented metrics and the decision data is quite a big piece of software. Then as I mentioned, you have all your engines so the capabilities you need. I need to model my data. So it's a multidimensional structure that allows me to use formulas to cascade stuff, to project stuff. So you need to have that capability. We have a cortex, which is basically our machine learning. You need to have machine learning, you need to be able to do statistical forecasting, all the different flavors of AI. You need to have an agentic capability with agents, agent teams, agent functions that can orchestrate a lot of that logic, that can also be leveraged to understand unstructured data. And so that's another big component of that. So you've got your analytics, you've got your data modeling, you've got your machine learning and other AI capabilities, you have your agentic capabilities and all of that gets orchestrated. Then you have the ability to write back and orchestrate the decisions back into the decision memory and into the transactional system. And as I mentioned before, you have and you need the ability to engage with the users. And the way we looked at it and it's very important because when people think about DI today as the market is maturing, they think about a system that's going to generate recommendations, going to provide some intelligence that allows people to individually make decisions. Well, that's great, but it creates a lot of noise and you know, you're just pounding the users with hey, I'm a smart system here and I'm going to tell you all the things that you should be doing. People don't have the time for that. You need to automate the work and you need to engage with them at the right level, at the right time. And one of the foundation of ERA after 25 years building software, I'm going to swear a little bit here, but I wanted an end user experience that didn't suck. And, you know, I've looked at my previous companies and, you know, all those systems are required. They introduce a level of complexity that forces people to learn how the software works and get familiar with it. And how do I. We said we're going to move from. And it sounds marketing, but it's not. It's really part of core to our vision, going from a people that people have. People have to learn how to. Sorry, moving from people that use a software that they have to learn how to work with to a software that learns how you work, a software that learns how you decide. And that's what we've built for that we needed to create that experience just like Siri or Alexa. This is what ERA is called era. Four letters A. Era. It took a long time to come up with the name that you could call in any language. And you talk to era. You engage with ERA in natural language. Now, when we started, we were already doing demos of that technology eight years ago, that was literally talking to era, but it was very scripted. It worked, but I had to engage with that. Greg, I would say era. What is the evolution of my forecast this month? And if I didn't spell it properly or spoke it properly, the system would not understand. The addition to LLMs in the last two, three years has been fantastic because now I can have a conversation with my decision intelligence agent that is completely natural. I can say, what is the volume of blocked inventory between Stuttgart and Frankfurt over the last month? And I'll say, break it down by product category and then show me the ones that are impacting this customer. And I use those, this language. The LLMs and the agents that we built in the system now allow me to have a natural language conversation, not just a you using words to interact with the software and keeping the context and having composite questions. All this is super important. So that was part one. Engaging as much as possible in natural language. And the second part was for us, very critical is what did you do every morning? You check your inbox, you go into your email, and that's what we do. So you use era. You can ask questions, get answered, you can run simulation, but you fundamentally start your day by going to your inbox and seeing how many messages in English or in whatever language you want, properly documented as a system prepared for you. And I don't need to train people on how to use an inbox, but I have to train people on how to use a complex software with a bunch of buttons and windows and processes. So taking care of that, taking care of the workflow dynamically is all the stuff that we had to build. So the components to wrap up data intelligence, I broke it down between the engines and the agentic. The ability to orchestrate, sometimes in a det. Deterministic fashion, a simple process, the automation and the engagement. And, and this is the stack that makes DI a reality for some of the largest companies in the world today. Yeah.",
+      "speaker": 0
+    },
+    {
+      "start": 916.185,
+      "end": 935.295,
+      "zh": "“你刚才提到记忆和学习循环。那这个记忆是离线的吗？是在图数据库里更新的吗？学习循环怎么避免覆盖之前的记忆或信息？我指的是大家都在研究的灾难性遗忘问题。”",
+      "en": "Now you talked about memory and, and a learning loop. It, it is the memory offline. Is it in, you know, a graph database or something that gets updated? And the learning loop, how do you avoid overriding. Previous memories or previous information? I mean, this catastrophic forgetting that every buddy is working on.",
+      "speaker": 1
+    },
+    {
+      "start": 935.395,
+      "end": 1165.706,
+      "zh": "所以啊，这个话题真是特别有意思。我刚才讲了技术部分，现在来说说ERA到底能为你做什么。你经常会见很多公司。上周我和Hershey's开了个会，他们正在部署ERA。那么这个叫ERA的决策智能agent能为你做什么呢？首先，它能用自然语言回答你所有的问题。第二，它可以进行模拟，帮你做各种假设。计划、协作这些都能搞定。第三，它会为你的工作提供建议。每天你都要做工作，比如管理库存或者减少浪费，系统都会给你支持。ERA会理解、推荐、执行这些决策，然后从中学习。\n\n不过它不光是学你做的决策。如果你是像Unilever、Hershey's这样的公司，可能有几十上百甚至上千的操作员。关键是系统需要从整个团队的决策中学习。怎么做到的呢？这开发起来挺复杂的，但现在部署很简单。首先要建立学习用的数据，这些数据基本上就是每个决策的背景信息。我可以回过头来解释一下。\n\n当我们推出ERA时，我最大的疑问之一就是，怎么数字化这些决策？过去25年，我在分析领域工作，我们一直说要帮你做更好的决策。但决策的维度哪里都没记录。大公司里，决策是怎么被记录下来的？基本上没有。自动交易领域有，但在运营、销售、财务上都没有。每天的微小决策都很重要，但都没被记录下来，基本靠人来处理。我们想的是，怎么把决策数字化？我们的办法是AB测试。如果我给你一个推荐，文档齐全，你点了接受，那就是在数字化你的决策。\n\n所以决策记忆就是推荐的背景信息。是什么业务背景、驱动推荐生成的指标？可能是根据计划、需求或事件的。然后我记录你的决策，记录推荐生成的时间、你接受或拒绝的时间。如果拒绝，系统会提示你说原因，可以选择或输入一点文字。这样所有信息都会被记下来。\n\n系统会根据这些信息，计算预期结果，比如节约成本多少、服务水平提高多少等等。我们有个大客户Western Governor University，他们用决策智能来提高学生留存率。系统在每天多次更新，看看预期结果是否达成。如果没有，系统会用我们开发的自动决策学习功能来计算未来推荐的信心评分。\n\n如果你在收件箱里看到一条调配库存的推荐，它会解释原因、逻辑、预期结果，并告诉你ERA对这个结果的信心有92%。系统一直在学习，信心评分也会随时间变化。\n\n另外一个很有趣的方面是agentic。如果你用agents来提示决策逻辑，我们现在和一些先进客户在用这项新技术。通过AgentIQ，我们能更快学习，比如你连续五次拒绝一个推荐并解释原因，我们可以比单靠数据更快发现逻辑需要调整。但这种方式需要更多监督。\n\n我之前描述的自动决策学习不需要人监督，纯数学计算。而这种新的方法会有提示，比如Craig觉得推荐需要改进，逻辑或门槛需要调整。根据他的反馈，我能识别出模式，然后手动或自动调整决策逻辑。这是新的技术，现在有一个客户完全上线了。这会加快决策学习过程，但需要更多监管。",
+      "en": "So that's, that's, it's a good, it's a, it's a super interesting topic. When we talk about, I describe the stock, I describe the components, which is the technical part. But when we talk about what does ERA do for you? Now we have a question. You go and meet many, many companies all the time. Last week I was doing a great conference with Hershey's and they're deploying ERA right now. What does, and for the end users, what is this decision intelligence agent called ERA that you have access to? What does it do for you? First thing is it answers any question that you have in natural language. The second is it allows you to do simulation, what if. Planning, you know, collaborate. Third is it generates recommendation for you for your job. You do your job every day, you have to. Your job is to reduce, manage inventory or reduce wasting components. The system provides all of that. It executes the decisions, it learns. So era, understand, ERA recommends ERA executes. Right. And then learns from the decisions that you made. Couple of things. It just doesn't learn from the decision that I make. If you're a company like Unilever or Hershey's or Dell or whoever they have for a specific function, you'll have dozens or hundreds, sometimes thousands of operators at scale. Right. So the key is that the system needs to learn not just from my decision, but from the decisions made by the entire network of people. So how do we do that? It's quite tricky to develop and code, but now it's deployed very easily. There is, there's a couple of components. The first one is you got to build the data for the learning, and the data for the learning is basically what is the context of each individual decision that is being made. So I could have backpedal a little bit, and if you allow me, I'll do that. One of the biggest question that I had when we Launched Aera was. It's very simple. I've been working for 25 years or 20 some odd years in analytics. And the message for all the tools that we built and all the companies that we created around that was we're going to help you make better decisions. However, the dimension of decision is not captured anywhere. If you look at a system of information today of any large company, say, where do you capture your decisions? Where are they memorized? Nowhere. Now it is in some specific sectors. If you look at automatic trading, they do. They know that they've done it, they're ahead. But if you look at the world of operations and sales and finance in an enterprise, you don't capture that. And I'm not just talking about strategic decisions, which is, do I go into this market, do I? No talking about the decisions every day. I have that many sales order, I've got that much inventory, I've got to match this. Those are micro decisions that are very important. I need to ship my goods a certain way. I need all this stuff that. The thousands of decisions that you make every day, they are not memorized. You rely on people to drive that process. And the decision stays in their head. Now, they follow guidelines, they follow rules, they follow everything. But the first thing we said is like, how do I digitize a decision? And our approach was to go AB testing. Like, if I come to you, Craig, with a recommendation, fully documented, that you can understand when you press accept the recommendation. Now I'm digitizing your decision, Right? So what is the decision memory? It's the context of the recommendation. So the business context. What are the metrics that have been driving the recommendations to be generated? It could be on schedule, it could be on demand, could be. It depends on event. Then I capture your decision. I capture when the recommendation was made, when you made the decision to accept, maybe you rejected it. If you rejected it, the system should prompt you and say, why? Select from the list or enter a little text. Well, Fred, this is the reason why in East Cleveland at that time of the year, we have something that wasn't captured in the software. Great. Or maybe you ignore it. Why you ignore it. Or maybe you modify the recommendation that needs to be captured. It's memorized, all right? And then what the system does. So now I've got the context of the decision, the expected outcome. I expect my that to generate X amount of dollars in saving. I expect to generate that much improvement in service level. I expect to retain. We have a fantastic customer called Western Governor University. It's one of the largest or the largest digital university in the United States. And they'll be speaking at our conference in a month. They're leveraging decision intelligence to help with student retention. So I'm not talking about logistics, I'm not talking about operations, I'm talking about leveraging data, make generic recommendations to help retain students. And the same logic I need to have the context of the decision, the recommendation, the decision itself and then what is the expected outcome. And as the system runs and refreshes every day, multiple times a day, we have a client who refreshes the model every 15 minutes. The system will see and identify whether the expected outcome was reached or not, and if not, to what degree. And that's when you bring a feature that we build called auto decision learning that allows you to calculate over time when there is enough data, when the data is rich enough, it will calculate the confidence score for future recommendation. So now you look at your inbox and you have a recommendations to rebalance inventory from a DC to another dc. It will explain the root cause, the logic, the expected outcome. And it will say ERA is confident at 92% that if you say yes, the outcome will be reached and the system continually learn it's not a number. Maybe if you had run the same scenario three months later, maybe the confidence score would have been 95%, I don't know. So that's one part of the learning. Now there is another dimension which is super interesting with agentic. If you're leveraging agents and you're prompting the decision logic, which is we're doing now with some of our most advanced customers, this is brand new technology, is the ability to really use AgentIQ to run the decision logic. Now there is a closer loop, faster loop for the learning which we're experimenting with that will allow me to understand from if you said no to that recommendation and you gave me a verbal explanation five times in a row, I can now start detecting faster than from the data whether there is an adjustment that could be made to the logic, but that needs to be also very much supervised. The first model that I describe which is auto decision learning doesn't require human supervision. It calculates, it's math, right? This one will, you'll see the prompts coming up saying, well, Craig believes that this recommendation needs to be improved, the logic needs to be improved or the threshold needs to be changed. Based on his input, I can identify a pattern and then I can go manually and adjust or not automatically adjust the decision logic, the prompts, that's new, that's starting where we got one customer fully live on that now. And that's going to create a decision learning process that will be faster but will require more adult supervision, so to speak.",
+      "speaker": 0
+    },
+    {
+      "start": 1165.806,
+      "end": 1184.3590000000002,
+      "zh": "我挺好奇这个记忆和学习循环的机制。是更新神经网络的权重吗？还是更新一个数据库，然后在以后的交易或决策中参考？这个在系统里具体是怎么运作的？",
+      "en": "Yeah, I'm interested in the mechanism of this memory and learning loop. I mean, is it, are we talking about updating weights in a neural network? Are we talking about updating a database that then is referred to in future transactions or decisions? And yeah, how does that work practically in the system?",
+      "speaker": 1
+    },
+    {
+      "start": 1184.459,
+      "end": 1266.5220000000002,
+      "zh": "所以呢，就像我刚才说的，有现在的方法和新的方法。现在的方法就是建立一个数据集，这个数据集会随着时间不断丰富。我们用machine learning来判断可能性。它会从所有做出的决策中学习，了解背景，然后标记这些决策是否达到了预期。但它不是马上就能学会的。功能是现成的，但不是马上就学会的。这个问题一直存在。上周在Hershey的会议上，他们说需要大约一万个推荐才能开始学习。我说，可能是一万，也可能更多或更少，我们不确定。你得先建立一个数据集。系统会简单标记一个决策是否达到了预期结果。这是第一步。你记录下所有决策。随着时间推移，可能是一分钟、一周或一个月，它会说，这个好，这个推荐在这种情况下达到了预期结果。然后你继续建立数据集，那些没有达到的，它也会标记。接着它会看下一个推荐。通过machine learning，它会根据历史数据计算下一个推荐达到预期结果的可能性，这是一个预测模型，会随着时间不断优化。每个推荐都有一个信心评分。但就像我说的，这是一个随时间演变的过程。就是这么回事。还有另一种方法。你继续说。",
+      "en": "So as I mentioned, there is the current way and there's the new way. In the current way, you basically built a data set that is getting enriched over time. And we're using machine learning to derive the likelihood that. So it learns from all the decision made, it does know the context, and then it, it flags over time whether the decisions that were. So it doesn't learn right away. Let me start with that. The feature is out of the box, but it doesn't learn right away. And it's always a question. Last year with, last week with Hershey at this conference, they were saying we need about 10,000 recommendations to start learning. And I said, you know, it might be 10,000, it might be more, it might be less, we don't know. You have to build a data set. So what the system does to keep it simple, it flags whether a decision has delivered the expected outcome or not. So that's the first process. You record all of them. And over time, could be a minute, could be a week, could be a month. It will say, check, this was good, this recommendation in this context, deliver the expected outcome and as you start building, and then those others will say, no, it's not. And then it will look at the next recommendation that's coming. And with machine learning, it will actually identify, it will calculate the likelihood based on historical data that the next one, it's a predictive model, is actually going to generate the expected outcome and that, that is getting refined over time. That confidence scoring is attached to every recommendation. But it's, as I said, it's something that evolves over time. So that's what it does. The other way. Go ahead.",
+      "speaker": 0
+    },
+    {
+      "start": 1266.622,
+      "end": 1271.521,
+      "zh": "\"听起来是这样，所以就是在减少预测误差，对吧？\"",
+      "en": "It sounds. So it's, it's minimizing the error prediction, is that right?",
+      "speaker": 1
+    },
+    {
+      "start": 1271.621,
+      "end": 1272.515,
+      "zh": "\"对。\"",
+      "en": "Yes.",
+      "speaker": 0
+    },
+    {
+      "start": 1272.615,
+      "end": 1287.4180000000001,
+      "zh": "\"所以这是通过贝叶斯推理来查看概率分布吗？还是像传统神经网络那样，看预测和基线之间的误差，然后调整权重？用反向传播这种方式可以吗？\"",
+      "en": "And is, is that through Bayesian inference where you're looking at probability distributions or is this looking, as in traditional neural networks, the error between a prediction and some baseline and then correcting the weights? Is the latter okay, using back propagation or.",
+      "speaker": 1
+    },
+    {
+      "start": 1287.518,
+      "end": 1289.132,
+      "zh": "\"嗯，对。\"",
+      "en": "Yeah.",
+      "speaker": 0
+    },
+    {
+      "start": 1289.232,
+      "end": 1301.26,
+      "zh": "\"所以问题是，在这个情况下，更新权重时会有灾难性遗忘的问题，就是会丢掉一些之前的智能。你们怎么解决这个问题的？\"",
+      "en": "So then the question is in, in that context there's this problem of catastrophic forgetting that as you update weights you lose some of the earlier intelligence. How do you guys manage that?",
+      "speaker": 1
+    },
+    {
+      "start": 1301.36,
+      "end": 1339.251,
+      "zh": "嗯，这个过程是有监督的。虽然系统是自动运行的，但在控制室里，你可以测试和监控影响空中学习能力的各种参数。所以我们说有人指导，就是这个意思。你有决策架构师和分析师在监控、测试假设、清理和更新模型。这是决策智能的核心部分，它是自主的，但有监督。所以我们一直说有人指导。你有个控制室，有人看着不同算法的表现，还有数据集的质量。我们也在开发工具，帮助逐步改进这个过程。",
+      "en": "Well, the, the process is, is supervised, right? So you have in the control room, you know the, the, the system runs on its own, but you have in the control room the ability to test the ability to monitor all the different parameters that are driving the aerial learning capability. So when we talk about guided by people, this is it, right? So you have decision architects, you have decision analysts who are monitoring this, who are testing the assumptions, who are cleaning, who are updating the models over time. And this is a fundamental part of decision intelligence, which is it's autonomous but it's supervised. So that's why we keep talking about guided by people. You have a control room, you have people looking at the performance of the different algorithms you have, looking at the, sorry, the word escapes me right now. Not the sanity, but the quality of the data set and you have work. And we're building the tools to help over time improve that process and that.",
+      "speaker": 0
+    },
+    {
+      "start": 1339.3509999999999,
+      "end": 1343.693,
+      "zh": "那些人在企业里坐镇，看着时代的发展。",
+      "en": "Those people are sitting at the enterprise using not at era on the era.",
+      "speaker": 1
+    },
+    {
+      "start": 1343.793,
+      "end": 1507.648,
+      "zh": "你说的很对。每个大规模部署决策智能的公司都需要一个卓越中心。有时候他们甚至会有实体房间来监控这些东西。我们的平台是一个SaaS自助服务，提供所有工具和功能，让你可以训练自己的算法或者使用自己的算法。我们很多工作都是和那些已经有一定能力的成熟公司合作，他们有自己的预测引擎和machine learning模型，但需要把这些整合到平台上来运作。我们的平台也有一些现成的功能和服务，比如Agentic，我们在建立一个agent库，用户可以使用这些agent来做业务优化，比如分配资源或优化库存，还有一些功能性agent可以读邮件或理解图片。这些库都开放给客户使用，配置和运行由客户自己完成。这很重要，因为我们在讲的是数字化管理业务，所以你需要一个开放的平台，并且需要拥有自己的知识产权。我们和客户一直在讨论的转型问题是，这确实提高了效率，但并不是放手不管。你需要优化，并且有更多需要做的事。数字化决策后，你可以开发新的能力，比如企业规划、物流、采购等功能。为什么这么结构化？因为需要高度专业化的人员来做决策，使用软件等。但数字化后，你可以连接原本无法连接的点。比如，我可以把实时数字媒体活动和供应链水平结合起来，这是几年前无法想象的。接下来就会问，如何优先处理决策？现在公司是先制定计划，然后有成百上千人做微观决策，这些决策不总是一致的。我们试图通过流程和工具来对齐，但总有微观冲突。但没关系，月底我们会检查计划是否达成，目标是否实现，以及可以做得更好的地方。想象一下，如果我能细致地协调决策，我可以看到这样做对其他决策的影响。这就是我们现在探索的领域，也是为什么需要决策智能平台。因为决策智能不仅仅是提供建议，它还要执行、构建记忆，并在价值链中协调决策，这非常复杂。现在我们的成熟度在1到10之间可能是2，未来五年会提升到7或8。这真的很基础。想想自动驾驶汽车的比喻，我们公司创立时就说欢迎来到自动驾驶企业。当时用了一张自动驾驶汽车的图片，因为那时还没有自动驾驶。现在它发展了，像我今天在旧金山看到的满街都是wemo，真不错。",
+      "en": "Very good point. Every company that deploys decision intelligence at scale needs to have a center of excellence. They have literally physical rooms sometimes where you are monitoring this. So our platform is a SaaS self service. We provide all the tools, all the capabilities, the, the analytics, the features that allow you to train sometimes your own algorithms or to bring your own. A lot of the work we do is with very mature companies that have already built some kind of capabilities. They have their own prediction engines, they have all these machine learning models already built. But they need to bring it into the platform. They know how it works, they need to bring into the platform to operationalize it. You can also use some bespoke capabilities that we have already or services that we already built in, in the platform. When it comes to Agentic, for example, we're building a library of agents that will be, that are available in the platform for people to do either what we call business agents that can help, I don't know, allocate stuff or optimize an inventory. And you have also the functional agents that will be reading emails or understanding pictures. So all of that library is available, but the assemblage and the running of those capability, the configuration of that is done by the customers on their own, which is absolutely critical because we're talking here, Craig, about digitizing the work that is running your business. And the first thing you need is an open platform and you need to own that ip. So the transformation that we're discussing with all our clients all the time Is yes, this is an efficiency play, but it doesn't mean it's hands off. You have to optimize and there is more to it. Right? So when you start digitizing decisions, you enable new types of capabilities in how you think about your enterprise. Today you have a planning function, you have a logistic function, you have a procurement function, you have all those functions. Why is it structured like this? This because you need a high level of specialization of the individuals that are beyond those functions. They need to know how to make the decisions, they need to, how to use the software. They need to. So when you digitize that process, you can now connect dots that are not connectable. Today I can look at building a skill. A skill is a competency of era. It's something that era learn has hard to do that connects my real time digital media activity or planning with my supply chain levels, which was inconceivable just a few years back. So that work, and the question that comes next is like, but how do I prioritize my decisions? Now the way a company works, you build a plan and then you have hundreds of people, thousands of people that are doing micro decisions. They're not aligned. We try to align them through processes and tools, but they're not aligned. There, there's a lot of micro conflicts between those decisions all the time. But it's okay. At the end of the day you, at the end of the month you'll check did we hit the plan, did we hit our targets and what could have we have done better? Eventually you do this work. Now imagine that I'm able to orchestrate my decision at a fine grain, right? I can say, well if I do this, the impact on that is different. There's a negative impact on this other decision. And that is the area that we're exploring right now. And this is why you need a decision intelligence platform. Because decision intelligence is not just generating recommendation, as I mentioned, it's executing, is building that memory and it's the orchestration of the decisions across your value chain that's incredibly complicated. And on a scale of 1 to 10 in terms of maturity, where we are as, as a, as a, as a vendor, but where our customers are, we're on two. In the next five years we're going to move to seven or eight. This is, this is really fundamental. Think about the, think about the analogy of the self driving car which I use quite a bit. When we launched the company, we said welcome to the self driving enterprise. And he says this is a self driving car and this is Going to be a self driving enterprise. At the time we had a picture of a self driving car because they were not self driving yet. Then it evolved. Now in San Francisco, where I'm talking to you from today, we have wemos everywhere. Fantastic.",
+      "speaker": 0
+    },
+    {
+      "start": 1507.7479999999998,
+      "end": 1508.514,
+      "zh": "\"对。\"",
+      "en": "Yeah.",
+      "speaker": 1
+    },
+    {
+      "start": 1508.6139999999998,
+      "end": 1587.6529999999998,
+      "zh": "所以Wayo是什么呢？它是一辆普通车，但有自动驾驶功能。不过你还是有方向盘，必要时可以自己开车。最近一个月，我们有了Zoox，这种车完全去掉了让人开车的技术。这些不在了，但这不代表车不在开，只是数字化在开。驾驶的决策，比如去哪，都在网络中进行。Zoox的控制室里有人看着整个网络，优化每辆车的运行。同样的事情也发生在决策上，我们在数字化每一个决策，但也在创造记忆和智能，让你在网络中优化决策。这就是我说的我们还在起步阶段。基础要先打好。我喜欢“决策智能”这个名字，因为它是你可以部署在日常决策之上的智能。这非常丰富，会改变世界，因为它能去掉供应链、生产、制造中的人为低效。你可以实时做出正确的数量、送到正确的地方、给对的客户，减少浪费。减少浪费是客户部署决策智能的首要原因。原材料被浪费，零件贱卖，因为现在效率太低。有人说我们要卖一千万件，然后大机器开始运转。每一步都有低效，因为人不可能优化整个网络，但机器可以做到。",
+      "en": "So that what's wayo? It's a regular car with self driving capabilities. But you still have a steering wheel. You can still drive the car if you need to. Now we have the zooks for the last month or so which are you removed the technology that allow a human to actually drive the car. This is gone. But it doesn't mean that the driving is not happening. It's happening digitally. It also means that the decisions around driving, so there's the operational driving, but the decision about where do I go at Are happening in the network. There are people behind some screens in a control room at Zoox, I guess who are looking at the entire network and optimizing each individual car. Same thing is happening for decisions. We're digitizing every single decision. But we're creating the memory and the intelligence that allows you to optimize your decisions in a network. And that's the part where I'm telling we are on a 2 out of 10. We're dabbling into that. You have to get the first fundamentals in place. But this is why I like the name decision intelligence. It's the intelligence that you can deploy now on top of the decisions that you make every day. And this is incredibly rich. And this is going to change the world because it's going to allow you to remove the human based inefficiencies from our supply chain, from our production, from our manufacturing. You're going to be able to make the right amount, deliver it in the right place to the right customer in real time. You cut waste. And cutting waste is the number one driver for our customers to deploy di today. And it's raw material that's getting destroyed, it's components that are being sold into at a loss. Because today it's so inefficient. Someone says we're going to sell 10 million of this units of that and then this big machine starts running. And every step of the way there are inefficiencies because it's physically impossible for humans to optimize across that network. But it is possible for machines to do it.",
+      "speaker": 0
+    },
+    {
+      "start": 1587.7529999999997,
+      "end": 1594.1499999999996,
+      "zh": "\"嗯，哇。那现在的采用情况怎么样？我觉得企业一直挺慢的。\"",
+      "en": "Yeah. Wow. Well, how is adoption? I mean enterprises have been slow to adopt.",
+      "speaker": 1
+    },
+    {
+      "start": 1594.2499999999998,
+      "end": 1595.1439999999998,
+      "zh": "\"对。\"",
+      "en": "Yes.",
+      "speaker": 0
+    },
+    {
+      "start": 1595.2439999999997,
+      "end": 1608.0379999999998,
+      "zh": "\"就是一些基础的agent。我能想象让他们实施决策智能有一定挑战。其实我想就这个再问一个问题。\"",
+      "en": "Just basic agents. I can imagine that there's some challenge in getting them to implement decision intelligence. And actually let me add a question on that.",
+      "speaker": 1
+    },
+    {
+      "start": 1608.1379999999997,
+      "end": 1608.9859999999996,
+      "zh": "\"好啊。\"",
+      "en": "Sure.",
+      "speaker": 0
+    },
+    {
+      "start": 1609.0859999999998,
+      "end": 1622.1819999999998,
+      "zh": "\"不过你说的这个控制室，有人在监控和优化决策，听起来挺高级的。我是说在你设想的自动化企业里，这算是高管层面上的事吗？\"",
+      "en": "But also this control room that you describe where people are monitoring decisions and optimizing, that sounds like a fairly high level. I mean in the self driving enterprise that you envision. Is that the C suite ultimately?",
+      "speaker": 1
+    },
+    {
+      "start": 1622.2819999999997,
+      "end": 1625.0449999999996,
+      "zh": "\"你说的高管层面具体是指什么？\"",
+      "en": "Help me understand what you mean by the C suite.",
+      "speaker": 0
+    },
+    {
+      "start": 1625.1449999999998,
+      "end": 1629.5339999999997,
+      "zh": "\"是指CEO、CTO、CIO这些人吗？\"",
+      "en": "Is it the top, you know, the CEO, cto, cio.",
+      "speaker": 1
+    },
+    {
+      "start": 1629.6339999999998,
+      "end": 1890.9049999999997,
+      "zh": "好，有意思。我先讲讲推广的问题。嗯，推广嘛，说实话，挺慢的。我做了八年，希望能快点进展。不过好消息是，现在总算开始了。我之前提到，Gartner现在有个决策智能平台的魔力象限，这个象限里讨论的就是我们今天聊的那些问题。比如怎么运作，用什么算法，什么machine learning流程，怎么建模决策，怎么运行、执行、学习。所以挺技术的。推广呢，有两个层面。第一个是客户，决定要推出决策智能，怎么让用户接受呢？其实大部分公司运营者都被决策的数量和复杂性搞得头疼。你提供一个agent，就像Siri或Alexa那样，系统和你一起工作，去掉大部分无聊重复的工作。想象一下，你有问题就能得到答案，这不是个协同工具，不只是提升个人效率，而是关于企业数据的问题，实时得到答案，还能验证准确性。就像给用户提供氧气。我们在加拿大有个客户就说，ERA给用户提供氧气。但大家总会担心，我是不是在训练一个会取代我的工具？这也是合理的担忧。其实如果不接受这种方法，你就会被取代。我相信这项技术会为很多人创造很多工作，因为它解锁了很多机会。虽然单看个人，它可能取代很多工作，但从网络效应来看，它创造了很多机会。公司现在都在往DI方向走。我个人觉得这速度挺快的，虽然我之前判断拐点时间总是错，但我的工作就是预测趋势，确保技术到时候能跟上。我以为会花四年，结果花了八年，疫情也有影响，但现在就是那个时候。因为之前说的压力，数量、复杂性、速度，这些都不会消失。还有一点是Agentic AI和ChatGPT证明了这种智能是真的。我们可以争论它是真是假，但我每天在家用它，做作业、找东西，我用得挺顺手的，不需要证明这种智能的真实性。下一个问题是，怎么在公司里部署这种智能？CEO们都说必须在公司里用到这东西，这对我们帮助很大。我觉得没有生成式AI的爆发，我们不会有现在的市场反响。对决策智能的需求，现在比以往都高。加速、复杂化、细化决策的需求更大，而推动公司采取行动的是来自高层的压力，CEO和董事会都在问，为什么在家能用，在公司不能？这就是DI的作用。我们和CEO讨论的重点就是，DI是利用这种人工智能来运营业务的一个很实际的机会。问题在于操作。我需要操作，需要放手让系统来运行。用Energentic来读文件很棒，比如在呼叫中心、服务台或法律部门，需要这些LLM来读文件、提取信息。在文字上效果很好，但在数字上不行。而DI就是把企业数据连接起来，很多都是数字、规则、流程，要做决策的能力。所以在数字上没问题，但在用这技术来运营业务上，这就是DI的作用。关于你说的高管和控制室。控制室现在还不是CEO或C级高管待的地方。我想以后会是，但现在还不是。控制室是决策智能的操作员、决策架构师、数据科学家、决策分析师、业务领导待的地方。我们的朋友Douglas Guillermi Esfey上周在一个大会议上也提到，他现在能实时看到供应链中做出的决策，之前看不到。他还能看到每个决策的影响。顺便说一下，他说整个项目在90天内就收回了成本，真是了不起，这是他的话，不是我的。为什么呢？因为你能衡量每个决策的业务影响。高管是赞助者，是推动者，他们会用ERA来问问题、找答案。但在控制室，主要是技术专家和操作人员。",
+      "en": "Okay, super interesting. So maybe I'll address the adoption and then I'll address that. Okay, so adoption. Well, tell me about it. Slow. I mean I've been at it for eight years and I wish it moved faster. But the good news is it's happening now. As I mentioned to you earlier, the fact that Gartner is positioning now a magic quadrant for decision intelligence platform and the conversation in that magic quadrant is around all the questions we've discussed today. How does it work? What algorithms, what machine learning processes? How do you make you model the decisions, how do you run them, how do you execute them, how do you learn from them? So it's very technical. How do you drive adoption? So adoption, there's two level. The first one is the customer. We decided to roll out decision intelligence. How do they get the users to adopt it? The reality of most companies is the operators of the business are completely overwhelmed by the volume, the complexity of decisions. So when you provide this agent that, that it's like, you know, it's a, it's your personal decision intelligence agent. Again I go back to Siri Alexa. The system works with you. It removes majority of the dull, repetitive work that you have to do. Imagine that you have a question, you get an answer and it's not copilot thing, it's not just for your personal productivity, it's a question around the enterprise data and you get the answer in real time and you can validate the truth and you can. So it provides you oxygen. We have a great client in Canada, said era provides oxygens to the users. But there is always going to be a concern around am I training a tool that's going to replace me? And that's fair point. The reality is if you don't embrace this approach, you're going to be replaced. I do believe that this technology is creating a fair amount of work for a fair amount of people because you can unlock if it's just looking at individual, yes, it's going to replace a lot of the work you're doing individually but it's creating so many opportunities that we discussed around the network that you have to think about things completely differently. And there's a massive amount of work that can be done to deploy this kind of technology. Companies are moving toward DI today. Look, I've got a personal view on this, but it's moving very fast. I was wrong in when would the inflection point be, But I'm always wrong on that. My job as, as a founder and CEO is to figure out where the puck's going to be and make sure that by where the puck is, my technology is ready. At that point in time, it took twice as long as I thought. Thought it would take four years while Covid happened, but I thought it would take four years. When we launched it, it took eight years. That moment is now. Why? Because of the pressure that I've discussed earlier, which is the volume, the complexity and the speed that's not going away. But there is another element, I think, where Agentic AI and ChatGPT have demonstrated that this intelligence is real. Now, we can debate whether it's real or not, but the fact is I use it every day at home. I do my homework with it, I find my whatever, I use it. And I don't have to be proven that that kind of intelligence is a reality. The next question is, how do I deploy that kind of intelligence in my enterprise? But CEOs and everybody says we have to use this somewhere in the company. So that helped us a lot. I think without the explosion of generative AI, we would not have been able to feel the traction we're seeing in the market. So the demand for it, the demand for decision intelligence, the fundamentals are screaming louder than ever. Acceleration, complexification, granularization of decision. But what's enabling companies say, let's go. Is that push from the top, from the CEO, from the board, like, how can I do this at home and not in the office? And that's where DI comes in and said, this is our job. And our number One discussion with CEOs today is DI is a very real way or opportunity for you to operate your business leveraging this level of artificial intelligence. And the problem was operating. I need to operate. I need to let go and let the system operate. Now, operating Energentic is fantastic to read documents to. You know, if I'm doing a call center or service desk or I'm in the legal department and I need these LLMs to read all my documents and extract. On letters, it worked beautifully. On numbers, it did not. And what DI does is it build the bridges between your enterprise data. A lot of it is numbers and rules and processes and, you know, the ability to make those decisions. So on the numbers, no question. But on the ability to operate, as I said before, your business with that technology. And that's where DI comes in and that's why it's moving up. And very briefly on your point about executive and the control room. No, the control room is not the place where you find a CEO or the silo, the C suite. Not yet. I think it will be, but not yet. The control room is where you find the operators of the decision intelligence, the decision architect, the data scientists, the decision analysts, the business leaders. Isaiah, again I'm repeating what our friend Douglas Guillermi Esfey talked about last week at a big conference we did together. He said, I can see now in real time what decisions are being made in supply chain, the scope that's been deployed. I could not see it before. I can see in real time what decisions are being made for what impact. By the way, fantastic story where he said that the entire project was paid back in 90 days, which is remarkable. That's his words, not mine. But. But why? Because you can measure the business impact of every single decision. The executive is the sponsor, is the is, is the push and they have access to, you know, they will use ERA with, you know, asking questions and getting answers. But in a control room is really where you find the experts, the operators of that technology.",
+      "speaker": 0
+    },
+    {
+      "start": 1891.0049999999999,
+      "end": 1901.454,
+      "zh": "\"对，信任是个大问题。怎么评估这个呢？我指的是怎么让大家接受，让他们放心让系统来做决策。\"",
+      "en": "Yeah, okay, the, I mean trust is a huge issue. How do you benchmark this? I mean to get people to adopt it, to get people to allow it to make decisions.",
+      "speaker": 1
+    },
+    {
+      "start": 1901.5539999999999,
+      "end": 2010.2209999999998,
+      "zh": "我试着快速回答，这其实是个多步骤的过程。信任主要在于数据，你得认证数据。我们在数据层和决策数据模型上做了很多工作，涉及agentic，基本上就是认证生成推荐的数据来源。然后，你需要完全透明地展示逻辑，这就是为什么我们现在有50%的新业务来自那些自己已经构建了一定DI能力的公司，但他们是拼凑出来的，结果逻辑和来源都不清楚。我把数据放进优化器，再拿出来，然后放到另一个地方，每次这样做都会失去信任。所以，从一开始，我的重点就是在一个环境里构建所有支持智能运行的能力，确保能感知上下文。这样无论我在ERA的哪个部分，只需点击一下，就能了解逻辑、数据来源，谁做了什么。数据要认证，逻辑要能看懂，效果自然会显现。因为每个推荐都有预期结果标签，所以你能看到效果。如果不行，就去修逻辑或数据，但系统不会骗人。顺便说，有时候你开始新技能，接受率低，因为用户说不符合预期。没关系，去修就行。数学就是数学，但逻辑才是关键。有时开始接受率40%，几周后就能到80%。大部分技能的接受率都有75%到80%，还能往90%以上走。自动化就是当你有足够信心和信任让系统自己运行，但你得实时监控。回到控制室，你得每天看看ERA和团队的工作有什么影响。比如地面、现金成本、服务水平、碳排放、水资源、学生留存率等等，信任就是这样来的，来自结果。",
+      "en": "I'll try to answer quickly but it's a multi step process. So your trust is around the data, you have to certify data. So we do a bunch of work in the data layer and the decision data model with involving agentic to basically certify the source of the data that will generate the recommendation, then you need to bring full transparency on the logic that's being deployed on the scale. And this is why 50% today of our new business comes from companies who have built some level of capabilities of DI on their own, but they're doing it by cobbling things together and therefore they lose the lineage, they lose the logic. I push the data into that optimizer, then I brought it back and I pushed into this thing and every time you do that, you lose the trust. So fundamental to me from the get go was to build all the capabilities that are enabling the intelligence to run, to be context aware and in a single environment. So wherever I am in era, there is a very clear thing which is you're one click away, one click away from understanding the logic, the source of the data, who's done what right. So the data has to be certified, the logic has to be accessible, and the explanation of does it work? Comes naturally because each recommendation, as I explained before, is tagged with expected outcome. So you'll see if it's working or not. If it's not working, you go and fix the logic or you go and fix the data. But the system doesn't lie. And by the way, all good. Sometimes you start a new skill and your adoption rate is low because the user are saying, it's not doing what I expect it to do. Great, fix it. So the math is the math, but it's the logical, right? And you start sometimes with a 40% acceptance and within a few weeks you end up at 80%. Most of most of the skills that have been built, they have, you know, 75, 80% acceptance, but they also move toward 90% plus. Automation. Automation is when you have enough confidence, enough trust that you can let the system run, but you have to monitor it in real time. You got to, it's back to the control room. You got to look at every day. As a manager, what is the impact of the work that ERA is doing with my people? What is the impact? Ground, cash cost, service level, carbon water, student retention, you name it, you look at those and that's how trust comes. It comes with results.",
+      "speaker": 0
+    },
+    {
+      "start": 2010.321,
+      "end": 2024.485,
+      "zh": "\"对啊，人们会不会先试着用ERA来模拟业务功能，而不是直接用它来做决策，只是看看它和人做决策的结果有什么不同？\"",
+      "en": "Yeah, I mean, do people pick up a business function and run ERA without adopting the decisions, but just running it virtually to see how different its outcomes are from the human decision making?",
+      "speaker": 1
+    },
+    {
+      "start": 2024.5849999999998,
+      "end": 2136.024,
+      "zh": "不不，我明白你的意思。你说的很有道理，但实际操作不是这样的，因为你需要人参与进来。可以人和系统一起工作。虽然可以同时运行两个系统，但这样就没什么价值了。我还没见过有客户这么做的。通常他们会选择一个有限的范围，我总是建议客户选择决策量大、复杂度中等的情况来开始，不要选择只有三个博士才能搞懂的超级复杂优化问题。选复杂度中等、多种选择、决策量大的情况来运行。这样你就能找到复杂度和决策量之间的平衡点。打个比方，在公司里工作时，你会对一切进行分类，客户、产品都分成A、B、C、D、X、Y、Z类。比如在消费品公司，大家都懂这是什么意思。因为这样可以把有限的决策能力用在影响最大的决策上。比如80%的人力放在A类产品上，20%放在B、C和D类产品上。数字化带来了无限的计算能力，我不在乎建议的影响是1分钱还是100万美元，我可以平等对待每个决策。要这样想，不是人和系统的对抗，而是人丰富系统，系统帮助人。这不仅仅是数学，而是互动决定了决策智能平台的成败。有时候会有点竞争，比如我们在做需求预测时，会对比ERA的预测和我们的预测。算法是一样的，我们的算法不比他们的好，随机森林就是这么工作的。有些细微差别，但从根本上说，从来不是比谁的数字更好，而是如何把人和机器结合起来，建立这种记忆。随着人做决策被机器支持，机器做决策由人指导，这是发展的方向。",
+      "en": "No, no, I understand the point. It's logical what you're saying, very logical, but it's not the way it works because you need the human in the loop or on the loop or out of the loop. You need the human to work with the system. I mean, you could run the two things in parallel, but then you don't have the value. So I can't recall any customer who's done that. What they do is they will take a limited scope and I always recommend customers to go with high volume of decisions, medium complexity, not trivial, not super complex optimization that only 3 PhD in a company understand. You go with medium complexity, several choices, high volume, and then you run it. So Ari, you can push in super complex, you can push in super, super heavy in terms of volume, kind of find the middle ground in complexity and high volume and you'll see people going like, oh, I'll give you an example at a very high level. If you think about the language that you use in a company and how you work, you look at classification of everything. You classify your customer segment, you classify your products. A, B, C, D, X, Y, Z. Those are. If you work for a CPG company, this is, everybody knows what it means. Why? Because it's a way to allocate the minimum, the, the, the limited amount of, of decision making power that you have on the decisions that have the most, the highest impact. I'm going to put 80% of my people on the A products, 20% on B, C and D. The long tail of products. We'll look at it once a year. Digital brings an unlimited compute power. I don't care if the impact of that recommendation is a cent or a million dollars. I can equally treat every decision. So you want to think about it that way. It's not a competition between people and system, it's people enriching the system and system helping people. So it's not just math, it's really that interaction that defines a decision intelligence platform. Is that what defines the success of a project? So we have always opposed now sometimes the fight, so to speak, the friendly fight is like hey, I'm doing a demand forecast. I'm going to look at ERA's forecast versus our forecast. Well, fine. The algorithms work the same way. Our algorithm is not better than theirs. The same math, it's the same logic. You know, a random forest is working. There's some subtilities in all subtleties and all of that but fundamentally it's never been a complete my number is better than yours. It's how do we bring that together to bring the humans and the machines and build that memory. And again from people making decisions supported by machines to machines making and executing decisions guided by people.",
+      "speaker": 0
+    },
+    {
+      "start": 2136.1240000000003,
+      "end": 2147.8970000000004,
+      "zh": "\"公司怎么衡量成功来证明继续投资的合理性？真正的决策优先的自动化企业是什么样的？你觉得我们什么时候能实现？\"",
+      "en": "How are companies measuring success to justified continued investment? And what does a truly decision first autonomous enterprise look like? And when do you think we'll arrive at that?",
+      "speaker": 1
+    },
+    {
+      "start": 2147.9970000000003,
+      "end": 2264.764,
+      "zh": "成功其实有两个层面，对吧？你要看每个决策的影响。比如我们开始一个项目时，可以逐个决策来看。有时候客户会反馈说，上周我们通过三个决策省了50万美元，否则看不到这些机会。在伦敦的会议上，AstraZeneca提到他们用ERA做临床试验，Sam Mulligan说这帮他们救了命，确实能救命，这都是有记录的。看着很有意思。你看ERA做的决策，让药物及时到达患者手中，否则就错过了。这是微观层面的，然后我们说，我们用ERA来减少浪费，看前后的变化就是这样。有时候系统不那么有用，那就继续前进。还有一个方面是，你现在可能关注网络优化、降低物流成本，培养这种能力，但优先级会变。你得不断调整系统，就像你期望员工调整优先级一样。所以不是说部署后测量就能永远运行，它是由人引导的。你问什么是真正的DI优先公司？我们开始看到一些了，市场在变化。这样的公司把决策智能放在价值链的中心，而不是只关注某个业务线或用例。客户为了灵活性和降低成本，很多公司外包整个功能给低成本运营商，这是一种方式，但你可以完全数字化，不需要低成本途径。这就是我说的DI优先，从头到尾考虑整个价值链。是的，这已经开始发生。我觉得agentic技术和LLM驱动的技术会加速采用，因为它解决了DI的一个难题，就是决策逻辑建模的难度。其他操作都简单，逻辑不简单。现在用基于LLM的agent来提示决策逻辑，会大大推动市场采用和发展。",
+      "en": "So success is measured at 2 level, right? You look at the impact of every individual decision. So the first time we look at a project, decision by decision I can look at. So when you start a project, you know, very often you get the feedback from the customer. Oh my God. Last week we had three decisions that enabled us to save $500,000 that we would not otherwise seen. At our conference in London, AstraZeneca mentioned the fact that hey as they're deploying ERA for clinical trials and our friend Sam Mulligan said it saved lives. We were able to to save lives. It's on the record. It's very interesting to watch. So you measure that decision that ERA was able to make in real time enabled the medicine to be in front of the patient at the right time, otherwise it would have been missed. So you look at this at the micro level if you want, but the next thing is you say, hey, we're deploying ERA to reduce the amount of waste that we generate. So very simple. You look at the before and after and that's how it works. And it doesn't work every time. There are situations where the system is not that helpful. Fine, move on. There's another element which is you can have a big focus today on network optimization, reducing logistic cost and you build the skill to do that. But then your priorities evolve. Now it's about something else. You have to continuously readjust the way the system works the same way you would expect your people to adjust their priorities. So it's not like I deploy it, I measure and it runs forever, guided by people. Comes back in the game and you ask the question about what is a truly DI first company? We're starting to see that, we're starting to see that again. The market is evolving. Well, it's a company that puts the decision intelligence agenda at the center of their value chain. Not looking at it from a specific line of business or a specific use case, so to speak. But start thinking about the optimization some of our clients in order to get agility and reduce cost. A lot of companies out there are just outsourcing full functions of their organization, planning claims to low cost operators which are. Which is the way they could do it, digitize that process. Instead you're creating that memory of data. You don't need that low cost approach because you can fully digitize it. So that's what I mean by DI first is thinking about end to end across the value chain. And yeah, it's really starting to happen. And I think that agentic technologies and LLM driven Hntki is going to really accelerate the adoption because it resolved one problem of di, which is it's quite hard to model the decision logic. The rest is easy, operating easy, but the logic. So the ability to leverage now LLM based agents to prompt that decision logic is going to drive massive adoption and unlock in the market.",
+      "speaker": 0
+    }
+  ],
+  "guests": [
+    {
+      "name": "Craig S. Smith",
+      "role": "Host (Eye on AI)",
+      "bio": "",
+      "twitter": ""
+    },
+    {
+      "name": "Fred Laluyaux",
+      "role": "CEO of Aera Technology",
+      "bio": "",
+      "twitter": ""
+    }
+  ],
+  "resources": [],
+  "summary": {
+    "zh": "播客探讨了如何通过决策智能推动企业效率提升和成本节约。AERA Technologies的创始人分享了从依赖人力的决策转向机器自主决策的愿景，以及agentic AI在其中的角色。他们通过实例展示了该技术如何帮助企业在复杂的决策环境中实现自动化。",
+    "en": "The podcast discusses how decision intelligence boosts business efficiency and cost savings. AERA Technologies' founder shares the vision of shifting from human-dependent to machine-autonomous decision-making, highlighting the role of agentic AI. Real-world examples illustrate how this technology aids businesses in automating complex decision environments."
+  },
+  "keyPoints": [
+    {
+      "title": "决策智能：从人力转向机器自主",
+      "highlights": [
+        "经济数字化推动商业周期加速和消费化",
+        "企业必须考虑决策对价值链的影响",
+        "机器在人的指导下实现自主决策"
+      ],
+      "startAt": 120
+    },
+    {
+      "title": "决策智能与agentic AI的结合",
+      "highlights": [
+        "决策智能利用agentic AI实现决策数字化",
+        "需解决数据、智能、自动化和参与四大问题",
+        "LLMs处理非结构化数据的能力尤为重要"
+      ],
+      "startAt": 280
+    },
+    {
+      "title": "企业采用决策智能的挑战与机遇",
+      "highlights": [
+        "很多公司投入决策智能，但进展缓慢",
+        "高管层面压力推动技术应用",
+        "生成式AI的出现促进市场需求"
+      ],
+      "startAt": 1600
+    },
+    {
+      "title": "信任来源于数据认证与透明逻辑",
+      "highlights": [
+        "数据须认证，逻辑须透明才能建立信任",
+        "预期结果标签帮助衡量效果",
+        "信任来自于可见的结果与持续优化"
+      ],
+      "startAt": 2150
+    }
+  ]
+}

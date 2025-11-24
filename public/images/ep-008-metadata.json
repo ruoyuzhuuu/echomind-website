@@ -1,0 +1,19 @@
+{
+  "episode_id": "ep-008",
+  "title_cn": "注意力机制解析",
+  "title_en": "Understanding Attention",
+  "tags": [
+    "深度学习",
+    "Transformer",
+    "AI"
+  ],
+  "style": "tech",
+  "original_prompt": "Create a podcast cover image for an episode titled \"注意力机制解析\" (English: Understanding Attention).\n\nTheme: 深度学习, Transformer, AI\n\nStyle: futuristic tech style with circuit patterns and digital elements, vibrant gradients, modern and sleek\n\nRequirements:\n- Abstract and artistic, not photo-realistic\n- No text, no words, no letters on the image\n- Size: 1024x1024 square\n- Visual elements should represent the theme: 深度学习, Transformer, AI\n- Use modern design principles\n- Suitable for a knowledge/technology podcast\n- Professional and polished\n",
+  "revised_prompt": "Create a 1024x1024 pixel square image ideal for a podcast cover. The style should be modern and sleek, encompassing vibrant gradients and futuristic tech elements such as abstract circuit patterns and digital designs. The visual representations should reflect the themes of Deep Learning, Transformers, and Artificial Intelligence. It should contain no text. The design should be abstract and artistic, not photo realistic, within the domain of modern design principles. The finished product should embody professionalism and shine, making it appropriate for a knowledge or technology-focused podcast.",
+  "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hp6plmkiUiooM8P5tmOhGy8k/user-2TDhAY2wGCL1HGN6mntYx2qc/img-8YdVPgOoCiDSPR5xaTOtTFtA.png?st=2025-11-15T10%3A39%3A29Z&se=2025-11-15T12%3A39%3A29Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=ed3ea2f9-5e38-44be-9a1b-7c1e65e4d54f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-11-15T10%3A07%3A22Z&ske=2025-11-16T10%3A07%3A22Z&sks=b&skv=2024-08-04&sig=C3KyHM7XefqmYE1eSGzk0FP3aMiQcScl36rcjaBAHoY%3D",
+  "generation_params": {
+    "model": "dall-e-3",
+    "size": "1024x1024",
+    "quality": "standard"
+  }
+}

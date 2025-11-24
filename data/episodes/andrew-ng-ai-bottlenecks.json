@@ -1,0 +1,955 @@
+{
+  "id": "andrew-ng-ai-bottlenecks",
+  "titleCn": "AI 的最大瓶颈、LLM 的地缘博弈价值，以及在 AI 里Margin是否还重要？",
+  "titleEn": "The Biggest Bottlenecks in AI, How LLMs Can Be Used as a Geopolitical Weapon & Do Margins Matter in a World of AI?",
+  "originalUrl": "https://www.thetwentyminutevc.com/andrew-ng",
+  "date": "2025-11-17",
+  "duration": 3306,
+  "tags": [
+    "AI",
+    "LLM",
+    "Geopolitics",
+    "Machine Learning",
+    "Andrew Ng",
+    "Technology"
+  ],
+  "cover": "/images/andrew-ng-ai-bottlenecks.jpg",
+  "audioUrl": "/audio/andrew-ng-ai-bottlenecks.mp3",
+  "chapters": [
+    {
+      "title": "AI行业关键瓶颈",
+      "start": 0
+    },
+    {
+      "title": "半导体与计算需求",
+      "start": 180
+    },
+    {
+      "title": "AI编程助手的现状",
+      "start": 374
+    },
+    {
+      "title": "人才与教育挑战",
+      "start": 806
+    },
+    {
+      "title": "监管与地缘政治",
+      "start": 1063
+    },
+    {
+      "title": "企业AI应用与投资",
+      "start": 2007
+    },
+    {
+      "title": "AI技术与未来展望",
+      "start": 2542
+    },
+    {
+      "title": "个人经历与行业观察",
+      "start": 2880
+    },
+    {
+      "title": "投资策略与社会影响",
+      "start": 2981
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 56.971,
+      "zh": "欢迎来到EchoMind回声思维。\n\n您现在收听的这期播客，是对原英文博客基于 AI 技术生成的中文版本。我们不仅搬运优质内容，还保留原汁原味的嘉宾音色。\n\n我是Lorraine，在互联网大厂从事数据科学，同时也是一名 AI 爱好者。\n\n在本期中，我们将带你探讨AI领域的关键瓶颈，从数据、计算能力到算法，这三者究竟哪个才是真正的限制因素？特别是Andrew Ng指出，数据中心作为数字经济的基石，面临着电力短缺的问题，这在西方国家尤为严重，而中国则在快速建设包括核电在内的电力基础设施。此外，开放式模型如何成为地缘政治影响力的巨大来源，也是本次讨论的亮点之一。通过深入分析这些问题，我们将揭示背后的复杂动态和未来趋势。\n\n\n\n好，让我们开始吧。",
+      "en": "[Intro]",
+      "speaker": -1
+    },
+    {
+      "start": 56.971,
+      "end": 63.623999999999995,
+      "zh": "\"在我AI工作的职业生涯中，我还没遇到过觉得计算力够用的人。\"",
+      "en": "In my career working in AI, I have yet to meet a single person that ever felt like they had enough compute.",
+      "speaker": 0
+    },
+    {
+      "start": 63.724,
+      "end": 70.586,
+      "zh": "我觉得没有比Andrew Ng更合适的嘉宾了，他可是全球知名的AI领军人物。",
+      "en": "I could not ask for a better guest. Andrew Ng, globally recognized leader in AI.",
+      "speaker": 1
+    },
+    {
+      "start": 70.68599999999999,
+      "end": 88.271,
+      "zh": "\"数据中心是数字经济的关键基础设施。我觉得开放模型是一个巨大的地缘政治影响力来源。中国政府一旦做出全国承诺，就是全产业的投入。这股力量真的很强大，我不会低估它。\"",
+      "en": "Data centers are the critical infrastructure for building the digital economy. I think that open way models is a tremendous source of geopolitical influence. The work ethic, the velocity. When China's government makes an all nation commitment, it's an all industrial commitment. That's actually a very powerful force that I wouldn't underestimate.",
+      "speaker": 0
+    },
+    {
+      "start": 88.371,
+      "end": 96.765,
+      "zh": "\"准备好了。Andrew，我一直都很佩服你，所以特别期待这次对话。谢谢你今天来参加。\"",
+      "en": "Ready to go. Andrew, I've been an admirer for a long time, so I've been really looking forward to making this happen. So thank you so much for joining me today.",
+      "speaker": 1
+    },
+    {
+      "start": 96.86500000000001,
+      "end": 107.36,
+      "zh": "\"谢谢你，Harry。我看了你不少节目，尤其是最近和我朋友Martin Casado的那期，印象深刻。所以我很高兴能来这儿。\"",
+      "en": "Now. Yeah, thank you Harry. Watch a bunch of shows. I really enjoyed your recent one with my friend Martin, Martin Casado as well. That was very memorable. So actually thrilled to be here.",
+      "speaker": 0
+    },
+    {
+      "start": 107.46000000000001,
+      "end": 129.007,
+      "zh": "\"我很喜欢Martin，他真是个特别的人。我想从你之前说过的一句话开始。你说AI是新的电力。当我想到电力和我们今天的状况，我想了解瓶颈在哪里。大家似乎都认为关键在于数据、算力和算法。这是我们该考虑的三个瓶颈吗？如果是的话，你觉得哪个是最大的瓶颈呢？\"",
+      "en": "I love Martin. Very, very special man. I want to start with something that you've said before. You said AI is the new electricity. And when I think about electricity and where we are today, I want to understand the bottlenecks. And everyone seems to suggest that it really is about data, compute and algorithms. Is that the three parameters to which we should think about bottlenecks and if so, which one do you think is the biggest bottleneck?",
+      "speaker": 1
+    },
+    {
+      "start": 129.107,
+      "end": 179.994,
+      "zh": "我觉得现在最大的两个瓶颈可能是电力。在美国，我真的有点担心很多数据中心运营商卡在审批阶段。我知道当地社区的支持很重要，有些人不希望数据中心建在那儿。但就像我们为某个时代修建道路和铁路作为基础设施一样，数据中心是建设数字经济的关键基础设施。所以美国和一些西方国家的电力不足是个问题。相比之下，我看到中国到处都在建电厂，包括核电站。这会形成一个有趣的动态。然后是半导体，这也是个瓶颈。但AI太复杂了，我觉得我们还需要更多的数据和更好的算法。这些都值得去努力。但短期内，电力和半导体的限制是个挑战。",
+      "en": "I would say the two biggest bottlenecks right now it may be, I think, electric. So in the us I am honestly worried that many data center operators were stuck in kind of permitting. And I know that local community support is important and some people don't want a data center there. But once we build roads and railways as the infrastructure for a certain generation, data centers are the critical infrastructure for building the digital economy. And so lack of electricity in America and in a number of Western countries is a problem. And in contrast, I see China building power plants left and right, right, including nuclear. So that would be an interesting dynamic. And then semiconductors is another bottleneck. But AI is so complicated. I think we also need more data, we also need more better algorithms. All of it is worth working on. But in the short term, some constraints of electricity and semiconductors.",
+      "speaker": 0
+    },
+    {
+      "start": 180.09400000000002,
+      "end": 186.95600000000002,
+      "zh": "\"你能跟我聊聊半导体方面的限制吗？那些大多数人没注意到但很紧迫的问题是什么？\"",
+      "en": "Can you talk to me about the constraints around semiconductors that you think are most pressing that most people don't realize?",
+      "speaker": 1
+    },
+    {
+      "start": 187.056,
+      "end": 241.615,
+      "zh": "首先，在我AI领域的工作生涯中，我还没见过哪个AI从业者觉得算力够用。所以不管给我们多少算力，我们都会用完，然后说不够用。这是过去20年的限制。但我看到随着生成式AI的兴起，有些工作负载特别有价值。比如，AI辅助编程就很棒，提升了我们的生产力。但如果你用云端代码用多了，有时候会受限。我发现很多公司真的需求过剩，这其实挺少见的。但太多人想要更多推理能力、更多生成的tokens，而我们没有足够的半导体、数据中心和电力来满足需求。我们能用AI生成很多东西，但供应端跟不上，让需要的人拿不到，挺让人沮丧的。使用过多的话，需求端就会受限。",
+      "en": "First, in my career working in AI, I have yet to meet a single AI person that ever felt like they had enough compute. So get us any amount of compute, we will use it all up and say we still don't have enough. So this is a constraint for the last 20 years or so. But what I'M seeing is with the rise of Genai, there are very valuable workloads. For example, AI assisted coding is fantastic. It's making us so much more productive. But if you use cloud code enough, sometimes you get very limited. And I find that many companies really have excess demand, which is a very rare problem to have. But so many people want more om inference, want more tokens generated and we just don't have the semiconductors and the data centers and electricity to meet the demand. But there's a lot we could do with AI token generation and it's frustrating when on the supply side we can't supply enough to people that want it. On the demand side, you get very limited if you use too much.",
+      "speaker": 0
+    },
+    {
+      "start": 241.715,
+      "end": 257.539,
+      "zh": "我该怎么理解对算力的无止境需求，以及由此带来的进步呢？很多人说，像GPT-5就是个例子，扩展法则已经到了一定程度，现在要转向效率了。面对这些看似不同的观点，我该怎么权衡呢？",
+      "en": "How should I think about that insatiable need for more compute and the improvements that come from it? With the recognition that many people say GPT5 was the example, that scaling laws have been reached to a certain extent and a focus on efficiency has been a transition. How should I balance this? To seemingly differing opinions.",
+      "speaker": 1
+    },
+    {
+      "start": 257.639,
+      "end": 374.838,
+      "zh": "所以，确实生成tokens的效率和成本都在下降。其实，如果你看OpenAI的开源权重模型，他们确实发布了一些运行效率很高的模型。我记得有个模型是1200亿参数，活跃的是57亿，好像是这样。所以这个模型运行起来很高效。但尽管生成tokens的成本在降低，我们对它的需求还是无止境的。有趣的是，在AI领域，我们可以看到价值的几个大方向。其中一个大方向就是AI辅助编程。我觉得这让人联想到早些年的情况。以前，像Google在横向信息发现上占据了主导，比如网络搜索。但当互联网刚兴起的时候，还有很多垂直领域有空间发展。所以我们有了Travelocity和Expedia这种旅行网站，零售、运输、社交媒体等领域也有很多竞争者。现在我们看到的是，ChatGPT在新的横向信息发现领域有很强的品牌效应。ChatGPT似乎是这个领域的主导者，而Gemini通过掌控Android和Chrome也成了一个有力的竞争者。如果横向信息是这样的话，那么在很多垂直领域还有很大发展空间。其中一个真正有价值的垂直领域就是AI编程助手，比如云端代码。我每天都用，特别喜欢。OpenAI的Codecs也势头很强劲，明显让开发者更高效，所以对这种工具的需求非常旺盛。让我感到兴奋的是，我常把AI编程助手看作其他工作领域可能发生变化的先兆。随着AI营销工具、AI招聘工具、AI财务工具变得更高效，我觉得AI编程助手可能预示着其他行业也会有类似的变化。",
+      "en": "So it is true that token generation is getting more efficient and cheaper. In fact, if you look at OpenAI's open weight model, they actually release models that are very efficient to run. So I think they did a good job with. Was it like 120, 120 billion parameters or something with I think 5.7 billion active. So it's a very efficient model to run. But despite the cost of token generation falling, our demand for it is insatiable. One interesting thing that's happened in AI is if we look at where the buckets of value. One of the big buckets of value is AI assisted coding. And I think this harkens back to an earlier era. In a previous generation, I think Google came to dominate horizontal information discovery like web search. But there's room for lots of verticals when the Internet was being built. So we wound up with Travelocity and Expedia Forte for travel. Bunch of folks fought out in retail, a bunch of others fought out in transportation, social media and so on. What we're seeing now is ChatGPT has such a strong consumer brand. ChatGPT seems to be the dominant player in the new gen horizontal information discovery, or I think Gemini with its channel advantage through control of Android and Chrome is a serious player as well. But if that's where horizontal information turns out to be, then there's still plenty of room for lots of verticals to be built out of the clear buckets of really valuable verticals. Is AI coding assistance where cloud code is? You know, I use that every day. Love it. OpenAI codecs has a lot of momentum as well, but it's clearly making developers so much more productive and efficient that the demand is just through the roof for let's use more and more of this. One thing I find exciting is I often look at AI coding assistance as a harbinger for what might happen to other job functions as well as as the AI marketing tools become more efficient, as the AI recruiting tools become more efficient, AI finance tools become more efficient. So I often look at AI coding assistance as maybe a foreshadowing what may happen as well to other sectors as the tools get better for them too.",
+      "speaker": 0
+    },
+    {
+      "start": 374.938,
+      "end": 391.784,
+      "zh": "\"我最近请到了Cohere的Joel Pinault，她之前在Facebook工作。她说AI编程助手现在的状态可能就像2016、2017年的图像生成技术。你觉得这个比喻合适吗？还是说你有不同看法？\"",
+      "en": "I had Joel Pinault from Cohere and formerly of Facebook on the show recently and she said that AI coding assistants are in the same place that maybe image generation was in 2016, 2017. In terms of maturity, do you think that's a fair state of the environment today or do you not think so?",
+      "speaker": 1
+    },
+    {
+      "start": 391.884,
+      "end": 418.111,
+      "zh": "我不知道。我觉得AI编程助手比2016年的图像生成技术更成熟。当时的图像生成技术并不特别有价值，我记得那时没那么重要。但现在，AI编程助手真的很有用。在AI Fund，我的工程主管Risi总说，我们得统一工具。他基本上表示，这些工具是他必不可少的，要他放弃简直不可能。",
+      "en": "I don't know. I think it's further along. I think in 2016 image generation wasn't super valuable. I don't remember it being that valuable back then. But I think today AI coding assistance is really actually at AI Fund my head of engineering, Risi, I say hey, let's think about standardizing on tools. And basically he said, you know, I need these tools and you have to pry them out of my cold dead hands.",
+      "speaker": 0
+    },
+    {
+      "start": 418.211,
+      "end": 419.059,
+      "zh": "\"对啊。\"",
+      "en": "Right.",
+      "speaker": 1
+    },
+    {
+      "start": 419.159,
+      "end": 432.76599999999996,
+      "zh": "\"我觉得我们的开发者对这些工具感受很深。我自己也是，再也不想不用AI编程助手来写代码了。我觉得这些工具现在已经很好用了，但还有很大的提升空间。\"",
+      "en": "I think our developers feel really strongly. I myself I don't ever want to have to code again with our AI coding assistance. I think the tools are really working well, but still with a lot of headroom for how much better it can get.",
+      "speaker": 0
+    },
+    {
+      "start": 432.866,
+      "end": 443.954,
+      "zh": "\"我想回到我们之前说的核心瓶颈，比如电力和半导体。你觉得从基础设施的角度看，特朗普对美国AI的发展是帮了忙，还是拖了后腿？\"",
+      "en": "I do just want to go back to the kind of the core bottlenecks we said there about electricity and we said there about semiconductors. Yeah. I think when we look at the build out of data centers today, as you said, regulation has been a big part of preventing that in a lot of ways. Do you think Trump has done more to help or to hurt the progression of AI in the United States from an infrastructure perspective?",
+      "speaker": 1
+    },
+    {
+      "start": 444.054,
+      "end": 525.361,
+      "zh": "过去几年，美国联邦政府有些举措挺不错，但也有些不太给力。我觉得，清理不必要的法规是个好举动。去年，两党合作的舒默AI洞察论坛，很多人游说政府通过一些限制性的法规。很多关于AI安全的夸张说法，比如AI会导致人类灭绝，我觉得这有点荒谬，常常是为了推动那些反竞争的法规，想要打压开源项目。幸好，我们挡住了不少这样的尝试。我觉得舒默洞察论坛做得不错，他们深入了解后得出结论，美国应该投资AI，而不是通过不必要的法规来拖慢进程。我认为特朗普和他的团队，比如David Sacks和Christian，清理不必要法规做得很好。\n\n另一方面，美国的一个巨大竞争优势就是吸引人才的能力，不仅是高技能人才，还有那些可能现在还不是高技能，但未来可能会成为高技能的人才。所以，如果美国不太重视吸引人才，那就是个失误。最后，我觉得对科学的投资很重要。帮助我们的高等教育机构有资源培训研究生，投资科学和技术，这真的很宝贵。所以，任何伤害到这一点的事情都是很不幸的。",
+      "en": "Over the last few years the US Federal government has done some good things and some less helpful things. I feel like clearing out unnecessary regulations has been a very good move. Even last year, the bipartisan Schumer AI Insight Forum, I think there are a lot of people lobbying the US Government to pass siphoning regulations. There are a lot of hyped up AI safety narrative saying AI could lead to human extinction, which I think is kind of a ridiculous statement to try to get stifling anti competitive Regulations passed often to try to shut down open source open weight. Fortunately, we've beat back a lot of that. But I think the bipartisan Schumer Insight Forum did a really good job digging the truth and concluding that America should be investing in AI rather than passing unnecessary regulations to slow it down. I think Trump did a good job and then his whole team, David Sacks and Christian and so on, did a good job clearing out unnecessary regulations. On the flip side, one of America's huge competitive advantages has been this ability to attract talent, including high skill talent as well as frankly, young talent that may not currently be high skill, but could be high skill in the future. And so I think to the extent that America is not investing as much in attracting talent, I think that would be an unforced error. And then I think lastly investments in science. I think helping our institutions of higher education have the resources to train our grad students to invest in science and technology, I think that's really precious. And so anything that damages that I think would also be very unfortunate.",
+      "speaker": 0
+    },
+    {
+      "start": 525.4609999999999,
+      "end": 532.5429999999999,
+      "zh": "\"如果我给你一根法规魔杖，Andrew，你会改变什么，才能带来最大影响呢？\"",
+      "en": "If I gave you a regulatory magic wand, Andrew, what would you change that would have the most significant needle moving impact?",
+      "speaker": 1
+    },
+    {
+      "start": 532.6429999999999,
+      "end": 587.598,
+      "zh": "美国很幸运，有很多聪明的人愿意来这里解决非常有挑战性的问题。我们的很多诺贝尔奖得主都是移民。爱因斯坦就是个例子，他也是移民。我觉得，继续把美国打造成一个吸引优秀人才的地方，在一个尊重法治的民主国家里共同工作，这对我们的发展很有帮助。我认为确保半导体供应链也非常重要。我有很多台湾的朋友，我很喜欢台湾。而且美国对台积电的依赖也让人担心，以防万一发生什么事情。还有一件挺有趣的事，最近有个皮尤研究显示，美国人对AI的态度，有多少人觉得AI对他们有好处，充满热情，和那些不那么热情的人相比。虽然很多AI技术是在美国发明的，但很多人却不信任或不喜欢AI。",
+      "en": "America is fortunate to have a lot of very smart people wanting to come here to do really challenging, really tough problems. Many of our Nobel laureates are immigrants. Einstein Kanaka example, was an immigrant. I think continuing to cultivate America as a place to attract great talent to work together in a place in a democratic nation that respects the rule of law, I think that would help us move ahead. I think that securing the semiconductor supply chain would be very valuable as well. A lot of friends in Taiwan. I love Taiwan. And also America's dependency on TSMC is concerning in case anything happens. And then I think making, frankly there's one very funny thing that happened in society, which is there was recently a Pew report showing I think how much Americans think AI would be good for them, enthusiastic for it versus non enthusiastic. And even though a lot of AI technologies were invented in America, a lot of people don't trust or don't like AI.",
+      "speaker": 0
+    },
+    {
+      "start": 587.698,
+      "end": 615.689,
+      "zh": "我很享受我的工作，Andrew，因为我可以和很多厉害的人交流，然后对比他们的观点。Sequoia的David Kahn说，一个衡量AI效果的好方法是看能不能替代掉表现最差的5%员工。Cohere的Joel则说，这不靠谱，真正的问题是能不能把人的能力提高10倍，别管那5%。所以，你觉得在AI的帮助下，如何衡量员工的成功呢？",
+      "en": "The joys of what I do, Andrew, is I get to speak to incredible people and then kind of cross reference what they say. David Kahn from Sequoia said, hey, a really useful barometer for effectiveness is can AI replace the bottom 5% of capabilities of what workforce does? Joel from Cohere said, no, that's crap. The real question is can it 10x people's ability? Forget the bottom 5%. Can it 10x how do you think about a barometer for success of the workforce with AI with those in mind.",
+      "speaker": 1
+    },
+    {
+      "start": 615.789,
+      "end": 659.764,
+      "zh": "在软件工程方面，AI加速了代码编写。以前需要六个工程师花半年时间完成的项目，现在我或者我的一个工程师一个周末就能搞定。我希望我们再也不用回到没有AI助手写代码的时代，因为这种加速和生产力的提升实在太惊人了。比如有个周末，我想给我女儿做点东西。我女儿想练习数学运算，需要一些卡片。我想我可以开车去店里买一堆卡片，也可以用AI帮我写代码生成并打印一堆卡片。所以我选择了后者。这虽然是个经济价值不高的任务，但AI辅助编程能很快搞定。",
+      "en": "In the case of software engineering, it is accelerating the writing of code. There are so many projects that used to take six engineers half a year to build that today I or one of my engineers can build in a weekend. I hope that we never have to go back to coding with our AI assistants again, because the acceleration, the productivity boost, is incredible. For example, one weekend I thought, oh, I want to my daughter. I wanted flashcards for my daughter to practice modification. She wanted to practice modification, she wanted flashcards. So I thought I could either drive to the store and buy a bunch of flashcards for her, or I could just use AI to write code for me to generate and print out a bunch of flashcards. And so I did the latter. And so this is a very low economic value task. Both AI systemic coding could get that done very quickly.",
+      "speaker": 0
+    },
+    {
+      "start": 659.864,
+      "end": 671.938,
+      "zh": "你觉得这种“感受编程”会是个长期的市场吗？你觉得人人都会想学编程、让编程更容易很重要，还是说它只是让开发者能更好更高效地工作呢？",
+      "en": "Do you think vibe coding is an enduring market? Do you think everyone will want to code and accessibility is important, or do you think it bluntly just allows builders to build better and more efficiently?",
+      "speaker": 1
+    },
+    {
+      "start": 672.038,
+      "end": 738.009,
+      "zh": "我觉得这两者都需要。我对“编程体验”这个词有点复杂的感觉，不过抠字眼就算了，我觉得大家都应该学会编程。我发现很多不是软件工程师的工作岗位，如果会编程，效率会比不会编程的人高。比如说，我的一个市场人员想做用户调查，她需要一个能让人即时反馈的东西。她在应用商店找了一圈，没找到合适的。于是她决定自己花两天时间写代码。结果她真的花了两天，做了个小的移动应用，让用户可以左右滑动来对一些我们想测试的营销信息进行反馈。这样我们就能做用户实验，得到反馈，帮助她更好地做好市场工作。相反，如果一个市场人员不会编程，就没法做这个应用，也就拿不到反馈，更没法推进工作。现在，我最优秀的招聘人员不仅手动筛选简历，他们还会写提示词让AI帮忙筛选。这个变化很有趣，真是了不起。",
+      "en": "I think we need all of the above. I've had mixed feelings about the term vive coding, but nitpicking terminology aside, I think everyone should learn to code. What I'm seeing is for a lot of job roles that aren't just software engineering, people that can code can get more done than people that can't code. For example, I think my marketer wanted to run a user survey once and she wanted something for people to give live feedback. And she looked the app store, couldn't find anything. So she said, you know what? I'm going to spend two days to code up. It took two days, but my market error then build a little mobile app where users could swipe, you know, left or right to give feedback on some marketing messages we want to use to test. And because of that, we're able to run user experiments, get feedback, and so help her do her job better as a marketer. Whereas in contrast, a marketer that could include a little app to let people swipe around and give feedback, they would just not have been able to do this, would not have gotten feedback, would not have been to move forward. Today, my best recruiters, not only do they screen resumes by hand, they are writing prompts to get AI to help them screen resumes. And it's been interesting, which is amazing.",
+      "speaker": 0
+    },
+    {
+      "start": 738.109,
+      "end": 756.272,
+      "zh": "\"但是说到你刚才提到的，人们不应该害怕，可他们确实害怕。因为这会带来效率的提升，也就是说人员减少。如果你能用AI筛选更多东西，我其实不想散播恐慌，但如果AI能筛选更多，我就不需要另外三个分析师了。\"",
+      "en": "But going to your point on, oh, people shouldn't be fearful, and they are fearful, you see that that would lead to efficiency gains, which mean headcount reductions. If you can screen so much more with AI, I'm not into this kind of fear mongering, but if you can screen a lot more with AI, I don't need my three other analysts.",
+      "speaker": 1
+    },
+    {
+      "start": 756.3720000000001,
+      "end": 806.3950000000001,
+      "zh": "我觉得有一小部分的工作确实有点麻烦。但对于大多数知识工作者来说，其实，关于这个热潮，有一点要说，AI很厉害，但还有很多做不了的事情。那个什么终极AGI能做到人类所有事情的幻想，我觉得还很遥远，可能要几十年，甚至更久。关键是，如果AI能做招聘工作30%的事，谁知道呢，可能50%，虽然我觉得有点高。剩下的50%到70%还是得靠人去做。但很明显，如果你用了AI，而别人没用，那你能做到的事情差距就非常大。所以用AI肯定更好。但因为AI不能做所有事，很多工作还是需要人去做。",
+      "en": "I think there's a small subset of jobs that frankly are in trouble. But I think for the vast majority of knowledge workers, actually, here's one thing about hype. AI is amazing. There's a lot of stuff it can't do. So this phantom AGI someday web AI to do everything a human can do, I think we're very far away from that. I'll say decades away, maybe even longer. And the trick is, if AI could do 30% of a recruiter's job, who knows, maybe 50%, although that feels a little bit high. There's another 50 to 70% of stuff that we still need the human to do. But it's also clear that if you use AI and someone doesn't, that's actually a huge difference in what you can accomplish. So much better off using AI. But because AI can't do everything, there's still plenty of work that we still need humans to do for a lot of job roles.",
+      "speaker": 0
+    },
+    {
+      "start": 806.4950000000001,
+      "end": 831.8580000000002,
+      "zh": "\"你不觉得我们有白领人才储备的问题吗？比如说，无论是咨询师还是初级律师，很多他们能做的事情都被AI取代了，现在真的在裁掉这些初级职位。这种情况到处都是。大家担心的是，十年后，我们会有个人才断层，因为我们用AI替代了这些初级岗位，没有新人可以晋升为高级职位。\"",
+      "en": "Do you not think we have a white collar talent pipeline problem though? Which is whether you're a consultant or you're a legal associate in the junior ranks, a lot of what you can do is being replaced by AI and they are actually cutting juniors. You're seeing this across the board. And so what's the fear is we're going to have this talent hole where in 10 years time there's no juniors to go up into seniors because we've replaced them.",
+      "speaker": 1
+    },
+    {
+      "start": 831.9580000000001,
+      "end": 920.1770000000001,
+      "zh": "我觉得没那么严重。确实有问题，但不是你说的那种。让我说说我在软件工程领域看到的情况，我认识的最有生产力的工程师，不是刚毕业的大学生，而是那些有十年、二十年经验的人，他们很懂AI，也会用AI工具。这些有经验又懂AI的人，速度快得惊人，远超一两年前的水平。再下一层是那些刚毕业但很懂AI的大学生。我招了很多这样的人，他们通过社交网络或社区学会用AI工具，速度也很快，但还比不上那些有经验的人。再下一层就是那些有十年编程经验，但还在用2022年ChatGPT之前的老方法的人。我现在已经不再招这样的人了。有些人就安于现状，不去学AI，可能以后会遇到麻烦。还有一层就是那些刚毕业但不懂AI的学生。比较遗憾的是，大学课程更新得慢。今天还有计算机专业的毕业生从来没用过网络上的API，甚至不知道云计算是什么。这就像，你怎么能是计算机专业却不知道怎么用云？我觉得我们不能再培养不懂AI的计算机专业学生了，他们在进入职场时会很吃力。但那些懂AI的刚毕业生，我们根本找不够，很多公司都想招他们。",
+      "en": "Yeah, I don't think it's as dire as that. I think there is a big problem, but I don't think it's exactly that problem. So let me tell you what I'm seeing in software engineering, the most productive engineers I know, they're not fresh college grads. They are people of 10, 20 years of experience or whatever and really on top of AI and know the AI tools and understand AI. So those people experienced and on top of AI move faster than anything the world has seen even one or two years ago. One tier down is actually a fresh Carlos Grant that are really on top of AI. So I've hired quite a few people, fresh college grads that for whatever reason, through the social network community, really learn the AI tools and they move really fast, but they're not as good as people experience that. No AI. One tier down from the fresh college grads is the people with 10 years of coding experience but who had A comfortable job and for whatever reason is still coding like it's 2022 before ChatGPT. Those people, I just don't hire people like that anymore. But there are people that did a comfortable job, they kept coding the old way and they just did not learn AI. I think those people may get into trouble at some point. But there's one other one which is the tier that is in trouble, which is the fresh car Strats that don't know AI. One unfortunate thing is university curricula is slow to change. And so I actually feel pretty bad that even today there are universities graduating CS undergrads that have not made a single call to a single API on the Internet. Imagine graduating a CS undergrad that has never heard of cloud computing. It's like, what is the cloud? Oh, I don't need to just run things. That's weird. You just can't be a CS major and not know how to do things in the cloud. And I feel like I'm getting to the point where I don't think it's right. I feel like we've got to not train CS majors without also making sure they know how to use AI to help them with coding, without also making them know the AI building blocks but university curriculum. And that's the cohort of students that entering the job market that's really struggling. But the fresh college grads know AI. We can't find enough of them. So many businesses love to hire those fresh college grads.",
+      "speaker": 0
+    },
+    {
+      "start": 920.277,
+      "end": 940.96,
+      "zh": "\"我想聊聊你提到的那些10倍、100倍的牛人工程师，他们真的很厉害。我们看到他们的薪资涨到了前所未有的水平。有些工程师的薪酬甚至能达到35亿美元。这样的薪资水平合理吗？因为他们对公司价值的影响这么大，还是说这是一种泡沫，让人担心呢？\"",
+      "en": "I just want to touch on the 10x100x engineers that you said are just amazing. Amazing. We're seeing pay packets, compensation brands larger than they've ever been. $3.5 billion in certain cases for a single engineer. Are these justified pay packages given the impact that they are having on companies enterprise value, or is this bubble like pay packages that we should be concerned by?",
+      "speaker": 1
+    },
+    {
+      "start": 941.0600000000001,
+      "end": 955.1310000000001,
+      "zh": "\"我也不太清楚。这确实很难说。我知道有些人拿到了非常高的薪水。我其实为他们感到高兴。我觉得挺好的，资金投入到AI人才上，这真不错。\"",
+      "en": "I don't know. It is very hard to say. I know a number of people that have gotten really huge pay packages. I'm actually very happy for them. I think it's great, the funding going into, you know, pay AI people really. Well.",
+      "speaker": 0
+    },
+    {
+      "start": 955.2310000000001,
+      "end": 968.1060000000001,
+      "zh": "我是说，工程师值一亿美元吗？我担心这样反而不会那么高效。比如，我要是突然给你一亿美元，你可能会买个好房子，去度假，然后效率就下降了。",
+      "en": "I mean it nicely. Do you think it's $100 million for an engineer? I worry that you're just not going to be as productive. Like if I give you $100 million overnight, God, you might buy a nice house and go on holiday and, you know, you lose a bit of efficiency.",
+      "speaker": 1
+    },
+    {
+      "start": 968.2060000000001,
+      "end": 992.4170000000001,
+      "zh": "\"我不知道。我有很多硅谷的朋友，他们因为各种原因赚了点钱。很多人还是像以前一样努力工作，赚到钱前后都一样。所以我觉得在科技圈，大家做事情是因为觉得有意思，希望能帮助别人，改变世界。我发现财富让人变懒的情况比想象中少得多。\"",
+      "en": "I don't know. I have a lot of Silicon Valley friends that, you know, for whatever reason have made a little bit of money. Many of them just keep working really really hard but equally before and after they wound up making a little bit of money. So I find that a lot of the tech culture, we do stuff because it's fun, because it lets us hopefully help other people is a way to change the world. I find that wealth makes people become lazy much less than one might guess.",
+      "speaker": 0
+    },
+    {
+      "start": 992.5170000000002,
+      "end": 1021.3000000000002,
+      "zh": "我很好奇你怎么看这个问题。你刚提到AI对各个领域的影响，还有我们可能对末日场景有点过度夸张。Andrej Karpathy 最近说，AGI 可能只是让 GDP 增长2%，我觉得听起来有点平淡。Andrew，我本来期待的是生产力有个大的飞跃。你觉得真的是2%的增长，还是像软银的孙正义那样，期待更显著的5%、6%的增长呢？",
+      "en": "I'm intrigued to see how you think about this. You said all the different ways that it could impact many different verticals there and you said we overhype doomsday scenarios and everything in Andrej Karpathy recently said AGI will just blend into 2% GDP growth, which I thought sounded a little bit unexciting to be honest. Andrew, I wanted some seismic shift in productivity increase. Do you think a blend into 2% GDP growth is what you expect or do you expect a much more significant 5, 6% like Massasan at Softbank expects?",
+      "speaker": 1
+    },
+    {
+      "start": 1021.4000000000002,
+      "end": 1063.5030000000002,
+      "zh": "\"我希望未来能实现5%、6%甚至更高的GDP增长。其实，现在最贵的东西之一就是智慧。这也是为什么在美国，聘请一个高技能的医生或者老师这么贵，因为培养出这样有智慧的人才成本很高。但是有了AI，我们终于有办法把智慧变得便宜。将来，如果每个人都能得到一群聪明又见多识广的助手的帮助，处理各种事情，而这些现在只有有钱人才请得起，那么每个人都会变得更有能力，能做更多事情。这样一来，个人生活会有很大改变，GDP增长也会很可观。\"",
+      "en": "I hope we can get much closer to 5, 6 or more percent GDP growth when looking at the future. It turns out one of the most expensive things in today's world is intelligence. This is why it's so expensive at least in the US to hire a highly skilled doctor to advise us on the medical condition or hire a highly skilled tutor to patiently teach our kids because that intelligence training up that wise doctor, wise teacher, wise advisor is very expensive. But with AI we finally have a path to make intelligence cheap. And so in the future if everyone can be assisted by an army of smart, well informed staff on all of these topics under the sun that currently only the relatively wealthy in society can afford to hire people for, then individuals will be so much more empowered and able to get so much more done and that highly important individual lives would be so different and the GDP growth will be massive.",
+      "speaker": 0
+    },
+    {
+      "start": 1063.603,
+      "end": 1080.5300000000002,
+      "zh": "完全理解你说的知识普及带来的好处。你之前提到过开放，关于开放权重的生态系统。我们看到很多情况下又回到了封闭的状态。你怎么看这种回到封闭的趋势？你怎么分析现在开放和封闭的现状呢？",
+      "en": "Totally get that and agree kind of speaking about that democratization of knowledge there and the benefits that come from it. You said a word before which was open about kind of the open weights ecosystem. We've seen, we've seen this reversion back to a closed world in a lot of cases. How do you feel about the reversion back to a closed and how do you analyze the state of play today in that open versus closed?",
+      "speaker": 1
+    },
+    {
+      "start": 1080.63,
+      "end": 1109.8450000000003,
+      "zh": "还挺动态的。我觉得是这样。很多美国公司会把最顶尖的模型留给自己用，然后把稍逊一筹的模型开放出来。我觉得这总比什么都没有强。我挺感谢那些发布开源模型的团队。而另一个趋势是中国，尤其在发布很多优秀的开源模型方面，已经开始领跑了。我十年前还真没想到，中国的AI会比美国的更开放。",
+      "en": "It's still very dynamic. I think it is. So for a lot of American companies the leading frontier model is often kept close and then the one tier down model not quite as good as release as open. I think it's much better than nothing. I'm actually grateful for all the teams that are releasing open source open weight models and Then the other dynamic is China especially has been in really taking the lead, well, taking a lead or getting up there in terms of releasing tons of really good open way models. So I would say if not, it's kind of not what I would have predicted a decade ago, that China AI would end up being more open than America AI and I think why do.",
+      "speaker": 0
+    },
+    {
+      "start": 1109.9450000000002,
+      "end": 1114.7630000000001,
+      "zh": "“你觉得中国想要一个像OpenAI那样开放的世界吗？”",
+      "en": "You think China is wanting an OpenAI world?",
+      "speaker": 1
+    },
+    {
+      "start": 1114.863,
+      "end": 1156.606,
+      "zh": "其实开放对一个国家的发展特别好。团队发布开源软件后，知识流通得更快，周围的社区都能受益。我看到的是，中国团队发布开源模型后，美国当然可以用，但中国经济会受益更多。因为一旦开放，各团队交流起来就方便多了，比如说，\"嘿，兄弟，这到底怎么弄啊？我这模型有点问题。\" 知识流通对创新真的很有价值。而美国这边如果模型更封闭，公司要花大价钱挖人，那知识流通就慢了，导致美国和欧洲的创新速度都变慢了。",
+      "en": "It turns out that openness is great for a country's development. So it turns out that when a team releases open source software, circulation of knowledge is much faster to the close buy community. And so what I see is when a team in China releases an open weight model, then yes, of course American can take advantage of it, but the China economy benefits even more from it. Because once something is open, it's easier for teams to call each other and say, hey buddy, how does this really work? I'm having trouble with this product model. It's just that circulation of knowledge is really valuable for innovation. And when the US has more closed models and when teams are trying to pay these $100 million salaries to extract talent, then that circulation of knowledge becomes very slow and it slows down the rates of American and European innovation.",
+      "speaker": 0
+    },
+    {
+      "start": 1156.7060000000001,
+      "end": 1169.372,
+      "zh": "\"不过，模型层的普及化和开放其实让大规模制造的价值更高。而中国在这方面比美国强多了。你不觉得这也是他们想削弱美国模型优势的原因之一吗？\"",
+      "en": "With the commoditization of the model layer though, and the kind of opening of actually increases the premium on manufacturing and the ability to manufacture at scale, which China have a much greater ability to do than the U.S. do you not think that actually leads a lot of their thinking around why they want to remove the strength of US models in.",
+      "speaker": 1
+    },
+    {
+      "start": 1169.4720000000002,
+      "end": 1239.4390000000003,
+      "zh": "其实，开放模型不仅能促进创新和知识流通，还能成为一种巨大的地缘政治影响力来源。比如说，将来某个发展中国家的小孩问了个关于敏感话题的问题，或者问某个国家的边界在哪里，或者某个事件的历史，最终用的模型会给出答案。而这个答案是否倾向某个国家的价值观，其实是个很大的影响力和软实力来源。不管喜不喜欢，开放模型已经是AI供应链的重要部分。中国通过发布免费或低成本的模型，已经在这个供应链中开始占据领先地位，建立了庞大的用户基础，这也是一种影响力来源。\n\n这就像一些国家在媒体和娱乐业上有很强的影响力，比如韩国，因为他们的娱乐产业，像K-Pop，影响力特别大。美国的好莱坞也是一种巨大的软实力来源，传递了美国梦的某种愿景，讲述了自由和民主的价值观。我觉得这也是一种新的交流和软实力的前沿。",
+      "en": "Addition to increase innovation and circulation of knowledge, which the open way models helps with? I think that open way models is a tremendous source of geopolitical influence. So for example, if someday, you know, some kid in some developing nation asks a question about a publicly sensitive topic or asks, hey, where are the national borders in this case? Or what's the history of this event or that event, the country of origin of the model they end up using will be delivering some answer. And whether the answer skews towards one nation's values or another nation's values is actually a tremendous source of influence and soft power. Like it or not, open weight models are a key part of the AI supply chain. And China releasing free, low cost or free models into that keypad supply chain means it's really starting to build up a lead and build up a commanding user base. And that too will be a source of. And this is why I think nations with a strong media and entertainment industry, it turns out South Korea has vastly proportionate disproportionate influence because of their leading entertainment industry. So people listen to whatever K Pop or whatever and that buys the nation a lot of influence. Hollywood was a tremendous source of soft power for America. Paints a certain vision of the American dream, talks about the values of freedom and democracy. And I think this is another frontier of communications and soft power.",
+      "speaker": 0
+    },
+    {
+      "start": 1239.5390000000002,
+      "end": 1252.159,
+      "zh": "“你有很独特的视角，毕竟你在谷歌和百度都待过很多年。你在某种程度上看过这两边的情况。现在我们看到AI竞赛有点像中美对立的局面，你同意这种说法吗？”",
+      "en": "You have the most fascinating perspective, having obviously spent many years at Google and then obviously Baidu as well. And so having been on both sides of the table in certain respects, we have this kind of strange binary polarization of the AI race. China versus the U.S. do you agree with that positioning of China versus the U.S. in an AI race?",
+      "speaker": 1
+    },
+    {
+      "start": 1252.2590000000002,
+      "end": 1315.8180000000002,
+      "zh": "我觉得有很多合作的空间，但也有一些地方会有竞争。虽然大家，包括我自己，有时候会说AI竞赛，但其实没有一个明确的终点。这不是一场比赛。AI是一种通用技术，可以在编程、回答问题、市场和金融等很多方面有不同的能力。所以没有一个统一的终点。即使在某个能力上，我们也会持续改进很长时间。我觉得因为一些宣传目标，AGI被炒作成了一个终点，但我不认为这是个终点，只是我们的能力会在未来几十年不断提高。\n\n话虽如此，那些AI能力更强的国家会更有影响力，居民会更富裕，经济增长也会更快。所以说，如果各国的利益不一致，AI能力更强的国家就能做更多事情。就像一个国家有很好的电网，而另一个国家经常停电，有电网的国家就能做更多的制造业、工业工作，能做更多事情。",
+      "en": "I think there's a lot of room for cooperation and then also some places that will be competitive. So first, while people, sometimes even me, talk about the AI race, there's no single fish on the finish line. It's not one race. Case is AI is a general purpose technology and you could be better aware at coding, better ways at answering questions, better at ways at helping with markers and finance and so on. So AI has many different capabilities and there's no one finish line. And even as one capability, I think we're going to keep on improving for a long time. So I feel like because of PR goals, AGI has been hyped up as a finish line. But I don't think it's a finish line. It's just we'll have continually improving capabilities for decades to come. Having said that, nations with stronger AI capabilities are going to be more powerful, the citizens will be more prosperous, economies will grow faster. So I think there is. So to the extent that different nations incentives are not aligned, nations with more powerful AI capabilities will be to do more. Just like if a country has a fantastic electricity grid and another country has power outages and so on, well, one country can just use the electricity grid to do more manufacturing, more industrial work, just do a lot more that way.",
+      "speaker": 0
+    },
+    {
+      "start": 1315.9180000000003,
+      "end": 1334.7650000000003,
+      "zh": "\"你不觉得我们还是低估了中国的能力吗？我是说，在欧洲我们肯定低估了，但我觉得在美国这边，大家有点自大。可你去过中国，待过很长时间，就会发现他们发展得又快又猛，这和欧洲完全不是一个级别的。\"",
+      "en": "Do you not think we still underestimate China's ability though? I mean, I think we definitely do in Europe, but I think in the US respectfully I see a lot of US arrogance around your positioning. And then you go to China and you've been to China and spend huge amounts of time in China, you realize the speed and the intensity with which they move. It's a different level to both Europe.",
+      "speaker": 1
+    },
+    {
+      "start": 1334.8650000000002,
+      "end": 1379.1280000000002,
+      "zh": "美国、欧洲、中国其实都有各自的问题。不过，中国的工作态度和速度确实很厉害。当中国政府下定决心要做一件事时，可以说是全国动员，整个工业体系都会参与进来。这种力量很强大，比如在半导体和教育系统上的国家级投资，像是让K12的孩子学AI，企业也用AI，分享知识，然后有时候还发展到国际市场，靠国家的力量来推动。这种全社会、全国的努力真的很强大，我绝对不敢小看。再加上对稀土资源的掌控，这些都是不容忽视的力量。",
+      "en": "And the U.S. yeah, to be fair, I think US, Europe, China, all have problems as well. But having said that, I think the work ethic, the velocity, when China's government makes an all nation commitment, it's an all industrial commitment. That's actually a very powerful force with kind of state level investments in semiconductors, in this education system. So like K12 kids being trained to use AI, businesses also use AI, share knowledge and then sometimes build this up and also sell internationally with state apparatus. That may or may not be the hope that's actually very. And then control over rare earth elements. So I think that whole of economy, whole of country efforts is actually a very powerful force that I wouldn't underestimate.",
+      "speaker": 0
+    },
+    {
+      "start": 1379.2280000000003,
+      "end": 1389.1660000000004,
+      "zh": "\"既然我们不应该低估，那你觉得对芯片出口进行管制是否正确？显然，Nvidia一直在经历各种出口管制。你觉得这样做对吗？\"",
+      "en": "Given that we shouldn't underestimate it. Do you think it's right that we have export controls on chips? Obviously Nvidia has had a lot of export controls back and forth. Do you think that's right or not?",
+      "speaker": 1
+    },
+    {
+      "start": 1389.2660000000003,
+      "end": 1444.6530000000002,
+      "zh": "我觉得芯片出口管制基本上适得其反。美国一开始对华为实施限制，然后对Nvidia和AMD等半导体也进行出口管制，这实际上激励了中国。在出口管制之前，中国的半导体发展其实没有那么快。虽然有些投资，但算不上特别快。然而美国这么一搞，中国的半导体发展就真的加速了。所以可以说是美国激励了中国这么做，而且中国也因此受益。我觉得现在一些中国公司正在开发的产品，单个芯片可能没那么强，但数量多，试图在某些方面和Nvidia上一代竞争，甚至逐渐赶上现有这一代。所以如果单从美国的国家利益来分析，我认为这反而促使中国加速了半导体产业的发展，从长远来看可能对美国不利。",
+      "en": "I think the export control on chips has largely backfired. The way that the U.S. and I think the way the U.S. first put restrictions on Huawei and then later on export of Nvidia and AMD and other semiconductors that really incentivized China. So before the export controls, semiconductor development in China frankly wasn't moving that fast. It was a nice area, there was some investment, but when America did that, then China really accelerated is semiconductor development. And so America incentivized China to do this. And it is paying off for China. I think a number of Chinese companies are building offerings that individual chips are less powerful, but maybe a much larger number of chips trying to build offerings competitive with certainly the last generation of Nvidia, maybe increasingly the current generation. So I think if I were to analyze just purely US national self interest, I think that caused China to accelerate a semiconductor industry in a way that may not be helpful to the US long term.",
+      "speaker": 0
+    },
+    {
+      "start": 1444.7530000000004,
+      "end": 1465.1480000000004,
+      "zh": "\"我现在在欧洲，住在伦敦。你之前跟我说你也是在伦敦出生的。我想问你，大家都觉得我们落后很多，有人甚至说我们已经输了。你怎么看欧洲在这个全新世界里的位置？欧洲能怎么做才能在美中之间重拾一些平等呢？\"",
+      "en": "I sit in Europe, obviously live in London. Told me you were born in London before this. My question to you is it transparently feels that we are very far behind and people say, oh, you've already lost. How do you feel about Europe's position in a very new world? And what can Europe do to regain some semblance of equality between the US and China?",
+      "speaker": 1
+    },
+    {
+      "start": 1465.2480000000003,
+      "end": 1497.1270000000002,
+      "zh": "如果让我给欧洲的监管者一个建议，我和一些欧洲监管者聊过。他们总是说想在AI监管上当领导者，以此作为竞争优势。说实话，这不算什么竞争优势。我希望欧洲能少些监管，专注于投资和建设。现在AI领域还处于早期阶段，欧洲有很多聪明人。让人们努力工作，不要逼他们不努力，给那些想努力的人机会，别过度监管，多去投资建设。",
+      "en": "If I had one wish for the European regulators, I spoke with quite a few European regulators. I was hearing things like we want to be leaders in regulating AI and that's a competitive advantage. And with all due respect, that's not a competitive advantage. So my one wish for Europe is start regulating so much and just focus on investing and building. The thing is, it's still early in the days of AI, it's still early in the game. And Europe has plenty of smart people. Let people work hard, don't force them to not work hard, let people that want to work hard work hard and stop over regulating and just go and invest and build stuff.",
+      "speaker": 0
+    },
+    {
+      "start": 1497.2270000000003,
+      "end": 1502.9390000000003,
+      "zh": "\"我们最需要投资的地方是哪里？我们又在哪些地方投资不够呢？\"",
+      "en": "Where do we most need to be investing? Where we are not investing enough.",
+      "speaker": 1
+    },
+    {
+      "start": 1503.0390000000002,
+      "end": 1602.5260000000003,
+      "zh": "现在有大量资金流向数据中心和基础设施，我们可以讨论这是不是个泡沫？但我们确实需要很多投资。人们是不是用一些复杂的金融工具来找现金流，从而导致泡沫？我们可以争论这个，但确实需要很多投资。不过，什么时候变成过度投资呢？这是个有趣的问题。我觉得我们不仅仅要在基础设施和数据中心的基础模型层面投资，还要在应用层面下功夫。因为别人已经花了几十亿美元训练这些AI模型，现在我们只需要花几百或几千美元就能用上。因此，现在可以创造出很多以前不可能的应用。从风险投资的角度来看，我听到一些VC说，奇怪的是尝试的成本这么低，反而让创意变少了。在应用层面不知道该投那么多钱做什么。实际上，如果看很多应用层面的投资，有时候感觉企业投了一亿美元，结果是为了支付给OpenAI和Anthropic，然后这些钱最后都流向了Nvidia。尽管如此，应用层面有很多值得下注的地方，可以创造很多东西。但问题是可以用很高效的方式来做。如果有人说想投100亿美元，是的，可以建价值100亿的数据中心，这个我们知道怎么花。但怎么在应用上花100亿呢？问题在于试个想法只要一百万，那怎么花100亿呢？这既是个问题也是个机会，但我觉得我们...",
+      "en": "There's tons of capital going into data centers and infra we can debate is there a bubble or not? We definitely need a lot of investments. Are we getting to the point where people are using such esoteric financial instruments to find cash flow that there'll be a bubble? We could debate that we definitely need a lot of investments. But when does it become over investment? That's an interesting question. The other place that I think we need to invest in a lot is not just the infra data center foundation model layer, but the application layer. Because of others having spent billions of dollars to train these AI models, we can now access them for hundreds of dollars or thousands of dollars or whatever, or tens of dollars. So it's wonderful to build tons of applications that just were not possible before now. From a VC investment perspective I've heard from multiple VCs is bizarrely the cost of trying something is so low that that there are fewer ideas. It's not quite sure where to put massive amounts of capital to work at the application layer. In fact, if you look at a lot of the application layer investments, sometimes it feels like, you know, firms are putting in $100 million so that they can pay open and anthropic, so the open anthropic can pay Nvidia, which is where all the money is ending up. Having said that, there's so many valuable bets to be placed at the application layer to just build stuff. But the dilemma is you could do it in a very capital efficient way. So if someone wants to say I want to put $10 billion to work, yes, you can build $10 billion worth of data centers. We know how to spend that money. But how do you spend $10 billion in building applications? The problem is almost it only cost me a million dollars to try an idea. So how do I spend $10 billion? It's kind of a problem and also not a problem, but I think we.",
+      "speaker": 0
+    },
+    {
+      "start": 1602.6260000000002,
+      "end": 1614.2240000000002,
+      "zh": "\"从AI应用层公司的利润来看，情况很糟糕。他们几乎不赚钱，建起来还很烧钱，因为需要庞大的工程团队。这些公司花的钱更多，而不是更少。\"",
+      "en": "Should does it because when you look at AI margins, what margins for AI application layer companies, they're terrible. They make no money. They cost a lot of money to build because you have large engineering teams that build them. They don't. They cost more, not less.",
+      "speaker": 1
+    },
+    {
+      "start": 1614.3240000000003,
+      "end": 1625.6670000000004,
+      "zh": "\"我觉得情况还是有差异的。我看到很多软件应用开始冒头，开发成本并不高。而且如果你的ELM token使用不是你主要的开销的话...\"",
+      "en": "I think it still varies. I'm seeing a lot of green shoots of software applications that were not that expensive to build. And if your ELM token usage is not not, you know, the majority of your expense.",
+      "speaker": 0
+    },
+    {
+      "start": 1625.7670000000003,
+      "end": 1631.0500000000002,
+      "zh": "\"比如说像 Replit 这样的公司，他们大部分的支出都是给 Anthropic 的。\"",
+      "en": "If you look at a replit or a lovable 80% of their pass through is to anthropic.",
+      "speaker": 1
+    },
+    {
+      "start": 1631.1500000000003,
+      "end": 1695.6810000000003,
+      "zh": "嗯，我觉得现在让我兴奋的是，随着ELM token的成本继续下降，我们会看到经济上的变化。现在ELM token的成本确实很高，但希望未来会改变。而且创造的价值真的很大。其实，我记得以前在美国和中国的外卖初期，很多风投都在补贴吃饭，对吧？那时候我们吃外卖基本都是VC补贴的。我觉得现在AI代码也是这样，很多VC在补贴。物理法则或者金融法则告诉我们，这种情况不能永远持续。但最终会有一些非常有价值的公司，不再依赖VC补贴。不过，要在这个疯狂的VC补贴世界中取得好结果，需要很多技巧。话虽如此，我还是想说，很多小型应用虽然没有做到上亿的收入，但可能做到几百万或几千万的收入，而且构建和运营成本不高。我觉得这些会继续增长。",
+      "en": "Yeah. So the dynamic that I'm excited about is it turns out, I think anthropic. I think that as elm token costs continue to come down, we'll see how the economics change. Right. Right now elm token can. It's just expensive but hopefully that will change. And the value created is really large. Actually, you know, I remember earlier era in early days of food delivery, for example, I saw this in both the US and China. There's a lot of VC subsidized eating. Right. You know, it was great, we could eat food delivered. It was basically VC subsidized. I think we're seeing that right now with a lot of VC subsidized AI coding. The laws of physics or the laws of finance says that at some point this can't go on forever. But where it settles down will be that I think there will be some very valuable businesses that are not perpetually VC subsidized. But navigating this crazy VC subsidy world to get a good outcome takes a lot of skill. But having said that, I still want to say a lot of smaller applications that are not yet doing these hundreds of millions of dollars, maybe they're doing millions of dollars or tens of millions of dollars of revenue that haven't been quite expensive to build and to operate. And that I think we'll see continue to grow.",
+      "speaker": 0
+    },
+    {
+      "start": 1695.7810000000004,
+      "end": 1719.0560000000005,
+      "zh": "说到那些不断增长的小众市场，你怎么看这个问题？你之前提到过水平和垂直的分层结构，说Google和现在的OpenAI是水平层。那你怎么理解这个问题，就是大型一体化模型和小而高效、专业化模型之间的关系？你的想法有没有变化，哪个会更占主导地位？",
+      "en": "Speaking of kind of the smaller niches, so to speak, there that continue to grow, how do you think about the question of you mentioned earlier, brilliantly that articulation of kind of horizontal and then the verticals beneath them and Google and now OpenAI being the horizontal. How do you think about the question of a world of large monolithic models versus much smaller, much more efficient, much more specialized models. How do you think about that? And has your mindset changed around which will be more dominant?",
+      "speaker": 1
+    },
+    {
+      "start": 1719.1560000000004,
+      "end": 1780.4470000000003,
+      "zh": "我觉得都会有。我们会有大模型、中型模型，还有小模型。我之所以这么有信心，是因为智能的本质是多样的，对吧？有时候我们做些很简单的智力任务，比如我女儿昨天拼错了\"butterfly\"，我就得告诉她怎么拼。这就是个简单的智力任务。但有时候我会花好几个小时思考复杂的技术问题，这就很难。所以，智能的任务范围很广，AI要做的事情也是这样。如果你只是想让AI做基本的语法检查和拼写检查，那就不需要一个有万亿参数的模型，用个小模型就行，甚至可以本地运行。但如果你想让AI做复杂的推理，比如写一段代码，那强大的模型肯定表现更好。所以，我很有信心我们最终会有各种大小的模型来应对各种任务，就像人类一样，有难有易，同样AI也是。",
+      "en": "I think it'll be all of the above. We will have large models and mid sized models and tiny small models. And the reason I'm confident about that is because the nature of intelligence is diverse. Right? Sometimes we do intellectually really easy tasks. Like if someone asked me yesterday, my daughter, well, she misspelled the word butterfly, so I need to tell her how to spell butterfly. Is it low? It's an easy intellectual task and sometimes I'm sitting down thinking for hours about some complex technical problem and that's really hard. And so intelligence has a range of things we want to do. And so the set of things we want AI to do too has a huge range. If you want AI to do basic grammar checking and spell checking, you don't need a trillion parameter model, use a tiny model, maybe run it locally, just do that. But if you wanted to do complex reasoning to write a piece of code, then yes, having a powerful model is going to do better. And so I'm actually very confident we'll end up with a huge range of models, small and long to do the huge range of tasks, just like we have humans do a range of tasks of difficulty. Same with AI.",
+      "speaker": 0
+    },
+    {
+      "start": 1780.5470000000005,
+      "end": 1788.1400000000006,
+      "zh": "\"那你是不是不同意Andrej Karpathy说的，有用的agent，特别是重要的有用agent，还需要十年才能实现？\"",
+      "en": "Does that mean that you disagree with Andrej Karpathy when he said that agents, useful agents, importantly useful agents, are a decade away?",
+      "speaker": 1
+    },
+    {
+      "start": 1788.2400000000005,
+      "end": 1805.2600000000004,
+      "zh": "我不太同意。我觉得我们现在已经看到一些有用的agent流程了。AI真是有趣。我们团队已经为很多任务构建了不少agent流程，这些任务以前我们根本无法完成。但有了agent流程就不一样了。",
+      "en": "I disagree with that. I think we're seeing useful agentic workflows right now. So AI fun. Our team has built so many agentic workflows for so many tasks where we just could not even do the task. But for agentic workflow.",
+      "speaker": 0
+    },
+    {
+      "start": 1805.3600000000004,
+      "end": 1808.2510000000004,
+      "zh": "\"你能给我举个例子吗？我很好奇。\"",
+      "en": "Can you give me an example? I'm fascinated.",
+      "speaker": 1
+    },
+    {
+      "start": 1808.3510000000003,
+      "end": 1902.2940000000003,
+      "zh": "大概一年前，我们就觉得可能会有这个问题。在一次拜登和特朗普的辩论后，我们认为关税合规可能会成为个问题，结果不幸被我们说中了。所以去年八月左右，我们开始研究开发技术来帮助关税合规。说实话，我不知道你有没有看过这些关税合规文件，但当我看到那些繁琐的填表要求时，我心里想，天啊，这到底是什么？比如说你要进口一辆自行车，你得看它的规格、价格、车轮尺寸等等，各种法规。简直让人无语，人类真的是在做这些事吗？所以我们开发了agentic流程来仔细阅读关税合规文件，获取详细的进口规格，尝试匹配并给出建议。现在这已经成了我们旗下的一家公司，叫Gaia Dynamics，因为关税合规的复杂性增加，他们做得不错。我发现如果没有agentic流程，我们根本做不成这些。我们有医疗助理，有不同的初创公司，比如在印度运营的医疗助理Airflow，还有AI助理Callidus帮助处理法律文件。很多这样的工作我们以前根本做不了。所以我觉得现在已经有很有用的AI agentic流程了，不仅是我们的初创公司，像一些大型企业也是。当我和一些大企业的朋友聊天时，他们提到很多内部流程如果没有这些AI agent根本无法完成。",
+      "en": "Over a year ago we thought that. After one of the Biden Trump debates, for better or worse, we thought that tariff compliance may become an issue. Maybe. Unfortunately, we turned out to be right. But so last year, I think it was around August, we started exploring building technology to help with tariff compliance. And by the way, I don't know if you've seen these tariff compliance docs, but frankly, when I look at what it takes to fill this paperwork, it makes me wonder, oh my God, what is this? So you say import a bicycle, then you look at the specs of the bicycle, how much does it cost, the size of the wheels? There are all these rules and regulations to import a bicycle. It just, it just makes me go, oh my God, are humans really doing this? So we built agentic workflows to read the tariff compliance documents carefully, get the spec for what someone wants to import carefully, try to match, make suggestions. And so this is now one of our portfolio companies called Gaia, Gaia Dynamics, that because of the increased complexity in tariff compliance, has been doing pretty well. Right. I find that we just could not have done this without agentic workflows. We have medical assistants, we have different startups, Airflow for fellow companies, medical assistant operating in India, AI assistant, Callidus helping process legal documents. Many of these workloads we just could not do. So I find that they're useful AI agentic workflows already today and the large businesses too, not just our startups, but when we look at the hyperscalers and I chat to friends and some of the large businesses, there's a bunch of internal workflows that we just could not be doing without these AI agents.",
+      "speaker": 0
+    },
+    {
+      "start": 1902.3940000000002,
+      "end": 1923.7970000000003,
+      "zh": "\"我们谈到企业的核心，其实就是利润率。而很多企业现在没有利润率。你在投资时会关心利润率吗？还是说，抱歉这么说，听起来有点不敬，你是不是觉得随着时间和效率提升，这些问题会自然解决呢？\"",
+      "en": "When we think about a core of a business, it's margins. And most of these business don't have margins. Do you care about margins when investing today or with absolute respect, and it sounds disrespectful, do you take the kind of utopian view that it will just correct itself with time and with efficiency.",
+      "speaker": 1
+    },
+    {
+      "start": 1923.8970000000002,
+      "end": 2007.3280000000002,
+      "zh": "\"有一天会有收益吗？我觉得物理法则或者金融法则之类的，利润率确实重要。但AI的一个麻烦点是，技术一定会变，所以我们不会假设技术会停滞不前，而是会发展。比如说，token价格一直在快速下降，对吧？这取决于你相信谁，可能是某个人、某年或者其他因素。说实话，我们在做原型的时候，通常不太在意token成本，因为最重要的是先做出用户喜欢的产品。然后我们发现，做完产品后，用户开始用，我们的API账单就开始飙升。每隔几周看一眼，发现哇，这变得很贵啊。成本都快赶上一个工程师的工资，甚至超过两个工程师，更多工程师的成本。不过好在，每次我们都能用一些技术手段把成本降下来，速度比市场上的token价格下降得还快。所以我觉得绝对利润率是重要的，但如果你知道技术的发展方向，就能不只是为现在的利润率来建东西，而是为未来的利润率做规划。我觉得这很关键，但我们也不会盲目乐观地认为AGI能解决一切，那样太简单化了。\"",
+      "en": "Gain at some point? The laws of physics, I think, or the laws of finance or something. Margins do matter. But one of the tricky things about AI is we know the technology is going to change. So we don't build assuming the technology will be stagnant. We do build assuming the technology will evolve. So one obvious one ohm token prices have been rapidly falling, right? Depending on who you believe, following Aperson, urine or whatever. Kind of. Frankly, when we build prototypes, we routinely just not worry about token costs because the first most important thing is let's build a product that users love. And then what we find is after we build something, this actually happened to me a few times now, we'll build something and not worry about the cost, and then users start to use it, and then our API bill starts climbing. And then it is really like kind of you looking at this every few weeks and go, whoa, this is getting really expensive. This costing. Costing me. Salary of one engineer. Costing me more than two engineers. Cost me more than a whole bunch of engineers. All right. But fortunately, when that has happened almost every time so far, we've been able to use techniques to bend the cost curve back down even faster than the rate at which token prices are falling in the market. And so I find that absolute margins are important, but when you have a view for where the technology is going, then it lets you not build for the margins today, but what you can forecast them being in the future. And I think that's an important distinction, but we don't take a blind utopian AGI blah, blah, blah view either. I think that's also overly simplistic.",
+      "speaker": 0
+    },
+    {
+      "start": 2007.428,
+      "end": 2022.266,
+      "zh": "\"在AI这个领域，你怎么看待竞争壁垒？很多人说，现在复制的时间大大缩短了，AI中的竞争壁垒也受到质疑。你同意这种说法吗？还是觉得现在对竞争壁垒的质疑不对呢？\"",
+      "en": "How do you think about defensibility in an AI world? A lot of people suggest that the time to copy has reduced significantly, that defensibility itself is questioned in AI. Do you agree with that and the questioning of defensibility today or not?",
+      "speaker": 1
+    },
+    {
+      "start": 2022.3660000000002,
+      "end": 2072.893,
+      "zh": "\"护城河在变。我觉得护城河更多是由行业决定的，而不是技术本身。AI作为一项技术，其实并不能给大多数企业提供护城河。如果你在为无人机、法律或者其他领域开发AI，护城河更多取决于那个行业。但关于护城河有一点在变，以前软件是个护城河。如果你花十年开发一款软件，别人很难复制。但现在这点已经没那么强了。不过其他护城河，比如你用AI加速建立一个双边市场，这可能很有防御性；或者你是为消费者还是企业开发，品牌和声誉效应能帮你建立防御。所以我觉得软件的护城河变了，但其他护城河还是要看行业的分析。\"",
+      "en": "Moats are changing. So I find that moats tend to be a function of the industry rather than the function of the technology. So AI as a technology doesn't really offer an answer to the moat for most businesses. So if you're building AI for drones or legal or for whatever, the moat is more of a function of that industry. But one thing that is changing with regard to moats is previously software used to be a moat. If you had invested 10 years to build a software, it's really hard to replicate that. That one mode is much weaker than before. But other modes like are you trying to use AI to accelerate, to build a two sided marketplace which can be very defensible or are you building for a consumer morphocus who an enterprise are there on brand and reputational effects that can help you build defensibility there. So I find that the software mode has changed, but other modes tend to be analysis based on the industry.",
+      "speaker": 0
+    },
+    {
+      "start": 2072.993,
+      "end": 2089.247,
+      "zh": "\"所以软件的护城河变了，这很好。现在利润率依然重要，但灵活性更大了。软件护城河在大企业中保持相关性的能力上也发生了变化。那现在阻碍大企业积极采用AI，避免被淘汰的最大障碍是什么呢？\"",
+      "en": "So software moats have changed. Fantastic. And so we now have margins that matter, but we have a little bit more elasticity there. The software moat has changed in terms of like the ability to stay relevant for large enterprises. What are the single biggest barriers that are preventing large enterprises from implementing AI aggressively and prevent themselves being extinct?",
+      "speaker": 1
+    },
+    {
+      "start": 2089.347,
+      "end": 2095.953,
+      "zh": "\"我觉得在大多数大企业中，最大障碍其实是人和变革管理。\"",
+      "en": "I think the biggest barrier in most large enterprises is actually people and change management.",
+      "speaker": 0
+    },
+    {
+      "start": 2096.053,
+      "end": 2097.586,
+      "zh": "\"不是数据。\"",
+      "en": "Not data.",
+      "speaker": 1
+    },
+    {
+      "start": 2097.686,
+      "end": 2226.909,
+      "zh": "不是数据。我觉得肯定不是数据。不是说数据不重要，但这绝对不是瓶颈。数据就是数据。AI的热潮有趣的地方在于，炒作里总有一点真实的东西，只是被夸大了十倍。举个例子，然后我再回到数据上。最近有种说法，说有了AI，我们可以用一个员工创造独角兽公司。这听起来很不错，如果你想用一个员工建一个市值十亿美元的独角兽公司，那就去试试吧。但说实话，如果你真的做到十亿美元估值，你完全可以雇两个甚至十个员工。为什么非要炒作到只用一个员工呢？确实，团队规模在缩小，我们用更小的团队做更多的事，这是真的。但把它炒作成一个员工建独角兽，就有点过了。我发现AI的炒作很难分清，因为里面总有一点真相，只是被夸大了很多。\n\n说到数据，数据确实重要，但数据其实是很垂直化的，不需要那么多数据就能开始。比如，Landing AI在金融机构、医疗领域做了很多工作，很多金融机构有大量的交易数据。你可以把PDF文件转成Markdown文本，处理它，从中找到价值。比如，我们可以很准确地把SEC文件中复杂的金融表格转成Excel表格，然后让你的分析师或AI去分析，从中得出结论。这样一来，通过一些灵活的方法，查看内部数据和公共数据，你常常能有所收获。很多互联网数据其实是通用数据，而世界上大多数数据实际上是私有的，很多企业实际上有非常有价值的交易数据、销售数据、产品数据、制造数据、物流数据等等。一个懂得如何利用这些数据的灵活团队，其实可以开始做一些事情，从中获得价值。当然，更多的数据会更好，但你不需要被数据匮乏困住，连第一步都迈不出去。",
+      "en": "It's not data. I think it's definitely not data. Not that data is not important, but that's definitely not the bottleneck I think data has been data. The interesting thing about AI hype is there's almost always a gem of truth in, in the hype. It's just that it's been hyped up 10 times more than the reality. And maybe. Actually let me give one example, then I'll come back to data. There's been this buzz about oh, with AI we'll have unicorns with one employee, right? It's like a thing and it's fine. If you want to build a unicorn startup billion dollar with one employee, go for it. It's a good thing to do. But frankly, if you're doing a billion dollar valuation, you could afford to pay two employees or even 10. So why do you need to hype it all the way up to say let's do this with just one employee? It is true that team sizes are shrinking. We get more done with smaller teams. So that is true. But the hype is then saying let's build a unicorn with one size. I find a lot of AI hype is so hard to disentangle because there's a gem of truth in it. It's just been hyped up a lot more. So on data. Data is important, but it turns out that data is very verticalized and you don't need as much of it to get started. As you want, as you think. So for example, landing AI does a lot of work with financial institutions, healthcare, a lot of financial institutions have plenty of transaction data. Take the PDF file, turn it into earned ready markdown text, go process that, find value in that. For example, I don't know, we could take SEC filings, large complex financial tables very accurately turn those financial tables into Excel spreadsheets, then go get your analysts or your AI to analyze that and draw conclusions. So you could do that so often with bit of scrappiness, looking at internal data, look at public data, you can often get some stuff going. And it turns out that a lot of Internet data is kind of general purpose data. Most of the world's data is actually private and so a lot of businesses actually very valuable transaction data, sales data, product data, manufacturing data, logistics data and all that data with a scrappy team that knows how to use it can actually start to build something, get value out of it. Not to say more data wouldn't be even better. But you're not stuck to even take the first few steps or lack of data.",
+      "speaker": 0
+    },
+    {
+      "start": 2227.009,
+      "end": 2252.3,
+      "zh": "\"Andrew，我和很多大企业的CEO聊过，他们说，Harry，你开玩笑吧？你觉得我们能搞定数据的安全和权限管理吗？不，我们没有Slack，也没有Notion。一切都是定制的。像JP Morgan和Goldman Sachs这样的公司完全拒绝使用ChatGPT，他们在构建内部系统。这就是我们在企业AI应用中面临的世界吗？\"",
+      "en": "Andrew I speak to many CEOs of these size businesses and they say Harry, are you kidding me? You think we can get security and permissioning for our data and our enterprise? No, we don't have slack, we don't have notion. Everything is custom built. You're seeing the likes of JP Morgan, Goldman Sachs absolutely refuse any chatgpt use building internal systems. Is that the world that we inhabit for enterprise AI adoption?",
+      "speaker": 1
+    },
+    {
+      "start": 2252.4,
+      "end": 2296.8070000000002,
+      "zh": "我觉得我们会慢慢走到那一步。现在很多企业确实开始用OMS、ChatGPT这些工具。我认为现在还有些公司还在用本地服务器，而不是云端。但我们在进步。关于AI的炒作，比如说两年内会有AGI，我觉得那太夸张了，根本不可能。而且你看云计算时代到现在多久了？还是有很多本地工作的需求。我觉得AI的普及会很棒，但像GPT这样的增长也会比炒作说的时间更长。我其实觉得十年后我们还在努力找企业里有价值的应用并去实现它们。虽然说未来一两年我们会有很多进展，但十年后也不会完全完成。",
+      "en": "I think we'll get there. So I find that a lot of enterprises are adopting OMS, ChatGPT and many others. I think today there are still businesses that are still on prem rather than on the cloud. But we're making progress and it'll take actually one thing about AI, this hype that we have AGI in two years or whatever, I think that's just ridiculous for most reasonable definitions of AGI. That's just not going to happen. And, and just as how long are we now into the cloud era? But we still have an awful lot of on prem jobs. I think that AI adoption it will be wonderful. There will be tremendous GPT growth is also going to take much longer than the hype says it will. I actually think that a decade from now we will still be working to identify valuable applications in enterprises and building them. Having said that, we will make a lot of progress over the next one or two, two years, but we're not going to be done even 10 years from now.",
+      "speaker": 0
+    },
+    {
+      "start": 2296.907,
+      "end": 2300.8320000000003,
+      "zh": "大家对AI的普及和应用还有哪些误解呢？",
+      "en": "What else does everyone think they know about AI and its adoption and implementation that they get wrong.",
+      "speaker": 1
+    },
+    {
+      "start": 2300.9320000000002,
+      "end": 2347.355,
+      "zh": "今年年初的时候，有些高管建议大家别学编程，说AI会自动化这些工作。以后回头看，这可能是最糟糕的职业建议之一。因为随着AI的帮助，编程变得更简单了，应该有更多人去学，而不是更少。我刚才提到用AI做一个反馈滑动的应用，现在很多工作岗位上，能清楚告诉电脑你想让它干嘛的人会更有优势。至少在可预见的未来，和电脑交流的语言还是编程。当然，不是说你要手写代码，手写代码已经有点过时了。别自己写，让AI帮你写代码，这样做效率更高、更有威力，还更有趣。",
+      "en": "Even earlier this year we saw some senior business leaders advise people to not learn to code on the grounds AI will automate it. We'll look back on that as some of the worst career advice ever given. As coding becomes easier with AI assisting us, a lot more people should learn to code, not fewer. And I'm already seeing, I mentioned the mark of the example just now with building an app for feedback swiping. But I think for a lot of job functions, people that know how to tell a computer exactly what they wanted to do so the computer can do it for you, they'll just be more powerful. And for the foreseeable future, the language of precisely telling computers what you wanted to do is coding. It doesn't mean you should write code by hand. Writing code by hand is becoming obsolete, right? Really don't do that, but get AI to write code for you and people can do that. Would be more effective and more powerful and have more fun.",
+      "speaker": 0
+    },
+    {
+      "start": 2347.4550000000004,
+      "end": 2366.338,
+      "zh": "\"如果我们现在还处于这么早期的阶段，十年后还在找可以显著改进的地方，那我们有足够的钱来支持这十年间的能源和计算需求吗？Sam Altman说他需要一万亿美元，需要日本那么多的能源。如果十年后我们还没取得太大进展，那我们有钱来支持这些吗？\"",
+      "en": "If we're that early where a decade's time, we're still going to be looking and identifying areas where it can improve meaningfully. Do we have enough money to fund both the energy and the compute requirements for that 10 year period? Sam Altman has said he needs a trillion dollars. He needs the energy of Japan. If we're 10 years out before we have still not that much improvement, do we have the money to fund it?",
+      "speaker": 1
+    },
+    {
+      "start": 2366.4380000000006,
+      "end": 2397.3810000000008,
+      "zh": "我觉得未来两年我们会看到很多进步，但十年后我们还会继续追求更多改进。有一个特别有前景的领域就是AI辅助编程。我们看到生产力真的提高了，确实带来了回报。这真的改变了软件编写的方式，效果非常棒。坦白说，我很多朋友都觉得有AI帮忙，编程变得更有趣了。所以我们确实有收获，但十年后我们还会继续发展。",
+      "en": "I think we'll see plenty of improvement over the next two years, but I think we still won't be done getting even more improvements ten years from now. One place where it's super promising is AI assisted coding. So we're seeing real productivity gains, real returns. It's really changing the way software is written. It's really been fantastic. Frankly, so many of my friends is coding so much more fun with AI to help us out than without. So we are seeing returns, just to be clear. But we still won't be done growing this 10 years from now.",
+      "speaker": 0
+    },
+    {
+      "start": 2397.4810000000007,
+      "end": 2421.944000000001,
+      "zh": "\"但如果你看市场规模，投资AI成功的关键在于，能否从人力预算转到软件预算。如果能做到，那我们这些基金会赚很多钱。好消息是，市场规模和花费都会大增。如果我们不减少人员，那就不会有从人力预算到软件预算的转变。你觉得这种转变不会发生吗？\"",
+      "en": "But if you look at the TAM, the secret to success in AI investing is will we see a transition from software budgets to human. From human labor budgets. Sorry. To software budgets. And if we have that, then holy grail, me and you will make a lot of money with our funds. And fantastic news because the tams have massively increased or the spend's massively increased. If we're like, hey, we're not going to actually lose any people, then actually we don't see that transition from human labor budget to software. Do you think we won't see that transition.",
+      "speaker": 1
+    },
+    {
+      "start": 2422.044000000001,
+      "end": 2542.1950000000006,
+      "zh": "所以在我看来，问题是AI主要是为了省成本还是为了促进增长？我知道改变工作流程不容易，很多公司往往先想到省成本。但也许问题在这。我发现一个模式，比如说我有一个工作流程有五个步骤，每个步骤占我20%的精力。假设我在审批贷款，决定批不批这笔贷款。为了简单起见，假设有五个步骤，每个占20%的精力。如果你能自动化其中一个步骤，那就是20%的成本节约，挺不错的，尤其是对利润低的生意。但这不算是个游戏规则改变者。我发现更有价值的AI应用其实需要重新思考流程。我看到的模式是，不只是节省20%的成本，而是要么做得更多，要么做得更快。比如在贷款审批中，如果不是节省20%的人力，而是重新设计流程，把决策时间缩短。比如不再需要等两周让贷款专员看，而是能在10分钟内给你初步答案，这就改变了产品，推动了增长。这是个更快的模式。还有一个是做得更多。比如有些生意原本只能为高端客户提供高接触服务，但如果你能服务更多人，或者说在金融建议方面，不再只给少数人高质量服务，而是能为更多人提供同样的服务品质，这又改变了产品，推动了增长。所以，与其说是省成本，如果AI能让你做得更快或者让一个任务翻倍地做，比如不再只服务少数人，而是能经济地服务更多人，这就是我看到的两个推动价值增长的模式。我认为这对于释放更大的增长潜力很重要。",
+      "en": "So to me the question is, is AI mostly for cost savings or is it for growth? And I know that it's difficult to change workflows. A lot of companies tend to think cost savings. But maybe here's the problem. There's actually one pattern I see. Let's say I have a work toss that has five steps and let's say each step takes 20% of my effort. Maybe I'm underwriting approvals, do I approve this loan or not? So let's say for simplicity, there are five steps, each takes 20% of my EFF. If you can automate one of those steps, it's a 20% cost savings, which is really nice. It could be great if you're a low margin business, but it doesn't feel like a game changer. So what I find is that the more valuable uses of AI it actually requires, it often requires rethinking that workflow. And the pattern I see is instead of taking the 20% cost savings which you could do, that's fine, nothing wrong with that. The two patterns to this then getting growth is either do more or do it faster. So in the case of underwriting, making loans, if instead of saving 20% of my human labor, if I can now rework the workflow to turn around my decision making time. So instead of someone needing to wait two weeks before loan officer looks at it, but we can just give you an initial answer in 10 minutes that changes the product and lets you drive growth. So that's a faster pattern. And then there's also the more pattern. So another example, there are a lot of, I don't know, businesses that could do high touch, you know, say customer service only for expensive high end clients. Right? But if you can now serve a much larger group of people, or let's say financial advice instead of giving high touch financial advice to a small group of people, if you can now deliver that quality of service along more people, then that again changes the product and lets you drive growth. So instead of cost savings, if AI lets you do something way faster or lets you take a task and do it a thousand times more, instead of serving a small number of people, let's serve a lot more people because it's not economic to do so. These are the two patterns I've seen to drive value increases. And I think that would be important for unlocking lawless GP growth.",
+      "speaker": 0
+    },
+    {
+      "start": 2542.295000000001,
+      "end": 2561.142000000001,
+      "zh": "\"你提到经济性，那你觉得我们是否需要垂直整合，比如Nvidia既拥有芯片又拥有模型？现在看到Facebook在建数据中心，比谁都多。大家都在建数据中心。我们需要拥有每一层吗，还是会看到各家企业各自掌握某一层呢？\"",
+      "en": "You said economic to do so, do you think it's crucial that we see vertical ownership in terms of see Nvidia own models as well as chip player and we're seeing Facebook build out data centers more than anyone. We're seeing everyone build out data centers. Is it important that we own every layer of the stack or actually will we see individual participants own horizontal layers of the stack?",
+      "speaker": 1
+    },
+    {
+      "start": 2561.242000000001,
+      "end": 2634.485000000001,
+      "zh": "我觉得这会随着时间发展。让我打个比方。在计算机行业的早期，垂直整合的公司赢了。因为如果你想把键盘连接到电脑主板，也就是CPU，那键盘有正负5伏电压，而CPU电压不同，这行得通吗？所以那时候我们不知道API的边界在哪，或者CPU的内存布局、计算和数学加速器需要互相配合。在没有清晰的标准之前，像IBM这样的整合公司能解决所有问题，做出有价值的产品。但随着行业成熟，我们开始有了标准。比如现在有USB标准，以前还有其他标准。现在你可以造电脑，别人造键盘，然后一插就能用。所以当一个行业还不成熟时，确定如何划分边界，让不同的参与者各自发挥作用并且还能协作，这不太清楚。但随着行业成熟，标准越来越多，比如说如果我想在网上发布一个压缩OM模型，格式是什么，这时候就会出现更多标准，这让各家公司更容易做自己的事，同时还能融入更大的生态系统。",
+      "en": "I think this will evolve over time. I'm going to make an analogy. In the early days of say, the computing industry, it was the vertical players that won. Because if you want to connect the keyboard to your computer motherboard, which is a CPU, is it okay if your keyboard has a plus minus 5 volts and your CPU has some other voltage, is that okay or not? So we didn't know where the API boundaries or if your CPU has memory laid out a certain way, a compute and your math accelerator, they needed to interoperate with each other. So before we wound up having a clear conception of where they draw lines and whether the API boundaries the integrated players, IBM back in the day could solve all the problems and build valuable working products. But as the industry matured, we started to have standards. For example, now with a USB stick standard, before there were other standards. So now you make a computer, someone else makes a keyboard, we plug them together and it all works. So when an industry is immature, it turns out where to draw those boundaries, to let different participants do their part and have it still interoperate. That's less clear. But then as the industry matures and there's more standards for if I want to publish a compressed OM model on the Internet, what's the function, our format for that, it's time to see more standards, then that makes it easier for individual players to do something and still have it fit into the broader ecosystem.",
+      "speaker": 0
+    },
+    {
+      "start": 2634.585000000001,
+      "end": 2644.8250000000007,
+      "zh": "\"所以你觉得像扎克伯格和Sam这样花大钱建数据中心是对的吗？还是说他们应该耐心等行业成熟后再考虑横向发展呢？\"",
+      "en": "So do you think then like Zuck and Sam are right to be spending as much they are on data centers, or should they be patient and wait for the maturation of the industry where they can then be horizontal?",
+      "speaker": 1
+    },
+    {
+      "start": 2644.925000000001,
+      "end": 2670.360000000001,
+      "zh": "我觉得OpenAI的投资到目前为止确实见效了。当然，投资过头也是有可能的，但我不确定现在是不是就是那时候。另外，我觉得很多公司用金融手段来转移风险，这点挺有意思。不过，我觉得过于复杂地使用这些金融工具，有时反而可能增加泡沫的风险，所以这方面需要注意。",
+      "en": "I think clearly OpenAI's investments have paid off to date. It is possible to overinvest at some point. Point, but I don't know if that is the point. And then I think also the financial instruments being used by many players to shift risks around have been really interesting. I find that overly used, complex use of financial instruments to shift risk sometimes increases the risk of there being a bubble at some point. So that's something to watch out for.",
+      "speaker": 0
+    },
+    {
+      "start": 2670.460000000001,
+      "end": 2672.840000000001,
+      "zh": "\"你担心这种循环交易吗？\"",
+      "en": "Do you worry about the circular deal?",
+      "speaker": 1
+    },
+    {
+      "start": 2672.940000000001,
+      "end": 2684.492000000001,
+      "zh": "\"这确实需要关注。我倒不太紧张，但还是要注意。我觉得有时候会有点泡沫，有时候又没那么多泡沫。这些现象有点像泡沫化的迹象。\"",
+      "en": "It's something to keep an eye on. I'm not alarmed by them, but it is. I think things could be more frothy or less frothy. Things could be More of a bubble and less of a bubble. And these are signs of things feeling a little bit more bubbleish.",
+      "speaker": 0
+    },
+    {
+      "start": 2684.592000000001,
+      "end": 2688.679000000001,
+      "zh": "\"在什么情况下这些迹象会让你特别担心呢？\"",
+      "en": "When does a sign turn into a big concern for you with these?",
+      "speaker": 1
+    },
+    {
+      "start": 2688.779000000001,
+      "end": 2734.1220000000008,
+      "zh": "我记得你提到Sequoia那篇关于AI六千亿美元问题的文章。我对此有些担心，但也觉得挺有意思的。我对技术栈各层的担忧不太一样。比如应用层就很有明确的投资回报，我觉得这很棒。有人训练了这些模型，然后有人用十几万或上百万美元来开发应用，就能开始产生回报。接下来就是基础设施投资该怎么调配的问题，这有点难。不过我们确实需要更高效的数据中心和更多的半导体，这点很明确。所以我们确实需要大量投资，我也很高兴我们在做。但具体要投多少是个难题，不过肯定要投不少。",
+      "en": "I think you mentioned the Sequoia article on the $600 billion problem of AI. I am concerned about that, but it's interesting. My concern for different layers of the stack is different. So what I'm seeing is for the application layer there is very clear roi. I think it's fantastic. So someone else trained these models who can build applications for $100,000 or a million dollars and start generating ROI. And then I think it is calibrating to the right level of infrastructure investment. That is tricky. But having said that, it is also at the same time very clear that we do need more efficiency, more data centers and more semiconductors. That too is very clear. So we should be investing a lot, and I'm glad we are. But what exactly is the right amount to invest? I think that's the tricky question. It should be a lot, though.",
+      "speaker": 0
+    },
+    {
+      "start": 2734.222000000001,
+      "end": 2737.334000000001,
+      "zh": "\"你会因为泡沫的讨论而感到烦吗？\"",
+      "en": "Do you get annoyed by the bubble discussion?",
+      "speaker": 1
+    },
+    {
+      "start": 2737.434000000001,
+      "end": 2798.653000000001,
+      "zh": "我倒不觉得泡沫讨论烦人，倒是那些监管者打电话来说听说AI可能导致人类灭绝，这种炒作让我烦。不过，比起几年前，这种情况少多了。其实讨论应该是怎么提升劳动力技能，哪里可以投资，而不是怎么减缓发展。我觉得炒作真的扭曲了公众对AI的看法。炒作的另一个坏处就是，如果公众不支持AI，事情就会变慢。比如，我有个朋友常跟高中生打交道，他告诉我，他和一个女生聊过AI职业，她说她听说AI可能导致人类灭绝，她不想跟这有关系。所以这种炒作让一个本来可以投身AI的高中女生却步了。我觉得这让人们做出奇怪的决定，不管是个人还是社区层面。比如，一个社区如果拒绝建设一个可能对社区和世界都有益的数据中心，我觉得这也挺可惜的。",
+      "en": "I don't get annoyed by the bubble discussion. I do get annoyed by the hype when regulators are calling me up and saying, hey, we heard AI could lead to human extinction. Thankfully much lesser than now than a couple of years ago. And then instead the conversation should be, how can we upskill the workforce? Where can we invest? Not how do we slow this thing down? I think the hype has really distorted public perception of AI. And one downside to the hype too, is without public support of AI, things slow down. So, for example, actually one of my friends works a lot with high school students, and he told me that he was talking to a girl, a high school student, that he was talking to her about maybe pursuing a career in AI, and she said, you know what I heard AI could have something to do with human extinction. I don't want to have anything to do with that. And so this hype turned a high school girl away from working on AI at a time where it'd be so promising for them to leap into AI. And I think this really causes people to make weird decisions, both at the individual school student level as well as at the community level, where when a community shuts down building out a data center, that could be good for the community and good for the world. I think that's also unfortunate.",
+      "speaker": 0
+    },
+    {
+      "start": 2798.753000000001,
+      "end": 2810.735000000001,
+      "zh": "\"我想进入快问快答环节，我会说个简短的问题。第一个问题是，你对教育机构有什么最大建议，确保他们能为AI时代培养好学生？\"",
+      "en": "I'd love to move to a quick fire round where I say a short statement, but kind of staying on that thread because the first question is, what's your biggest, biggest advice to educational institutions to make sure they equip students for a generation of AI.",
+      "speaker": 1
+    },
+    {
+      "start": 2810.835000000001,
+      "end": 2828.838000000001,
+      "zh": "\"要拥抱AI，更新课程，多教AI相关的内容。学生未来生活的世界里，AI会帮到他们。得教学生怎么用AI。我觉得不同领域会有不同的需求，不过有一点很明确，那就是让所有学生学会编程。\"",
+      "en": "Embrace it, update curricula, teach them as much AI as possible. Students are going to live in a world where they will be using AI and having it help them. Got to teach students to do that. I think it'll be different for different fields, but one thing that is clear is get all your students to learn to code.",
+      "speaker": 0
+    },
+    {
+      "start": 2828.938000000001,
+      "end": 2833.9190000000012,
+      "zh": "\"在过去的12到18个月里，你对AI有什么改变想法吗？\"",
+      "en": "What's one think you've changed your mind about AI in the last 12 to 18 months?",
+      "speaker": 1
+    },
+    {
+      "start": 2834.019000000001,
+      "end": 2844.166000000001,
+      "zh": "\"我觉得我喜欢的工具一直在变。如果你过去一年里每隔三个月问我最喜欢的编程工具是什么，我的答案肯定一直在变。\"",
+      "en": "I think my favorite tools keep changing. If you ask me every three months over the last year what my favorite coding tool is, my answer would have kept on changing.",
+      "speaker": 0
+    },
+    {
+      "start": 2844.266000000001,
+      "end": 2848.353000000001,
+      "zh": "你觉得Anthropic会在编程大战中打败OpenAI吗？",
+      "en": "Do you think anthropic will beat OpenAI in the coding wars?",
+      "speaker": 1
+    },
+    {
+      "start": 2848.453000000001,
+      "end": 2880.332000000001,
+      "zh": "真不好说。OpenAI的消费者品牌很强，这点很有优势。相比之下，开发者更容易换编程工具。我很喜欢cloud code，觉得挺不错的。但最近一个月我用OpenAI的codecs更多。我觉得OpenAI codecs确实势头很猛。我也在关注Gemini Cli，我觉得它进步得比大家想象得快。总的来说，开发工具和API市场的护城河不如强大的消费者品牌。所以我觉得公司得好好考虑这点。",
+      "en": "Really hard to say. So OpenAI has a very strong consumer brand, and that is very defensible. In contrast, developers are more likely to switch coding tools on a dime. So I love cloud code. I think it's fantastic. But I find myself using OpenAI codecs much more over the last month. I think OpenAI codecs has actually gained raw momentum. And then I'm also keeping an eye on Gemini Cli, which I think is also getting better, maybe at a faster rate than people have given them credit for. So decoding DevTools and API tools market the moat there is weaker than having a strong consumer brand. So I think that's something that companies have to sort out.",
+      "speaker": 0
+    },
+    {
+      "start": 2880.4320000000007,
+      "end": 2886.5740000000005,
+      "zh": "你在百度最大的收获是什么？毕竟百度和我们西方的公司很不一样。你最大的感受是什么？",
+      "en": "Tell me, what was your biggest takeaway from Baidu? It's such a different company to anything that we're used to in the West. What was your biggest takeaway?",
+      "speaker": 1
+    },
+    {
+      "start": 2886.674000000001,
+      "end": 2897.5060000000008,
+      "zh": "\"我很欣赏百度和整个中国生态系统的速度和强度。我觉得在美国的一些地方，建议别人努力工作被视为不合适，这挺遗憾的。\"",
+      "en": "I really appreciated the speed and intensity of Baidu and also of the China ecosystem. I think it's really unfortunate that in some parts of the United States, advising someone to work hard, you know, is viewed as politically incorrect or something.",
+      "speaker": 0
+    },
+    {
+      "start": 2897.6060000000007,
+      "end": 2900.799000000001,
+      "zh": "\"在欧洲，我因为这个被批评过。\"",
+      "en": "In Europe, I'm chastised for it.",
+      "speaker": 1
+    },
+    {
+      "start": 2900.899000000001,
+      "end": 2956.4300000000007,
+      "zh": "哦，好吧。希望欧洲的听众不会因此讨厌我或者我们。我其实是希望大家每周只工作四个小时就能很成功，但现实是努力工作确实能完成更多。当然，我也承认不是每个人在生活的每个阶段都能拼命工作。比如我孩子出生的那一周，我就没有那么拼，休息了一段时间，陪了孩子一周多。我觉得我们应该尊重每个人的生活方式，包括那些因为各种原因暂时无法努力工作的人。但如果有人想努力工作，像乔布斯说的那样改变世界，那我们就应该支持和赞美他们。如果有人因为某些情况不能拼命工作，我们也要尊重，甚至为他们喝彩。我觉得现在是一个可以创造很多东西的时代，努力学习和创造的人会有很大的成就。",
+      "en": "Oh, okay. All right, great. Hopefully the European viewers won't hate me or hate us both for that. I think, frankly, I wish people could work four hours a week and be wildly successful, but the practical reality is when people work hard, they get more done. Now, I want to acknowledge that not everyone in every point in their life is in the position to work hard. So the week after my kids were born, I didn't work that hard. I took time off, spent time with the kids for more than a week. And I think we need to respect people in all walks of life, including people that, for whatever reason, are not in a position to work hard at that moment. But if someone wants to work hard, go quote Steve Jobs make a dent in the universe. Let's empower them and celebrate that. If someone for whatever situation can't work hard, let's also respect that and maybe celebrate that. But I think this is a moment in time where there's so much stuff we could build. People that work hard to learn a lot and build things will accomplish a lot.",
+      "speaker": 0
+    },
+    {
+      "start": 2956.5300000000007,
+      "end": 2959.0380000000005,
+      "zh": "\"你有做过996吗？\"",
+      "en": "Did you do996?",
+      "speaker": 1
+    },
+    {
+      "start": 2959.138000000001,
+      "end": 2981.297000000001,
+      "zh": "\"其实我没用过996这个词。我现在的工作状态是，我真的很喜欢我做的事情，感觉不像在工作。很多周末我都在咖啡店里写代码，因为这就是我觉得周六最有趣的事。所以我其实不太在意工作时间，估计挺多的吧。\"",
+      "en": "The term996 wasn't an explicit term that I use. I find that right these days I work. I really love what I do. Really doesn't feel like work. But on a lot of my weekends I'm sitting in a coffee shop coding away because it's the most fun thing you could do on a Saturday. So I actually don't bother to keep track of my hours. It's probably a lot.",
+      "speaker": 0
+    },
+    {
+      "start": 2981.397000000001,
+      "end": 2985.275000000001,
+      "zh": "\"从运营者转型为投资者，最难的是什么？\"",
+      "en": "What's the hardest transition element moving from operator to investor?",
+      "speaker": 1
+    },
+    {
+      "start": 2985.375000000001,
+      "end": 3030.754000000001,
+      "zh": "哦，说到AI Fund。是的，我们叫自己基金，但其实每天的运作更像是在做项目，而不是单纯投资。AI Fund的Adventure Studio和我们团队的强项其实是在于实干，而不仅仅是资本分配之类的。所以我们非常努力地筛选创意，跟客户沟通。我有时候也会亲自跟客户打电话。然后我们会邀请创始人和我们一起合作。我们会一起评审产品，给出反馈，还会讨论定价。所以我每天的工作更像是个操作者。当然，最后我们还是得做财务尽调，签支票，继续跟进投资。这些我们都会做，但不仅限于此。",
+      "en": "Oh, one thing about AI Fund. Yes, we call ourselves a fund but frankly the way we run the fund day to day we act much more like operators than investors. AI Fund's Adventure Studio and I believe our skill set is actually building, not just in capital asset allocation or whatever. So we work really hard to screen ideas. We talk to customers. I'm sometimes on customer calls myself. And then we bring in founders to work alongside us. We're reviewing the product, giving feedback on the product, arguing about pricing. So where my day to day life is much more operator. And yes, eventually we have to do the financial diligence as I write a check and do follow on. We do all that but a lot more.",
+      "speaker": 0
+    },
+    {
+      "start": 3030.8540000000007,
+      "end": 3035.4980000000005,
+      "zh": "\"哦，不好意思，Andrew，那你们到底是基金还是孵化器啊？\"",
+      "en": "I'm really sorry Andrew. Then are you a fund or are you an incubator?",
+      "speaker": 1
+    },
+    {
+      "start": 3035.598000000001,
+      "end": 3056.4610000000007,
+      "zh": "所以我们称自己为风险工作室或者风险创建者。孵化器通常是找已经有想法的创始人，但我们更早一步。我们经常和投资者及合作伙伴一起先想出一个点子，然后再去找最合适的创始人一起合作，共同创建公司。所以我们不叫自己孵化器。",
+      "en": "So we call ourselves a venture studio or a venture builder. The term incubators usually bring in founders that already have an idea. We go earlier than that. We often work with our investors and partners to come with an idea and only after we have an idea then we go and try to find the best founder to co build to. Co found the company with us. So we don't call ourselves incubator.",
+      "speaker": 0
+    },
+    {
+      "start": 3056.561000000001,
+      "end": 3062.273000000001,
+      "zh": "\"那你们在最初投资和种子轮的时候，通常会占多少股份呢？\"",
+      "en": "How much ownership do you have then when you make those original investments and seed the company?",
+      "speaker": 1
+    },
+    {
+      "start": 3062.373000000001,
+      "end": 3079.219000000001,
+      "zh": "\"这要看公司情况。我们会拿一些普通股，作为创建公司的辛苦回报。然后我们的第一笔投资通常是一百万美元，按四百万的估值上限来算，大概占20%的股份或者是SAFE协议。\"",
+      "en": "Company depends. We end up with some common stock for the sweat equity of building the company. And then our first check in is usually like a million dollars at a 4 million dollar cap. So kind of 20% ownership or safe.",
+      "speaker": 0
+    },
+    {
+      "start": 3079.319000000001,
+      "end": 3086.5640000000008,
+      "zh": "所以我们基本上在进入的时候能拿到20%到25%的股份，还有一些普通股。",
+      "en": "And so we're basically getting 20 to 25% ownership on entry with a couple of common.",
+      "speaker": 1
+    },
+    {
+      "start": 3086.6640000000007,
+      "end": 3090.7970000000005,
+      "zh": "对，还有一些普通股算是我们的辛苦付出。",
+      "en": "Yeah. Plus some common for the sweat equity.",
+      "speaker": 0
+    },
+    {
+      "start": 3090.897000000001,
+      "end": 3093.9160000000006,
+      "zh": "当然。那你觉得最大的是什么？",
+      "en": "Totally. Yeah. You. What do you think is the biggest.",
+      "speaker": 1
+    },
+    {
+      "start": 3094.016000000001,
+      "end": 3117.975000000001,
+      "zh": "\"我觉得我们这样做的原因是，虽然有些VC是靠竞争热门项目赚钱，但我认为我们团队最大的贡献不是抢热门项目，而是找到创意并和创始人一起创建本来不会存在的公司。我觉得通过创建新公司，我们为世界创造了更多价值，而不仅仅是去发现热门公司投钱进去。\"",
+      "en": "But to me the reason we do this is because I find that While there are VCs that do the competitive deal flow thing, they make a lot of money that way. I think my team's biggest contributions is not fighting over hot deals, it is finding ideas and creating companies that would not exist but for the fact that we and the founder got together to co found it together. So I think we just create more value in the world by creating new companies rather than only discovering hot companies to try to put money into.",
+      "speaker": 0
+    },
+    {
+      "start": 3118.075000000001,
+      "end": 3125.447000000001,
+      "zh": "\"Andrew，你现在最担心什么？我很喜欢你的乐观和开放态度，那反过来有什么让你担心的呢？\"",
+      "en": "What concerns you most today, Andrew, I love your optimism and your open mindedness. What concerns you on the flip side?",
+      "speaker": 1
+    },
+    {
+      "start": 3125.5470000000014,
+      "end": 3152.2060000000015,
+      "zh": "\"这次经济变革带来的困难是让所有人都跟上。就像以前从农业转型到非农业时代，农民还能继续种地直到退休，但他们的孩子得学新的技能，可能要搬到城市。这次变化太快了，我们需要现在的人学新技能，而不是等下一代去学。这其实很有挑战。而且历史上我们好像从来没擅长过这个。\"",
+      "en": "The difficulty of bringing everyone along with us in previous ways of economic disruption. Like when our nations went from mainly agriculture to non agriculture. Someone that was a farmer could keep farming until they retired. But the kids had to learn a different trade, maybe move to a city or whatever. The change is so fast this time around that we need people that are alive today to learn new skills as opposed to we need their kids to learn new skills. And that's actually very challenging. And historically I don't think we've ever been good at that.",
+      "speaker": 0
+    },
+    {
+      "start": 3152.3060000000014,
+      "end": 3162.4530000000013,
+      "zh": "“Andrew，你接受了很多采访，和很多记者聊过。我不是记者，其实也没正经工作过。你觉得问你问题的那些采访者水平怎么样？”",
+      "en": "You do a lot of interviews, Andrew. You speak to many journalists. I'm not a journalist, have never actually had a job. Do you find the quality of interviewers that ask you questions good?",
+      "speaker": 1
+    },
+    {
+      "start": 3162.5530000000012,
+      "end": 3206.1320000000014,
+      "zh": "我觉得媒体在整理和传播知识方面有很重要的作用。我觉得记者们问的问题质量确实在不断提高。但还是有炒作的成分在扭曲信息生态。很不幸，这里有一些经济利益和立法优势的激励，导致某些炒作得到了支持。这是一种我注意到的模式。我就不点名公司了，但我发现有些公司因为有损失风险，他们的言论变得更谨慎了。所以那些已经很成熟的公司，通常会说得更理智一些。但有些公司面临更大的生存风险，我觉得这些公司更容易制造炒作，因为他们没什么可失去的，就会随便说一堆东西。",
+      "en": "I think media has an important role to play to curate and disseminate knowledge. I think the quality of questions that reporters are asking has been very clearly trending up over time. But there is still the hype element of it that keeps on distorting the information ecosystem. Unfortunately there are financial incentives and regularly capture legislative benefit, types of incentives to certain types of help to certain types of hype. And that's actually one pattern that I've seen. I won't name any companies, but I find that there are companies with something to lose whose statements over time have become more moderated. So I find that as you're established company you just say more sensible things. But there are some companies I think are at greater existential risk and I find those companies, some of those companies that I don't want to name to be the worst sources of hype because they've got less to lose, let's just say a bunch of random stuff.",
+      "speaker": 0
+    },
+    {
+      "start": 3206.2320000000013,
+      "end": 3218.6430000000014,
+      "zh": "\"很多时候这就是一种绝望中的反击。我觉得像Adamis这样的优秀领导者，或者像Sam和Dario，他们随着公司逐渐成熟，立场都变得稳重了很多。\"",
+      "en": "In many respects it's a lashing out in desperation. I think when you look at Adamis say obviously a brilliant leader or you look at a Sam even or a Dario, all of them I think have moderated their position significantly with the maturing of their companies.",
+      "speaker": 1
+    },
+    {
+      "start": 3218.7430000000013,
+      "end": 3232.1760000000013,
+      "zh": "\"嗯，对。我就不评价个人了，但我觉得当你有东西要失去时，说话会更谨慎些。但当公司面临生存风险时，有时候人们会说些奇怪的话。\"",
+      "en": "Yeah, yeah. No comment on individuals, but I think that when you have something to lose, you say more sensible things. But when your company faces greater existential risk. Sometimes people say weird things.",
+      "speaker": 0
+    },
+    {
+      "start": 3232.276000000001,
+      "end": 3255.227000000001,
+      "zh": "\"说到筹款，我喜欢用乐观的态度结束。展望未来十年，你最期待的是什么？比如我吧，我妈妈得了多发性硬化症。我觉得我们在某些疾病上会有很了不起的医学突破，特别是那些多年没有大进展的。这让我很兴奋。那你呢？有什么让你兴奋的事吗？\"",
+      "en": "For fundraising, I like to finish on a tone of optimism. What single thing are you most excited for when you look forward to the next decade? So, for me, for example, my mother's got Ms. I think we'll have incredible medical disclosure discoveries in some diseases that we haven't really made much advancements in for years. That excites me. What excites you?",
+      "speaker": 1
+    },
+    {
+      "start": 3255.327000000001,
+      "end": 3259.3790000000013,
+      "zh": "\"哦，听到你妈妈的情况我很遗憾。\"",
+      "en": "Yeah, I'm sorry to hear about you, mother.",
+      "speaker": 0
+    },
+    {
+      "start": 3259.479000000001,
+      "end": 3260.756000000001,
+      "zh": "\"谢谢你。\"",
+      "en": "Thank you.",
+      "speaker": 1
+    },
+    {
+      "start": 3260.856000000001,
+      "end": 3293.923000000001,
+      "zh": "\"让我兴奋的是什么？我希望每个人都能打造AI。现在从有想法到实现的距离已经缩短了很多。而且我们不只是需要软件工程师来创造。未来，我希望更多人不再问，‘有适合这个的应用吗？’而是说，‘我做了个应用。’大家不只是软件的使用者，而是创造者。这样的话，全世界的人都会更有能力，做更多事，享受更多乐趣。\"",
+      "en": "What excites me? I want to empower everyone to build AI. I think the distance between you having an idea and building it is now much shorter. And we need not just software engineers to be creating. So in the future, I hope that a lot of people, instead of saying, is there an app for that? They'll say, I built an app for that. And instead of just being a software user, there'll be a software creator. And when you get there, then people all around the world will be much more empowered, get more done, have more fun.",
+      "speaker": 0
+    },
+    {
+      "start": 3294.023000000001,
+      "end": 3302.034000000001,
+      "zh": "\"Andrew，这次聊天真是太开心了。谢谢你耐心回答我的问题，你真的很棒，我非常感谢你的时间。\"",
+      "en": "Andrew, this has been such a joy to do. Thank you so much for putting up with my prime and my pressing. You've been amazing and I really appreciate the time.",
+      "speaker": 1
+    },
+    {
+      "start": 3302.134000000001,
+      "end": 3306.697000000001,
+      "zh": "\"我特别喜欢你的节目，所以能来这真是太荣幸了。Harry。\"",
+      "en": "I really enjoy your show, so it's a privilege to be here. Harry.",
+      "speaker": 0
+    }
+  ],
+  "guests": [
+    {
+      "name": "Harry Stebbings",
+      "role": "Host (The 20 Minute VC)",
+      "bio": "",
+      "twitter": ""
+    },
+    {
+      "name": "Andrew Ng",
+      "role": "Founder of DeepLearning.AI, Executive Chairman of LandingAI, General Partner at AI Fund, Chairman and Co-Founder of Coursera",
+      "bio": "",
+      "twitter": ""
+    }
+  ],
+  "resources": [],
+  "summary": {
+    "zh": "访谈探讨了AI行业的电力和半导体瓶颈，AI编程助手的成熟度，以及中美在AI开放性和地缘政治影响上的差异。Andrew Ng指出AI对未来经济的潜在增益，并强调拥抱AI技术对教育的重要性。",
+    "en": "The interview discussed AI's bottlenecks in power and semiconductors, the maturity of AI programming assistants, and the geopolitical implications of AI openness between the US and China. Andrew Ng highlighted AI's potential economic growth and the importance of embracing AI in education."
+  },
+  "keyPoints": [
+    {
+      "title": "AI电力与半导体的瓶颈挑战",
+      "highlights": [
+        "数据中心是数字经济的关键基础设施。",
+        "中国在电力和核电站的投入让人印象深刻。",
+        "电力和半导体的限制是AI发展的挑战。"
+      ],
+      "startAt": 70
+    },
+    {
+      "title": "AI编程助手超越图像技术",
+      "highlights": [
+        "AI编程助手比2016年的图像生成技术更成熟。",
+        "OpenAI的Codecs让开发者更高效。",
+        "AI编程助手预示着其他行业的变化。"
+      ],
+      "startAt": 391
+    },
+    {
+      "title": "中美在AI开放性上的竞争",
+      "highlights": [
+        "中国的AI开放度比美国更领先。",
+        "开放模型促进创新和知识流通。",
+        "地缘政治影响力来源于模型开放性。"
+      ],
+      "startAt": 1080
+    },
+    {
+      "title": "AI助力经济增长的潜力",
+      "highlights": [
+        "智慧是最贵的东西之一。",
+        "AI让每个人都能负担得起智慧助手。",
+        "这将带来显著的GDP增长。"
+      ],
+      "startAt": 1021
+    }
+  ]
+}
