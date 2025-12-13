@@ -11,7 +11,7 @@
     "健康"
   ],
   "cover": "/images/huberman-immune.jpg",
-  "audioUrl": "/audio/huberman-immune.mp3",
+  "audioUrl": "https://pub-a31ba1df1a8546fe86dc40cba53d796e.r2.dev/huberman-immune.mp3",
   "chapters": [
     {
       "title": "大脑与免疫的联系",

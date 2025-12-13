@@ -13,7 +13,7 @@
     "titleEn": "The Biggest Bottlenecks in AI, How LLMs Can Be Used as a Geopolitical Weapon & Do Margins Matter in a World of AI?",
     "date": "2025-11-17",
     "duration": 3306,
-    "audioUrl": "/audio/andrew-ng-ai-bottlenecks.mp3",
+    "audioUrl": "https://pub-a31ba1df1a8546fe86dc40cba53d796e.r2.dev/andrew-ng-ai-bottlenecks.mp3",
     "summary": "访谈探讨了AI行业的电力和半导体瓶颈，AI编程助手的成熟度，以及中美在AI开放性和地缘政治影响上的差异。Andrew Ng指出AI对未来经济的潜在增益，并强调拥抱AI技术对教育的重要性。"
   },
   "highlights": [
@@ -45,7 +45,7 @@
       "titleEn": "The Biggest Bottlenecks in AI, How LLMs Can Be Used as a Geopolitical Weapon & Do Margins Matter in a World of AI?",
       "date": "2025-11-17",
       "duration": 3306,
-      "audioUrl": "/audio/andrew-ng-ai-bottlenecks.mp3"
+      "audioUrl": "https://pub-a31ba1df1a8546fe86dc40cba53d796e.r2.dev/andrew-ng-ai-bottlenecks.mp3"
     },
     {
       "id": "microsoft-preparing-agi",
@@ -55,7 +55,7 @@
       "titleEn": "Satya Nadella — How Microsoft is preparing for AGI",
       "date": "2025-11-12",
       "duration": 3896,
-      "audioUrl": "/audio/microsoft-preparing-agi.mp3"
+      "audioUrl": "https://pub-a31ba1df1a8546fe86dc40cba53d796e.r2.dev/microsoft-preparing-agi.mp3"
     },
     {
       "id": "ai-decision-intelligence",
@@ -65,7 +65,7 @@
       "titleEn": "How Decision Intelligence & AI Agents Are Redefining Enterprise Operations",
       "date": "2025-11-13",
       "duration": 2264,
-      "audioUrl": "/audio/ai-decision-intelligence.mp3"
+      "audioUrl": "https://pub-a31ba1df1a8546fe86dc40cba53d796e.r2.dev/ai-decision-intelligence.mp3"
     },
     {
       "id": "huberman-immune-system",
@@ -75,7 +75,7 @@
       "titleEn": "Using Your Nervous System to Enhance Your Immune System",
       "date": "2025-11-10",
       "duration": 4929,
-      "audioUrl": "/audio/huberman-immune.mp3"
+      "audioUrl": "https://pub-a31ba1df1a8546fe86dc40cba53d796e.r2.dev/huberman-immune.mp3"
     },
     {
       "id": "ep-011",
@@ -84,7 +84,7 @@
       "titleEn": "LLMs & Creative Flow",
       "date": "2025-10-27",
       "duration": 2120,
-      "audioUrl": "/audio/ep-011.mp3"
+      "audioUrl": "https://pub-a31ba1df1a8546fe86dc40cba53d796e.r2.dev/ep-011.mp3"
     },
     {
       "id": "ep-010",
@@ -93,7 +93,7 @@
       "titleEn": "Neuroplasticity & Learning",
       "date": "2025-10-20",
       "duration": 3240,
-      "audioUrl": "/audio/ep-010.mp3"
+      "audioUrl": "https://pub-a31ba1df1a8546fe86dc40cba53d796e.r2.dev/ep-010.mp3"
     },
     {
       "id": "ep-009",
@@ -102,7 +102,7 @@
       "titleEn": "Ethics of AI Voice",
       "date": "2025-10-13",
       "duration": 2880,
-      "audioUrl": "/audio/ep-009.mp3"
+      "audioUrl": "https://pub-a31ba1df1a8546fe86dc40cba53d796e.r2.dev/ep-009.mp3"
     },
     {
       "id": "ep-008",
@@ -111,7 +111,7 @@
       "titleEn": "Understanding Attention",
       "date": "2025-10-06",
       "duration": 3120,
-      "audioUrl": "/audio/ep-008.mp3"
+      "audioUrl": "https://pub-a31ba1df1a8546fe86dc40cba53d796e.r2.dev/ep-008.mp3"
     },
     {
       "id": "ep-007",
@@ -120,7 +120,7 @@
       "titleEn": "Sleep & Memory Consolidation",
       "date": "2025-09-29",
       "duration": 2940,
-      "audioUrl": "/audio/ep-007.mp3"
+      "audioUrl": "https://pub-a31ba1df1a8546fe86dc40cba53d796e.r2.dev/ep-007.mp3"
     }
   ]
 }
