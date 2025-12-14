@@ -1,0 +1,986 @@
+{
+  "id": "how-company-build-ai",
+  "titleCn": "8万家企业如何构建AI产品：产品即生命体、组织架构的终结，以及为何智能体在2026年将超过员工数量 | 微软AI平台首席副总裁 Asha Sharma",
+  "titleEn": "How 80,000 companies build with AI: products as organisms, the death of org charts, and why agents will outnumber employees by 2026 | Asha Sharma (CVP of AI Platform at Microsoft)",
+  "originalUrl": "https://www.lennysnewsletter.com/p/how-80000-companies-build-with-ai-asha-sharma",
+  "date": "2025-08-28",
+  "duration": 2666,
+  "tags": [
+    "AI",
+    "Product Development",
+    "Microsoft",
+    "Agents",
+    "Enterprise",
+    "Organization"
+  ],
+  "cover": "/images/how-company-build-ai.jpg",
+  "audioUrl": "https://pub-a31ba1df1a8546fe86dc40cba53d796e.r2.dev/how-company-build-ai.mp3",
+  "chapters": [
+    {
+      "title": "引言与主题概述",
+      "start": 0
+    },
+    {
+      "title": "Agentic社会的崛起",
+      "start": 59
+    },
+    {
+      "title": "产品有机体化",
+      "start": 302
+    },
+    {
+      "title": "成功AI产品的策略",
+      "start": 529
+    },
+    {
+      "title": "全栈开发与循环思维",
+      "start": 711
+    },
+    {
+      "title": "代码原生接口的未来",
+      "start": 826
+    },
+    {
+      "title": "Agent与组织结构",
+      "start": 1032
+    },
+    {
+      "title": "策略文档与AI的未来",
+      "start": 1490
+    },
+    {
+      "title": "强化学习的浪潮",
+      "start": 2112
+    },
+    {
+      "title": "个人感悟与未来展望",
+      "start": 2019
+    },
+    {
+      "title": "快问快答与结束语",
+      "start": 2319
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 59.095,
+      "zh": "欢迎来到EchoMind回声思维。\n\n您现在收听的这期播客，是对原英文博客基于 AI 技术生成的中文版本。我们不仅搬运优质内容，还保留原汁原味的嘉宾音色。\n\n我是Lorraine，在互联网大厂从事数据科学，同时也是一名 AI 爱好者。\n\n从探讨代理型社会的崛起到产品由“工艺品”向“有机体”转变，这次对话揭示了未来工作和产品形态的深刻变革。随着边际成本趋近于零，企业组织架构将更注重于成果而非层级。通过Asha Sharma的独特视角，我们将了解AI的最新进展，包括如何利用代理实现更高效的生产力，以及企业如何在快速变化的技术环境中规划未来。她的观察揭示了产品如何通过交互变得更智能，更像一个不断进化的生命体，为每家公司创造新的知识产权。\n\n\n\n好，让我们开始吧。",
+      "en": "[Intro]",
+      "speaker": -1
+    },
+    {
+      "start": 59.095,
+      "end": 62.973,
+      "zh": "他说，我们才刚开始了解 agentic 社会到底是什么样子。",
+      "en": "He said that we're just starting to scratch the surface of what an agentic society actually looks like.",
+      "speaker": 0
+    },
+    {
+      "start": 62.973,
+      "end": 79.134,
+      "zh": "我们正走向一个世界，好的产出几乎没成本。生产力和产出需求会呈指数增长。要跟上这个趋势，就得用agents。当这一切发生时，组织架构会变成工作架构，不需要那么多层级了。",
+      "en": "We're approaching this world in which the marginal cost of the good output is approaching zero. We're going to see exponential demand for productivity and output. The way that you scale to that is with agents. When all of that happens, the org chart starts to become the work chart. You just don't need as many layers.",
+      "speaker": 1
+    },
+    {
+      "start": 79.134,
+      "end": 84.208,
+      "zh": "我们刚聊到你的观点，就是产品从一个静态的东西变成了一个像生物一样的存在。",
+      "en": "We were chatting about this concept you have that we're moving from product as artifact to product as organism.",
+      "speaker": 0
+    },
+    {
+      "start": 84.207,
+      "end": 101.007,
+      "zh": "因为这些模型现在效果太好了，所以你会想开始调教它们，让它们实现特定的结果。突然之间，它们就像活生生的有机体，互动越多就越好。我觉得这就是每个公司新的IP：能思考、能成长、能学习的产品。",
+      "en": "Because these models are so effective at this point, you want to start to tune them to certain types of outcomes. All of a sudden these are these living organisms that just get better with the more interactions that happen. I think this is the new IP of every single company. Products that think and live and learn.",
+      "speaker": 1
+    },
+    {
+      "start": 101.007,
+      "end": 107.102,
+      "zh": "现在要做计划简直太疯狂了。GPT5刚出来，大家怎么还能规划路线图呢？",
+      "en": "Planning right now is just crazy. How does anyone plan a roadmap when there's just like, okay, GPT5's out.",
+      "speaker": 0
+    },
+    {
+      "start": 107.102,
+      "end": 117.505,
+      "zh": "我们会想，现在是哪个阶段？第一阶段可能是AI的原型开发，然后是各种模型和推理模型，现在则是agents的崛起。",
+      "en": "We think about it as what season are we in? Season one might have been prototyping of AI and then it was all around models and reasoning models and now it's the advent of agents.",
+      "speaker": 1
+    },
+    {
+      "start": 117.505,
+      "end": 300.692,
+      "zh": "今天我的嘉宾是 Asha Sharma。Asha 是微软 AI 平台的产品首席副总裁，负责 AI 基础设施、基础模型和 agent 工具链，同时还领导应用工程、负责 AI 和核心 AI 事业部的增长。她之前是 Instacart 的 COO 和 Meta 的产品副总裁，在那里负责 Messenger、Instagram Direct、Messenger Kids 和远程存在。她也在 Home Depot 和 Coupang 的董事会任职，并且是跆拳道的二段黑带。Asha 的角色非常独特，可以让她比世界上大多数人更了解 AI 的发展方向，以及那些公司在构建大规模 AI 产品时的成功与失败。在我们的对话中，Asha 分享了许多她看到的趋势和预测，这是我从未听过其他人谈论的，包括我们如何从产品作为静态物品转变到产品如同有机体的世界，为什么 GUI 正被代码原生界面取代，为什么后训练是新的前训练，未来的 agent 社会，以及今天和未来成为成功构建者所需的条件，还有她从与 Satya 密切合作中学到的最大领导力经验。如果你喜欢这个播客，别忘了在你喜欢的播客应用程序或 YouTube 上订阅和关注。此外，如果你成为我新闻通讯的年度订阅者，你将获得一年免费的 15 款超赞产品，包括 Lovable、Replit、Bold、N8N、Linear、Superhuman、Descript、Whisper Flow、Gamma、Perplexity、Warp、Granola、Magic Patterns、Raycast、Chapierd 和 Mobin。详情请访问 Lenny 的 newsletter.com 并点击产品通行证。现在，让我们欢迎 Asha Sharma。本集由 Interpret 赞助。Interpret 是一个客户智能平台，被 Canva、Notion、Perplexity、Strava、Hinge 和 Linear 等领先的 CX 和产品组织用来利用客户的声音，打造顶级产品。Interpret 将所有客户对话实时统一，从 Gong 记录到 Zendesk 工单到 Twitter 线程，并为你的团队提供分析和行动的机会。Interpret 的独特之处在于它能够建立和更新客户特定的知识图谱，提供最细致和准确的客户反馈分类，并将这些反馈与关键指标如收入和客户满意度联系起来。如果你希望在 2025 年将客户声音项目现代化升级到一个新水平，就像 Canva、Notion、Perplexity 和 Linear 这样的以客户为中心的行业领导者一样，请访问 interpret.com Lenny，联系他们的团队。今天的节目也由 DX 赞助，这是一个由顶尖研究人员设计的开发者智能平台。为了在 AI 时代中茁壮成长，组织需要快速适应，但许多组织领导者难以回答迫在眉睫的问题，比如哪些工具有效？它们是如何使用的？什么真正带来了价值？DX 提供了领导者需要的数据和见解，帮助他们在这个转变中导航。通过 DX，像 Dropbox、Booking.com、adyen 和 Intercom 这样的公司能够深入了解 AI 如何为开发者提供价值，以及 AI 对工程生产力的影响。想了解更多，请访问 DX 的网站 getdx.com Lenny。Asha，非常感谢你的到来，欢迎来到我们的播客。",
+      "en": "Today my guest is Asha Sharma, Asha's Chief Vice President of Product for Microsoft's AI platform where she oversees their AI infrastructure, foundation models and agent toolchains while also leading applied engineering, responsible AI and growth for the core AI division. She was previously COO at Instacart and VP of Product at Meta where she ran Messenger, Instagram, Direct, Messenger, Kids and Remote Presence. She also sits on the boards of the Home Depot and Coupang, and she's a second degree black belt in Taekwondo. Asha is a really unique and rare role that allows her to see more than most anyone else in the world where things are heading with AI and what works and doesn't work for companies that are building large scale AI products. In our conversation, Asha shares a bunch of trends and predictions that she's seeing that I haven't heard anyone else talk about, why we're moving from a product as artifact to product as organism world, why GUIs are being replaced by code native interfaces, why post training is the new pre training the coming agentic society, what it takes to be a successful builder today and going forward, and also her single biggest leadership lesson that she learned from Satya who she works closely with. If you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube. Also, if you become an annual subscriber of my newsletter, you get a year free of 15 incredible products including Lovable, Replit, Bold, N8N, Linear, Superhuman, Descript, Whisper Flow, Gamma, Perplexity, Warp, Granola, Magic Patterns, Raycast, Chapierd and Mobin. Check it out at Lenny's newsletter.com and click product Pass. With that I bring you Asha Sharma. This episode is brought to you by Interpret. Interpret is a customer intelligence platform used by leading CXN product orgs like Canva, Notion, Perplexity, Strava, Han, Hinge and Linear to leverage the voice of the customer and build best in class products. Interpret unifies all customer conversations in real time, from Gong recordings to Zendesk tickets to Twitter threads and makes it available for your team for analysis and for action. What makes Interpret unique is its ability to build and update a customer specific knowledge graph that provides the most granular and accurate categorization of all customer feedback and connects that customer feedback to critical metrics like Revenue and csat. If modernizing your voice of customer program to a generational Upgrade is a 2025 priority, like customer centric industry leaders like Canva, notion, perplexity and linear, reach out to the team at interpret.com Lenny that's E N T E R P R-E-T.com Lenny Today's episode is brought to you by DX, the Developer Intelligence platform designed by leading researchers. To thrive in the AI era, organizations need to adapt quickly, but many organization leaders struggle to answer pressing questions like which tools are working? How are they being used? What's actually driving value? DX provides the data and insights that leaders need to navigate this shift. With DX, companies like Dropbox, Booking.com, adyen and Intercom get a deep understanding of how AI is providing value to their developers and what impact AI is having on engineering productivity. To learn more, visit DX's website at getdx.com Lenny that's getdx.com Lenny Asha, thank you so much for being here and welcome to the podcast.",
+      "speaker": 0
+    },
+    {
+      "start": 300.692,
+      "end": 302.399,
+      "zh": "谢谢邀请我来。",
+      "en": "Thanks for having me.",
+      "speaker": 1
+    },
+    {
+      "start": 302.399,
+      "end": 317.21400000000006,
+      "zh": "我想从我们之前聊过的一个概念开始，这个我以前从没听说过，但我觉得对大家来说会很有帮助。就是你提到的，从产品作为静态物品到产品像有机体的转变。能不能说说这是什么意思，以及大家需要了解什么？",
+      "en": "I want to start with something that we were chatting about before this that I've never heard about as a concept that I think is going to be really helpful for people to think about, which is this concept you have that we're moving from product as artifact to product as organism. Talk about what that means and what people need to understand here.",
+      "speaker": 0
+    },
+    {
+      "start": 317.21500000000003,
+      "end": 396.038,
+      "zh": "这真是个有趣的转变，尤其是在过去一年左右。当我加入微软时，正好是 OpenAI 和大型基础模型兴起的时候，紧接着就出现了一波专有和开放前沿的模型，推动了前沿的发展。这些模型变得更高效，然后我们开始看到它们在各个领域的专业化。最近，这些模型甚至可以进行工具调用、功能调用，还能采取行动。我觉得这让新型产品有了成功的机会。\n\n突然之间，产品不再只是我们发布的静态物品了。不是简单地想出个点子，解决个问题，发布出去，稍微改进一下，然后搞个仪表盘。现在，整个关键指标变成了产品团队的\"新陈代谢\"能力，能否吸收数据，消化奖励模型，并创造出一些结果。因为这些模型现在非常有效，你希望能针对某些结果进行调优，比如价格、性能或质量。\n\n这挺让人兴奋的，因为这些产品就像活的有机体，随着更多的互动而变得更好。在很多方面，我觉得这就是每个公司新的知识产权，这是一种完全不同的产品构建方式，甚至让我们重新思考那些会思考、会成长的产品，真是挺激动人心的。",
+      "en": "It's a. It's been a pretty interesting shift, especially over the last year or so, because when I got to Microsoft it was kind of right after OpenAI and the large foundation models happen and then immediately after there was this explosion of models Proprietary open frontier models that were pushing the frontier curve. And so they were both more efficient. And then we started to see domain level expertise and a bunch of them. And then, you know, even more recently, models now can, you know, tool call and they can function call and they can take action. And I think that's just giving way to a new type of products that are starting to see some success. And so all of a sudden products aren't just like these static artifacts that we start to ship. It's not just like, hey, come up with an idea or an insight, go solve a problem, ship it into the world, maybe make it a little bit better, and then have a dashboard. All of a sudden the, the whole KPI is what is the, the metabolism of a product team to be able to ingest data and then digest the rewards model and then create some sort of outcome. Because these models are so effective at this point, you want to start to tune them to certain types of outcomes, whether it's price or performance or quality. And so it's pretty exciting because all of a sudden these are these living organisms that just get better with the more interactions that happen. And in many ways I think this is the new IP of every single company and it's a completely different way to build product and to even think about, you know, products that think and live and learn, which is kind of exciting.",
+      "speaker": 1
+    },
+    {
+      "start": 396.038,
+      "end": 414.84899999999993,
+      "zh": "听你这么说，我想到之前请来的 Cursor 的 CEO Michael Turrell，他提到他们的一个大模式是通过用户使用 Cursor 时的数据，比如选择哪些建议、接受哪些、不接受哪些。这是不是你说的意思？就是公司从用户使用产品中收集到的专有数据？还是说还有其他更深的东西？",
+      "en": "So when I hear this, what I'm thinking about is when I had Michael Turrell on the podcast the Cursor CEO, he talked a lot about how their big mode is the data that they capture from people using cursor, selecting, accepting certain suggestions, not accepting other suggestions. Is that what you're talking about here? Just like the proprietary data that companies gather from people using their product? Or is there something beyond that even?",
+      "speaker": 0
+    },
+    {
+      "start": 414.84900000000005,
+      "end": 457.024,
+      "zh": "我觉得后训练之所以兴起，是因为这些模型本身实在太强大了。今年，Nathan Lambert 做了一项研究，他发现一旦模型参数达到300亿，继续投入大量资金和算力去训练和预运行，就不太划算了，反而可以在循环中进行优化。所以，我觉得用自己的数据来优化是最好的方法。当然，你也可以合成数据，但需要设计奖励机制，推出并认真做AB测试，找到最适合的场景。这样就能产生数据供你学习。我还没见过哪种产品只靠一个循环来运作的，通常都是多条线并行，就像组装线一样，持续输出。",
+      "en": "I think why we're seeing like the rise of post training happen is just that the, the models themselves like are so powerful. As of this year, Nathan Lambert did this study that I thought was pretty interesting of all the top leaderboards and it showed that, you know, once a model hits 30 billion parameters, the capex to actually train a model and put, you know, billions of tokens into kind of pre run kind of doesn't economically make sense and you can kind of start to optimize on the loop. And so yeah, in many ways I think you can, I think using your own data is the best way to do that. But you can synthetically generate data. You have to come up with a rewards design, you have to actually roll it out, you have to ab test it rigorously you have to find the job to be done or the use case that it makes the most sense for. And then, yes, like that generates data that you can learn from. I haven't ever seen it be one loop for any sort of product. I think it's multiple tracks running in parallel that are kind of like assembly lines, if you will, and kind of producing that.",
+      "speaker": 1
+    },
+    {
+      "start": 457.025,
+      "end": 465.64,
+      "zh": "所以，你说的产品像有机体的这个观点，是只针对模型公司吗？还是说，对SaaS企业和工具公司也适用呢？",
+      "en": "And so is this kind of thesis that we're moving towards product as organism, is this, this basically for model companies or is this also true for, I don't know, SaaS businesses and tools and.",
+      "speaker": 0
+    },
+    {
+      "start": 465.64,
+      "end": 480.06000000000006,
+      "zh": "用户工具是什么样的呢？我觉得软件作为一种基础正在改变，其中的一个关键就是模型和软件组件本身。可以说，我认为未来的所有软件产品都会是以模型为主导的产品。",
+      "en": "User tools look like? I think that software as a primitive is changing and kind of the artifact inside of it is a model alongside the software components itself. And so in many ways I think that, you know, software products will all be model forward products, if you will.",
+      "speaker": 1
+    },
+    {
+      "start": 480.05899999999997,
+      "end": 512.586,
+      "zh": "这让我想到之前请来的 Nick Turley，他是 ChatGPT 的负责人。录音前我们聊到，我问他 GPT5 出来后，ChatGPT 变化有多大？他说，其实没变，还是那个产品。模型告诉我们 ChatGPT 产品要怎么做。这让我想到，为什么 GPT5 不自己构建用户界面呢？就像你用它时，它自己进化。这其实就是它在 Canvas 等应用中的表现。但这也让我想到，当你说产品像有机体时，产品的用户体验可以根据使用情况自动变化，不需要产品团队做什么。",
+      "en": "This reminds me why I just had Nick Turley on the podcast who we were talking about before we started recording head of ChatGPT. And I was asking just like, how much has ChatGPT changed with GPT5 coming out? And he's just like, it's the same thing, they're the same product. It's just like the model tells us what to do in the product of ChatGPT. And it makes me think about something else of just like you would think, why can't just GPT5 build its own user interface? Just like as you use it, it just evolved. It's sort of what it's doing with Canvas and all these things. But that's another way I think about when you talk about this idea of product as organism is the product the UX can shift based on how you're using it and evolve automatically without having product teams have to do anything.",
+      "speaker": 0
+    },
+    {
+      "start": 512.587,
+      "end": 529.004,
+      "zh": "我完全相信未来会是这样的，我的体验和你的会不一样。这其实就是个性化的进步，以后可以实时做到。我觉得这会是个很有趣的世界。而且对agent来说，或者对高级用户、新用户来说，体验也会不同。",
+      "en": "I 100% believe that's where the world is going and that my experience should look and feel different than yours. I mean, that's kind of been the advent and personalization, but now you can do it on the fly in the future. So I think that'll be a pretty fun world. I also think it will look different for agents and it will look different for kind of power users and new users and all of those things too.",
+      "speaker": 1
+    },
+    {
+      "start": 529.004,
+      "end": 548.859,
+      "zh": "我想稍微放大一点问你个问题。你和很多公司合作，他们在你的平台上，还有其他平台上开发AI产品。我想有些公司做得特别好，发展很快，有些则比较挣扎。你发现那些成功打造出特别优秀AI产品的公司，有哪些共同的模式呢？而那些不太成功的又是怎么样的呢？",
+      "en": "Let me kind of zoom out a little bit and ask you this question. You work with a bunch of companies that are building AI products on your platform, other platforms. I imagine some just do an awesome job and are killing it, some are struggling. What do you find are kind of common patterns across the companies that do really well and have a lot of success building really successful AI products and ones that Don't.",
+      "speaker": 0
+    },
+    {
+      "start": 548.86,
+      "end": 711.923,
+      "zh": "嗯，所以我觉得有些东西更多是适用于整个组织本身，还有一些是适用于那些在构建AI产品的人。总体来说，我看到成功公司的一个模式正在显现。首先，他们拥抱AI，让所有人都能熟练使用AI。我觉得大家都在日常工作中使用一些助手或AI工具，所以没人害怕AI，反而知道它能提升技能和任务的上限，同时降低难度。\n\n第二步，他们开始思考，如何将AI应用到现有流程中，让它变得更好。比如客户支持，或者将欺诈处理时间从15天缩短到10天。这个过程就是梳理流程、应用AI、观察影响，然后感受到利润和内在的好处。\n\n第三步就是，好的，现在你看到影响了，大家都在用了，怎么用它推动增长呢？比如提升客户体验，提高客户生命周期价值或留存率。也可能是共同创造新的概念或类别，或者从嵌入式agent到具身agent，能够承担更多任务。\n\n我觉得公司失败的地方在于，他们为了AI而做AI，同时启动很多项目，却没有一个蓝图去理解它是如何运作的，也没有把它当作真正的投资来对待，所以没有设置好测量、观察和评估的机制。企业面临的困难在于技术不断变化。去年有7万个企业级AI工具上线，很难知道该用哪个工具达到什么效果。所以你需要押注一个平台或应用服务器类的层，方便你替换工具，而不是依赖某一项技术或工具。因为整个行业会变，你得为未来变化做好准备，而不是停留在现状。\n\n在企业层面，我看到的就是这样。我觉得那些开发者本身也在发生根本性的变化。每次技术进步都会带来一系列角色的变化，比如从大型机到个人电脑、从服务器到云和移动，出现了SEO专家、CDN、增长黑客、用户体验研究等等。现在我们看到的是多才多艺的开发者崛起，全栈开发者迎来了复兴。一个普通组织可能需要10个步骤才能推出一个产品，可能需要安全审查、规格制定、用户研究等等，涉及五六个功能部门，有六七个层级。突然之间，有500个不同的接触点要去协调才能推出一个产品。而每周有500个新模型或技术出现，这显然不够。因此，我非常相信全栈开发者的概念。你可以在一些新兴的AI公司看到这种趋势，甚至一些有50年历史的企业也开始这样运作。我认为这能带来速度和效率，让你更快地吸收和处理信息。",
+      "en": "Yeah. So I think there's things that are kind of more broadly applying to the organization themselves and then there's things that are applying to the people who are building the, the AI products too. So more broadly I think there's, there's a pattern that's starting to emerge for successful companies. Like one is they are embracing AI and everybody becomes AI fluent. So I think everybody's using some sort of co pilot or some sort of AI in their day to day workflows like job one. So everyone's not afraid of it, understands how it can raise the ceiling and, and kind of lower, lower the floor for like all sorts of skills and tasks. Number two, from there they start to say, okay, how can I take a process that already exists and apply AI to making it better? That might be something like customer support or taking fraud down from 15 days to kind of cure to 10 days. And like going through that entire loop of mapping out the process, applying AI to it, seeing some sort of impact and then feeling the P and L or the kind of intrinsic benefits that, that, that looks like. The third thing then is like okay, great, now that you've seen impact, everybody is using it, how do you actually use it to inflect growth? And that can be something like improving the customer experience so your LTV or retention improves. It could be co creating a new kind of set of concepts or categories. It could be, you know, going from agents that are embedded to agents that are embodied and then being able to take on, you know, exponential number of tasks. I think that where companies fail is that they're doing AI for AI sake. They have a ton of projects that they're kicking off at the same time without a blueprint to understand how it actually works and what their stack looks like. And they aren't treating it like a real investment and so they don't have the measurement and the observability and the evals all kind of set up. It's going to do that end to end. I think the tricky thing is for enterprises is the technology is changing. There's something like 70,000 enterprise tools like in the AI space launched last year. It's really hard to know which one you should use for what outcome. And so you really need to bet on a platform or some sort of app server type layer that allows you to swap things in and out and not really be beholden to anything, any, any one technology or any one tool. Because the reality is is the whole thing is going to change. Feel like you have to actually build for the slope instead of the snapshot of where you are. So that's, that's kind of what I see at the enterprise level. I think the builders themselves are actually changing pretty fundamentally too. Right. Every single advent, like change in technology has invented a changing set of roles like mainframes to PCs, the whole garage, engineers. And then when we went from server to cloud and mobile, there was SEO specialists and CDNs and growth VMs and UXR and know, front end, back end and yada yada. And now I think we're seeing this advent of, of the polymath and where I think that full stack builders are kind of having their renaissance where if you take like an average organization, it takes probably 10 steps to launch a product. It could be security review, it could be spec, it could be, you know, user research. And there's what, five plus functions, maybe, maybe six or seven. I'm being generous for, for a normal organization. And then you have like six or seven layers. So all of a sudden you have 500 different touch points that have to happen to get a product out. And when there are 500 models available a week or 500 new technologies, that is just insufficient. And so I really believe in the concept of a full stack builder. You're seeing it with a bunch of the AI native companies that are coming up. I'm even seeing it in enterprises that have been around for 50 years starting to operate in that way. And I think that gives you velocity and throughput and then gives you the whole lo to start to actually metabolize and go through that much faster.",
+      "speaker": 1
+    },
+    {
+      "start": 711.923,
+      "end": 721.35,
+      "zh": "这个话题确实经常提到，就是产品经理、工程和设计这些角色的交集越来越大。现在产品经理需要在设计和工程方面提升自己。",
+      "en": "That's definitely a recurring theme on, on in these conversations is just kind of the Venn diagrams of PM engineering design are starting to converge and more and more of other disciplines within your role. So PM needs to level up on design and, or engineering.",
+      "speaker": 0
+    },
+    {
+      "start": 721.35,
+      "end": 742.033,
+      "zh": "嗯，我完全同意。我觉得重点在于循环，而不是单一的角色。所以不管你是哪个职能部门，都得特别关注产品的效率和成本，还有你追求的系统设计，实际的用户界面和用户体验，这些对agent或人来说是怎么呈现的。你得快速在这些方面变得很在行。",
+      "en": "Yeah, I completely agree. I think it's all about the loop, not, not the lane here. And so I think that whatever function function you are, you have to be obsessed with trying to understand like the efficiency or the cost of, of the product, the actual rewards or you like, you know, system design that you're going after the actual UI ux, how that actually manifests for agents or people. You have to start to get really good at that really quickly.",
+      "speaker": 1
+    },
+    {
+      "start": 742.034,
+      "end": 747.572,
+      "zh": "我喜欢你刚才说的这个词，用‘循环’而不是‘车道’。你能多说说这个吗？",
+      "en": "I like this phrase, you just use the, the loop and not the lane. Can you say more about that?",
+      "speaker": 0
+    },
+    {
+      "start": 747.572,
+      "end": 773.799,
+      "zh": "哦，这就回到我们之前讨论的，就是关于信号循环，产品不断演变，变成像活的有机体，而不是静态的东西。如果你能在这个循环中变得很厉害，我觉得这就是产品的核心，就是知识产权，也是每个组织的未来。我觉得反馈会变得持续，而可观察性会成为一种文化。我觉得未来的工作中，各个职能会越来越模糊。",
+      "en": "Oh, it's just going back to our, our previous discussion on, you know, the signals loop and products evolving and becoming these living organisms and not these artifacts. And if, if you think about getting really good at that loop. I think that is the product, that is the ip, that is the future of every organization. And I think feedback becomes continuous and observability becomes the culture. And I think that functions start to, to blur in future workforces to make.",
+      "speaker": 1
+    },
+    {
+      "start": 773.799,
+      "end": 778.617,
+      "zh": "有没有哪个产品或公司是这方面的好例子，真的活在这种循环中的？",
+      "en": "This even more real. Is there an example of a product or company that is a really good example of this, of doing this well, living this kind of loop life?",
+      "speaker": 0
+    },
+    {
+      "start": 778.6170000000001,
+      "end": 826.5160000000001,
+      "zh": "我觉得我们在AI领域看到的大多数公司都在这样做。我可以讲讲我们正在做的几个项目。你提到的编码领域，比如cursor，GitHub也有类似的功能，我们用了一组经过30个国家的语言微调的模型，来循环迭代出下一组建议或者代码补全之类的东西。我们有个叫Dragon的AI产品，是给医生用的。我们发现从用合成微调到由专家标注60万次病患和医生互动，并把这些输入模型并持续优化，效果有很大差别。我记得字符接受率从30%到60%，提高到了83%左右。这其实只需要一小群人，而不是一个大组织，他们能够在这个循环中跨职能迭代，各个界限都模糊了。",
+      "en": "I think most companies that we're seeing in the space from an AI perspective are doing this. I can tell you about a couple that we're working on. Obviously in the coding space you mentioned, cursor, GitHub has very similar features that we're using kind of an ensemble of models that have been fine tuned across 30 different countries, all of the languages to actually then go iterate in a loop for next set of suggestions or code completions and things like that. We've got an AI product called Dragon that's for physicians. And we saw a massive difference from when we used synthetic fine tuning to when we annotated 600,000 patient physician interactions by experts and actually fed that into the model and continuously optimized it to then produce. I think we were sitting between 30 and 60 character acceptance rate depending on the run to something like 83%. And so that required a small group of individuals, not a large organization that were able to actually iterate in this loop across functions and kind of all of those lines dissolving.",
+      "speaker": 1
+    },
+    {
+      "start": 826.517,
+      "end": 851.1600000000001,
+      "zh": "太有意思了。所以我听到的关键是，如果你能收集数据，了解事情的进展，然后花时间做高质量的标注来反馈微调，这就是你在很多方面取胜的关键。好，顺着这个思路，你之前跟我聊到从GUI转变到代码原生接口的趋势，我想多了解一下。能讲讲这是什么意思，具体是怎样的，对做产品的人又意味着什么吗？",
+      "en": "That's super interesting. So kind of what, what I'm hearing here is if you can gather data on how things are going and then spend a lot of time creating high quality labeling to feedback into it, to fine tune it, is basically the big advantage is how you win in a lot of this stuff. Okay, along these lines, something else that you told me that you've been noticing that I want to hear more about is the shift from GUIs and you kind of reference this from GUI to code native interfaces. Yeah, talk about what that means, what that looks like and what this means for folks building products.",
+      "speaker": 0
+    },
+    {
+      "start": 851.1600000000001,
+      "end": 898.9870000000001,
+      "zh": "我觉得这其实就是在探讨未来做产品的人应该怎么思考。大家直觉上都会想到GUI，但如果回顾历史，数据库从桌面转向了SQL，云计算从控制台转向了terraform。现在AI领域也是类似的趋势，一切都像摩尔定律一样在加速。所以我们看到的就是这种历史模式在AI中重演。其实文本流更适合连接LLM，所以未来的产品会更强调组合性而不是界面。我觉得产品开发者需要重新思考这个问题，因为我们花了太多时间在UI上，而不是考虑怎么组合，agent怎么读取，如何实现无限扩展，协作又该怎么进行。这其实是一种新的思维方式，尽管这种变化趋势早就存在。",
+      "en": "I think it kind of goes back to what does it mean to kind of be a product maker in the future. I think that everybody's instinct is like, is a, is a gui. But if you kind of think back in history, like databases kind of went from the desktop kind of down into SQL. I think cloud was all about consoles and now it's about terraform. And so I think we're literally just seeing the same pattern that's played out in history start to play out in AI and like everything else in AI, it's like Moore's lawn, it's getting faster. And so I think that's just accelerating. And if you think about, like a stream of text just connects better with LLMs. And so I think that there's a bunch of trends that are kind of working in the favor for, like, the future of products being about composability and not the canvas. And I think that product makers really need to rewire their mindset around this, because I think we spend an inordinate amount of time thinking about the, the UI of something, rather than how something composes, how an agent's going to be able to read something, how do you actually get infinite scale? How does that collaboration start to work? And so I think it's just a new way of thinking, even though it's long been a trend that's happened in these changes.",
+      "speaker": 1
+    },
+    {
+      "start": 898.988,
+      "end": 906.964,
+      "zh": "所以你的预测是，像Claude这样的终端体验会流行，还是说是agent会占主导，或者两者都有？这就是你刚才说的吗？",
+      "en": "So is the prediction here that it's terminals like Claude code sort of experiences, or is it that it's agents that are taking, or is it both? Is that kind of what you're just sharing?",
+      "speaker": 0
+    },
+    {
+      "start": 906.964,
+      "end": 939.4190000000001,
+      "zh": "嗯，我是说，如果我们真知道的话，那就太棒了。我觉得终端之所以好用，特别是编程的时候感觉很好，是因为它能和LLM通过文本流互动。我觉得两者都有可能，人类会继续写代码，而且会找到新方法去做，不管是在IDE里，GitHub Copilot里，还是在一些新的开发环境中。我觉得我们会和agent一起做这些，agent之间也会互相协作，然后我们会不断从这里发展下去。",
+      "en": "Yeah, I mean, look, if I, if any of us knew, that would be amazing. I just think that the reason why terminals are great and it feels really great when you code is because of the way it can interact with an LLM with the text stream. And I think that both can be true, that humans will continue to commit code and we'll find new ways to actually do that, whether it's in the IDE, whether it's in GitHub, Copilot, whether it's in some new development environment. And I think that we'll do that with agents, and agents will do that with each other, and we'll continue to kind of evolve from there.",
+      "speaker": 1
+    },
+    {
+      "start": 939.419,
+      "end": 958.914,
+      "zh": "我们之前请了Sierra的创始人Brett Taylor来聊过，他也预测所有软件公司都会变成agent公司。你刚才说的其实也是这个意思，软件会在后台运行，界面会变得很少。你觉得会变成像现在这样我们习惯的聊天界面吗？这会是和agent互动的主要方式，还是会有其他变化？",
+      "en": "We had Brett Taylor in the podcast, founder of Sierra, and he had a similar prediction that all software companies are going to become agent companies. And it's essentially what you're saying here is that, like your software will just be this thing that's running in the background and there's much less of a gui. Do you think it still becomes like this chat interface? The way we're kind of getting used to? Is that like the primary interface with agents, or is there anything some else happen?",
+      "speaker": 0
+    },
+    {
+      "start": 958.9150000000001,
+      "end": 985.3580000000001,
+      "zh": "我觉得聊天确实是个很强大的界面。我之前做过消息类的工作，觉得它在很多沟通形式上都挺不错的，但这不是唯一的沟通方式。现在我们用邮件来协作，大家也用Word和PowerPoint这样的文档工具。全球有十亿人在使用这些工具，我觉得它们可以成为非常重要的组成部分。我对此很期待。我觉得聊天会很重要，但肯定还不够。",
+      "en": "Like, I think that conversation is a really powerful interface. I worked on messaging. I think it's. It's great for lots of forms of communication, but it's not the only form of communication. I mean, we use email today to collaborate with each other. We use docs like everybody uses Word and PowerPoint There's a billion people living in places of artifacts that I think can become really important, composable pieces of the picture. And I think they should be. So I'm excited about that. I think that CHAT will be important, but certainly not sufficient.",
+      "speaker": 1
+    },
+    {
+      "start": 985.3580000000001,
+      "end": 992.777,
+      "zh": "有意思的是，ChatGPT是有史以来增长最快的产品，也许是最重要的产品之一，就是聊天。",
+      "en": "What's interesting is ChatGPT, the number one fastest growing product of all time, maybe the most important consequential product of all time is chat.",
+      "speaker": 0
+    },
+    {
+      "start": 992.777,
+      "end": 998.361,
+      "zh": "对，这很不错。但我们要问自己的是，它会一直只是聊天吗？",
+      "en": "Yeah, it's great. I think the question we have to ask ourselves is will it only always be chat?",
+      "speaker": 1
+    },
+    {
+      "start": 998.361,
+      "end": 1015.66,
+      "zh": "对，没错。Nick 说我们现在就像是在 ChatGPT 的 Ms. DOS 时代，这挺有意思的。有点像你说的反过来。可能一开始是这样，然后得转向图形界面，也许最后会再回去。但他说会有个像 Windows 的版本，会更容易理解到底发生了什么。",
+      "en": "Yeah, yeah. The way Nick described it is we're in the Ms. DOS era of ChatGPT and there's a. Which is interesting. It's like the reverse of what you're saying. So it's like maybe if you start as that and then you have to move to GUI and then maybe it'll go back. But he said there's going to be like a Windows version where it's much easier to understand what the hell is going on.",
+      "speaker": 0
+    },
+    {
+      "start": 1015.6610000000001,
+      "end": 1032.078,
+      "zh": "对，我觉得这是个聪明的做法。每家公司都应该把AI带到用户所在的地方。ChatGPT让所有用户都在用聊天，这是个非常棒的产品。全球有很多人在用不同方式工作，我们应该考虑怎么用AI来支持他们。",
+      "en": "Yeah, I mean, look like, I think that it's, it's smart. You should, every company should be bringing AI to where their users are and ChatGPT has all of their users using chat and it's a phenomenal product. And we've got lots of people around the world that do work in many different ways and we should be thinking about how we use AI to enable that.",
+      "speaker": 1
+    },
+    {
+      "start": 1032.078,
+      "end": 1048.837,
+      "zh": "那我们聊聊agents吧。你在这方面花了很多时间，做agents，帮公司做agents。你有一句我特别喜欢的话：我们才刚开始触及agentic社会的表面。我特别喜欢这个agentic社会的概念。那这个社会到底是啥样的？未来会是什么样子呢？",
+      "en": "So let's talk about agents. You spent a lot of time working with agents, building agents, helping companies build agents. You have this really great quote that I love. You said that we're just starting to scratch the surface of what an agentic society actually looks like. I just love this idea of an agentic society. What is that? What does that actually look like in the future?",
+      "speaker": 0
+    },
+    {
+      "start": 1048.838,
+      "end": 1062.874,
+      "zh": "天哪。你刚才说到你两岁的孩子，我的儿子Rome才刚满一岁，我都无法想象他两岁时的样子。感觉那是很遥远的事，等到了那时候会是什么样子呢？我觉得未来会很不一样。",
+      "en": "Oh gosh. I mean, it's funny, you were telling me about your 2 year old and I have, my son, Rome, just turned one and I can't even imagine life at two because I'm just like, that is so far away and will have been developed look like. I think that in the future.",
+      "speaker": 1
+    },
+    {
+      "start": 1062.874,
+      "end": 1063.768,
+      "zh": "工作。",
+      "en": "Work.",
+      "speaker": 0
+    },
+    {
+      "start": 1063.768,
+      "end": 1141.223,
+      "zh": "我觉得未来会大不一样。我们正走向一个边际成本接近于零的世界。当这发生时，生产力和产出需求会呈指数级增长。而扩展到这个阶段的方式就是通过agents，这些嵌入式的agents，它们是工具和软件的一部分。我觉得这种agents会非常多，远超过我们现在用的软件。然后可能会开发出一些实体的agents。我们现在就能看到，比如你可以把一个pull request分配给co-pilot，或者创建一个agent化的软件开发代表，帮你做一些潜在客户开发和挖掘工作。我觉得当这些都实现时，组织架构会变成工作架构，任务和产出会比以前更重要。我还觉得不需要那么多层级，整个组织结构可能在几年内会变得不同。我对此很期待。我想会议还是会有的，可能会有点奇怪，但也会有所改善，变化会很多。我希望对于普通员工来说，他们能扩展自己的技能，因为他们现在可以带着自己的agent去工作。就像你可以带自己的设备一样，现在可以接触到一系列以前从未有过的技能。想想美国有两千万人在这个领域工作，如果他们的技能提升20%，对GDP的影响是相当大的。这真的很有趣。",
+      "en": "Will look really different. I think that we're approaching this world in which the marginal cost of a good output is approaching zero. And I think when that happens we're going to see exponential demand for productivity and output. And I think that the way that you scale to that is with agents and it's agents that are embedded and they, their tools and their pieces of software. And I think there's going to be a ton of those, far more than the software that we use today. And then I think There could be a set of embodied agents that are developed. And we start to see that now, right? You can assign a pull request to co pilot. You can create a software development rep that's agentic, that can kind of do some of the lead generation and mining for you. And so I think that when all of that happens, the work chart, the org chart starts to become the work chart. I think that tasks and throughput become more important than they have been before. I also think that you just don't need as many layers. I think the whole kind of organizational construct might start to look different in a few years. And so I'm pretty excited about it. I think meetings will still be meetings and they'll be weird, but I think they will be a bit better and I think there'll be lots of changes. I think that for the average employee, my hope and kind of my optimistic view is that they will be able to expand their skill set because now they have their own agent stack that they can bring with them to work. Just like you can kind of bring your own device and you can start to have access to a set of skills that you never had before. And so if you think about, know the 20 million people that maybe sit in that, that space across America and they get 20% more skilled, that's like pretty exponential for GDP. And so it's, it's pretty fun.",
+      "speaker": 1
+    },
+    {
+      "start": 1141.224,
+      "end": 1170.403,
+      "zh": "你刚才说的那个组织结构变成工作结构的概念，真的很深刻。我不知道你是不是这个意思，但我想象的场景是，你组建了这些团队，给他们任务、目标和KPI，然后就让人们去行动。听你这么说，我意识到，如果有agents在做这些事，那就是他们的任务，比如推动转化。然后你有一堆agents在工作，这就是你工作的组织结构。这是转化和入职团队，由一群agents去执行任务。你是这个意思吗？",
+      "en": "This comment you made about the org chart, the work chart becomes. The org chart is such a profound concept because I don't know if this is what you meant, but what I'm imagining is you build these teams and here's your mission and goal and KPIs and it's humans and like, oh cool, go do this first. And what I'm, what I'm recognizing as you're talking is like, okay, but if you have agents doing that, that is their prompt, go drive conversion. And then you have all these agents and that's the org for your job. This is the conversion onboarding team. And that's like a bunch of agents off doing their work. Is that what you mean?",
+      "speaker": 0
+    },
+    {
+      "start": 1170.403,
+      "end": 1214.666,
+      "zh": "对，我觉得，现在我们考虑的是谁在组织结构中向谁汇报，谁负责哪些领域。但最终，当你有一组有能力的agents，人们也能做更多事情时，大家就不会再想着层级和向上汇报了，而是会去寻找更多外部任务的机会。我觉得在人类的组织中，AI怎么用、用在哪，始终是由人来决定的。但确实，当有新问题或新任务出现时，如何自动决定分配给谁，谁来负责，怎么去做，怎么观察agent是否做得对，如果不对怎么调整这些问题，都是很有意思的。我觉得这样的世界会很令人期待，因为这样我们就能做到更多事情。",
+      "en": "Yeah, I mean, yeah, I think like today we think in terms of, hey, who reports to who in the org chart and who's responsible for these areas. And I think at the end of the day when you have a set of capable agents and people are capable of more things, you're not going to start to think in hierarchy and communicating upward. You're going to start to figure out like kind of outward task base type of opportunities. I think that humans will always Decide in organizations how AI is used and what we want to apply it to. But yeah, it's kind of exciting when a new issue comes up or new tasks comes up. How do you actually automatically decide where to route it? Who's working on that task? How do you actually go work on it? How do you observe if the agent's doing the right thing? How do you fine tune it if they're not like all of those things? So I think that I'm just speculating, right, that there's a world in which that could be pretty exciting. And I think that's great because we can just accomplish more.",
+      "speaker": 1
+    },
+    {
+      "start": 1214.667,
+      "end": 1226.741,
+      "zh": "你提到审查工作的重要性会越来越高。如果有上千个agents在工作，那真是让人头大，要确保他们做的是对的。你觉得这方面会怎么发展？怎么扩大审查这些工作的能力呢？",
+      "en": "You touch on this point that reviewing the work is going to be increasingly important. If you have like a thousand agents off doing work, it's just like, holy moly, that's a lot to look at. Make sure they're doing the right thing. How do you think that evolves? Just like being able to scale your ability to review the work that's being done?",
+      "speaker": 0
+    },
+    {
+      "start": 1226.741,
+      "end": 1254.372,
+      "zh": "对，我觉得我们之前聊的那些循环，比如微调、自我修复、可观测性、好的评估，这些会越来越重要。好消息是，现在已经有系统在管理数十亿人的工作，所以我们不需要重新发明轮子。当然，如果这个世界真变成那样，肯定还有很多新东西要学。但我觉得，像设备管理、政策管理、群组访问这些问题，都是已经解决的问题，这很不错。",
+      "en": "Yeah, I think that the same kind of loop that we talked about becomes increasingly important like fine tuning and self healing, observability, really good evals, all of that. I mean, the good news is that there are systems that manage this for billions of people today that already exist. And so I think that, you know, we, we don't have to reinvent the wheel. There's certainly going to be a bunch of new things to learn if that world ever plays out. But I think, you know, managing devices and policies and group access, all those things are solved problems, which is good.",
+      "speaker": 1
+    },
+    {
+      "start": 1254.373,
+      "end": 1336.2920000000001,
+      "zh": "本期节目由Fin赞助，Fin是客户服务领域的第一AI agent。如果你的客服请求积压太多，那你需要Fin。Fin是市场上表现最好的AI agent，平均解决率达到59%。即使是最复杂的客户问题，Fin也能解决。没有其他AI agent能比得上。在与竞争对手的对比中，Fin每次都能胜出。是的，换新工具可能有点吓人，但Fin可以在任何客服系统上运行，不需要迁移。这意味着你不必彻底改造现有系统，也不会影响客户服务的进度。超过5000名客户服务领导者和顶尖AI公司，如Anthropic和Synthesia，都信任Fin。因为Fin由Fin AI引擎驱动，这个系统不断改进，可以轻松分析、训练、测试和部署，Fin也能不断提升你的结果。所以，如果你准备好要革新客户服务并扩大支持，试试Fin吧。每次解决仅需99美分。另外，Fin还提供90天退款保证。了解更多关于Fin如何为你的团队服务，访问fin.ai Lenny。就是Fin.ai Lenny。很多东西听起来像未来，但其实很多已经在发生了。大家在各种不同的方式中使用agents。除了编码之外，你和你的团队在使用某种agents时有找到什么特别的价值吗？有什么让你觉得，哇，这真是个大事？",
+      "en": "This episode is brought to you by fin, the number one AI agent for customer service. If your customer support tickets are piling up, then you need Fin. Fin is the highest performing AI agent on the market with a 59% average resolution rate. Fin resolves even the most complex customer queries. No other AI agent performs better. In head to head bake offs with competitors, Fin wins every time. Yes, switching to a new tool can be scary. But Fin works on any help desk with no migration needed. Which means you don't have to overhaul your current system or deal with delays in service for your customers. And Fin is trusted by over 5,000 customer service leaders and top AI companies like Anthropic and Synthesia. And because Fin is powered by the Fin AI engine, which is a continuously improving system that allows you to analyze, train, test and deploy with ease, FIN can continuously improve your results too. So if you're ready to transform your customer service and scale your support, give Fin a try. For only 99 cents per resolution. Plus fin comes with a 90 day money back guarantee. Find out how FIN can work for your team at fin. AI Lenny. That's Fin. AI Lenny. So a lot of this, it feels like it's in the future. I know a lot of this already happening. People are using agents in all these different ways. Is there any way you, your team have found value in working with agents of some kind? Other than coding, I imagine is a big part of it, but just anything there that's like, wow, that's a big deal.",
+      "speaker": 0
+    },
+    {
+      "start": 1336.292,
+      "end": 1387.8629999999998,
+      "zh": "现在我们有了AI和agents，很多工作流程都变得不一样了。我最喜欢的一个就是，当我的工程团队不在时，我可以加入实时站点桥接。当系统出现问题时，通常有15个人在讨论，你根本不知道问题从哪开始，会怎么结束。现在有了AI，我能自动获取事件的总结，搞清楚情况，问问题，获取更新，真是太棒了。我觉得整个DevOps领域都在改变。我们用Spark来创建原型，团队里每个人都要写代码。但有时候，直接用简单的话聊聊，反而能激发出更有趣、更具创意的原型。我们用AI来写东西，提升效率，做文档等等。我觉得AI无处不在，这很酷。不过我觉得，我们还只是刚开始探索怎么和agents一起工作，未来还有很多可能性。",
+      "en": "At this point we have AI and agents and many of our workflows like one of my favorite ones. So right now are my engineering partners out? So I jump on the live site bridges when something goes down and you know, as something as simple as like you can automatically get a summary of everything that just happened because usually there's 15 people talking. You don't actually know where the incident started, where it's going to end and everything. And then all of a sudden I have that and I can kind of figure out and ask questions and get updates like, awesome. Like, I think that kind of the, the entire kind of DevOps areas is, is changing. We use it to, we use Spark to create prototypes. So everybody on the team is expected to code. But like, you know, sometimes just chatting in and like talking in real words actually gets you to a prototype that's more interesting and like more expressive and reflective of your creativity. So we use that. I mean I think everybody's using AI to write. Everybody's using AI to kind of find ways to have efficiencies and like coming up with documentation and things like that. And so I think it's everywhere, which is cool. I think that we're just scratching the surface though for kind of like what's possible in terms of working with agents.",
+      "speaker": 1
+    },
+    {
+      "start": 1387.863,
+      "end": 1398.393,
+      "zh": "每次别人问我怎么用AI，我都觉得，嗯，AI就无处不在。它就像是无处不在的小点缀，融入到我做的每件事里。我都不知道该怎么形容了。",
+      "en": "That's how I always feel when people ask me how I use AI. I'm just like, it's just like everywhere. It's just like in every little sprinkled in. Everything I do now. I don't even know how to describe it.",
+      "speaker": 0
+    },
+    {
+      "start": 1398.394,
+      "end": 1402.481,
+      "zh": "是啊，很难想象没有它的世界是什么样的。",
+      "en": "Yeah, it's hard to remember a world where it didn't really exist.",
+      "speaker": 1
+    },
+    {
+      "start": 1402.48,
+      "end": 1410.584,
+      "zh": "是啊。我有个合作的产品经理，Peter Yang，他就说他根本没法想象不用AI怎么写策略文档。我都不知道以前的人是怎么做到的。",
+      "en": "Yeah. There's a product manager that I collab with, Peter Yang, who talks about how he just doesn't. I don't even know how to do a strategy doc anymore without AI. How did people do this without having someone.",
+      "speaker": 0
+    },
+    {
+      "start": 1410.584,
+      "end": 1414.415,
+      "zh": "你觉得未来还会有策略文档吗？这会很有意思。",
+      "en": "Do you think there will be strategy docs in the future? That's going to be interesting.",
+      "speaker": 1
+    },
+    {
+      "start": 1414.416,
+      "end": 1436.287,
+      "zh": "我之前写过一篇文章，讨论PM工作中哪些技能最容易被AI取代。策略这个话题争议最大。你可以说，如果AI掌握了你所有关于市场走向、指标和产品的信息，它应该很擅长帮你制定策略。不过很多人觉得，AI在这方面还得很长时间才能做好，因为这需要很多人的判断力。你有什么想法吗？",
+      "en": "I wrote this post once of which skills of a PM job will be most replaced by AI. And strategy is the one that people are the most have the biggest debate on. You could argue at, I don't know, let's get into it briefly. You would think if some AI had all of the information you had about where the market's going, your metrics, your product today, it would be so good at developing a strategy for you. Many people think that's the one thing AI will be really not good at for a long time because that's where we need all this human judgment stuff. I don't know. Do you have any thoughts?",
+      "speaker": 0
+    },
+    {
+      "start": 1436.287,
+      "end": 1471.19,
+      "zh": "我觉得世界上一些最重要的产品，其实都需要一堆确定性的逻辑输入，加上人类的创意、想象力、判断力和远见，这些是AI无法做到的。比如说，微软就是一个软件工厂的愿景，创造微软的成就不是必然的。再说Instacart，之前有webvans，但它没成功，Instacart却成功了，是因为他们用不同的思维方式去做，通过判断和不断试验才做到的。就像iPod一样，你往前看。我觉得文档这种东西，可能会逐渐融入到各种应用和生产力工具里，变成一种新的工作方式。",
+      "en": "I think that some of the most consequential products in the world required a bunch of kind of deterministic, like logical sets of inputs and like sparks of creativity and imagination and judgment and vision that could not be achieved without humans. Like Microsoft is like the vision of a software factory. And creating what Microsoft did wasn't inevitable. Instacart, you know, there was webvans and webvans didn't work, but Instacart did work because of a different way of thinking about it that came through judgment and iteration and a bunch of things that you couldn't have learned unless you actually went through the process. You know, the ipod, like you, you go forward. So I think it's there. I think docs themselves, like for every idea, for every, you know, need, will just start to kind of fade into, you know, applications and different artifacts in the productivity suite, which, you know is just a different way of working.",
+      "speaker": 1
+    },
+    {
+      "start": 1471.191,
+      "end": 1483.556,
+      "zh": "是啊，就像你最初的问题，我好像没完全回答，但我觉得你问的很重要——我们真的需要策略文档吗？我想可能大家都需要在策略上达成一致，也许不一定是直接的文档形式，可能是其他方式。",
+      "en": "Yeah, like your original question, which I didn't quite answer, but I think it's important you're asking like, do we even need strategy docs? And I guess it's just like somehow everyone needs to be aligned on the strategy. Maybe it's not a direct. Yeah, it could be some other.",
+      "speaker": 0
+    },
+    {
+      "start": 1483.555,
+      "end": 1490.8,
+      "zh": "我的意思是，如果你想让一个组织跟上AI的发展，你需要一些不同于传统的对齐机制。",
+      "en": "I mean, if you, if you architect an organization the right way to keep up with AI, you know, you, you need a learn, you need a different alignment mechanisms than traditional ways of actually working.",
+      "speaker": 1
+    },
+    {
+      "start": 1490.8,
+      "end": 1507.091,
+      "zh": "那我问问你，现在计划工作真是太疯狂了。大家是怎么做规划的呢？就像，哇，GPT-5出来了。好吧，那你们是怎么给团队制定实际的路线图和策略的？你们一般规划多长时间？又多长时间得重新考虑一遍？",
+      "en": "So let me ask you actually about that. So planning right now is just crazy. How do you, like, how does anyone plan a roadmap when there's just like, okay, GPT 5's out. Okay, great. What, what, what works for you for setting actual a roadmap and a strategy for your team? Like, how far out do you plan? How often do you have to rethink everything?",
+      "speaker": 0
+    },
+    {
+      "start": 1507.0910000000001,
+      "end": 1594.4820000000002,
+      "zh": "我觉得每个人都在摸索这个过程。对大公司来说，这比小团队要难多了，因为小团队可以自己跑起来，各有利弊。我们公司之前的产品团队是按学期来计划的，大概每六个月会回顾一下策略，我觉得这挺有价值的。不过，六个月的周期要真正理解前面的变化，确实有点难。所以我们更倾向于看当前的“季节”。这种季节可能因为行业或客户的变化而不太舒服。比如，第一季可能是AI的原型阶段、早期的GPT工作，然后是模型和推理模型的阶段，现在是agent的兴起。这可能持续一年、六个月或三个月。关键是让大家对行业变化、客户问题和成功的标准有共同的理解，这就是我们的北极星指标。\n\n其次，我们有比较松散的季度OKR。就是说，如果我们认同这个方向，接下来一个季度我们需要做些什么来实现目标？然后，团队会以小组形式运作，设定四到六周的目标，解决特定问题，以实现更大的目标。特别是作为公司和Azure客户的AI平台，我们一直在经历很多变化。我们必须开放心态，因为这就是我们的行业。我觉得我们也要在系统中留出一些余地，不仅是为应对意外情况，也为未来的变化做准备。我们要不断思考如何颠覆平台的思维，以及需要投入什么来实现这些可能性。所以我们会两者兼顾。",
+      "en": "I mean, I'll caveat this by saying, like, everyone's just figuring it out. And it's a lot harder to figure it out when you're a larger organization than when you, you know, much smaller and you get to kind of, you know, run something yourself. And there's pros and cons to both. So here's what we do. We the company historically at least in our product teams had kind of semesters that they planned again. So think that as every six months there's kind of a strategy look back before and all of those things. I think that's very valuable. I think like the idea of six months though and really understanding what's changing out in front is truly challenging to kind of have a over baked situation. And so we kind of think about it as, you know, what season are we in. And so a season which is very uncomfortable can be denoted by a set of secular changes that are happening in the industry or that are happening from customers. And so you can think about season one might have been like the prototyping of AI and kind of the early GPT work and then it was all around models and reasoning models and now it's the advent of agents. And so that can last a year, that can last six months, that can last three months. But like grounding everybody on the ethos of what are the secular changes, what are the customer problems we need to solve, what does winning look like? So everybody has that shared sense. What is the North Star metric is something that we do. The second thing that we do is that we have kind of loose quarterly okr. So like, okay, if we believe that what do we need to do next quarter to actually put ourselves on a path to that? And then from there, you know, teams are operating in squads and they're kind of setting out four to six week goals that they're trying to go after for problem areas to go ladder up to that. And especially as the platform for the company and the platform for our Azure customers with AI, I will say we go through lots of changes to that all the time and I think we have to just have an openness that that is the business that we're in. I think the other thing is just like we try to leave slack in the system not just for the unplanned but for the slope. I think that we have to continuously be thinking about how we're going to disrupt the platform in our thinking and what we need to be investing in to make that possible. And so we try to do a little bit of both.",
+      "speaker": 1
+    },
+    {
+      "start": 1594.483,
+      "end": 1610.389,
+      "zh": "太棒了。所以我听到的是有个‘季节’的概念，大家都一致认同，现在是agent的时间。我们会围绕agent来制定策略，然后有比较松散的季度OKR。大概规划三个月，同时在系统中留有余地，以应对变化。",
+      "en": "This is awesome. So what I'm hearing here is there's this concept of seasons and everyone's aligned, okay, this is time for agents. This is what's happening right now that we're going to center around our strategy around agents, and then there's these loose quarterly okrs. You plan for three months roughly, and then you leave some slack in the system for things to change.",
+      "speaker": 0
+    },
+    {
+      "start": 1610.388,
+      "end": 1611.154,
+      "zh": "对。",
+      "en": "Yes.",
+      "speaker": 1
+    },
+    {
+      "start": 1611.155,
+      "end": 1615.671,
+      "zh": "现在是agent的季节。你会怎么形容我们现在所处的季节呢？",
+      "en": "Is the current season agents. How would you describe what season we're in right now?",
+      "speaker": 0
+    },
+    {
+      "start": 1615.671,
+      "end": 1618.91,
+      "zh": "嗯，对，现在就是agent的季节。",
+      "en": "Yeah, okay. It's agents.",
+      "speaker": 1
+    },
+    {
+      "start": 1618.91,
+      "end": 1627.652,
+      "zh": "好吧，agent的崛起，听起来像《终结者》电影。你觉得下个季节会是什么样子？有没有什么预感，比如接下来可能会有什么？",
+      "en": "Okay. The rise of agents. That sounds like a Terminator movie. Do you, do you have a sense of what the next season might be? Is there any like, oh, this might be coming next?",
+      "speaker": 0
+    },
+    {
+      "start": 1627.653,
+      "end": 1666.588,
+      "zh": "天啊，我也不太确定，不过目前我们在Azure服务上已经有超过一万五千个agent在运行。而且公司里还有很多其他平台。我觉得我们应该专注于确保这些agent的对齐、责任和可观察性评估，这样才能让它们更出色。我觉得Manus的突破在于，他们能让这些agent调用工具执行更长时间的任务，这是其他平台做不到的。我觉得这些很重要，记忆力也很关键。现在还有很多基础部分没完善，agent在外面还不够完整，这些细节我们得认真对待，才好继续往前走。",
+      "en": "Gosh, I don't, but I think that look like we have more than 15,000 agents that are deployed on our service today. At least at the Azure service. There's a bunch of other platforms in the company and I would just say that I think that we should really focus on making sure that we have all of the alignment, accountability, observability evals to making those agents great. I think that Manus breakthrough in the space was that they could like do these tool calling loops and have agents kind of do longer running tasks that really no other platform was able to do. I think stuff like that is critical. Memory is critical. Like there's still a bunch of building blocks that I think like are leaving agents incomplete in the wild that I think we have to really sweat the details on before we move on.",
+      "speaker": 1
+    },
+    {
+      "start": 1666.588,
+      "end": 1671.615,
+      "zh": "所以就是一直搞agent，直到超级智能出现，然后我们就可以去沙滩上放松了。",
+      "en": "So it's just like agents till the end of time until super intelligence and then we're just on beaches chilling.",
+      "speaker": 0
+    },
+    {
+      "start": 1671.615,
+      "end": 1689.246,
+      "zh": "对，搞agent，直到有新的东西出现。可能三个月后会有新东西，可能十三个月后也会有。我觉得我们现在有一套想提供的基础模块，让这些agent能持续下去，保持高耐久性。所以这就是我们现在专注的事情。",
+      "en": "Yes, agents until dank memes look like, yeah, I think the cool thing is something new could come in three months, something new could come in 13 months. I think we kind of have this conviction on a set of building blocks that we want to provide to enable these agents to endure and, and have high endurance. And so that's, that's what we're focusing on.",
+      "speaker": 1
+    },
+    {
+      "start": 1689.246,
+      "end": 1696.363,
+      "zh": "你说有一万五千个agent，那是什么意思？是说有一万五千种类型的agent可以用，还是说...",
+      "en": "When you said there's 15000 agents, what does that mean? Is that 15, 000 types of agents you can use or is it like.",
+      "speaker": 0
+    },
+    {
+      "start": 1696.363,
+      "end": 1707.961,
+      "zh": "就是有这么多流程。那是客户，1万5千。我，我应该重新确认数字。有1万5千个客户在用agent，其实agent的数量可能有上百万。",
+      "en": "That'S how many processes are. That's, you know, customers. 15, 000. I, I think I should re reference the numbers. 15, 000 customers who have produced agents. I think the number of agents is actually like millions.",
+      "speaker": 1
+    },
+    {
+      "start": 1707.961,
+      "end": 1732.352,
+      "zh": "有1万5千个客户在你们平台上打造特定种类的agent，而且这些agent的数量已经有上百万，都在云端运行。哇，这数字真疯狂。好吧，我想换个方向聊聊。你现在就像站在AI风暴的中心，看着所有事情发生。有没有什么是你在接手这个角色之前希望知道的，然后现在觉得，哦，原来如此，我之前没想到这一点的？",
+      "en": "15, 000 customers that are building a specific kind of agent on your platform and they're running and the number of agents is in the millions just running there in the cloud. Okay, how it's wild. Some crazy numbers here. Okay, so let me just kind of go in a slightly different direction. You're kind of in this. You're kind of in the center of the storm of a lot of AI just like seeing everything else going on. Is there something you wish you'd known before stepping into this role that you're just like, okay, I see. I didn't expect this.",
+      "speaker": 0
+    },
+    {
+      "start": 1732.353,
+      "end": 1892.0320000000002,
+      "zh": "当我刚接手这个角色时，有人形容它像是身处\"野兽的肚子\"。我之前大部分职业生涯都在围绕机器学习和应用或商业的中心打造产品。让我意外的是，很多学到的东西在于如何打造一个优秀的平台，其实和做一个好产品是一样的。对我来说，往往是那些看不见的工作，或者说不是表面上的东西，才是关键。比如，我第一家公司之一是Porch Group，我是第七号员工。当时我们想帮助人们管理他们的家，所以我们发明了很多功能，比如家庭报告，或者一种管理家的方式，或者房屋风格灵感，你可以看到所有房子的每个房间的地图。最重要的一件事，就是创建一个匹配平台，把600万专业人员和1300种服务类型，还有37000个邮政编码的房主匹配起来，帮助他们更好地管理家。这其实就是一个小步优化的过程，最终提高了线索质量，这让我们公司达到了第一个5亿美元的估值。我们以此为基础，发展出其他垂直服务和软件平台，最终让公司上市。\n\n同样地，在信息传递方面，我学到的最大经验是，WhatsApp之所以成功，不是因为它有贴纸、故事或夜间模式。事实上，它赢得市场时甚至没有这些功能。它成功的原因之一是电话本功能。你知道用WhatsApp可以联系到每一个人，因为你有他们的电话号码。这些是你在使用信息传递时关心的人。还有就是它的可靠性和速度。比如，我可以给在印度的奶奶发信息，确保她能收到。还有就是隐私。当你每天给最关心的四个人发200条信息时，你希望确保没有其他人能看到你的信息。所以端到端加密真的很重要。所以并不是那些上百个功能，而是基础设施和平台。同样的例子还有Instacart。虽然Instacart有很多受欢迎的功能，但最终，它是一个每分钟更新3000次的十亿件商品平台，确保用户从他们喜欢的商店拿到杂货。\n\n所以我希望我早知道这些，因为这样我就能缩短学习曲线，明白平台重要的不是那些功能，而是数据驻留，比如德国的医院可以自信地微调模型，数据不会离开地区。还有可用性和可靠性，确保企业需要的工具选择正确，以及获取知识的正确方式。这就是我们构建的平台，但一开始我没完全意识到这些经验会有这么大的帮助。",
+      "en": "When I first took the role, it was kind of described as like the belly of the beast. And I had spent most of my career building products at the center of machine learning and applications or businesses. And I think that to my surprise, a lot of the learnings have translated in terms of what makes a great platform, is what makes a great product. And the thing for me is it's often in the invisible work or the not the pixels that actually drives that. So like for example, one of the first companies that I worked at was a company called Porch Group. I was employee seven and we knew we wanted to help people take care of their home. And I think we invented so many features like the home report or like a way to manage your home or like house style inspiration where you could like see all of the, the houses and it's map, map every single room. And the single most important thing that we could have done and did during my time there was create a matching platform that matched the 6 million professionals with the 1300 service types of the 37,000 zip codes and all of the homeowners in North America to actually take care of their, their home. And that was just the game of inches and kind of optimizing that engine in order to create higher quality leads. Essentially that's what got us to the first $500,500,000,000 valuation. That's eventually what we built on to actually have other vertical services and software platforms that IPO the company. Same with messaging. The number one learning that I had was look like WhatsApp didn't win because it had stickers or stories or dark mode. In fact, I don't even think it had all of those things when it won't. It won on a few premises because one was the phone book. Like you knew that when you use WhatsApp you could reach every single person because you had their phone number. And those are the people that you care about when you're using messaging. It was the reliability and how fast it was. Like I could text my grandmother in India and know that she would get my text message all the time. And then it was the privacy. Like when you are sending 200 messages a day to the four people you care about most, you want to make sure no one else can read the messages. And so the end to end encryption really mattered. And so it wasn't the hundreds of features. It was all in kind of the infrastructure and the platform. And same with Instacart. Right. Like, there are so many loved features of Instacart, but at the end of the day, it's a billion Items that updates 3,000 times every single minute to get homeowners their groceries from the store that they love. And so I think, I wish I had known that because I think it would have curtailed my learning curve to say that it's not all the features for the platform that matters. It's the data residency, so the hospital in Germany, that's fine tuning a model can do so in confidence. And the data isn't going to leave the region. It's the availability, it's the reliability. It's making sure you have the right selection of the tools that enterprises need and the right way to retrieve the knowledge. And that's kind of the platform that we've built, but just didn't fully have that picture that those learnings would translate.",
+      "speaker": 1
+    },
+    {
+      "start": 1892.032,
+      "end": 1901.7959999999998,
+      "zh": "这很有意思。听起来大家有点低估了那些在平台中取胜的基本要素，尤其是信息平台。比如可靠性、隐私，还有可用性之类的。",
+      "en": "That's really interesting. So what I'm hearing is people kind of undervalue just how the simple bottom of the Maslow hierarchy of things you get of things that help you win in platforms, especially in messaging platforms, including. So it's like reliability, privacy. I don't know. Availability.",
+      "speaker": 0
+    },
+    {
+      "start": 1901.796,
+      "end": 1905.755,
+      "zh": "对，就是性能、可靠性、隐私、安全这些东西。",
+      "en": "Yeah. Performance, reliability, privacy, safety, all of those things.",
+      "speaker": 1
+    },
+    {
+      "start": 1905.755,
+      "end": 1922.226,
+      "zh": "让我问你个完全不同的问题。我们之前约录音的时候，你说，哦，我有个和Satya的大会议，我得去参加。所以我们换了时间。很少有人能和Satya一起工作，他真是个非常成功的领导。你从他身上学到了什么，不管是关于领导力还是产品构建的？",
+      "en": "Let me ask you kind of a totally different question. When we were going to record this previously and you're like, oh, I have a big meeting with Satya. I got to do instead. And so we moved to a different time. Very few people get to work with Satya. He's quite a. Quite a successful leader. What's something you've learned from him about, I don't know, leadership or product building?",
+      "speaker": 0
+    },
+    {
+      "start": 1922.227,
+      "end": 1959.362,
+      "zh": "我学到乐观是一种可再生资源。这个公司50年来有很多理由可能不成功，但它做到了。即使在AI时代初期有成功，有挑战，也有其他成功。而且这个领域发展得太快了。我觉得他有能力激发能量，用他的乐观来重新激发大家对使命的投入，真是太不可思议了。我觉得这是文化中很重要的一部分。大家都在说成长型思维，这确实是文化的重要部分。但我觉得能在完全竞争的人才环境中，每天都用乐观来激发能量和清晰度，让每个人都重新投入，真的很了不起。",
+      "en": "I've learned that optimism is a renewable resource. Like this company for 50 years has had, you know, every reason not to succeed. And it has. And even as it's had early success in the AI era and challenges and other successes like. And the space is developing so quickly. I think that his ability to generate energy and to use his optimism to kind of renew everybody's dedication to the mission is unbelievable. And I think it's such an important part of the culture. Everybody talks about the growth mindset, that's real, huge part of the culture. But I think the ability to generate energy and clarity on what we need to go do and use optimism to renew the commitment every single day for every single person in an entirely competitive talent space is pretty amazing.",
+      "speaker": 1
+    },
+    {
+      "start": 1959.362,
+      "end": 1964.087,
+      "zh": "你觉得这乐观是他天生的，还是他努力培养出来的？我也不太清楚。",
+      "en": "Is that something you think that is just innate to him or something that he's worked on to just generate this optimism on behalf of everyone, I have no idea.",
+      "speaker": 0
+    },
+    {
+      "start": 1964.088,
+      "end": 1967.966,
+      "zh": "我们应该问问他，不过我对他的乐观印象深刻。",
+      "en": "We should ask him, but I am deeply impressed by it.",
+      "speaker": 1
+    },
+    {
+      "start": 1967.965,
+      "end": 1977.648,
+      "zh": "有趣的是，这很多都是一种感觉。不是他这个人，而是他用的词。就是他散发的那种能量。乐观和活力。",
+      "en": "It's interesting that a lot of this comes down to just vibes. There's just this vibe of imagine it's not him, just the words he uses. It's just this energy that he exudes. Optimism and energy.",
+      "speaker": 0
+    },
+    {
+      "start": 1977.6480000000001,
+      "end": 1992.66,
+      "zh": "你想想看，我们每天都选择离开孩子去工作。所以你得做一些真正打动你的事情，让你相信能让世界变得更好。我觉得这就是为什么说是“感觉”。你得跟随一种使命感，做一些比自己更大的事情。",
+      "en": "I mean, think about it. We all choose to. Someone just said this to me and I thought it was great. We all choose to close the door on our kids every single day to go work on something. And so you have to work on something that is, like, deeply moving to you and is like, you know, you have a deep belief that is going to make the world a better place. And, like, I think that's why it's vibes. Like, I, I think you, you have to follow and have a sense of duty towards a mission that is bigger than yourself.",
+      "speaker": 1
+    },
+    {
+      "start": 1992.66,
+      "end": 2000.799,
+      "zh": "让我想到一句我在这个播客里提过几次的话，这句话真是让人印象深刻：唯一会记得你加班的人是你的孩子。",
+      "en": "Makes me think of a line that I've referenced a couple times on this podcast that's really hits people really hard, that the only people that'll remember you working late are your kids.",
+      "speaker": 0
+    },
+    {
+      "start": 2000.799,
+      "end": 2005.234,
+      "zh": "好吧，我不太知道我们要聊到哪去，不过刚才那段有点多了。",
+      "en": "Okay, I don't know where we're going with that, but that was like, you know, too much.",
+      "speaker": 1
+    },
+    {
+      "start": 2005.234,
+      "end": 2009.2859999999998,
+      "zh": "我们聊太远了。哎，好吧，那我问你，你的动力是什么？",
+      "en": "We've gone too far. Oh, man. Okay, well, let me ask you this. What's driving you?",
+      "speaker": 0
+    },
+    {
+      "start": 2009.285,
+      "end": 2013.2900000000002,
+      "zh": "也可以说是我们的客户。我们本可以走另一条路的。",
+      "en": "It could have said our customers. We could have gone a different route on that one.",
+      "speaker": 1
+    },
+    {
+      "start": 2013.291,
+      "end": 2019.177,
+      "zh": "这才是真正的东西。是什么在驱动你？是什么让你对自己的工作保持热情？",
+      "en": "This is the real stuff. What's driving you? What's driving you? What's keeping you excited about the work that you're doing?",
+      "speaker": 0
+    },
+    {
+      "start": 2019.1770000000001,
+      "end": 2097.064,
+      "zh": "AI 能帮我们在工作和医疗方面做些什么。比如，我妈妈得了癌症，我常想，会不会在我有生之年找到治她这种癌症的方法。三年前我从没想过这可能。这一切都很深刻。我个人常想的是，既然我们生活在这个时代，能用这么强大的技术，它的影响是什么，我怎样才能最好地建个平台让大家用上它。我在微软工作的原因是，公司理念就是帮助人们和企业实现更多。晚上我除了想着 GPU，还会想，我儿子将来会有同学吗？不是因为 agent 会取代他们，而是因为生育率在下降。对吧，90 年代我们长大时，平均生育率是 3，现在是 2.3，预计到 2050 年会低于更替水平。我觉得 AI 能对这产生很大影响，已经有了。我刚读到伦敦一家医院用 AI 匹配卵子和精子，提高怀孕率同时降低成本。你看到昨天 ChatGPT 5 的发布，关于 ChatGPT 如何助力医疗的故事很棒。斯坦福是我们平台的大客户之一，他们在用 AI 做肿瘤评估。这些事情会推动人类进步，延长寿命，让我们有机会解决百年难题。这就是我为什么兴奋，为什么做这份工作的原因。",
+      "en": "What AI will help us do from a workforce perspective, what it will help us do from a healthcare perspective. Like, you know, my mom has cancer, and I think a lot about how, wow, we might find a way to solve the form of cancer she has in my lifetime. And I never thought that was possible three years ago. Like, all of that's so deeply profound. And the thing that, like, I personally think a lot about, now that we know that we're living in this time, working with such powerful techniques, technology is the, the effects of it and how I can, you know, best build a platform where people can make use of it. So, like, the reason why I work at Microsoft is because, like, the whole ethos of the company is like, how do I help people and businesses achieve more and, like, more for me. And the thing, like, I think about at night, outside of, you know, GPUs, is, you know, I, I think about, like, will my son have classmates in the future? And that's not because agents are going to replace them. It's because the, the fertility rates are declining. Right. Like the, the average birth rate in the 90s when we were growing up was like 3, and now it's 2.3. And in 2050 it's estimated to be, you know, below replacement. And I think that AI can have such a big effect on it and already is like, I was just reading about a hospital in London that's, you know, able to improve pregnancy rates by using AI to match, you know, eggs and sperms and they're cutting costs at the same time. You saw with the ChatGPT 5 launch yesterday, such an amazing story about how ChatGPT is helping in healthcare. You know, Stanford's one of our big customers with the platform that I build and they're working on using AI for tumor reviews. And it's just like, that is, like, it is these sets of things that will like, move humanity forward and expand our lifetime and give us the like privilege to solve 100 year problems. And so that's, that's why I, I'm excited and that's why I do what I do.",
+      "speaker": 1
+    },
+    {
+      "start": 2097.065,
+      "end": 2112.379,
+      "zh": "是啊，特别是你在搭建这个平台，让这一切成为可能。我能理解这有多大的影响。Asha，还有什么你想提一下的，或者之前聊到的想再深入说说的？我们马上要进入一个很有趣的快问快答环节了。",
+      "en": "Yeah, especially in your role where you're building the platform that enables all of this. I could see how impactful that could be. Asha, is there anything else that you wanted to touch on or share or double down on anything we've talked about before we get to a very exciting lightning round?",
+      "speaker": 0
+    },
+    {
+      "start": 2112.3779999999997,
+      "end": 2126.9249999999997,
+      "zh": "我们刚才稍微提到了一点，但我觉得随着能思考、能行动、能推理的 agent 和产品的出现，会有一波新的浪潮，特别是关于 RL。我深信这会成为接下来一段时间里最重要的产品技术之一。",
+      "en": "We touched on it a little bit, but I think that with the advent of agents and products that think and can act and reason, there's going to be this kind of new wave around rl and I have a deep belief that that will become one of the most important product techniques kind of of the next season, or at least the next few seasons.",
+      "speaker": 1
+    },
+    {
+      "start": 2126.926,
+      "end": 2128.366,
+      "zh": "RL就是强化学习。",
+      "en": "And RL is reinforcement learning.",
+      "speaker": 0
+    },
+    {
+      "start": 2128.365,
+      "end": 2167.372,
+      "zh": "是的，是的，完全同意。我觉得以后在后期训练上的投入会跟前期训练一样多，甚至更多。我们之前提到过 Nathan Lambert 的研究，他的观点是，当模型达到 300 亿参数时，更有意义去微调和优化它。根据调查，现在有 50% 的开发者在做微调。我们知道微调很好，但如果你走完整个流程，效果会更好。所以我觉得这里有很多机会，会有一整套新的基础设施、平台和公司围绕这部分技术诞生。我觉得现在是进入平台领域的好时机，也是创业和思考这些问题的好时机。",
+      "en": "Yes, yes, exactly. Like, I believe we will see just as much money spent on post training as we will on pre training and in the future, more on post training. We talked a little bit about Nathan Lambert's study where his review was that when a model hits 30 billion parameters, it makes more sense to kind of fine tune and optimize that. 50% of developers, according to surveys, are now fine tuning. And we know fine tuning is good, but if you actually go through the full loop, you can get better results. So I think there's, there's a bunch there and I think there's a whole new set of infrastructure and platforms and companies that will be created that are all around this part of the stack. And so I think it's an exciting time to be in the platform space, but it's also an exciting time to be starting companies and be thinking about those problems.",
+      "speaker": 1
+    },
+    {
+      "start": 2167.3729999999996,
+      "end": 2179.2269999999994,
+      "zh": "我想确保大家真的理解你说的，因为不是所有人都明白后期训练和前期训练的区别。用最简单的方式解释一下这两者的不同，以及为什么现在投资转向后期训练这么重要。",
+      "en": "I want to make sure people truly understand what you're saying here because not everyone truly understands post training, pre training. What's the simplest way to understand the difference there and just why it's such a big deal that that investment is moving to post training.",
+      "speaker": 0
+    },
+    {
+      "start": 2179.227,
+      "end": 2232.382,
+      "zh": "我觉得，要打造一个基础模型，需要大量的计算资源和科学专业知识。现在科学家的成本在上升，平均价值也在大幅提升，而这些专业知识并不是到处都有。所以这是一项很大的资本投资。而随着我们之前提到的模型爆发，各个领域都有很多不错的模型可以选择。我认为这样在经济上更有优势，也更有选择的余地，可以根据实际需要去引导模型。如果你进行强化学习或者微调，优化现成的模型以达到价格、性能、质量等方面的目标，这并不疯狂。就像排序一直是个经典的优化问题，你不想只用现成的东西，因为有很多很棒的框架和 UI 组件，比如 React 组件，但你仍然想根据具体的用例或用户群体来定制体验。我觉得这就是一种工业逻辑。",
+      "en": "The way that I think about it is, you know, to create a foundation model creates a trim. It requires a tremendous amount of compute, a tremendous amount of science expertise. As we're seeing who's which the cost for scientists there's the average value is rising dramatically and I think, you know, an expertise that we've seen like isn't everywhere in the world right now. And so it's just a big capex investment to do that. And with this explosion of models that we talked about in the beginning, there's a lot of good models to choose from for different domains. And so I think that you just get more leverage economically. You get more leverage from a taste perspective of how you actually want to steer a model. If you're actually doing reinforcement learning or some sort of fine tuning to actually start to optimize what's off the shelf for some outcome like price, performance, quality. If you think about that, that's, that's not crazy, right? Like, you know, ranking is an age old optimization problem where you don't want to just take what's off the shelf because there's like amazing frameworks and UI and kind of components that you know the world is react components that are out there. You still want to tailor the experience to a set of use cases or set of people. I think it's just the same kind of industrial logic.",
+      "speaker": 1
+    },
+    {
+      "start": 2232.3819999999996,
+      "end": 2247.4399999999996,
+      "zh": "所以实际上，这就像有一个 GPT5 模型。你可以花钱更高效的方法就是拿这个模型，用你自己的数据再训练一下。不管是用数据还是强化学习，甚至是让人参与进来，让它更符合你的目标。对，就是这样。",
+      "en": "So in practice what this means is there's like a GPT5 model. You're saying there's a lot of opportunity and a much more efficient way to spend money, which is take something like that and then train it on additional custom data that you have. Whether it's data or just reinforcement learning, maybe even with humans to align it with what you wanted to achieve. Yep.",
+      "speaker": 0
+    },
+    {
+      "start": 2247.4399999999996,
+      "end": 2264.4139999999998,
+      "zh": "可以用自己的数据，也可以是买来的数据，甚至是合成数据，或者别的什么。我觉得我们会看到越来越多的公司和组织开始思考，怎么去适应一个模型，而不是直接用现成的，或者花大钱自己建模型。",
+      "en": "And it could be your own data, could be data that you buy, could be synthetic data, could be, you know, something else. But I think that I, I think that we're kind of going to start to see, you know, more and more companies and organizations kind of start to think about how do I adapt a model rather than how do I take something off the shelf as is or invest a bunch of money in building my Own models.",
+      "speaker": 1
+    },
+    {
+      "start": 2264.4139999999998,
+      "end": 2280.2369999999996,
+      "zh": "是的，我忘了。我知道 Cursor。之前他上播客时提到，他们有一堆模型支持你在 Cursor 上的体验，随着时间推移，他们会有自己的东西。我忘了是 Windsurf 还是谁，现在都用自己的模型了，不再只是接入 Claude。",
+      "en": "Yeah, I forget. I know Cursor. When he was on the podcast, he shared that they have a bunch of models that, that support your experience with Cursor and over time they're just going to have their own thing. I forget who was Windsurf or one of those guys just uses their own model now. They don't just plug into Claude.",
+      "speaker": 0
+    },
+    {
+      "start": 2280.2369999999996,
+      "end": 2303.4399999999996,
+      "zh": "我更倾向于模型系统。我相信模型多样性。我觉得像 Claude 和 Sonnet 4 这样的模型在某些用例上特别棒，而 GPT 5 在不同的用例上又有不同的表现。有些任务你可能更在意模型的延迟时间，或者希望快速检索。我觉得好处是有很多模型可以帮你实现这些目标。所以我更支持模型系统，而不是一个模型通吃。",
+      "en": "I'm much more in the model system camp. Like, I believe in model diversity. I think that inexperience like Claude, like Sonnet 4 is awesome for a set of use cases versus GPT 5 is different for different use cases. I think that there's some tasks where you care about the latency of the model you want. You're like, cool with the thinking time or you kind of want quick retrieval and things like that. Like, I think the beauty is there's a lot of models that can kind of help you achieve that. And so I'm much more in the, like, model system rather than one model to rule them all.",
+      "speaker": 1
+    },
+    {
+      "start": 2303.441,
+      "end": 2307.5739999999996,
+      "zh": "这个词对吗？我也听过集合模型。模型的集合。",
+      "en": "Is that the right term? I've also heard ensemble model. Ensemble of models.",
+      "speaker": 0
+    },
+    {
+      "start": 2307.5739999999996,
+      "end": 2319.9039999999995,
+      "zh": "我觉得集合模型就是一组可以独立微调和部署的多个模型。但其实现在我们都是在不断编造术语，去定义我们深信不疑的东西，因为一切发展得太快，数据点也有限。",
+      "en": "I think about an ensemble of models as a set of multiple models that then you can, you know, fine tune and deploy independently. But, you know, at this point we're all making up different terminology to define things that we, like, have deep beliefs on that have like, you know, limited sets of data points because everything is moving so fast.",
+      "speaker": 1
+    },
+    {
+      "start": 2319.904,
+      "end": 2323.097,
+      "zh": "好，我们进入激动人心的快问快答环节。",
+      "en": "Yeah. With that, we've reached our very exciting lightning round.",
+      "speaker": 0
+    },
+    {
+      "start": 2323.0969999999998,
+      "end": 2328.298,
+      "zh": "我对接下来的快问快答环节很期待。我要把灯光调暗一点。",
+      "en": "I'm very excited for our lightning round. And I'm like, turning down the lights.",
+      "speaker": 1
+    },
+    {
+      "start": 2328.298,
+      "end": 2334.602,
+      "zh": "好，那我猜一秒钟后灯光就会重新亮起来。第一题，你会推荐给同事的两三本书是什么？",
+      "en": "And then it'll come back on, I imagine, in one second. Okay, first question. What are two or three books you find yourself recommending most to other people at work?",
+      "speaker": 0
+    },
+    {
+      "start": 2334.602,
+      "end": 2364.573,
+      "zh": "可能是《思考机器》。这本书讲的是要解决根本问题，而不是头痛医头脚痛医脚。打个比方，如果你想解决交通问题，不是去设减速带或者限速，而是要解决行走便利性、出行方式，以及人们为什么用车这些根本原因。个人的话，CMO Vince the Cart 向我推荐了《明日、明日、再明日》。我去年、前年都读过，因为我太喜欢了。这是个美丽的故事，跨度十年。",
+      "en": "It's probably Thinking Machine. So it's all about treating the cause, not the symptoms. The like, you know, prototypical example is like, you know, in the. If you want to solve traffic, you don't actually put up, you know, speed bumps or, or speed limits. You actually have to like, solve walkability and mobility and kind of like why people actually use cars outside of that kind of. Personally, the cmo, Vince the Cart recommended to me tomorrow and tomorrow and tomorrow. And I read it like last month and last year and the year before because I love it so much. It's like this, like, Beautiful story. Over 10 years.",
+      "speaker": 1
+    },
+    {
+      "start": 2364.5739999999996,
+      "end": 2367.43,
+      "zh": "最近你特别喜欢的电影或电视剧有哪些？",
+      "en": "What are some favorite recent movie or TV shows you really enjoyed?",
+      "speaker": 0
+    },
+    {
+      "start": 2367.43,
+      "end": 2375.3129999999996,
+      "zh": "《一级方程式》看了两遍。《为了全人类》我喜欢第四季。我觉得把太空竞赛的各种可能性展现出来挺有趣的。",
+      "en": "Formula One saw twice. For all Mankind. For all Mankind. I like season four. I don't know. I like kind of playing out alternative theories to kind of how the space Race might have looked.",
+      "speaker": 1
+    },
+    {
+      "start": 2375.3129999999996,
+      "end": 2380.3399999999997,
+      "zh": "最近有没有特别喜欢的新产品？可以是科技产品、小工具，或者衣服之类的。",
+      "en": "Do you have a favorite product you recently discovered they really love? Could be tech, could be gadgets, could be clothing.",
+      "speaker": 0
+    },
+    {
+      "start": 2380.3399999999997,
+      "end": 2414.1629999999996,
+      "zh": "我刚加入了家得宝的董事会，我们在搞个小装修项目。发现了一个对我来说新的东西，DeWalt 的电池包，用的是袋式电池，比以前轻了50%，但动力不减，用来钻孔或者单手提重物特别好用，我超喜欢。我们还在测试一个新的智能家居系统，有个大概4英寸的高清中间件，可以连各种设备。我觉得现在的科技太多了，家里用的东西都快爆炸了。所以这个中间件可能会成为关键。但我们拭目以待吧。",
+      "en": "So I just joined the board of the Home Depot and we're doing a little renovation project and so there's this new kind of, well, new to me, DeWalt kind of power pack and they use pouch cells and so it's like 50% like lighter but with all the power and it's like awesome for drills and like things that you know, I need to lift up with one hand that feel heavy. So I love that. We also are testing out this new brilliance smart home kind of system. So it's like kind of 4 inches of like high res middleware that allows you to kind of connect to everything. And I've like reached peak kind of this out with like the explosion of all the technology required to actually use your home. So it just might be the middleware that like sticks. But we'll see.",
+      "speaker": 1
+    },
+    {
+      "start": 2414.163,
+      "end": 2417.704,
+      "zh": "你刚刚说的是‘dissat’吗？是‘不满意’的缩写吗？",
+      "en": "Did you say dissat? Is that short for dissatisfaction?",
+      "speaker": 0
+    },
+    {
+      "start": 2417.7039999999997,
+      "end": 2420.6409999999996,
+      "zh": "对，抱歉，我说习惯了缩写。",
+      "en": "Yes, sorry, I'm speaking in acronyms.",
+      "speaker": 1
+    },
+    {
+      "start": 2420.642,
+      "end": 2429.0009999999997,
+      "zh": "哇，我从没听过这个词，dissat。顺便说一下，我真喜欢你在家得宝的董事会。完全是工作领域的另一种体验。",
+      "en": "Whoa, I've never heard that. Disat. It's like, I love that, by the way, I love that you're on the board of the Home Depot. What a different part of the spectrum of work.",
+      "speaker": 0
+    },
+    {
+      "start": 2429.0009999999997,
+      "end": 2440.6459999999997,
+      "zh": "真的很棒。第一次参加董事会会议，公司的慈善负责人已经在公司工作几十年了，她说，欢迎来到这个星球上最伟大的公司。这感觉真特别。",
+      "en": "It's been awesome. The very first board meeting. The head of philanthropy has been at the company for decades and she said, welcome to the greatest company on the planet. It's pretty special.",
+      "speaker": 1
+    },
+    {
+      "start": 2440.6459999999997,
+      "end": 2445.2899999999995,
+      "zh": "所以你现在在微软，有没有从之前的工作中学到什么带到微软的？",
+      "en": "You're like, now Microsoft, is there something you've learned from working with them that you've brought to Microsoft?",
+      "speaker": 0
+    },
+    {
+      "start": 2445.29,
+      "end": 2495.169,
+      "zh": "你看，这很新，今年才开始的。但我一直在做一些有影响力的产品。比如我在Porch的时候，是专注于专业人士。在Instacart，我们有60万购物者。显然，家得宝有很多员工。我特别喜欢这个公司的文化，他们有个倒金字塔结构，不是高管在顶端，而是员工在顶端，门店就是总部，传统的总部反而是支持部门。这真的是以客户为中心。当我想到出色的执行力、打造长久的机构以及文化、理念和领导力的形成时，我就会想到这些。最后，AI会影响每一个人和每一个工作。能和我们圈子外的人交流，了解他们真正的痛点和问题，以及他们如何看待AI和技术，真是太棒了。这是我们需要去做的。",
+      "en": "Look, it's new, it's this year. But I've long worked on products that kind of had that impact. So like when I was at Porch, it was pros. At instacart, we had 600,000 shoppers. And obviously the Home Depot Depot has associates. One of my favorite things about the company culturally is they have this inverted pyramid where instead of having executives at the top, the associates are at the top and the, the stores themselves are headquarters. And then the kind of traditional HQ is kind of support. And so it's just like, it's so customer centric. And when I think about amazing execution and creating these durable long term institutions and kind of how culture and ideology and kind of leadership is formed, like I think about that and I think about at the end of the day, you know, AI is going to have an impact on every single person and every single job. And it's like amazing to kind of just spend time with people outside of our bubble and kind of really try and learn what their real pain and problems and how they think about AI and how they think about technology and kind of what we need to do.",
+      "speaker": 1
+    },
+    {
+      "start": 2495.169,
+      "end": 2500.6259999999997,
+      "zh": "好，还有两个问题。你有没有特别喜欢的人生格言，总是会和朋友或家人分享的？",
+      "en": "Okay, two more questions. Do you have a favorite life motto that you find yourself coming back to sharing with friends or family?",
+      "speaker": 0
+    },
+    {
+      "start": 2500.6259999999997,
+      "end": 2547.805,
+      "zh": "我以前用的是\"最小化后悔\"的思维框架，这很不错，我用了很久。但大概是进入成年，有了家庭之后，我的世界观稍微有点改变。我开始注重\"最大化选择的价值\"。这让我更看重一些自然关注的东西，比如家庭、健康、信任和关系。因为突然间你会意识到，周末好好休息将来会有累积效应，健康也是。你不需要为了多工作几个小时而牺牲这些，家庭的重要性也是如此。所以我觉得，我的世界观是这样的：等我70岁时，不是回顾自己的一生，看有多少遗憾，而是展望未来，看看还有多少冒险等着我，因为我已经积累了技能、信任、朋友、家庭和影响力这些财富。",
+      "en": "I used to use the kind of minimize regret framework, and it's great. And I've used that for a long time. I think that probably once I got into my adult years and started to kind of have a family and things like that, my kind of just worldview changed a little bit. And it was all about maximizing kind of option value. And it just gave the things that I naturally cared about, like family and health and trust and relationships. Like, it was just kind of like a new level of, like, value associated with those. Because all of a sudden learning rest on the weekend can, like, compound in the future. Or, you know, having good health can compound in the future. You don't like, have to trade that off of working extra hours or, you know, the importance of family and all of those things. And so I think that, like, the. My worldview is like, when I'm 70, it's not about what do I look back on in my life and count the number of regrets. It's really about, like, looking forward in the number of adventures I will still have because I have, like, accumulated this wealth of skills and trust and, you know, people and family and impact and things like that.",
+      "speaker": 1
+    },
+    {
+      "start": 2547.805,
+      "end": 2556.292,
+      "zh": "说到技能，网上说你是跆拳道的二段黑带。为什么呢？天啊，真的吗？然后我有个关于这个的问题。",
+      "en": "Speaking of skills, the Internet tells me that you have your second degree black belt in Taekwondo. Why? Oh, gosh, is this true? And then I have a question about it.",
+      "speaker": 0
+    },
+    {
+      "start": 2556.292,
+      "end": 2557.221,
+      "zh": "这是真的。",
+      "en": "This is true.",
+      "speaker": 1
+    },
+    {
+      "start": 2557.221,
+      "end": 2562.98,
+      "zh": "哇，这太厉害了。怎么会...为什么你觉得这有点尴尬？这可是很了不起的事啊。",
+      "en": "Okay, that's incredible. What's some. Why are you. Why is this embarrassing? That's an incredible thing.",
+      "speaker": 0
+    },
+    {
+      "start": 2562.98,
+      "end": 2566.521,
+      "zh": "其实每次谈到我，我都有点不好意思。",
+      "en": "I'm generally embarrassed anytime anything is discussed about me.",
+      "speaker": 1
+    },
+    {
+      "start": 2566.5209999999997,
+      "end": 2572.187,
+      "zh": "好的，没问题。你从跆拳道中学到了什么，对你的生活或工作有帮助的东西吗？",
+      "en": "Okay, great. No problem. What's something that you learned from Taekwondo that has helped you with life or work?",
+      "speaker": 0
+    },
+    {
+      "start": 2572.187,
+      "end": 2600.682,
+      "zh": "跆拳道其实更多是心理上的，而不是身体上的。我觉得这跟我们所有的工作和做产品很像。就是心态的清晰、勇气，还有坚持到底的那种决心。我觉得这就是它教给我的东西，当然除了冥想。学会冥想和清理思绪可能花了我整个时间。但我觉得这真的很棒。大家可能会想象飞檐走壁或者跑墙什么的，那些也能做到，但真正的价值在于心理上的追求。",
+      "en": "Taekwondo is more mental than it is physical. And so I think that's the same with kind of like all of our jobs and making product. Like, I think it's like mental clarity. It's. It's courage. It's. It's kind of the ambition to kind of see things through and be unwavering. And so I think that's literally, you know, what it taught me outside of meditating, which probably took me the entire time to like, actually learn to meditate. Meditate and clear my head. But yeah, I. I think it's awesome. Like, I think everybody imagines like, you know, flying psychics or running up a wall and like, you can do those things too. But the real value is like the mental pursuit of it all, you know.",
+      "speaker": 1
+    },
+    {
+      "start": 2600.682,
+      "end": 2613.267,
+      "zh": "你也可以做到那些事。哇，好吧，我得试试。Asha，这太棒了。我其实有两个最后的问题。大家如果想联系你或者了解更多，可以在哪里找到你？听众有什么可以帮到你的吗？",
+      "en": "And you can do those things too. Wow. Okay, I'm good. I gotta get into this. Asha, this was awesome. Is there. Oh, actually two final questions. Where can folks find you online if they want to maybe follow up on anything if you want people to reach out? And how can listeners be useful to you?",
+      "speaker": 0
+    },
+    {
+      "start": 2613.267,
+      "end": 2642.194,
+      "zh": "你可以通过 LinkedIn、邮件或者短信联系我。我想这些方式都能找到我。至于怎么能帮到我，我觉得我们都在这个旅程的早期阶段。好的平台是建立在好的应用场景和客户基础上的。所以如果你有反馈、想法，或者希望 AI 能帮你实现什么目标，我很乐意听到。我觉得所有这些变化都会带来新的产品和应用场景，所以我一直在想我们怎么能成为支持这些的那个平台。",
+      "en": "You can hit me up on LinkedIn or email or text. I think all of those are traceable. Look like how can you be helpful to me is I think we're all early in this journey and great platforms that are built on great use cases and built on great customers. And so if you have feedback, you have ideas, you have things you want AI to be able to do to help you achieve more, I'd love to hear it. I think the thing about all of these changes is that all of these new products and use cases will be developed everywhere. And so I'm always just thinking about how can we be the platform to support that.",
+      "speaker": 1
+    },
+    {
+      "start": 2642.1949999999997,
+      "end": 2644.7029999999995,
+      "zh": "太棒了。Asha，非常感谢你来这里。",
+      "en": "Amazing. Asha, thank you so much for being here.",
+      "speaker": 0
+    },
+    {
+      "start": 2644.7019999999998,
+      "end": 2646.4089999999997,
+      "zh": "谢谢你邀请我来。",
+      "en": "Thanks for having me.",
+      "speaker": 1
+    },
+    {
+      "start": 2646.4089999999997,
+      "end": 2664.4999999999995,
+      "zh": "大家再见，非常感谢收听。如果你觉得有帮助，可以在 Apple Podcasts、Spotify 或你喜欢的播客平台上订阅我们。也请考虑给我们评分或留下评论，这样能帮助更多人找到这个播客。你可以在 lennyspodcast 找到所有往期节目或了解更多信息。",
+      "en": "Bye, everyone. Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify or your favorite podcast, Apple. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.",
+      "speaker": 0
+    },
+    {
+      "start": 2664.5009999999997,
+      "end": 2665.43,
+      "zh": "好的。",
+      "en": "Com.",
+      "speaker": 1
+    },
+    {
+      "start": 2665.4289999999996,
+      "end": 2666.1949999999997,
+      "zh": "下期见。",
+      "en": "See you in the next episode.",
+      "speaker": 0
+    }
+  ],
+  "guests": [
+    {
+      "name": "Lenny Rachitsky",
+      "role": "Host",
+      "bio": "",
+      "twitter": ""
+    },
+    {
+      "name": "Asha Sharma",
+      "role": "Guest",
+      "bio": "",
+      "twitter": ""
+    }
+  ],
+  "resources": [],
+  "summary": {
+    "zh": "访谈深入探讨了agentic社会对组织架构的影响，以及产品从静态到有机体化的转变。还揭示了成功AI产品公司的共性策略，并讨论了未来代码与用户界面的变化趋势。",
+    "en": "The interview delves into the impact of agentic society on organizational structures and the transition of products from static to organic entities. It also reveals common strategies of successful AI product companies and discusses future trends in code versus user interfaces."
+  },
+  "keyPoints": [
+    {
+      "title": "产品如有机体般成长",
+      "highlights": [
+        "产品从静态物品转变为有机体，能思考、成长、学习。",
+        "这种转变使公司新的IP变得独特。",
+        "产品互动越多，就愈显生命力。"
+      ],
+      "startAt": 84
+    },
+    {
+      "title": "成功AI产品的三步策略",
+      "highlights": [
+        "拥抱AI，让所有人熟练使用。",
+        "将AI应用于现有流程提升效率。",
+        "利用AI推动增长和创新。"
+      ],
+      "startAt": 548
+    },
+    {
+      "title": "从GUI到代码原生接口",
+      "highlights": [
+        "产品开发需重视组合性而非界面。",
+        "代码接口趋势正在取代传统GUI。",
+        "文本流更适合连接大型语言模型。"
+      ],
+      "startAt": 851
+    },
+    {
+      "title": "agentic社会的颠覆性变化",
+      "highlights": [
+        "未来组织架构将转向以工作为核心。",
+        "边际成本接近零，生产力指数增长。",
+        "agent将成为工具和软件的一部分。"
+      ],
+      "startAt": 1063
+    },
+    {
+      "title": "后期训练的重要性",
+      "highlights": [
+        "微调和优化现有模型更具经济性。",
+        "强化学习将成为关键的产品技术。",
+        "定制化模型体验提升用户价值。"
+      ],
+      "startAt": 2179
+    }
+  ]
+}

@@ -6,37 +6,47 @@
     "slogan": "精选英文播客，让声音跨越语言，用 AI 传递思想。"
   },
   "latest": {
-    "id": "andrew-ng-ai-bottlenecks",
-    "cover": "/images/andrew-ng-ai-bottlenecks.jpg",
-    "coverImage": "/images/andrew-ng-ai-bottlenecks.jpg",
-    "titleCn": "AI 的最大瓶颈、LLM 的地缘博弈价值，以及在 AI 里Margin是否还重要？",
-    "titleEn": "The Biggest Bottlenecks in AI, How LLMs Can Be Used as a Geopolitical Weapon & Do Margins Matter in a World of AI?",
-    "date": "2025-11-17",
-    "duration": 3306,
-    "audioUrl": "https://pub-a31ba1df1a8546fe86dc40cba53d796e.r2.dev/andrew-ng-ai-bottlenecks.mp3",
-    "summary": "访谈探讨了AI行业的电力和半导体瓶颈，AI编程助手的成熟度，以及中美在AI开放性和地缘政治影响上的差异。Andrew Ng指出AI对未来经济的潜在增益，并强调拥抱AI技术对教育的重要性。"
+    "id": "how-company-build-ai",
+    "cover": "/images/how-company-build-ai.jpg",
+    "coverImage": "/images/how-company-build-ai.jpg",
+    "titleCn": "8万家企业如何构建AI产品：产品即生命体、组织架构的终结，以及为何智能体在2026年将超过员工数量 | 微软AI平台首席副总裁 Asha Sharma",
+    "titleEn": "How 80,000 companies build with AI: products as organisms, the death of org charts, and why agents will outnumber employees by 2026 | Asha Sharma (CVP of AI Platform at Microsoft)",
+    "date": "2025-08-28",
+    "duration": 2666,
+    "audioUrl": "https://pub-a31ba1df1a8546fe86dc40cba53d796e.r2.dev/how-company-build-ai.mp3",
+    "summary": "访谈深入探讨了agentic社会对组织架构的影响，以及产品从静态到有机体化的转变。还揭示了成功AI产品公司的共性策略，并讨论了未来代码与用户界面的变化趋势。"
   },
   "highlights": [
     {
-      "epId": "andrew-ng-ai-bottlenecks",
-      "title": "AI电力与半导体的瓶颈挑战",
-      "summary": "数据中心是数字经济的关键基础设施。 中国在电力和核电站的投入让人印象深刻。 电力和半导体的限制是AI发展的挑战。",
-      "startAtSec": 70
+      "epId": "how-company-build-ai",
+      "title": "产品如有机体般成长",
+      "summary": "产品从静态物品转变为有机体，能思考、成长、学习。 这种转变使公司新的IP变得独特。 产品互动越多，就愈显生命力。",
+      "startAtSec": 84
     },
     {
-      "epId": "andrew-ng-ai-bottlenecks",
-      "title": "AI编程助手超越图像技术",
-      "summary": "AI编程助手比2016年的图像生成技术更成熟。 OpenAI的Codecs让开发者更高效。 AI编程助手预示着其他行业的变化。",
-      "startAtSec": 391
+      "epId": "how-company-build-ai",
+      "title": "成功AI产品的三步策略",
+      "summary": "拥抱AI，让所有人熟练使用。 将AI应用于现有流程提升效率。 利用AI推动增长和创新。",
+      "startAtSec": 548
     },
     {
-      "epId": "andrew-ng-ai-bottlenecks",
-      "title": "中美在AI开放性上的竞争",
-      "summary": "中国的AI开放度比美国更领先。 开放模型促进创新和知识流通。 地缘政治影响力来源于模型开放性。",
-      "startAtSec": 1080
+      "epId": "how-company-build-ai",
+      "title": "从GUI到代码原生接口",
+      "summary": "产品开发需重视组合性而非界面。 代码接口趋势正在取代传统GUI。 文本流更适合连接大型语言模型。",
+      "startAtSec": 851
     }
   ],
   "episodes": [
+    {
+      "id": "how-company-build-ai",
+      "cover": "/images/how-company-build-ai.jpg",
+      "coverImage": "/images/how-company-build-ai.jpg",
+      "titleCn": "8万家企业如何构建AI产品：产品即生命体、组织架构的终结，以及为何智能体在2026年将超过员工数量 | 微软AI平台首席副总裁 Asha Sharma",
+      "titleEn": "How 80,000 companies build with AI: products as organisms, the death of org charts, and why agents will outnumber employees by 2026 | Asha Sharma (CVP of AI Platform at Microsoft)",
+      "date": "2025-08-28",
+      "duration": 2666,
+      "audioUrl": "https://pub-a31ba1df1a8546fe86dc40cba53d796e.r2.dev/how-company-build-ai.mp3"
+    },
     {
       "id": "andrew-ng-ai-bottlenecks",
       "cover": "/images/andrew-ng-ai-bottlenecks.jpg",
