@@ -41,10 +41,10 @@ export default function ContactPage() {
                   <h3 className="font-semibold text-lg">邮箱</h3>
                 </div>
                 <a
-                  href="mailto:contact@echomind.com"
+                  href="mailto:zhuruoyu95@gmail.com"
                   className="text-[var(--accent-from)] hover:underline text-lg"
                 >
-                  contact@echomind.com
+                  zhuruoyu95@gmail.com
                 </a>
                 <p className="text-sm text-muted mt-2">
                   如有任何问题、建议或合作意向，欢迎发送邮件
