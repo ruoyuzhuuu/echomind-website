@@ -5,6 +5,7 @@ import React, { useState, useRef, useEffect } from 'react';
 export interface Chapter {
   title: string;
   start: number;
+  summary?: string;
 }
 
 interface AudioPlayerProps {

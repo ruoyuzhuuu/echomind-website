@@ -6,37 +6,47 @@
     "slogan": "精选英文播客，让声音跨越语言，用 AI 传递思想。"
   },
   "latest": {
-    "id": "how-company-build-ai",
-    "cover": "/images/how-company-build-ai.jpg",
-    "coverImage": "/images/how-company-build-ai.jpg",
-    "titleCn": "8万家企业如何构建AI产品：产品即生命体、组织架构的终结，以及为何智能体在2026年将超过员工数量 | 微软AI平台首席副总裁 Asha Sharma",
-    "titleEn": "How 80,000 companies build with AI: products as organisms, the death of org charts, and why agents will outnumber employees by 2026 | Asha Sharma (CVP of AI Platform at Microsoft)",
-    "date": "2025-08-28",
-    "duration": 2666,
-    "audioUrl": "https://pub-a31ba1df1a8546fe86dc40cba53d796e.r2.dev/how-company-build-ai.mp3",
-    "summary": "访谈深入探讨了agentic社会对组织架构的影响，以及产品从静态到有机体化的转变。还揭示了成功AI产品公司的共性策略，并讨论了未来代码与用户界面的变化趋势。"
+    "id": "aie-code-preview-inside-google-labs",
+    "cover": "/images/aie-code-preview-inside-google-labs.jpg",
+    "coverImage": "/images/aie-code-preview-inside-google-labs.jpg",
+    "titleCn": "Google实验室内幕：构建Gemini编码智能体Jules——从200万token上下文到自主编程的未来",
+    "titleEn": "AIE CODE Preview: Inside Google Labs - Building The Gemini Coding Agent with Jed Borovik",
+    "date": "2025-11-09",
+    "duration": 2152,
+    "audioUrl": "https://pub-c2758199555b4265bb34c666dfeaae98.r2.dev/aie-code-preview-inside-google-labs.mp3",
+    "summary": "播客深入探讨了AI对编程生产力的深远影响，以及自动化编码Agent在软件工程中的应用前景。嘉宾Jed Borovic分享了他在谷歌实验室的工作经历，并提出AI不仅能提高编程效率，还将塑造软件开发的新未来。"
   },
   "highlights": [
     {
-      "epId": "how-company-build-ai",
-      "title": "产品如有机体般成长",
-      "summary": "产品从静态物品转变为有机体，能思考、成长、学习。 这种转变使公司新的IP变得独特。 产品互动越多，就愈显生命力。",
-      "startAtSec": 84
+      "epId": "aie-code-preview-inside-google-labs",
+      "title": "AI不只是工具，而是未来创作的利器",
+      "summary": "AI可成为创作更好艺术的工具，而非威胁。 Jed选择了将AI视为提升创作的机会。 AI的应用正重新定义艺术创作的可能性。",
+      "startAtSec": 222
     },
     {
-      "epId": "how-company-build-ai",
-      "title": "成功AI产品的三步策略",
-      "summary": "拥抱AI，让所有人熟练使用。 将AI应用于现有流程提升效率。 利用AI推动增长和创新。",
-      "startAtSec": 548
+      "epId": "aie-code-preview-inside-google-labs",
+      "title": "谷歌实验室的创新模式",
+      "summary": "谷歌实验室开发不适合其他部门的新产品。 实验室与DeepMind紧密合作，打造AI产品。 这种合作模式助力谷歌在AI领域的持续创新。",
+      "startAtSec": 299
     },
     {
-      "epId": "how-company-build-ai",
-      "title": "从GUI到代码原生接口",
-      "summary": "产品开发需重视组合性而非界面。 代码接口趋势正在取代传统GUI。 文本流更适合连接大型语言模型。",
-      "startAtSec": 851
+      "epId": "aie-code-preview-inside-google-labs",
+      "title": "编码Agent的核心与未来",
+      "summary": "未来的编码Agent将更强大，能处理复杂任务。 自动化Agent需有自己的计算环境来长时间运行。 这种设计将改变软件工程师的工作方式。",
+      "startAtSec": 428
     }
   ],
   "episodes": [
+    {
+      "id": "aie-code-preview-inside-google-labs",
+      "cover": "/images/aie-code-preview-inside-google-labs.jpg",
+      "coverImage": "/images/aie-code-preview-inside-google-labs.jpg",
+      "titleCn": "Google实验室内幕：构建Gemini编码智能体Jules——从200万token上下文到自主编程的未来",
+      "titleEn": "AIE CODE Preview: Inside Google Labs - Building The Gemini Coding Agent with Jed Borovik",
+      "date": "2025-11-09",
+      "duration": 2152,
+      "audioUrl": "https://pub-c2758199555b4265bb34c666dfeaae98.r2.dev/aie-code-preview-inside-google-labs.mp3"
+    },
     {
       "id": "how-company-build-ai",
       "cover": "/images/how-company-build-ai.jpg",

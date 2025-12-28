@@ -1,0 +1,1262 @@
+{
+  "id": "aie-code-preview-inside-google-labs",
+  "titleCn": "Google实验室内幕：构建Gemini编码智能体Jules——从200万token上下文到自主编程的未来",
+  "titleEn": "AIE CODE Preview: Inside Google Labs - Building The Gemini Coding Agent with Jed Borovik",
+  "originalUrl": "https://www.youtube.com/watch?v=emWgP_fr04k",
+  "date": "2025-11-09",
+  "duration": 2152,
+  "tags": [
+    "AI",
+    "Coding Agent",
+    "Google",
+    "Gemini",
+    "Jules",
+    "Software Engineering",
+    "Autonomous AI"
+  ],
+  "cover": "/images/aie-code-preview-inside-google-labs.jpg",
+  "audioUrl": "https://pub-c2758199555b4265bb34c666dfeaae98.r2.dev/aie-code-preview-inside-google-labs.mp3",
+  "chapters": [
+    {
+      "title": "介绍与开场",
+      "start": 0,
+      "summary": "介绍了播客的主题和嘉宾Jed Borovic，并提及录制环境的背景。"
+    },
+    {
+      "title": "纽约科技圈观察",
+      "start": 89,
+      "summary": "Jed分享了他在纽约科技圈的观察，指出纽约的多元产业推动了科技的发展。"
+    },
+    {
+      "title": "黑客马拉松与教育",
+      "start": 136,
+      "summary": "讨论了纽约地区的黑客马拉松活动及其对科技热情的激发作用。"
+    },
+    {
+      "title": "AI旅程与Stable Diffusion",
+      "start": 175,
+      "summary": "Jed讲述了他的AI旅程，特别是对Stable Diffusion的早期接触和影响。"
+    },
+    {
+      "title": "谷歌实验室与合作",
+      "start": 291,
+      "summary": "介绍了谷歌实验室的创新模式及与DeepMind的合作关系。"
+    },
+    {
+      "title": "编码Agent的未来",
+      "start": 411,
+      "summary": "探讨了未来自动化编码Agent的设计及其对编程的影响。"
+    },
+    {
+      "title": "AI工程与行业会议",
+      "start": 775,
+      "summary": "讨论了AI工程领域的会议交流对行业发展的重要性。"
+    },
+    {
+      "title": "编程生产力与招聘",
+      "start": 1620,
+      "summary": "探讨了AI对编程生产力的影响以及未来招聘的趋势。"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 54.055,
+      "zh": "欢迎来到EchoMind回声思维。\n\n您现在收听的这期播客，是对原英文博客基于 AI 技术生成的中文版本。我们不仅搬运优质内容，还保留原汁原味的嘉宾音色。\n\n我是Lorraine，在互联网大厂从事数据科学，同时也是一名 AI 爱好者。\n\n从GitHub Universe大会到纽约的科技界，我们将带你探讨东西海岸的创新差异。在这期中，Jed Borovic分享了他在纽约科技圈的独特观察，揭示了大都市如何通过多元化行业推动技术发展。我们还将深入了解GitHub与Agent HQ的新合作，为开发者带来的全新机遇。无论是时尚、媒体还是金融，纽约的科技氛围正在重塑创新的界限，为未来的科技领袖提供了无限可能。\n\n\n\n好，让我们开始吧。",
+      "en": "[Intro]",
+      "speaker": -1
+    },
+    {
+      "start": 54.055,
+      "end": 57.329031,
+      "zh": "好的，Jed Borovic，欢迎来到lanespace。",
+      "en": "Okay, Jed Borovic, welcome to lanespace.",
+      "speaker": 0
+    },
+    {
+      "start": 57.329031,
+      "end": 58.687405999999996,
+      "zh": "谢谢邀请我来。",
+      "en": "Yeah, thanks for having me.",
+      "speaker": 1
+    },
+    {
+      "start": 58.687405999999996,
+      "end": 64.271812,
+      "zh": "我们现在就在这个漂亮的播客录音室里，GitHub Universe上见面。到目前为止感觉怎么样？",
+      "en": "So we're sitting here@f.ins beautiful podcast studios, and we're actually meeting at GitHub Universe. How's it been so far?",
+      "speaker": 0
+    },
+    {
+      "start": 64.271812,
+      "end": 80.17750000000001,
+      "zh": "挺好的。今天的主题演讲很棒。看到Jules上台挺有意思的。我们团队有很多人在这儿，Jules和GitHub合作了新的Agent HQ步骤，我们都很期待。而且这个播客录音室也很赞，所以能在这儿录制我很兴奋。",
+      "en": "It's been great. I mean, yeah, the keynote today was awesome. It was fun to see Jules up there a little bit. We have a lot of folks from our team here. Jules is partnering with GitHub for the new Agent HQ step, which we're excited about. And also this is an incredible podcast space. So, yeah, I'm excited to do this here.",
+      "speaker": 1
+    },
+    {
+      "start": 80.17750000000001,
+      "end": 89.093969,
+      "zh": "很高兴他们借给我们这个空间。你还是AI Engineer Code的主持人，挺激动的。在纽约，你上大学的地方，不过你现在不住那儿了。",
+      "en": "I'm glad for them to loan us this space. You are also an emcee for AI Engineer Code. That's exciting. In New York, where you went to college but you don't live there anymore.",
+      "speaker": 0
+    },
+    {
+      "start": 89.093969,
+      "end": 102.445469,
+      "zh": "对啊，我在纽约待了挺长时间的。参与纽约的科技圈挺有意思的。我觉得在那儿办大型会议挺好的。虽然西海岸有很多活动，但作为东海岸的科技人，在那边有活动真不错。",
+      "en": "Yeah, no, I spent a bunch of time in New York. It's funny being part of the New York tech scene. I actually think it's great having big major conferences there. There's a lot obviously that happens on the west coast, but being someone in tech on the east coast, it's just awesome to have stuff there. So.",
+      "speaker": 1
+    },
+    {
+      "start": 102.445469,
+      "end": 115.495094,
+      "zh": "对啊，你说你经常飞去旧金山，那东海岸这边的情况怎么样？我们对这儿还挺新的，这是我们第一次来纽约。纽约这儿还有什么有意思的事儿？你觉得纽约科技圈有哪些亮点？",
+      "en": "Yeah, you mentioned you fly over to SF a lot and like. Like, what's it. What's the scene like in the East Coast? Like, like, obviously we are pretty new. We're like, this is our first year coming to New York. What else happens in the New York. Like, what are the highlights for you in the New York tech scene?",
+      "speaker": 0
+    },
+    {
+      "start": 115.495094,
+      "end": 135.187094,
+      "zh": "是啊，我觉得这儿真是太多东西了。纽约这么大个城市，事情很多嘛。科技当然是其中一大块，但还有很多其他行业，像时尚、媒体、金融什么的。我觉得这些都推动了科技的发展，做了很多事情。总之，东海岸真是个不错的地方。",
+      "en": "Yeah, I mean, there's so much. There's, you know, obviously a ton of great companies. I think the thing that's interesting about New York is it's such a big city with so much going on. Right. And so there's like, you know, tech is a huge part of it, but there's also, you know, so many major industries there, whether it's fashion, media, fashion, finance. Like, it's like, I think that helps push the tech and do. Do all kinds of stuff. But yeah, no, the east coast is a great city.",
+      "speaker": 1
+    },
+    {
+      "start": 135.187094,
+      "end": 136.162344,
+      "zh": "太好了。",
+      "en": "Great.",
+      "speaker": 0
+    },
+    {
+      "start": 136.162344,
+      "end": 147.84199999999998,
+      "zh": "你知道，东海岸有很多优秀的学校，学生们在做各种有趣的事情。我就是在那里上的大学，那边的黑客马拉松特别棒。我就是在那里爱上了科技和编程。",
+      "en": "You know, the, the. All the schools there's, you know, all across the east coast, ton of great schools and great students doing all kinds of stuff. So, yeah, you know, I went to school there. The hackathon scene there was amazing. Really fell in love with tech and, and programming there.",
+      "speaker": 1
+    },
+    {
+      "start": 147.84199999999998,
+      "end": 153.124563,
+      "zh": "那纽约大学有没有像斯坦福那样的大型黑客马拉松活动，比如像Calhacks那种的？",
+      "en": "So is there a big NYU hackathon like, like in Stanford with like, Calhacks and stuff?",
+      "speaker": 0
+    },
+    {
+      "start": 153.124563,
+      "end": 167.033344,
+      "zh": "对，有个叫Tree Hacks的活动。这个是很久以前的事了，是纽约大学和哥伦比亚大学一起办的。我们一起搞了很多活动，叫Hack and Y。把纽约各地的学生都聚到一起，特别好玩。",
+      "en": "Yeah, so there's a tree hacks. Yeah, there's one that was put on by. This was a while ago, but we put on by NYU in Columbia. We do together. Hack and Y. So there's a bunch of events kind of that we did together. It would bring, you know, people across New York City, students across New York City. And those are super fun.",
+      "speaker": 1
+    },
+    {
+      "start": 167.033344,
+      "end": 167.927313,
+      "zh": "对啊。",
+      "en": "Yeah.",
+      "speaker": 0
+    },
+    {
+      "start": 167.927313,
+      "end": 175.938219,
+      "zh": "所以有时候在哥大办，有时候在纽约大学办，两边轮流。嗯，那里做出了很多很酷的东西。",
+      "en": "So it'd be at Columbia one time and then NYU the next, and it would cycle back and forth. So, yeah, a lot of cool stuff was made there.",
+      "speaker": 1
+    },
+    {
+      "start": 175.938219,
+      "end": 189.324532,
+      "zh": "不错哦。你在谷歌工作了好几年了，九年呢。你做了很多项目，包括和Malta合作，他也是我今天采访的嘉宾之一。那你是怎么接触到Juuls的？AI之旅是怎么开始的？",
+      "en": "Nice. So you've been at Google for a while. Nine years. You worked on a bunch of things, including with Malta, which is also another guest that I'm interviewing today. How do you get into Juuls? What's the AI journey?",
+      "speaker": 0
+    },
+    {
+      "start": 189.324532,
+      "end": 222.048532,
+      "zh": "嗯，这听起来可能有点老套，但我跟好多人讲过这个故事，就是他们问我怎么做这行的。其实是真的。我在搜索工作了很久，专注于新闻和时效性。然后，当stable diffusion出来时，对我来说，那是第一代的AI模式。虽然大家都说ChatGPT是第一个，但对我来说，stable diffusion比ChatGPT早了几个月。这是个大事，我在网上追了很多。有两个创作者群体对它反应不同，一个群体觉得这是在偷他们的艺术，偷他们珍视的一切。",
+      "en": "Yeah, so this is gonna sound really cheesy, but I've told the story a couple times to folks when they're like, oh, how'd you end up doing this? But it is actually very true. So I worked on Search for a long time and specifically kind of like news and freshness. And then when stable diffusion came out, that to me was the first gen AI mode. I know it's people talk about ChatGPT as the first thing, but for me, stable diffusion was a couple months before ChatGPT came out. It was a huge thing and I was fall it a ton online. And there were two groups of creators having reactions to it. You know, there was one group that was, you know, this is stealing my art. This is stealing everything that's near and dear to me.",
+      "speaker": 1
+    },
+    {
+      "start": 222.048532,
+      "end": 223.151501,
+      "zh": "我讨厌这样。",
+      "en": "I hate this.",
+      "speaker": 0
+    },
+    {
+      "start": 223.151501,
+      "end": 291.047501,
+      "zh": "这简直毁了我的生活。不过还有另一群艺术家和创作者觉得，哦，这其实是个能创作更好艺术的工具。我当时就在观察这些动态。对，就是这样。差不多那时候，我和几个人聊，他们说，如果我有个孩子在上大学，我不会建议他们学计算机科学。我当时就想，啥？为什么？这还是在Jensen Huang和其他人说这些话之前。我就很惊讶，为什么呢？他们说，哦，AI软件工程会变，谁知道以后还有没有工作。我当时就想，我喜欢做软件工程师，喜欢编程。然后我想，这就是我的stable diffusion时刻——要么它会夺走我的艺术和技艺，要么它是个能创作更好艺术的工具。我很清楚自己要选哪条路。所以我开始非常投入地做编程。虽然还在做搜索，但我花了很多时间在自己喜欢的项目上，玩各种东西，最后找到了一个最让我兴奋的职位，就是加入谷歌实验室和Juuls。那时候我们正开始在谷歌开发这种编程agent。时机刚好，我就加入了，真的很棒。",
+      "en": "This is ruining my life. And there was another group of artists and creators who were like, oh, this is a tool to create better art. And so I was watching this in your brush. Yeah, exactly. And right around then, I was having conversations with a couple people who would say things like, you know, if I had a kid in college, I wouldn't recommend they study computer science. I was like, what? Why? And this was long before Jensen Huang and people had been saying this kind of stuff. I was like, whoa, why? And it was like, oh, AI software engineering is going to change. It's going to be so who knows if there are going to be jobs? And I was like, I love being a software engineer, I love programming. And I was like, wait, this is my stable diffusion moment. This is either it's going to take my art, my craft, this is a tool to create better art. And I was like, I definitely know which path I'm taking. So I got very into building coding. So I was still working on Search, but I spent a bunch of time making stuff, my own time and playing with things, and ultimately tried to find a role that would the most exciting role I could find to do this stuff. And that was to join Google Labs and Juuls where we were right around then we're starting to build these kind of coding agents at Google. And yeah, the timing worked out well and I joined and yeah, it's been awesome.",
+      "speaker": 1
+    },
+    {
+      "start": 291.047501,
+      "end": 299.360251,
+      "zh": "既然我们聊到谷歌实验室，我其实不太清楚谷歌实验室、DeepMind和谷歌其他部门是怎么分的。组织架构是怎样的呢？",
+      "en": "Since we're talking about Google Labs, I am actually unclear about where Google Labs starts and then DeepMind and the rest of Google. What is the org chart layer?",
+      "speaker": 0
+    },
+    {
+      "start": 299.360251,
+      "end": 307.371157,
+      "zh": "嗯嗯，这个问题问得好。谷歌实验室的使命就是开发一些谷歌其他部门暂时不太适合的新产品。",
+      "en": "Yeah, yeah, that's a great question. So Labs mission is to build kind of new innovative products that the rest of Google isn't well positioned for.",
+      "speaker": 1
+    },
+    {
+      "start": 307.371157,
+      "end": 310.180782,
+      "zh": "嗯，我们从Nopagalm那边开始发展起来的。",
+      "en": "Yeah, which we've had like rise up from Nopagalm.",
+      "speaker": 0
+    },
+    {
+      "start": 310.180782,
+      "end": 313.84956300000005,
+      "zh": "对，对，可能是最广泛的，最主要的。",
+      "en": "Exactly, exactly. Maybe the most wide, the mostly.",
+      "speaker": 1
+    },
+    {
+      "start": 313.84956300000005,
+      "end": 317.47190700000004,
+      "zh": "然后它叫做nanobanana。我也不太确定是不是这个名字。",
+      "en": "And then it's called nanobanana. I don't know if it's.",
+      "speaker": 0
+    },
+    {
+      "start": 317.47190700000004,
+      "end": 348.287907,
+      "zh": "嗯，谷歌实验室特别让人兴奋的一点是，我们和DeepMind的合作非常紧密。我们在开发产品的时候，主要是为了模型的部分跟他们合作。身在谷歌的好处之一就是，你有机会从头到尾打造一个AI产品，从页面上的像素到基础设施，再到模型和训练的整个过程。实验室的目标就是开发新产品，我们其实就是一个产品组织，但是真正的AI产品组织，不仅和DeepMind紧密合作，也会根据需要和谷歌的其他部门合作。",
+      "en": "Yeah, so some of the. So the thing about that's really exciting about Labs is we work incredibly closely with DeepMind. Right. So all the stuff in terms of the, you know, we're building a product but we work so closely mostly for the model. And one of the nice things about being at Google is you have this opportunity to really build an end to end AI product right from pixels on the page, through the infrastructure, through the model and the training and all of that loop. So Labs is here to build new products and we're really like a product org, but a true AI product org where we work incredibly closely with DeepMind but also other parts of Google as it makes sense.",
+      "speaker": 1
+    },
+    {
+      "start": 348.287907,
+      "end": 357.49462600000004,
+      "zh": "嗯，我听说谷歌内部其实有个类似Copilot的AI编程工具，但从没发布过。这是真的吗？能不能聊聊这个？",
+      "en": "Yeah, just on the history of AI coding, I had heard that actually Google had an internal version of Copilot or something like that that was never released. Is that true? What can we say about it?",
+      "speaker": 0
+    },
+    {
+      "start": 357.49462600000004,
+      "end": 377.25862600000005,
+      "zh": "嗯，你知道，其实谷歌在这方面已经发表了不少论文，所以我们在谷歌内部开发了很多自己的工具。像cidr，可能有的人听说过，这是我们的内部IDE。我们在这方面有各种功能和工具，所以是的，我们确实有一些很不错的工具，但这些工具主要是给内部使用的。",
+      "en": "Yeah, so you know, I think there are, there are, you know, Google's published papers in this space for a while and so yeah, we have, you know, in Google we built a lot of our own tools and you know, cidr, which you know, folks maybe have heard of is our, you know, our internal ide and we've had all kinds of, you know, capabilities and tools there for a while. So yes, you know, we certainly have had pretty good tools for a while, but they were for internal use.",
+      "speaker": 1
+    },
+    {
+      "start": 377.25862600000005,
+      "end": 396.51862600000004,
+      "zh": "对，我觉得挺有意思的。当谷歌开始涉足那种类似LM的领域时，基本上就是一切都重新命名为Gemini，开始搞Gemini的时候，人们就会想，哦，你知道吗，谷歌的整个代码库可能跟GitHub的差不多大，里面肯定有些有趣的数据。",
+      "en": "Yeah, yeah, I think, I think it was interesting because like, I think one of the hype moments when Google started getting into the sort of like LM game, like basically when everything rebranded to become Gemini and like starting to start Gemini, where people are like, oh, did you know that Google probably like Google's entire repo is probably about the same size as GitHub and like, you know, there must be some interesting data in there.",
+      "speaker": 0
+    },
+    {
+      "start": 396.51862600000004,
+      "end": 401.63862600000004,
+      "zh": "哦，对啊，构建这些内部系统的时候，数据真是太厉害了。",
+      "en": "Oh yeah, I Mean, and that's one of the things, you know, in building a lot of these internal systems, the data is incredible.",
+      "speaker": 1
+    },
+    {
+      "start": 401.63862600000004,
+      "end": 402.61387600000006,
+      "zh": "对啊。",
+      "en": "Yeah.",
+      "speaker": 0
+    },
+    {
+      "start": 402.61387600000006,
+      "end": 411.4374700000001,
+      "zh": "特别是你知道的，不仅模型和训练都是内部的，使用数据什么的也都是。所以我们能在这方面做出很厉害的东西。",
+      "en": "Especially when it's, you know, not only is the model and the training in house, but all the data on the usage and whatever. So, you know, we could build really kind of sophisticated things there.",
+      "speaker": 1
+    },
+    {
+      "start": 411.4374700000001,
+      "end": 428.5374700000001,
+      "zh": "好，那我们来介绍一下你们网站上的Jules，就是那个自动化编码agent。我们见过很多这样的东西，不过它们不是章鱼，也不是紫色的，这方面你们有自己的特色。但在这个竞争激烈的编码agent领域，你们真正想做到的核心是什么呢？",
+      "en": "Yeah. Okay, so let's introduce people to Jules on your website says Jules, Autonomous coding agents. We've seen lots of these. They're not octopuses, they're not purple. So you got that going for you. But what really is the core thing you're trying to nail in a very crowded coding agents landscape.",
+      "speaker": 0
+    },
+    {
+      "start": 428.5374700000001,
+      "end": 502.4094700000001,
+      "zh": "嗯，我们当初开始做的时候就在想，编码agent将来会怎么样？随着这些模型越来越强大和复杂，那种体验会是什么样的？我们想为未来打造这样的东西。想象一个非常强大的agent，可以长时间运行，处理非常复杂的事情，这就是我们的产品开始成型的时候。比如说，自动化意味着它有自己的计算机。对，没错。很多agent是在本地或者你的工作环境中运行的，但如果你想要一个能运行好几个小时，甚至几天的东西，你可能希望它有自己的环境来完成工作。这是这个自动化编码agent重要的一部分。我们在想象一个非常强大的未来，你可以随时启动很多这样的agent。它们是自主的，但我们也在思考什么是“环境化”。比如说，当它有自己的基础设施、计算机，还有自己的交互方式时，这会如何改变它的能力？举个例子，我们有一个API，人们用它来做各种事情，比如在某些事件发生时触发它。我们看到有例子是用Jules做网站更新，然后用GitHub action自动合并Jules的pull request。所以，各种东西都在流动，真的改变了人们做事的方式。",
+      "en": "Yeah. So what we think about and what we set out to do back when I joined was like, where are coding agents going to go? And as these models get more and more powerful and sophisticated, what is that experience going to be? And let's build for that future. And so when you think of a really powerful agent that can run for a really long time doing really complicated things, that's when the products started to take shape for us. So for example, autonomous means it has its own computer. So for Juuls, it's the end. Yeah, exactly. So tons of agents that run locally or in your workspace with you while you're coding. But if you want something that's going to run for hours or let's say days, you might want it to have its own environment where it can do its own work. So that's one of the pieces that's important for this autonomous coding agent. But it's really like, you know, think about this future where they're incredibly powerful. You can spin up tons of them. Right. They're, they're autonomous. But also, you know, we, we're thinking about what is, what does it mean for it to be ambient. Right. Like it's, it's kind of when it has its own infrastructure and its own computer and its own ways to interact with it. How does that start to change what it can do? For example, like we have an API, so people are using it for all kinds of things, triggering it from, you know, when something happens. And you know, we saw an example where someone has, they're triggering Jules for, to do kind of all kinds of updates to their site and then they have a GitHub action that is going to automatically merge Juul's pull requests. So it's just like all kinds of stuff is flowing. You really kind of changing how people are able to do stuff.",
+      "speaker": 1
+    },
+    {
+      "start": 502.4094700000001,
+      "end": 504.4992830000001,
+      "zh": "这个是和CLI有关的吗？",
+      "en": "Is that CLI related just to close that loop?",
+      "speaker": 0
+    },
+    {
+      "start": 504.4992830000001,
+      "end": 526.2072830000001,
+      "zh": "对，我们有一个CLI，你知道的，我们想在开发者所在的地方和他们对接。API是可以从任何地方触发的，但是在本地工作时，你也希望能触发一些东西。所以我们推出了Joule CLI，几周前上线的，可以让你和它互动。等这个播客发布的时候，我们也会和Gemini CLI集成。",
+      "en": "Yeah, CLI says we also have a cli, which is, you know, we want to meet developers where they are. Right. And so part of the, you know, an API is like you can trigger it from anywhere, but also, you know, when you're working locally, like, you want to be able to trigger stuff. So we. Yep. So we have, we have the Joule CLI we launched a couple weeks ago, which lets you interact with it. By the time this podcast comes out, we'll be integrated with the Gemini cli. Jen.",
+      "speaker": 1
+    },
+    {
+      "start": 526.2072830000001,
+      "end": 530.4681580000001,
+      "zh": "所以我在想，你们有好几个CLI，我不太确定具体怎么样。",
+      "en": "So I was thinking, like, you have a number of CLIs, I'm not sure exactly.",
+      "speaker": 0
+    },
+    {
+      "start": 530.4681580000001,
+      "end": 541.6369710000001,
+      "zh": "好的，所以Gemini CLI，我们会在各种地方结合使用，充分利用这个力量。因为开发者在各个地方工作，所以要让这个自主的环境agent能够轻松地为你完成各种工作。",
+      "en": "Okay, so Gemini CLI, all kinds of places where we're going to kind of mix and be able to harness this power. Right. Because developers work in all kinds of spots and so making it easy to have this autonomous ambient agent that can really do all kinds of work for you.",
+      "speaker": 1
+    },
+    {
+      "start": 541.6369710000001,
+      "end": 560.8969710000001,
+      "zh": "嗯，你们刚开始的时候，有没有什么假设很快就被推翻了？特别是在做Genai和编码agent方面？我猜你可能对这些不陌生，因为搜索引擎也用很多机器学习的“黑箱”技术，比如几年前的bert更新。对啊，给我们讲讲，你的AI工程之旅是怎样的？",
+      "en": "Yeah. What is your journey when you started out, did you find any assumptions that were quickly challenged when working with Genai and coding agents in general? I guess you're maybe not too unfamiliar with it because Search uses a lot of machine learned, black boxy type things, including bert, which was a major update a few years ago. Yeah. So, I mean, just fill us in. What is your AI engineering journey?",
+      "speaker": 0
+    },
+    {
+      "start": 560.8969710000001,
+      "end": 594.2689710000001,
+      "zh": "对，完全没错。我觉得一直在显现的一个问题就是模型真的很重要。可能听起来显而易见，但模型的质量真的会影响你能做到什么，以及你怎么围绕它进行开发。比如说，我们一开始用的是比较早期的Gemini模型，那时候agent的架构特别复杂。我觉得我们看到的一个变化就是，随着模型的进步，架构变得越来越简单。有时候，这些架构几乎成了模型处理困难问题的拐杖。比如，我们尝试过非常复杂的子agent系统，也做过一些实验。",
+      "en": "Yeah, totally. So I think one of the things that keeps coming up is like the model makes such a difference. I mean, maybe it sounds obvious, but it's like the quality of the model really changes what you're able to do and how you engineer around it. So, for example, when we started this was with relatively early models of Gemini. We had the agent scaffolding around. It was incredibly complex. I think one of the things we've seen is scaffolds get simpler and simpler over time as the models get better. And in some ways the scaffolding is almost a crutch for things the model struggles with. For example, really complicated subagent systems. We've played with that, we've experimented with that.",
+      "speaker": 1
+    },
+    {
+      "start": 594.2689710000001,
+      "end": 598.1944400000001,
+      "zh": "能举个例子，说说你们放弃过的某种子agent吗？",
+      "en": "Can you give an example of a kind of subagent that you had to abandon?",
+      "speaker": 0
+    },
+    {
+      "start": 598.1944400000001,
+      "end": 650.5744400000001,
+      "zh": "嗯，就是说，你给Juuls一个编码任务，它会有不同的agent来处理，比如修改代码、解决子问题、做集成操作，或者为不同部分设立完整的子agent，比如审核员agent。有时候人们会搞一些不同的角色，比如产品经理agent和代码审核agent。这些我们倒是没走那么远。但我觉得现在很多这些东西不再那么受欢迎。当然，agent的系统还是很复杂的。但随着模型的进步，简化反而更好。尤其是在通过机器学习或者常规维护来提升性能时，我们发现简化是更有效的。我们之前聊过一点，比如说rag，还有共基的下一步发展等等。看起来不仅仅是Juuls，而是整个行业，agent搜索确实很难，比如维护embedding和正确分块都很难。你提到的黑箱问题，很多都很难改进。",
+      "en": "Yeah, it was just basically you have, you give Juuls a coding task to do and it's going to have different agents for whether it's making a code edit or handling a sub problem or doing any kind of action with an integration, or having full sub agents for different parts of it, like a reviewer agent. Or even sometimes people do these different Personas where you're like, one of the things that cracked me up is like you're the product manager agent and then you have the code reviewer agent. We didn't Go, you know, that far. But I think a lot of these things aren't as in favor now. I mean certainly people do, you know, I don't want to say the agent harness isn't sophisticated. It certainly is. But you know, as the models get better, like less is more. Especially as it comes to like being able to improve through whether it's machine learning or just, you know, regular maintenance. I think certainly we found that, you know, we're finding the less is more. I think that you know, that we were talking about a little bit before we started recording like the like rag. Right. And like you know, co basing next thing and all that stuff and you know, it seems like, you know, not just for Jules, but kind of across, across the industry that like agent based search. Right. Like it's maintaining embeddings is hard, but getting the chunking right is hard. Like terms like the black box aspect you mentioned, a lot of that is, is hard to improve upon.",
+      "speaker": 1
+    },
+    {
+      "start": 650.5744400000001,
+      "end": 655.5203150000001,
+      "zh": "对，我甚至觉得这可能不是难不难的问题，而是永远做不好。",
+      "en": "Yeah. I would even say it's maybe not even hard so much as it will never be good.",
+      "speaker": 0
+    },
+    {
+      "start": 655.5203150000001,
+      "end": 658.6666280000001,
+      "zh": "那你多说说，为什么你觉得永远做不好呢？",
+      "en": "Well, tell me more, why do you say that never?",
+      "speaker": 1
+    },
+    {
+      "start": 658.6666280000001,
+      "end": 672.2270970000001,
+      "zh": "因为一个捕捉到你想要的东西的片段，可能会漏掉其他东西。所以如果你只是根据片段的embedding来检索，边界会很随意，只是希望能捕捉到。但其实你可以用注意力机制，可能用grep来扩展会更好。",
+      "en": "Because a chunk that happens to capture the thing you're looking for will fail to capture something else. And so if you only retrieve based on your embeddings of a chunk, it uses very arbitrary boundaries that are drawn with some hope of being captured. But you could just throw attention at it and you can scale probably much better using grep.",
+      "speaker": 0
+    },
+    {
+      "start": 672.2270970000001,
+      "end": 676.7898470000001,
+      "zh": "完全同意。我觉得这就是这些工具如何简化的一个例子。",
+      "en": "Totally. So I think that's an example of these harnesses, how they're simplifying.",
+      "speaker": 1
+    },
+    {
+      "start": 676.7898470000001,
+      "end": 699.7218470000001,
+      "zh": "嗯，我倒是没有完全放弃这个，因为我们在做的一个事情，我不知道你有没有看到，就是那个cognition suite的GREP工作，基本上是把语义搜索或者带有embedding的片段当作工具来用，和其他工具比如tokwrap、文件访问、glop这些放在同一个层面上。所以我觉得这样是有道理的。不要放弃它，只是别把它变成唯一的方法。",
+      "en": "Yeah. Well, I haven't abandoned it completely because one of the things that we were doing, I don't know if you saw the cognition suite GREP work was basically using cement, a semantic search or chunks with embeddings as a tool, but on the same level as the other tools like tokwrap and file access and glop and whatever else other variants you have. So I think that makes sense. Don't abandon it, just don't reify it into the only way to do things.",
+      "speaker": 0
+    },
+    {
+      "start": 699.7218470000001,
+      "end": 715.6275350000002,
+      "zh": "没错。说实话，我们在这个领域做了很多研究，我觉得接下来几个月我们也会聊聊我们在这方面的一些进展。刚开始的时候，大家都在用embedding来做rag，这样的方式很流行。现在看到它的变化还挺有意思的。",
+      "en": "Exactly. And to be clear, this is an area of research we're doing tons of work on and I actually expect, you know, in the coming months we'll, we'll be talking about some stuff we're doing here too. But it's, it's. Yeah, it's, it's not the. I feel like when we started it was like rag. It was like embedding based rag. Yeah, was like the thing everyone did. And it's interesting to see how it's changed.",
+      "speaker": 1
+    },
+    {
+      "start": 715.6275350000002,
+      "end": 744.7155350000002,
+      "zh": "很多人问我，Go代码的embedding模型在哪里啊？我就给他们推荐了一些，比如说有些中文的。像Nomic以前在做一个，然后我们发现其实不需要这些。对，完全是个很苦涩的教训。不过我觉得这些都是好事，就像是个预览。我在trusted testers组，所以能先看到一些东西，但现在感觉更像是个真正的产品了。这种转变是怎样的？在Google Labs里有没有什么流程来推动那些有潜力的东西？",
+      "en": "People ask me for like, where are the go code embedding models? And you know, I pointed them to like a few, like Chinese ones. There's some like Nomic was working on one and then like we found we didn't need them. Yeah, exactly, exactly. Very bitter lesson. So, so, so, you know, I think like these, these, this, like, these are good things. Like, I think like out, it was kind of a preview. I'm in the trusted testers group, so I got to see a little bit, but now it feels like more of a real product. What's that transition like? Is there a process within Google Labs to promote things when you feel like there's some traction?",
+      "speaker": 0
+    },
+    {
+      "start": 744.7155350000002,
+      "end": 750.8107850000001,
+      "zh": "对，没错。我觉得Google Labs不仅仅是在做实验。对吧，就像我们说的那些笔记本元素。",
+      "en": "Yeah, absolutely. So I think the Google labs is not about just experiments. Right. So notebook elements. We talk.",
+      "speaker": 1
+    },
+    {
+      "start": 750.8107850000001,
+      "end": 754.0035350000002,
+      "zh": "这不是什么大事，这可是很成功的生意。",
+      "en": "It's not very serious. This is terribly successful money.",
+      "speaker": 0
+    },
+    {
+      "start": 754.0035350000002,
+      "end": 775.7835350000001,
+      "zh": "确实如此。对我们来说，I/O大会算是个转折点。今年五月我们宣布了Jules，反响很好，这让它真正成为了一个现实。我一直想做一个真正的产品，而这次发布对我们来说是个关键时刻。现在Jules被GitHub的演讲提到，肯定会一直存在下去。我们也很期待继续开发和扩展。",
+      "en": "That's really. And for us, IO was kind of a little bit of a turning point. So in, in May when we, we announced Jules, you know, it was like great reception following I.O. and that was, that was a real moment of us to like turn this into, you know, a very much a real thing. I mean, it's something that we were, you know, we always intended to. It wasn't ever intended. You know, I didn't, you know, talk about my journey. Like, I didn't. It was always a goal to build a real product here, but for us, that was kind of a very key moment, very key milestone for us. And so, yeah, now it's very much a real thing as mentioning talking before Jules being talked about in the GitHub keynote. It's certainly here to stay. We're excited to kind of keep building and expanding.",
+      "speaker": 1
+    },
+    {
+      "start": 775.7835350000001,
+      "end": 785.8029730000002,
+      "zh": "太好了。我们聊聊编程引擎这个话题吧。你要来参加MCD AIE Code峰会，这是你第一次参加EIE和mc。你想了解些什么？",
+      "en": "Awesome. Let's talk about just coding engines in general. You're coming to MCD AIE Code Summit. It's going to be your first time at EIE and the mc. What do you want to know?",
+      "speaker": 0
+    },
+    {
+      "start": 785.8029730000002,
+      "end": 788.1017540000001,
+      "zh": "嗯嗯嗯，打动我吧。",
+      "en": "Yeah, yeah, yeah. Well, sell me.",
+      "speaker": 1
+    },
+    {
+      "start": 788.1017540000001,
+      "end": 788.9957230000001,
+      "zh": "为什么？",
+      "en": "Why?",
+      "speaker": 0
+    },
+    {
+      "start": 788.9957230000001,
+      "end": 793.4307540000001,
+      "zh": "为什么有人想聊聊？嗯，这个嘛。好吧，开始吧。",
+      "en": "Why would someone want to talk? Yeah, this is. Yeah, let's turn it on.",
+      "speaker": 1
+    },
+    {
+      "start": 793.4307540000001,
+      "end": 806.1436920000001,
+      "zh": "哎呀，这有点尴尬。其实吧，我们都已经做到第三年、第四年了，有很多之前的案例可以给大家看。就说，去看看我们的YouTube吧。喜欢吗？觉得不错吧？",
+      "en": "Oh, boy, this is embarrassing. So, I mean, you know, unfortunately we're in our third year, fourth year now, and we have a bunch of, you know, prior art we can just point people to and say, look at our YouTube. You like that? You like this?",
+      "speaker": 0
+    },
+    {
+      "start": 806.1436920000001,
+      "end": 810.7412550000001,
+      "zh": "有些演讲挺不错的。你知道，我之前没去过，不过...",
+      "en": "There's some great talks. You know, I haven't been before, but.",
+      "speaker": 1
+    },
+    {
+      "start": 810.7412550000001,
+      "end": 812.2273490000001,
+      "zh": "我看过他们的演讲。",
+      "en": "I've watched To talk.",
+      "speaker": 0
+    },
+    {
+      "start": 812.2273490000001,
+      "end": 814.8280050000001,
+      "zh": "嗯，有很多不错的东西。",
+      "en": "Yeah, there's a lot of good stuff.",
+      "speaker": 1
+    },
+    {
+      "start": 814.8280050000001,
+      "end": 880.5640050000001,
+      "zh": "是啊，我挺自豪我们的内容来自各个实验室。基本上，我观察到一个职业生涯中的模式，就是每个行业都需要一个聚集点，大家可以交流技巧和经验。我在JavaScript、云原生和数据工程领域都见过这种情况，我觉得AI工程也需要这样的东西。同时，我也参加了一些学术的ML会议，像NeurIPS、ICML、ICLR。这些会议有的已经有四十年历史了，主要还是集中在学术和博士生上。不过我觉得AI正在从研究逐渐转向产业，开源和论文少了，产品和创业公司多了，模型也更封闭了。但大家还是想分享，想招聘，想推广自己的工作，所以需要一个这样的地方。当然，你可以在公司自己的会议上做这些，像Google有IO，GitHub有自己的，微软有Build和Ignite。但通常会有一个行业中立的平台，大家都在同一个起跑线上竞争。有些人就喜欢这种感觉，不是VIP得宠，而是要靠自己争取位置。不过当你争取到位置时，大家会更认真地关注你，因为这是你努力得来的。",
+      "en": "Yeah. And I'm proud that it features content from all labs. And basically we are like the. This is a pattern I've seen across my career in Terms of every industry needs its focal gathering points to just trade tips and stuff. So I've seen that in JavaScript, I've seen that in cloud native, I've seen that in data engineering. And I was like, probably AI engineering will need something like this. And then also the concurrent thread to this was I went to a bunch of the academic ML conferences, NeurIPS, IC, MLI clear. And a lot of them, like NeuroPS is 40 years old and that hasn't really changed and is very focused on academics and PhD students. Whereas I think really the transition in AI going from research to industry is that you gradually see a shift, unfortunately, less open source, less papers and more products and more startups and closed models and what have you. But these people still want to share, people still want to hire, they want to promote their work. So they need a place to do that. You can always do that at your company conferences. Obviously IO and GitHub has GitHub and Microsoft has Build and Ignite. But there usually is one place where it's the industry neutral thing where everyone is on the same playing field and me the best person with. And honestly, some people like that. It's not like you're not going to be treated as the VIP and you kind of have to earn your spot, but when you earn your spot, I think people give that requisite level of attention better because you had to.",
+      "speaker": 0
+    },
+    {
+      "start": 880.5640050000001,
+      "end": 888.1569430000001,
+      "zh": "是啊，我看过那些视频。我大概知道节奏。不过对于没去过的人来说，除了演讲，还有什么呢？",
+      "en": "Yeah, I've watched the videos online. I kind of get a sense for speed pick. But what's happening between that for someone who hasn't been before? Like what goes on other than the talks?",
+      "speaker": 1
+    },
+    {
+      "start": 888.1569430000001,
+      "end": 900.695724,
+      "zh": "嗯，还有很多像是发票、供应商选择、场地选择这些琐碎的事。你知道吗，我们用了五种不同的软件来协调讲者和展位的安排，还有参会者和音响设备的管理。",
+      "en": "Yeah, a lot of, well, just logistical stuff of invoicing and vendor selection and venue selection. And did you know we have five different pieces of software to coordinate speaker logistics and booth logistics and Borough's an av, an attendee.",
+      "speaker": 0
+    },
+    {
+      "start": 900.695724,
+      "end": 903.807224,
+      "zh": "所以我打算去，坐下来看看。",
+      "en": "So I'm gonna go, I'm gonna sit.",
+      "speaker": 1
+    },
+    {
+      "start": 903.807224,
+      "end": 905.5951620000001,
+      "zh": "哦，对不起。",
+      "en": "Oh, yeah, sorry.",
+      "speaker": 0
+    },
+    {
+      "start": 905.5951620000001,
+      "end": 907.162537,
+      "zh": "那我能看到些什么呢？",
+      "en": "But yeah, what am I gonna. What am I gonna get?",
+      "speaker": 1
+    },
+    {
+      "start": 907.162537,
+      "end": 917.228412,
+      "zh": "是啊，是啊。其实挺奇怪的，我是负责AIE内容的人嘛，我挑选和邀请讲者。但我其实知道内容是最不重要的部分。",
+      "en": "Yeah, yeah. So actually it's really weird because like, as I'm the content guy for aie, right. I curate the speakers, I invite them and. But I actually know that the content is like the least important part.",
+      "speaker": 0
+    },
+    {
+      "start": 917.228412,
+      "end": 918.3313810000001,
+      "zh": "是啊。",
+      "en": "Yeah.",
+      "speaker": 1
+    },
+    {
+      "start": 918.3313810000001,
+      "end": 931.5899750000001,
+      "zh": "因为所有的演讲都会被录下来，然后我们会编辑好免费放到YouTube上。但你来的原因是，一方面你可以和讲者交流，另一方面你也可以和其他人交流。所以我觉得走廊交流才是最重要的。",
+      "en": "Because all of its films and we're going to edit it and post it for free on YouTube anyway. But the reason you come is because one, you can talk to the speakers, but also you can talk to each other. And so I would say the hallway track is the most important track.",
+      "speaker": 0
+    },
+    {
+      "start": 931.5899750000001,
+      "end": 936.5358500000001,
+      "zh": "那怎么能充分利用走廊交流呢？有什么建议吗？新手怎么开始？",
+      "en": "Yeah. How do you get the most out of the hallway track? What's your guide? Beginning hallway track?",
+      "speaker": 1
+    },
+    {
+      "start": 936.5358500000001,
+      "end": 1041.6918500000002,
+      "zh": "我这想法还没整理好。我觉得如果你之前对一些事情感兴趣，并有一些相关背景，那就最好不过了。就是说，如果有人之前在网上见过你，那就可以直接跳过“你是谁”这一步，直接说“嘿，我看到你写了那个东西，想当面聊聊。”这样比“你是谁？你做什么的？”这种冷场好多了。最好是大家来之前就有个明确的想法，比如“我为什么来，我想从中得到什么。”因为如果你没有明确的意图，或者只来一小会儿，那就没时间和精力去碰撞出那些意外的、有趣的交流。\n\n特别是AIE这种规模的活动，尤其是像你要去的那个峰会，大家都是申请才能进来的。我们第一次峰会大概是10比1的申请和邀请比例，这次是23比1。我们筛选的人基本都是其他会议上的讲者，行业顶尖人物，可能是创始人或是纽约一些顶级公司的企业买家。我们这次会议的一个目的就是把旧金山或者科技界的精英带到金融领域，主要是金融，还有一点点媒体。我觉得这很棒。\n\n所以，我想说的是，你去那儿就是为了认识别人，所以一定要留时间去结识他们。准备好一张名片，简单介绍一下你是谁，你做什么，你能提供什么帮助，或者你需要什么帮助。和朋友一起去也不错。我们其实提供过一些捆绑折扣，不过这次没有，但需要的话，可以联系我。\n\n沉浸在代码代理社区中真的很重要。最后一点就是，我们这次第一次有了主题。以前呢，这些会议都是一般性的，展示AI的现状，邀请当时能邀请到的最好讲者。但现在我们努力给每个主题找到最优秀的人，比如代码、数据集、RL。我还想做一个机械解释的主题，那会很有趣。",
+      "en": "I Don't have as collected a thought as I should. 1 I think if you have some prior history of like what you're interested in and work on. So basically, like the best intro to somebody is if they've seen you online before. So they can skip the whole like, who the hell are you? Part and just get into like, hey, I saw you wrote that thing, like, let me talk to you in person about it. Since they're both here, that's way better than like, who are you? What do you do? And that's like a very cold interaction. Ideally people come warm or they can come with some clear idea of like, here's why I'm here, here's what I'm looking to get out of this. Because I think if you show up with no real intention or if you're in and out for your thing and nothing else, then you don't have the space and the mental energy for the unstructured, serendipitous connections. And the thing about aie, at least in our scale, our size right now, especially for the summits, which is the one that you're going to, everyone had to apply to get in. So usually our first summit we had something like a 10 to one applicant to invite ratio, invited spots ratio. This one's going to be when it went up to 10 to 16 to 20 something. This one's going to be 23. One out of 23 people who applied it in. Yeah, it's a lot. And really we're trying to filter for people who would be speakers at any other conference conference, but they are the top of the field. They are either founders or honestly enterprise buyers of the best companies you can find in New York. And that's another reason for our New York conference, which is we're bringing kind of the best of San Francisco or tech to the finance sector. Really. There is a little bit of media, but mostly finance. And yeah, that's great, I think. So what I'm trying to say, I guess is you're there to meet the other people, so make time to meet them. Have a calling card. Like, who are you? Like, like a quick like what? Who are you? What do you do? What, what can you help with? What are you looking for help for? That kind of intro stuff is really good. Going with friends is really good. Obviously, like, we actually offer. We. For the World's Fair, we offer bundle discounts. This one, I don't think we do, but just reach out if you need something. But yeah, I mean, like, I think like, like the idea of getting Immersed in the code agent community is really important. And I think maybe the last part I'll bring up is that we themed it for the first time. Right. So you used to be. These are just generalists. Here's the state of AI. The best speakers we can get at any point in time. But now we're really trying to push ourselves to theme everything so we have the best people in code, the best people in data sets, the best people in rl. I want to do a mechinterp one that'll be fun.",
+      "speaker": 0
+    },
+    {
+      "start": 1041.6918500000002,
+      "end": 1043.0502250000002,
+      "zh": "不错啊。",
+      "en": "Cool.",
+      "speaker": 1
+    },
+    {
+      "start": 1043.0502250000002,
+      "end": 1082.3982250000001,
+      "zh": "我想把那场活动放在伦敦，因为我想接触的人都在那儿。不过啊，我觉得办峰会的时候，还是要有个重点。每个人都应该有个目标，看看现在最前沿的是什么。然后和同行私下聊聊，大家在不同公司做着类似的事情，谁知道会碰撞出什么火花呢。这是最奇妙的事。我组织活动，但其实有一半的事情我都不知道，因为我的工作就是提供一个大家可以交流的场所。上次在纽约的时候，有13到15个周边活动，都是大家自发组织的。比如晚餐、聚会，围绕着峰会进行的。我们很鼓励这种事，我们也会宣传，只要大家能见面就好。",
+      "en": "That one I'm thinking will be in London because the people I want to target are in London. But yeah, I think when you do a summit, it should be focused. Everyone there should have an agenda of trying to learn what's the state of the art. Trying to have off the record conversations with their peers, doing the same thing at the other companies and who knows what could happen. That's the weirdest thing. I organize the thing and I don't even know half the things that go on just because my job is to provide the nexus of people to just connect. Last time we were in New York, there were 13, maybe 15 site events organized by people. Just like dinners, meetups, whatever, around this, around the summit. And we encourage it. We posted, we just want people to meet up.",
+      "speaker": 0
+    },
+    {
+      "start": 1082.3982250000001,
+      "end": 1087.3789130000002,
+      "zh": "嗯，我正想问，是不是有些不在日程上的活动也会发生？",
+      "en": "Yeah, I was going to ask, is there a whole off menu set of events happening?",
+      "speaker": 1
+    },
+    {
+      "start": 1087.3789130000002,
+      "end": 1121.4709130000003,
+      "zh": "他们自己组织的。说实话，如果你不怕生人，自己也可以组织个活动。比如小型晚餐聚会。我们晚上都留空的，所以就组织个晚餐或者聚会，专注于你感兴趣的事。我们有些人只做语音的，所以如果你想做语音，那就很好。如果你想做代码，或者专注于一般编程代理中的小部分，可以这样做，我觉得这样挺好的。或者你可以做金融AI，生物AI，任何特定领域的AI。我觉得这是让真正和你兴趣相投的人聚在一起，进行高质量交流的最佳方式。",
+      "en": "They organize it. Honestly, if you're not scared of strangers, you should organize your own. Like a little dinner. We leave all the evenings open. So just organize a dinner or meetup, focus on your thing. We have people doing only voice, so if you want to do voice, great. If you want to do code, review agents as a small subset of generalist coding agents, do that and I think you find it right. Or you can do AI in finance, AI in bio, whatever this particular sector might be. And I think that is honestly the highest signal way to get a bunch of people who really resonate with your thing to meet and have high bandwidth conversations.",
+      "speaker": 0
+    },
+    {
+      "start": 1121.4709130000003,
+      "end": 1126.4516010000004,
+      "zh": "嗯嗯，你打算参加那个自主编程代理的晚餐吗？",
+      "en": "Yeah, yeah. Are you going to do the autonomous coding agent dinner?",
+      "speaker": 1
+    },
+    {
+      "start": 1126.4516010000004,
+      "end": 1187.7596010000004,
+      "zh": "嗯，其实不行，我的工作就是四处走动。对，我的工作就是握手，问大家怎么样，解决突发问题。所以我一般都会留到最后。不过啊，这真的是场冲刺，总是很忙碌，因为我还要自己发言。我还不知道，不过上次开峰会时，我讲的是今年要发展成agent之年，这确实也实现了。现在流行说这不只是agent之年，而是agent的十年。但是今年确实agent很火，大多数人都看对了。大家的共识是对的，你不需要太激进或者反其道而行之。像是如果你在做agent，今年你可能就会好很多，可能取得了不少进展。也许你可以告诉我从Jules的角度看是怎样的。今年初我没想过会加入一家agent公司，结果还真去了。但我现在对agent的热情高到，有人来找我聊基础设施公司的创业想法，问我如果我们做个agent框架，让别人能做agent怎么样。我就会说，你们自己做agent不就好了，兄弟？",
+      "en": "Well, no, my job is to float. Yeah. My job is to handshake, ask how everyone's doing, fight fires. So I tend to just leave myself open until the end. But yeah, it'll be a sprint. It's always a mad rush because then I have to do my own talking. I don't know yet. I think so far. So the last time I did this summit, I was talking about how this year had to develop as the year of agents. And it's really played out a lot. Obviously now the trendy thing is to say no, it's not just a year, it's a decade of agents. But like this year I think agents really took off and most people got it right. Like the consensus was correct. You don't have to be too spicy or counter consensus to say like if you worked on an agent, you're probably a lot better off. You probably made a lot of progress this year and maybe you can tell me how it feels from the Jules point of things. I didn't see myself at the start of this year joining an agent company and I ended up doing that. But I've gone so agent pill to the point where people come to me with startup ideas for infra companies. They're like, what if we made an agent framework so that other people can build agents? I'm like, well, don't you just build agents yourself, bro?",
+      "speaker": 0
+    },
+    {
+      "start": 1187.7596010000004,
+      "end": 1189.0367260000005,
+      "zh": "框架很多。",
+      "en": "There are a lot of frameworks.",
+      "speaker": 1
+    },
+    {
+      "start": 1189.0367260000005,
+      "end": 1230.6887260000005,
+      "zh": "对啊，很多框架和基础设施公司，他们就是好开发者，但对想做什么完全没想法。也不知道想要什么客户，就只想做开发工具，因为这样让他们觉得舒服。但其实，真的不难去坚持一个方向，专注于某个特定的agent领域。因为说实话，商业和经济都在朝那个方向走。我不是说基础设施公司做不成，有些很棒的基础设施公司是赞助商，我也很钦佩他们，甚至愿意投资。只是相比之下，那些公司要难得多。而agent公司就像是轻而易举，他们的ARR增长得快，利润也更好。所以，为什么不呢？",
+      "en": "Yeah, frameworks and infra companies and all of these guys are just like, they're good developers with no conviction whatsoever in what they want to build. They don't know what customer they want. They're just like, we want to build developer tools. So that's where we feel comfort, comfortable. But honestly, it's not that hard to actually take a stand and be full stack and verticalize in some particular agent field that you want because guess what, the business and the economics are, are aligned that way. And I'm not saying that you cannot make it as an infra company. There's some fantastic infra companies that are sponsors and that I admire and I would invest in myself. It's just that comparatively those are a lot harder. And agent companies seem like they're shooting fish in a barrel. They seem like they're ramping up in ARR a lot faster and it seems like their margins are better. So why not?",
+      "speaker": 0
+    },
+    {
+      "start": 1230.6887260000005,
+      "end": 1263.1967260000006,
+      "zh": "对我们来说，其实就是你是那个agent。就像你说的，随着模型越来越好，我们要为未来的发展打下基础。模型提升后，agent的强大就越来越明显。之前我们聊到高情境和管理，这些都很重要。说个有趣的事儿吧，我们的会话数据只存储30天，过了30天会话就锁定了。最开始用户碰到这个问题时，他们很不满意。我们当时想，怎么可能有人用一个会话用30天呢？结果还真有人可以持续做同一个工作30天。这真是太强大了。",
+      "en": "Yeah, I think for us it's really been, you're the agent. As the models, as you were talking about, let's build jewels for where things are going. And as the models get better, I think it just becomes clearer and clearer that agents are super powerful. We were talking about before high context and management. So all that stuff's important. This is a funny story. We store some data for a session, but we only store it for 30 days. And so after 30 days your session becomes locked and when the first user first start hitting that, they were upset. We were like, there's no way anyone's going to be using a single session for 30 days. People do a single track of work for 30 days. But just like how powerful that can be.",
+      "speaker": 1
+    },
+    {
+      "start": 1263.1967260000006,
+      "end": 1266.0063510000007,
+      "zh": "那你遇到这种情况时，怎么压缩上下文呢？",
+      "en": "How do you compress context when you run into it?",
+      "speaker": 0
+    },
+    {
+      "start": 1266.0063510000007,
+      "end": 1273.8895390000007,
+      "zh": "是啊。我们其实做了很多标准的东西，不过我不能多说。我们还在开发很多东西。这是我们非常活跃的研究领域。",
+      "en": "Yeah. So we have, I mean, I can't talk too much about it, but we do a lot of the standard things and there's also. We're developing a bunch of stuff. It's an activated area of research for us. Yeah.",
+      "speaker": 1
+    },
+    {
+      "start": 1273.8895390000007,
+      "end": 1286.1264770000007,
+      "zh": "我觉得吧，我不是想问你Jules具体怎么做的。其实有很多方法，你得选一个，因为不可能用完你那200万token的上下文窗口。是200万吗？是的，最多200万。",
+      "en": "I think just. I'm not asking you for how exactly Jules does it. There's just a number of approaches. Right. And you just have to pick one because you can't just use up your 2 million token context window. Is it 2 million? It is up to 2 million, especially.",
+      "speaker": 0
+    },
+    {
+      "start": 1286.1264770000007,
+      "end": 1311.8664770000007,
+      "zh": "对于编程agent来说，因为你在读文件，还要运行那些输出很大的命令。我觉得编程agent是个挺有意思的领域，不论是产品上还是影响力上。而且在研究方面也是。它们真的在挑战极限，还有哪个领域你会让一个agent运行30天呢？还有哪个领域会积累这么多的上下文和交互？所以啊，编程agent在产品影响和研究上都很特别。",
+      "en": "For coding agents because like you're reading files, it's so you're running commands with huge outputs. I think coding agents are a really interesting area, both product wise and the impact they're having. But also for research. They really push the limits of what other domains are you running an agent for 30 days? What other domains are you accumulating? So much context and so many turns and so it's. Yeah, coding agents are I think kind of a special spot of super interesting product impact research.",
+      "speaker": 1
+    },
+    {
+      "start": 1311.8664770000007,
+      "end": 1326.4137900000007,
+      "zh": "嗯，我看到amp团队放弃了自动压缩，转而采用handoff机制，这其实是agents SDK先搞出来的。基本上就是subagent的模式，你启动一个subagent，做完事儿，不需要它的所有上下文，然后再回到主线程。",
+      "en": "Yeah. I see the amp folks drop the auto compaction for a handoff mechanic, which was pioneered by the agents SDK, which is basically the subagent's pattern where you spin up a subagent, do a thing, you don't need all their context that subagent is doing and then you can sort of come back to the main thread.",
+      "speaker": 0
+    },
+    {
+      "start": 1326.4137900000007,
+      "end": 1327.3426030000007,
+      "zh": "对啊。",
+      "en": "Totally.",
+      "speaker": 1
+    },
+    {
+      "start": 1327.3426030000007,
+      "end": 1328.1436970000007,
+      "zh": "嗯。",
+      "en": "Yep.",
+      "speaker": 0
+    },
+    {
+      "start": 1328.1436970000007,
+      "end": 1347.4756970000008,
+      "zh": "对，这确实是个不错的模式。不过也有个挑战，就是怎么确保信息来回传递足够顺畅。不过这个模式就是这样，像是总结或者把一些上下文外化，比如写到笔记里，这些都是常见的做法。所以啊，有很多东西可以去尝试和改进。",
+      "en": "Yeah, it's a. A good pattern. It also has this challenge is like how do you make sure enough stuff. Information is going back and forth, but that's the pattern, the summarization is a pattern kind of externalizing some of that context, whether it's writing it to a note kind of thing is a common pattern. So yeah, there's tons of things to try and do.",
+      "speaker": 1
+    },
+    {
+      "start": 1347.4756970000008,
+      "end": 1353.8728220000007,
+      "zh": "对，我觉得我们需要更多共识，比如哪种方法最好。因为我好像没看到相关论文来比较这些方法。",
+      "en": "Yeah. And one thing I do want to get more consensus about is what is the best because I don't think I've read any papers, but which methods compare.",
+      "speaker": 0
+    },
+    {
+      "start": 1353.8728220000007,
+      "end": 1356.8914470000007,
+      "zh": "随着模型的变化，答案也会有点不同。",
+      "en": "Better as the models change, the answers change a little bit too.",
+      "speaker": 1
+    },
+    {
+      "start": 1356.8914470000007,
+      "end": 1359.3992280000007,
+      "zh": "对，Claude可能信息外化得有点多。",
+      "en": "Yeah. Claude, you probably know Claude externalizes too much.",
+      "speaker": 0
+    },
+    {
+      "start": 1359.3992280000007,
+      "end": 1361.5703220000007,
+      "zh": "嗯，是的。",
+      "en": "Yeah.",
+      "speaker": 1
+    },
+    {
+      "start": 1361.5703220000007,
+      "end": 1366.0053530000007,
+      "zh": "你的工作有多少...其实，我感觉我又切换回Jules模式了。",
+      "en": "How much does your work. Actually, I feel like I switched back to Jules mode.",
+      "speaker": 0
+    },
+    {
+      "start": 1366.0053530000007,
+      "end": 1367.9210090000006,
+      "zh": "对，他随意发挥呢。",
+      "en": "Yeah. He flowing here.",
+      "speaker": 1
+    },
+    {
+      "start": 1367.9210090000006,
+      "end": 1379.6006650000006,
+      "zh": "嗯，我是说，你的工作对模型的创建有多大影响？对吧。说到底，你显然是Gemini模型的大用户，但你也不是唯一的用户，他们还有其他优先事项。",
+      "en": "Well, I mean, how much does your work inform the model creation? Right. At the end of the day, you obviously are a very big consumer of Gemini models, but also you are not the only consumer and they have other priorities than you.",
+      "speaker": 0
+    },
+    {
+      "start": 1379.6006650000006,
+      "end": 1395.4715090000007,
+      "zh": "对，完全同意。我觉得我们的位置挺幸运的。我们和DeepMind关系很密切。说实话，coding agent是个很重要的领域，对吧？对于任何做模型的公司来说，coding agent都很关键。编码能力真的很重要。",
+      "en": "Yeah, totally, totally. I mean, I think we're lucky in kind of how we're positioned to. We have very close relationships with DeepMind. So we have. And you know, coding agents are an important area, let's be honest. Right. Like for any kind of company building models, like you can see it in all the labs, like coding agents are important. Coding capabilities are really important.",
+      "speaker": 1
+    },
+    {
+      "start": 1395.4715090000007,
+      "end": 1405.1542590000006,
+      "zh": "对。我最初对AIE代码的印象是，我写了一些夸张的话，比如代码是AGI的初始火花，这可能还真有点道理。",
+      "en": "Yeah. My OG image of the AIE code, I wrote something obnoxious like code is the first spark of AGI, which is like, probably true.",
+      "speaker": 0
+    },
+    {
+      "start": 1405.1542590000006,
+      "end": 1419.6086970000006,
+      "zh": "没错。这在AGI层面很重要，从经济角度也很重要，对各方面都很关键。所以我觉得我们的位置真的很幸运。我们能有很多很好的双向合作，各种能力都在不断发展。",
+      "en": "Totally. Yeah. It's important from kind of an AGI perspective. It's important from a dollar's perspective, it's important for all of it. So I think we're in a really lucky position. We're able to have a lot of kind of good collaboration both ways, you know, like all kinds of capabilities that are being developed.",
+      "speaker": 1
+    },
+    {
+      "start": 1419.6086970000006,
+      "end": 1420.3285410000005,
+      "zh": "对。",
+      "en": "Yeah.",
+      "speaker": 0
+    },
+    {
+      "start": 1420.3285410000005,
+      "end": 1425.4021040000005,
+      "zh": "你知道，这很有意思。其实，这里面有很多事情。",
+      "en": "And you know, it's interesting. It's, it's a whole host of things.",
+      "speaker": 1
+    },
+    {
+      "start": 1425.4021040000005,
+      "end": 1426.1219480000004,
+      "zh": "对。",
+      "en": "Right.",
+      "speaker": 0
+    },
+    {
+      "start": 1426.1219480000004,
+      "end": 1441.2613860000004,
+      "zh": "因为在AGI和各种能力方面，还包括计算机和浏览器的使用模式。嗯，就是输出代码的模型，但也涵盖了你希望智能agent能做的一整套事情。所以是多模态的，就是各种东西都在里面。嗯，就是这样。",
+      "en": "Because in terms of like AGI and the capabilities of things, it's also like computer use models and browser use models. And so it's a, you know, models that output code, but it's also the whole suite of, you know, things that you'd want an intelligent agent to be able to do. So it's, you know, multimodal, you know, it's all kinds of stuff that goes into it. So it's. Yeah.",
+      "speaker": 1
+    },
+    {
+      "start": 1441.2613860000004,
+      "end": 1446.7993550000003,
+      "zh": "你想从其他编程agent公司的同行那里了解到什么？因为你基本上会见到他们所有人。",
+      "en": "What would you want to find out from your peers at other coding agent companies? Because you're going to meet all of them, basically.",
+      "speaker": 0
+    },
+    {
+      "start": 1446.7993550000003,
+      "end": 1517.6113550000002,
+      "zh": "对，我觉得这不是零和游戏，而是大家一起进步。我们在发明一种新的方式去做我们的工作，作为软件工程师，怎么才能做得更好？这种体验是什么样的？作为AI领域的人，有时候我们没能好好描述我们在创造的美好未来。我知道这些实验室的CEO们开始写文章，谈论我们在为软件工程师创造的未来。这个未来应该是鼓舞人心的，这样对那些对工具感到恐惧的人来说，可能就没那么可怕了。但如果我们不能清楚地表达和思考，那就很难实现。所以我们想创造一个什么样的美好地方？写软件太难了，很多公司，尤其是大公司，管理代码库和创造都很有挑战性。我们能做些什么，让软件工程师的工作体验变得非常棒？你希望怎么跟你的model互动？你在本地和云端怎么操作？这些怎么互通？所以我觉得，作为一个行业，我们在改变我们的工作方式。我们在发明，也在推动这种变化。知道得越多，我们就能创造出更好的体验，大家都会受益。对，我觉得这就是一个值得同步的地方。",
+      "en": "Yeah. So I think one thing, and I don't think of this as a zero sum thing, I think this is like really like there's this tide that's going to lift all of our boats and we're inventing a new way to do our art. Right. And how to create good art as a software engineer. And so what does that look like and how does that feel? What is the experience we want to create? I think as people working in AI, sometimes we don't do a good enough job describing this beautiful future we're creating. I know the CEOs and heads of these labs have started writing their think pieces on this for software engineers. What is this beautiful future we're creating? And I think that's one, it's inspiring. It makes it maybe less scary for people who are thinking about these tools, but also if we can't articulate it and think about it, it's less likely we'll get there. So what is this great place we want to create? Writing software is so hard. So many companies, especially big companies, it becomes so challenging to manage a code bas and Create. And what can we do to make, you know, being a software engineer, absolutely incredible experience. What are these, you know, how do you want to interact with your model? How do you. How are you doing things locally versus in the cloud? And how does that Interop? And so I think like, as an industry, we're trying to like, you know, which is changed. Like we're in some ways inventing and there's this movement to, you know, change how we do our art. And yeah, the more, you know, the better we can create this experience. Like we all. We all win to some degree. So. Yeah, I think that'd be one thing where it's like sync. Yeah.",
+      "speaker": 1
+    },
+    {
+      "start": 1517.6113550000002,
+      "end": 1529.0355740000002,
+      "zh": "本地和云端的同步是个很有争议，或者说很重要的话题。我在想我们会不会有某种互操作的东西出现。可能不会，但这就是美国梦吧。",
+      "en": "The local to cloud sync is the most contentious or important, I guess, topic for a lot of people. I wonder if we'll ever get some kind of Interop thing. Probably not, but American dream.",
+      "speaker": 0
+    },
+    {
+      "start": 1529.0355740000002,
+      "end": 1531.3343550000002,
+      "zh": "你理想中的工作流程是怎样的？",
+      "en": "Tell me more about what's your dream flow here?",
+      "speaker": 1
+    },
+    {
+      "start": 1531.3343550000002,
+      "end": 1535.8506360000001,
+      "zh": "我不知道。先从Jules Cli开始，最后到Devon。我也不确定。",
+      "en": "I don't know. Start with Jules Cli, end up in Devon. I don't know.",
+      "speaker": 0
+    },
+    {
+      "start": 1535.8506360000001,
+      "end": 1538.5325420000001,
+      "zh": "哦，你在亚洲之间忙活呢。",
+      "en": "Oh, you're up between Asian.",
+      "speaker": 1
+    },
+    {
+      "start": 1538.5325420000001,
+      "end": 1542.329011,
+      "zh": "这可能没什么意思。其实我也没太认真说这个。",
+      "en": "It's probably meaningless. No, but I'm not actually serious about it.",
+      "speaker": 0
+    },
+    {
+      "start": 1542.329011,
+      "end": 1544.836792,
+      "zh": "但对我来说，交通也是个问题。",
+      "en": "But like traffic to me also.",
+      "speaker": 1
+    },
+    {
+      "start": 1544.836792,
+      "end": 1577.2367920000002,
+      "zh": "嗯，我觉得是Codex还是cloud code？Cloud code Web好像可以做到这种\"传送\"功能，他们基本上能把整个历史记录给你，你可以在桌面上的cloud code继续用，可能这就是对的做法。也许有更优雅的方法，但他们是第一个，为什么不呢？其实，可能真正的问题不在于对话，也许你不需要传送。如果你传递的东西是linear ticket或者GitHub PR的话，对吧。你不需要完整的JSON，也不需要完整的聊天记录，只要从别人停下的地方继续就行了。因为人们就是这么做的。",
+      "en": "Well, so I think Codex or is it cloud code? Cloud code Web can do this teleport where they just basically dump the entire history and you can pick it up in cloud code on your desktop and probably that's the right move. Maybe there's some more sort of elegant things. But they were first, so why not? Actually, maybe the real thing is. Maybe it's not the conversation. Maybe you don't need to teleport. If the unit of. If the artifact that you pass back and forth is the linear ticket or the GitHub PR. Right. So you don't need the full JSON, you don't need the full chat history. You just need to pick up where other people left off. Because that's how humans do it.",
+      "speaker": 0
+    },
+    {
+      "start": 1577.2367920000002,
+      "end": 1578.1656050000001,
+      "zh": "对啊。",
+      "en": "Right.",
+      "speaker": 1
+    },
+    {
+      "start": 1578.1656050000001,
+      "end": 1584.6904180000001,
+      "zh": "我不会把我的想法全转给你。我就告诉你我做了什么，然后如果我忘了说什么，你迟早会知道的。",
+      "en": "I don't transfer my brain state to you. I just tell you what I did. And then if I forgot to say something, you find out eventually.",
+      "speaker": 0
+    },
+    {
+      "start": 1584.6904180000001,
+      "end": 1590.5302620000002,
+      "zh": "对，你说cloud agent会把一些总结放到ticket上，或者是需要传递的东西上。",
+      "en": "Right. You say the cloud agent dumps some kind of summary onto the ticket or whatever kind of it needs to pass.",
+      "speaker": 1
+    },
+    {
+      "start": 1590.5302620000002,
+      "end": 1593.2934500000001,
+      "zh": "然后继续在 Slack 或 Linear 上搞定就行了。",
+      "en": "On to the next in slack or linear and whatever.",
+      "speaker": 0
+    },
+    {
+      "start": 1593.2934500000001,
+      "end": 1600.6657940000002,
+      "zh": "对，对，这挺有意思的。我觉得我们看到了一些模式在出现，就像IDE、CLI、cloud这种。",
+      "en": "Yeah, yeah. That's interesting. I think we have there. There are some patterns emerging. The like IDE cli cloud.",
+      "speaker": 1
+    },
+    {
+      "start": 1600.6657940000002,
+      "end": 1601.3856380000002,
+      "zh": "对。",
+      "en": "Right.",
+      "speaker": 0
+    },
+    {
+      "start": 1601.3856380000002,
+      "end": 1605.0892320000003,
+      "zh": "就像这些，嗯，这些就是关键部分。",
+      "en": "Like these. Yeah, these are the pieces.",
+      "speaker": 1
+    },
+    {
+      "start": 1605.0892320000003,
+      "end": 1608.7115760000004,
+      "zh": "VS code扩展。嗯，VS code。对。",
+      "en": "VS code extension. Yeah. VS code. Yeah.",
+      "speaker": 0
+    },
+    {
+      "start": 1608.7115760000004,
+      "end": 1620.5189510000005,
+      "zh": "就像，不管是啥吧，感觉这些东西的界面都在标准化，有点这种意思。还有它们怎么互相配合，怎么在这些之间创造出很好的体验。我觉得这挺有意思的。",
+      "en": "Like whether it's, you know, like there's a. Like the surface area is like standardizing. It feels a little bit. And how these things Interop. How you can kind of make this great experience between all of those. I think it's really interesting.",
+      "speaker": 1
+    },
+    {
+      "start": 1620.5189510000005,
+      "end": 1641.1109510000006,
+      "zh": "嗯，然后我想回到你刚才说的另一个点，就是这些CEO们做的那些事情。我觉得关于编程对软件工程行业的影响，特别是对人的影响，有很多疑问。我们会不会不再招收初级工程师？这种情况是实际提高了生产力，还是只是感觉提高了？不知道你怎么看这个问题。",
+      "en": "Yeah. And then the other point, I just want to backtrack a little bit to something else you said, which is what the thick pieces that these CEOs and stuff do. I think there's a lot of question about the impact that coding has on the software engineer industry in general, the humans. Do we end up, do we stop hiring juniors altogether? Is it actually increasing productivity or do you just feel like you're increasing productivity? I don't know if you have any take on that stuff.",
+      "speaker": 0
+    },
+    {
+      "start": 1641.1109510000006,
+      "end": 1683.1589510000006,
+      "zh": "对，这个问题我花了很多时间跟人聊，也自己想过很多。我也和公司的人聊过，有时候他们在做这些工具。其实挺有意思的，技术在软件工程师中间的普及度没有我想象的那么高。很多地方、很多公司，还有不少软件工程师其实并没有大量使用AI。虽然如此，我对软件工程师的未来还是挺期待的。你能想象回到没有这些工具的日子吗？那太可怕了，对吧？所以这是一个方面。还有，我不太相信那种说法，就是以后不再招软件工程师。我觉得有几个原因吧。比如经常会提到的一个例子，就是软件需求的弹性。",
+      "en": "Yeah, it's only so I mean, something I spend a lot of time talking and thinking about with folks. I also spend time talking to people at companies and I think sometimes working on these tools. It's interesting to see it's not as diffused as technology isn't as diffused across software engineers as I sometimes expect. Right. There's plenty of places that I think are, are not really using AI a ton. A lot of companies, a lot of software engineers aren't. That being said, I'm very kind of excited about what this, what the future of software engineers are like. Could you imagine going back to not having these tools? No, that sounds horrible. Right? Like that. And so that's one aspect of it I also think, you know, I don't really buy this like, you know, that we're not going to hire more software engineers story. I think like for a few reasons. I mean, this is an example that often comes up. But is it like kind of the elasticity of the demand for software?",
+      "speaker": 1
+    },
+    {
+      "start": 1683.1589510000006,
+      "end": 1685.0746070000005,
+      "zh": "哦，对，杰文斯悖论。",
+      "en": "Okay, yeah, Jevons paradox.",
+      "speaker": 0
+    },
+    {
+      "start": 1685.0746070000005,
+      "end": 1696.2085760000004,
+      "zh": "对，没错。就像很多例子常提到，比如农业。以前在美国，大部分人都是农民，然后技术进步，现在可能不到1%了。这就是一个例子。",
+      "en": "Exactly. And you know, like a lot of the cases sometimes come up is you look at like farming. Right. And so, you know, there was a time in America where like the vast, vast majority of Americans were farmers, right. And then technology happens and today it's like less than 1%. Yeah. And that's one example.",
+      "speaker": 1
+    },
+    {
+      "start": 1696.2085760000004,
+      "end": 1697.5205140000005,
+      "zh": "但另一方面呢。",
+      "en": "But the flip side of that is.",
+      "speaker": 0
+    },
+    {
+      "start": 1697.5205140000005,
+      "end": 1719.8765140000005,
+      "zh": "你看，电力也是一样，越便宜大家用得越多。食物嘛，我们能吃的就那么多，对吧？所以食物的需求是比较固定的。但软件就不一样了，需求特别大。软件一直在变好，我们创造软件的能力从最初的打孔卡片到现在，简直是天壤之别。现在软件越来越多，也越来越成为我们GDP的重要部分。",
+      "en": "You electricity, which like as that gets cheaper and cheaper, people just consume more and more and more electricity and, and you know, with food, there's only so much food we're going to eat. Right. There's, there's a kind of a, there's an inelastic demand for that, whereas just be very elastic demand. It seems like software, you know, software keeps getting better and better. Like the ability, like we're creating more and more software from like, you know, obviously punch cards through to where we are today is like remarkably different in terms of how you're able to create software. So much more software is being made and software just keeps becoming more and more of our gdp.",
+      "speaker": 1
+    },
+    {
+      "start": 1719.8765140000005,
+      "end": 1720.5963580000005,
+      "zh": "对。",
+      "en": "Right.",
+      "speaker": 0
+    },
+    {
+      "start": 1720.5963580000005,
+      "end": 1749.6483580000004,
+      "zh": "我挺看好我们能创造的软件量以及怎么去创造。作为工程师，生产力提高会鼓励更多投资进入软件开发。比如说，如果一个软件工程师的工作效率能提升50%、100%甚至10倍，那项目的投资回报就完全不同了。所以我觉得这对软件工程师来说是好事，不仅能更好地发挥我们的技术，也能提升公司数量、产品数量和质量，以及我们能用这些软件做的事情。所以，我对这个很乐观。",
+      "en": "Like it's, it's a. So I'm bullish on kind of the amount of software we'll be able to create, how it'll be created. I think there's also something here about as an engineer, being able to be more productive encourages more investment in people building software. Right. If it's the job of a software engineer, can now they can do 50% more, 100% more, 10x more. Justifying investment dollars into projects dramatically changes. Right. And so yeah, I'm bullish on this idea that is actually going to be great for software engineers, both for our ability to kind of do our craft or art, but also just what it means for the number of companies and the amount that's made and the quality of it and what we're able to do with it. So, yeah, rose colored glasses take.",
+      "speaker": 1
+    },
+    {
+      "start": 1749.6483580000004,
+      "end": 1751.7381710000004,
+      "zh": "确实是乐观得有点过头了。",
+      "en": "Rose colored glasses indeed.",
+      "speaker": 0
+    },
+    {
+      "start": 1751.7381710000004,
+      "end": 1752.7598590000005,
+      "zh": "嗯。",
+      "en": "Yeah.",
+      "speaker": 1
+    },
+    {
+      "start": 1752.7598590000005,
+      "end": 1816.4438590000004,
+      "zh": "我对不同类型的工作有些看法。比如我们在区分不同的软件工作时，以前有很多常规化的工作，我们花了很多时间在上面，但现在基本可以完全交给agents来做。这样我们就可以专注于更有策略性、重要、新颖、高风险的工作，或者是需要深入专注的工作。我在这里提到过一个叫\"半异步死亡之谷\"的东西，基本上在极端情况下，你可以把工作交给异步agents，比如Jules、cloud code之类的。但在这边，你需要深入了解代码库，而不是随便写代码。其实，这是我一直在思考的问题。所以我发了一条推特，因为我觉得现在大家都在用\"vibe coding\"这个词。这个词是Andrej在二月份的时候提出来的，他影响力很大。大家开始用这个词当作借口，随便用prompt写出最糟糕的代码，然后留给别人收拾。我觉得大家对这种情况有点受够了，这种做法的流行程度可能已经到顶了，但我们还没找到接下来的方向。所以我的演讲就是挑战每位与会者和演讲者，去想想我们能信任的理想icoding是什么样的。",
+      "en": "I have this take on the different kinds of work. Like we were splitting up the different kinds of software work and there's a lot of commoditized work that we used to spend a lot of time on and now we can basically entirely delegate to agents and then that leaves us ideally for more strategic, important, novel, high risk, whatever work, deep focus work. That is something I posted here on the semi async value of death where basically you kind of need to, on the extreme end you can delegate to async agents which Jules, cloud code, whatever. But then over here you kind of need the sort of deep involvement in understanding the code base and not vibe coding, whatever the opposite of it is. Actually, that's my talk, which is I've been thinking about this. So I tweeted out this phrase because I think I feel it's in the air that the term vibe coding was obviously coined by Andrej and he's super influential in February. And people have just come to kind of use it as a blank check to just YOLO on prompts and stuff and create the worst code imaginable and leave other people to clean it up. So I think people are kind of at their limits with this. It's probably maxed out in terms of popularity, but we don't have yet what's next. So my talk is really challenging every attendee, every speaker to come up with what is the aspirational good version of icoding that we can, can actually trust?",
+      "speaker": 0
+    },
+    {
+      "start": 1816.4438590000004,
+      "end": 1820.9137030000004,
+      "zh": "嗯，那是什么呢？现在就是个笑点。到底是什么呢？",
+      "en": "Yeah, what is it? Well, like it's the punchline right now. What is it?",
+      "speaker": 1
+    },
+    {
+      "start": 1820.9137030000004,
+      "end": 1838.9497030000005,
+      "zh": "我觉得，现在最有可能的是Agentic coding，这个名字是Dharmesh Shah起的，不知道你认不认识他。他在起名字方面挺有一套的。不过，这名字有点长，好像没有vibe coding那种让人开心的感觉。但大家也希望有心思、工艺和可靠性这些东西。",
+      "en": "I mean, the current leading candidate is Agentic coding, which is what Dharmesh Shah, who's like, I don't know if you know who Dharmesh is. He's pretty good track history when he's naming things. It's just too many syllables. I don't think it just has the. He doesn't have the joy that vive coding invokes, which I think people want. But then. And people also want care and craft and reliability and all that stuff that.",
+      "speaker": 0
+    },
+    {
+      "start": 1838.9497030000005,
+      "end": 1846.6239220000004,
+      "zh": "但就算我们没有个合适的词来形容它，或者说没有个警示性的说法，那它究竟是什么样的呢？",
+      "en": "But if we don't have the term I describe it, maybe we don't have the precautious phrase for it, but what does it look like even if we don't have the phrase?",
+      "speaker": 1
+    },
+    {
+      "start": 1846.6239220000004,
+      "end": 1893.2079220000005,
+      "zh": "嗯，这是个好问题。我们有些演讲者会聊到要认真写好产品需求文档（PRD），其实这基本上就是个高级的prompt，但确实非常重要。不过，模型会根据你的prompt来执行，好的坏的都一样。如果你写得马虎，结果就会很糟。所以做好规格说明书是不错的想法，但我不确定实际中会有多少人遵循。因为这有点像瀑布式开发，你得花三天写个50页的文档，然后再启动agent，这听起来不太对。所以，我有点偏见，因为我们一直相信互动式规划，就是你先启动一个东西，然后根据反馈调整，因为一开始你也不知道自己想要什么。你和机器一起发现需求，机器要么帮你实现，要么指出你的错误，然后你再去修正。",
+      "en": "Yeah, that's a great question. Well, we have some speakers who are going to be pitching spectrum and development that you have to really be thoughtful and effectively write a prd. I think that is obviously very correct in terms of basically it's just a glorified prompt, but a very, very, very good one. And. And models are tuned to follow your prompt for good and for worse. If you prompt sloppily, you're going to get slop. So a spec sounds good, I think. I don't know how often it'll be followed in practice because effectively what that transitions us to is a waterfall development approach where you spend three days writing a 50 page document and then you kick off the agent. That doesn't seem right. So obviously I have some. A bias here because cognition has from the start believed in interactive planning where you kick off a thing, you get some feedback, then you're like, oh, that's not what I meant. Let me correct myself because I don't know what I wanted when I started. So you work with the machine to discover what you wanted. The machine works with you to either get you what you wanted or show you the errors of your ways and then you correct it from there.",
+      "speaker": 0
+    },
+    {
+      "start": 1893.2079220000005,
+      "end": 1928.0199220000004,
+      "zh": "嗯，我们常讨论的一个问题就是，随着这些东西越来越好，有两个方面要注意。一个是你怎么清楚地说出你想要什么，另一个是你怎么确认你得到的就是你想要的。对，不管是通过规格说明书，还是互动式规划，都是为了这个。但另一方面，像vibe coding这种方式，你可能明确了需求，但从来不去确认结果。就像是放手不管了，也许会随便点点App，看看效果，但其实并没有真正深入代码。所以，怎么去验证和确保呢？",
+      "en": "Yeah. One thing we talk about which vary on is what you're thinking is like they're kind of like two problems as these things get better. One is like, how do you specify what you want? And the other one is how do you verify that what you got is what you're. Yeah, yeah. And so, yeah, whether it's, you know, specifying through a spec or this like, you know, interactive plan or whatever it is. But then. Yeah, and then on the flip side with the vibe coding thing is you might specify, but you're never come back and verify. Right. And you're like, you're. It's more hands off the wheel. Like maybe I'll click around the App a little bit and see how it works. But I'm not really engaged with the code. So how are you verifying and making.",
+      "speaker": 1
+    },
+    {
+      "start": 1928.0199220000004,
+      "end": 1933.6507660000004,
+      "zh": "我知道你们好像不太重视测试，对吧？好像也没人主动帮我写测试。",
+      "en": "Sure that it's to my knowledge. You guys don't emphasize tests that much, right? It's not like you volunteer to write my tests.",
+      "speaker": 0
+    },
+    {
+      "start": 1933.6507660000004,
+      "end": 1938.2135160000005,
+      "zh": "嗯，我的意思是，这要看情况。如果你的项目里有测试的话...",
+      "en": "Yeah, I mean, it depends. Like, if there are tests in your.",
+      "speaker": 1
+    },
+    {
+      "start": 1938.2135160000005,
+      "end": 1941.7081410000005,
+      "zh": "代码库就不在考虑范围内了。Juuls会帮你运行测试。",
+      "en": "Code base, it's right out of the picture here. Juuls will run your test feed.",
+      "speaker": 0
+    },
+    {
+      "start": 1941.7081410000005,
+      "end": 1943.3683910000004,
+      "zh": "对，对，就是这样。",
+      "en": "Exactly, exactly.",
+      "speaker": 1
+    },
+    {
+      "start": 1943.3683910000004,
+      "end": 1949.5449220000005,
+      "zh": "但也不是说每件事都得有个和之前提到的prompt对应的测试。那就有点极端了。",
+      "en": "But it's not like after everything, everything must have a matching test to the prompt that will was mentioned. That would be the extreme of what we mentioned.",
+      "speaker": 0
+    },
+    {
+      "start": 1949.5449220000005,
+      "end": 1967.4369220000005,
+      "zh": "我不知道大家是不是都想要这样。也许做一下能证明是对的会有帮助。但假设我在代码库里不写测试，我想合并那个只为这件事引入测试的pull request。我觉得工程师应该有权决定他们想要什么样的输出。如果有帮助，他们也想要，那就绝对可以。",
+      "en": "I don't know if people always want that. Maybe it'd be helpful to do that, to kind of show that it was right. But let's say I don't write tests in my code base. I want to merge that pull request that is introducing tests just for this one thing. I think in some ways the engineer should be able to control what kind of outputs they want. If it helps and they want it. Absolutely.",
+      "speaker": 1
+    },
+    {
+      "start": 1967.4369220000005,
+      "end": 1971.0592660000007,
+      "zh": "那你觉得除了聊天，还有别的创新方式吗？",
+      "en": "And then do you think there's other innovations on specifying apart from just chat?",
+      "speaker": 0
+    },
+    {
+      "start": 1971.0592660000007,
+      "end": 1973.0213600000006,
+      "zh": "聊天？哦，当然当然。",
+      "en": "Chat? Oh, totally, totally.",
+      "speaker": 1
+    },
+    {
+      "start": 1973.0213600000006,
+      "end": 1974.8092980000006,
+      "zh": "我是指那些agent。嗯。",
+      "en": "I meant agents. Md.",
+      "speaker": 0
+    },
+    {
+      "start": 1974.8092980000006,
+      "end": 1990.2505790000005,
+      "zh": "对，对，agent。我觉得Spectrum开发就属于这一类吧。就是那种多模态的，对吧？比如说，我要给你看我们网站上的一个bug，我是想用文字描述呢，还是直接指给你看？对，就是图片。",
+      "en": "Yeah, agents. I mean, Spectrum development, I think, is in this. This category. I think. What is like multimodal. Right. Like, you know, if. If I'm going to show you a bug on our website, like, do I want to come and like, type it with words to describe it or am I going to point? Yeah, the picture.",
+      "speaker": 1
+    },
+    {
+      "start": 1990.2505790000005,
+      "end": 1991.1445480000004,
+      "zh": "对。",
+      "en": "Yeah.",
+      "speaker": 0
+    },
+    {
+      "start": 1991.1445480000004,
+      "end": 2000.3980170000004,
+      "zh": "所以啊，现在你可以通过Jules上传图片了，不过呢，说起来，我们人类在某些情况下有些沟通方式会更简单。",
+      "en": "And so, you know, with Jules, you can upload images now, but, you know, kind of. Of more, you know, we have certain ways we communicate as humans that are easier in certain situations than others.",
+      "speaker": 1
+    },
+    {
+      "start": 2000.3980170000004,
+      "end": 2001.6751420000005,
+      "zh": "对啊。",
+      "en": "Yeah.",
+      "speaker": 0
+    },
+    {
+      "start": 2001.6751420000005,
+      "end": 2006.0172980000004,
+      "zh": "不过，让我们把这个用到我们跟agent的互动中吧。",
+      "en": "But let's bring that to our engagement with the agents.",
+      "speaker": 1
+    },
+    {
+      "start": 2006.0172980000004,
+      "end": 2020.3440170000003,
+      "zh": "所以啊，我觉得你们应该最擅长这个，因为Gemini有视频理解功能。我想提交一个视频，有些东西截图是没法表达的，更多是关于东西出现和消失的行为。我会很喜欢你们做这个，因为现在还没有人做到。",
+      "en": "So of all people, I expect you guys to be best at this because Gemini has video understanding. I want to submit a video because some things like do cannot be screenshots. It's more about the behavior of things appearing and disappear. Yeah. I mean, I would love that if you guys did it, because no one has it yet.",
+      "speaker": 0
+    },
+    {
+      "start": 2020.3440170000003,
+      "end": 2021.8301110000004,
+      "zh": "我也很想要这个功能。",
+      "en": "I know. I would love it too.",
+      "speaker": 1
+    },
+    {
+      "start": 2021.8301110000004,
+      "end": 2041.5941110000003,
+      "zh": "我会在我这边的公告里标注你。我们正在探索的版本是电脑使用。Anthropic最初引入了这个概念，然后OpenAI通过Operator试水，现在Atlas有了agent模式。我不确定你们在电脑使用上有没有什么特别引人注目的动作，但无论如何，这个趋势正在回归。我能感觉到。",
+      "en": "I'll tag you over the announcement on my side. The version of that that we're exploring is computer use. Computer use was kind of introduced by anthropic and then OpenAI did their toe in with Operator and now agent mode in Atlas. I don't know if you guys have done anything super splashy on computer use, but anyway, it's coming back. I can feel it.",
+      "speaker": 0
+    },
+    {
+      "start": 2041.5941110000003,
+      "end": 2048.1189240000003,
+      "zh": "对，我觉得是的，肯定的。而且这也跟编程agent有关，跟使用AI系统也有关系。",
+      "en": "Yeah, I think. Yeah, definitely. And it ties into. It ties into coding agents. It ties into just using AI Systems in general.",
+      "speaker": 1
+    },
+    {
+      "start": 2048.1189240000003,
+      "end": 2062.3179550000004,
+      "zh": "基本上，现在你的虚拟机需要渲染一个UI或者浏览器，然后让agent在里面点击。对，没错。而且它需要做到精准、快速，还要成本合理。是的，挺多要求的。",
+      "en": "But basically your VM now needs to render a UI or browser and then you need to let the agent click around in it. Absolutely. And he needs to have precision and speed and cost and like, you know, affordable cost. Yep. It's a lot.",
+      "speaker": 0
+    },
+    {
+      "start": 2062.3179550000004,
+      "end": 2087.5179550000003,
+      "zh": "对啊，有哪些能拆分的呢？产品真的很有趣，有太多东西可以做。你知道的，作为软件工程师在这个领域工作，我觉得我们看到这么多公司涌入的原因之一就是因为太有意思了。有很多事情可以尝试，很多工具就像科幻电影里的那样。比如我做的一个demo，它能展示出来，我可以看到视频，甚至可以接手使用。所以，对，就是这样。",
+      "en": "Yeah. What can I split? Products are so fun. There's just so much to build. There's so much. You know, I think also as a software engineer working in this space, like, I think one of the reasons we, you know, you see so many companies in this space is probably like, it's just so fun. Like, there's so many things to go. There's so many tools that seem like, you know, fun sci fi. Like, there's. It brings up a demo of what I've worked on. It's clicking around and I can see a video of it or I can even take over and use it, like. So. Yeah, it's. Yeah.",
+      "speaker": 1
+    },
+    {
+      "start": 2087.5179550000003,
+      "end": 2094.2982050000005,
+      "zh": "太好了。好吧，那我们就快到结尾吧。如果有人在 AIE 遇到你，他们就会听到你对 Jules 的介绍。",
+      "en": "Awesome. Okay, so just moving towards wrapping up. If people run into you at aie, they've, you know, they heard your pitch on Jules.",
+      "speaker": 0
+    },
+    {
+      "start": 2094.2982050000005,
+      "end": 2095.0992990000004,
+      "zh": "对。",
+      "en": "Yeah.",
+      "speaker": 1
+    },
+    {
+      "start": 2095.0992990000004,
+      "end": 2099.3137370000004,
+      "zh": "那他们还可以跟你聊些什么呢？你能帮上什么忙？你在找些什么呢？",
+      "en": "What else should they also talk to you about? Like, you know, what, what. What are you. What can you help with versus what are you looking for?",
+      "speaker": 0
+    },
+    {
+      "start": 2099.3137370000004,
+      "end": 2145.3577370000003,
+      "zh": "大家随时可以过来跟我聊聊。我对那些用代码agent做事情的人，或者用有趣方法使用代码agent的人特别感兴趣。我总是很好奇大家怎么用这些工具，比如说，\"嘿，我用这个工具做了这个特别的配置\"。我很喜欢听大家怎么用它们。我也喜欢听那些用得不太顺的人说他们的经历，比如说，\"我试过这些工具，但我不喜欢，用不来，这是原因\"。所以呢，我对所有的看法都很开放，不管是超级喜欢AI和代码agent的人，还是那些讨厌它们的人。\n\n至于我在找什么，主要就是想认识些人。我们一直在招人，所以如果有人对这方面的工作感兴趣，我很乐意聊聊。总之，就是想认识新朋友，聊聊这些有趣的东西。",
+      "en": "Anyone should feel free to come up and talk to me at any point. You're obviously very interested in anyone who's doing stuff with coding agents or someone who's using coding agents in interesting ways. I'm always curious about workflows people have with their gadding agents, whereas whether it's, hey, I'm using this tool in this way and I've configured this crazy thing. I always love hearing how people are using it. I also love hearing people who are having bad times with it where it's like, actually, maybe they're not coming to this conference, but I, Jeff, try these tools and I don't like them. I don't use them, and here's why. Yeah, so, you know, I'm totally open for any side of, of the. All the way from, you know, full AI pilled and coding, coding, AI lovers to people who hate it. As far as what I'm looking for, you know, I think, you know, really just going to kind of connect and meet people. I think, you know, we are always hiring. So, like, you know, I'm. I. Anyone who's, you know, interested in working on this stuff, I'm always happy to talk. But yeah, really just kind of. Of meeting people, spending time geeking out on this stuff.",
+      "speaker": 1
+    },
+    {
+      "start": 2145.3577370000003,
+      "end": 2150.8608930000005,
+      "zh": "是啊，会有很多 geek 的时刻。好吧，谢谢你抽时间聊。期待下次见面。",
+      "en": "Yeah, there'll be lots of geeking out. All right, thanks for your time. Looking forward.",
+      "speaker": 0
+    },
+    {
+      "start": 2150.8608930000005,
+      "end": 2152.7301120000006,
+      "zh": "嗯，我也是。",
+      "en": "Yeah, same.",
+      "speaker": 1
+    }
+  ],
+  "guests": [
+    {
+      "name": "swyx",
+      "role": "Host",
+      "bio": "",
+      "twitter": ""
+    },
+    {
+      "name": "Alessio",
+      "role": "Host",
+      "bio": "",
+      "twitter": ""
+    },
+    {
+      "name": "Jed Borovik",
+      "role": "Guest",
+      "bio": "",
+      "twitter": ""
+    }
+  ],
+  "resources": [],
+  "summary": {
+    "zh": "播客深入探讨了AI对编程生产力的深远影响，以及自动化编码Agent在软件工程中的应用前景。嘉宾Jed Borovic分享了他在谷歌实验室的工作经历，并提出AI不仅能提高编程效率，还将塑造软件开发的新未来。",
+    "en": "The podcast delves into AI's profound impact on programming productivity and the future of automated coding agents in software engineering. Guest Jed Borovic shares his experiences at Google Labs, stating AI not only enhances coding efficiency but also shapes the future of software development."
+  },
+  "keyPoints": [
+    {
+      "title": "AI不只是工具，而是未来创作的利器",
+      "highlights": [
+        "AI可成为创作更好艺术的工具，而非威胁。",
+        "Jed选择了将AI视为提升创作的机会。",
+        "AI的应用正重新定义艺术创作的可能性。"
+      ],
+      "startAt": 222
+    },
+    {
+      "title": "谷歌实验室的创新模式",
+      "highlights": [
+        "谷歌实验室开发不适合其他部门的新产品。",
+        "实验室与DeepMind紧密合作，打造AI产品。",
+        "这种合作模式助力谷歌在AI领域的持续创新。"
+      ],
+      "startAt": 299
+    },
+    {
+      "title": "编码Agent的核心与未来",
+      "highlights": [
+        "未来的编码Agent将更强大，能处理复杂任务。",
+        "自动化Agent需有自己的计算环境来长时间运行。",
+        "这种设计将改变软件工程师的工作方式。"
+      ],
+      "startAt": 428
+    },
+    {
+      "title": "AI如何改变软件工程师的未来",
+      "highlights": [
+        "AI工具将提升编程生产力和软件开发投资回报。",
+        "比起减少工程师，AI会创造更多开发机会。",
+        "未来的软件开发将更加高效灵活。"
+      ],
+      "startAt": 1641
+    },
+    {
+      "title": "Agentic Coding是编程的未来",
+      "highlights": [
+        "Agentic Coding可能是未来的编程范式。",
+        "强调与机器互动，促进需求的发现和满足。",
+        "这种模式有望替代传统的编程流程。"
+      ],
+      "startAt": 1820
+    }
+  ]
+}
