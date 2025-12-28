@@ -96,51 +96,6 @@
       "date": "2025-11-10",
       "duration": 4929,
       "audioUrl": "https://pub-a31ba1df1a8546fe86dc40cba53d796e.r2.dev/huberman-immune.mp3"
-    },
-    {
-      "id": "ep-011",
-      "cover": "/images/ep-011.jpg",
-      "titleCn": "LLM 与创作效率",
-      "titleEn": "LLMs & Creative Flow",
-      "date": "2025-10-27",
-      "duration": 2120,
-      "audioUrl": "https://pub-a31ba1df1a8546fe86dc40cba53d796e.r2.dev/ep-011.mp3"
-    },
-    {
-      "id": "ep-010",
-      "cover": "/images/ep-010.jpg",
-      "titleCn": "神经可塑性与学习",
-      "titleEn": "Neuroplasticity & Learning",
-      "date": "2025-10-20",
-      "duration": 3240,
-      "audioUrl": "https://pub-a31ba1df1a8546fe86dc40cba53d796e.r2.dev/ep-010.mp3"
-    },
-    {
-      "id": "ep-009",
-      "cover": "/images/ep-009.jpg",
-      "titleCn": "AI 语音伦理",
-      "titleEn": "Ethics of AI Voice",
-      "date": "2025-10-13",
-      "duration": 2880,
-      "audioUrl": "https://pub-a31ba1df1a8546fe86dc40cba53d796e.r2.dev/ep-009.mp3"
-    },
-    {
-      "id": "ep-008",
-      "cover": "/images/ep-008.jpg",
-      "titleCn": "注意力机制解析",
-      "titleEn": "Understanding Attention",
-      "date": "2025-10-06",
-      "duration": 3120,
-      "audioUrl": "https://pub-a31ba1df1a8546fe86dc40cba53d796e.r2.dev/ep-008.mp3"
-    },
-    {
-      "id": "ep-007",
-      "cover": "/images/ep-007.jpg",
-      "titleCn": "睡眠与记忆巩固",
-      "titleEn": "Sleep & Memory Consolidation",
-      "date": "2025-09-29",
-      "duration": 2940,
-      "audioUrl": "https://pub-a31ba1df1a8546fe86dc40cba53d796e.r2.dev/ep-007.mp3"
     }
   ]
 }
