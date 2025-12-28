@@ -102,7 +102,7 @@ export default function AboutPage() {
             <h2 className="text-2xl font-bold mb-4">创作者</h2>
             <div className="rounded-xl border border-[var(--border)] bg-card p-6">
               <p className="text-muted leading-relaxed mb-4">
-                我是一名对 AI 技术充满热情的开发者，相信技术能够让知识的传播更加自由和便捷。
+                我叫 Lorraine，是一名 AI builder 新手，在积极探索 AI 如何能够让知识的传播更加自由和便捷。
               </p>
               <p className="text-muted leading-relaxed">
                 创建 EchoMind 的初衷，是希望能够让更多人接触到优质的英文播客内容，
